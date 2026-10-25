@@ -1,0 +1,77 @@
+.root {
+  position: relative;
+  z-index: 5;
+  background: var(--white);
+  padding-block: 16rem 18rem;
+}
+
+.title {
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  max-width: 110rem;
+  margin-bottom: 8rem;
+}
+.title span {
+  color: var(--muted);
+}
+
+.cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6rem;
+}
+
+.colTitle {
+  font-size: var(--fs-label);
+  font-weight: 600;
+  color: var(--muted);
+  margin-bottom: 2.4rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  font-size: var(--fs-body);
+  color: var(--muted);
+}
+.list a {
+  transition: color 0.3s;
+}
+.list a:hover,
+.strong {
+  color: var(--ink);
+}
+.strong {
+  font-weight: 600;
+}
+.list small {
+  font-size: 0.8em;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.all {
+  display: inline-block;
+  margin-top: 8rem;
+  font-size: var(--fs-label);
+  font-weight: 600;
+}
+.all span {
+  display: inline-block;
+  transition: transform 0.35s var(--ease-out);
+}
+.all:hover span {
+  transform: translateX(4px);
+}
+
+@media (max-width: 768px) {
+  .root {
+    padding-block: 10rem;
+  }
+  .cols {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+}

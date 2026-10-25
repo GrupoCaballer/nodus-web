@@ -1,0 +1,123 @@
+.header {
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 50;
+  transition: transform 0.5s var(--ease-out), background-color 0.4s, backdrop-filter 0.4s;
+}
+
+.solid {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.over {
+  background: transparent;
+}
+
+.hidden {
+  transform: translateY(-100%);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  height: var(--header-h);
+  padding-inline: var(--gutter);
+}
+
+.logo {
+  display: block;
+  width: 26rem;
+  color: var(--ink);
+}
+.logo svg {
+  width: 100%;
+  height: auto;
+}
+
+.nav {
+  display: flex;
+  gap: 4.4rem;
+  margin-left: auto;
+  font-size: var(--fs-label);
+  font-weight: 600;
+}
+.nav a {
+  position: relative;
+  padding-block: 0.6rem;
+  transition: opacity 0.3s;
+}
+.nav:hover a {
+  opacity: 0.5;
+}
+.nav a:hover,
+.nav a[aria-current="page"] {
+  opacity: 1;
+}
+
+.cta {
+  margin-left: 2rem;
+}
+
+.burger {
+  display: none;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 18rem;
+  }
+  .nav,
+  .cta {
+    display: none;
+  }
+  .burger {
+    display: grid;
+    place-items: center;
+    width: 5rem;
+    height: 5rem;
+    margin-left: auto;
+  }
+  .burgerLines,
+  .burgerLines::before {
+    display: block;
+    width: 3rem;
+    height: 2px;
+    background: currentColor;
+    transition: transform 0.4s var(--ease-out);
+  }
+  .burgerLines {
+    position: relative;
+    transform: translateY(-0.5rem);
+  }
+  .burgerLines::before {
+    content: "";
+    position: absolute;
+    top: 1rem;
+  }
+  .open .burgerLines {
+    transform: rotate(45deg);
+  }
+  .open .burgerLines::before {
+    transform: translateY(-1rem) rotate(-90deg);
+  }
+  .open {
+    background: var(--white);
+  }
+  .mobile:not([hidden]) {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    padding: 4rem var(--gutter) 6rem;
+    height: calc(100dvh - var(--header-h));
+    font-size: 4.4rem;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+  }
+}

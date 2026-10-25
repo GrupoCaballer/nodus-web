@@ -1,0 +1,219 @@
+.root {
+  position: relative;
+  height: 500vh;
+  background: var(--white);
+}
+
+.top {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  height: 100svh;
+  overflow: hidden;
+}
+
+.back,
+.house,
+.composite,
+.clouds,
+.outline,
+.smoke {
+  position: absolute;
+  pointer-events: none;
+}
+
+.back {
+  inset: -12vh 0 0 0;
+}
+.cover {
+  object-fit: cover;
+  object-position: 50% 40%;
+}
+
+/* Edificio: ancho mayor que el viewport, apoyado abajo y centrado. */
+.house {
+  left: 50%;
+  bottom: -16vh;
+  width: 104vw;
+  transform: translateX(-50%);
+  transform-origin: 50% 100%;
+  z-index: 1;
+  will-change: transform;
+}
+.houseImg {
+  width: 100%;
+  height: auto;
+}
+
+/* El logo como máscara: fuera de las letras no se ve nada. */
+.composite {
+  --mask-w: 52vw;
+  inset: 0;
+  z-index: 1;
+  opacity: 0;
+  mask-image: url("/logo/nodus-logo-negro.svg");
+  -webkit-mask-image: url("/logo/nodus-logo-negro.svg");
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: 50% 40%;
+  -webkit-mask-position: 50% 40%;
+  mask-size: var(--mask-w) auto;
+  -webkit-mask-size: var(--mask-w) auto;
+}
+.composite .house {
+  transform: translateX(-50%);
+}
+
+.clouds {
+  inset: 0;
+  z-index: 2;
+}
+.cloud1,
+.cloud2 {
+  position: absolute;
+  height: auto;
+  opacity: 0.95;
+}
+.cloud1 {
+  width: 58vw;
+  left: -10vw;
+  top: 40vh;
+}
+.cloud2 {
+  width: 46vw;
+  right: -8vw;
+  top: 52vh;
+}
+
+.outline {
+  z-index: 1;
+  left: 50%;
+  top: 40%;
+  width: 52vw;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  overflow: visible;
+  /* blanco sobre fachada oscura, oscuro sobre fachada clara */
+  mix-blend-mode: difference;
+}
+.knotStroke,
+.letterStroke {
+  fill: none;
+  stroke: var(--white);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.knotStroke {
+  stroke-width: 2;
+}
+.letterStroke {
+  stroke-width: 0.9;
+}
+
+/* Banda de 24vh al final del recorrido: transparente → blanco. */
+.fade {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% - 100vh - 24vh);
+  height: 24vh;
+  z-index: 3;
+  background: linear-gradient(rgba(255, 255, 255, 0), var(--white));
+  pointer-events: none;
+}
+
+.smoke {
+  left: -10vw;
+  right: -10vw;
+  bottom: -8vh;
+  z-index: 3;
+  opacity: 0.85;
+}
+.smokeImg {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  position: relative;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: calc(var(--header-h) + 8vh) var(--gutter) 0;
+  transform-origin: 50% 0;
+}
+.title {
+  font-size: var(--fs-h1);
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: -0.035em;
+  max-width: 14ch;
+}
+.sub {
+  margin: 3.6rem 0 4.4rem;
+  max-width: 64rem;
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+.sub span {
+  color: var(--muted);
+}
+
+@media (max-width: 768px) {
+  .root {
+    height: 350vh;
+  }
+  .house {
+    width: 240vw;
+    bottom: -3vh;
+  }
+  .composite {
+    --mask-w: 80vw;
+  }
+  .smoke {
+    left: -30vw;
+    right: -30vw;
+    bottom: -10vh;
+  }
+  .outline {
+    width: 80vw;
+  }
+  .fade {
+    top: calc(100% - 100vh - 18vh);
+    height: 18vh;
+  }
+  .cloud1 {
+    width: 80vw;
+    left: -30vw;
+    top: 56vh;
+  }
+  .cloud2 {
+    width: 60vw;
+    right: -25vw;
+    top: 70vh;
+  }
+  .content {
+    padding-top: calc(var(--header-h) + 6vh);
+  }
+  .sub {
+    max-width: 90%;
+  }
+}
+
+/* Sin animación: una sola pantalla, edificio y titular visibles. */
+@media (prefers-reduced-motion: reduce) {
+  .root {
+    height: auto;
+  }
+  .top {
+    position: relative;
+  }
+  .composite,
+  .outline {
+    display: none;
+  }
+}

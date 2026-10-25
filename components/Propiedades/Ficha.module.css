@@ -1,0 +1,250 @@
+.root {
+  padding-top: calc(var(--header-h) + 6rem);
+  padding-bottom: 22rem;
+}
+
+.crumbs {
+  font-size: var(--fs-label);
+  font-weight: 600;
+  color: var(--muted);
+  margin-bottom: 4rem;
+}
+.crumbs a:hover {
+  color: var(--ink);
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 6rem;
+  margin-bottom: 5rem;
+}
+.eyebrow {
+  font-size: var(--fs-label);
+  font-weight: 600;
+  color: var(--muted);
+  margin-bottom: 1.6rem;
+}
+.h1 {
+  font-size: var(--fs-h2);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  max-width: 120rem;
+}
+.price {
+  font-size: var(--fs-h2);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+}
+
+/* ---------- Galería ---------- */
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.first,
+.thumb {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  background: var(--paper-2);
+}
+.first {
+  grid-column: 1 / -1;
+  aspect-ratio: 16 / 9;
+}
+.thumb {
+  aspect-ratio: 4 / 3;
+}
+.img {
+  object-fit: cover;
+}
+.more {
+  margin-top: 2.4rem;
+  font-size: var(--fs-label);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ---------- Cuerpo ---------- */
+.grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 10rem;
+  margin-top: 10rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+.main h2 {
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-bottom: 3rem;
+}
+
+.facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem 4rem;
+  margin: 0;
+  padding: 4rem 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.facts dt {
+  font-size: var(--fs-label);
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+.facts dd {
+  margin: 0;
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.desc p {
+  line-height: 1.5;
+  max-width: 100rem;
+}
+.desc p + p {
+  margin-top: 2rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.6rem 4rem;
+  font-weight: 500;
+}
+.features li {
+  position: relative;
+  padding-left: 3rem;
+}
+.features li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.85em;
+  width: 1.8rem;
+  height: 1px;
+  background: var(--ink);
+}
+
+.media {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.media h2 {
+  margin-bottom: 0;
+}
+
+.zone p {
+  max-width: 90rem;
+  color: var(--muted);
+  line-height: 1.45;
+  margin-bottom: 3rem;
+}
+.zone strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* ---------- Lateral fijo ---------- */
+.side {
+  position: relative;
+}
+.sticky {
+  position: sticky;
+  top: calc(var(--header-h) + 2rem);
+  padding: 5rem;
+  border: 1px solid var(--line);
+  border-radius: 2rem;
+}
+.sidePrice {
+  font-size: var(--fs-h2);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+.sideMeta {
+  margin-top: 0.8rem;
+  font-size: var(--fs-label);
+  color: var(--muted);
+}
+.sideText,
+.sold {
+  margin: 3rem 0 4rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+/* ---------- Similares ---------- */
+.similar {
+  margin-top: 18rem;
+  padding-top: 8rem;
+  border-top: 1px solid var(--line);
+}
+.similar h2 {
+  font-size: var(--fs-h2);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  margin-bottom: 6rem;
+}
+.similarList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+@media (max-width: 768px) {
+  .root {
+    padding-top: calc(var(--header-h) + 3rem);
+    padding-bottom: 12rem;
+  }
+  .head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+  .first {
+    aspect-ratio: 4 / 3;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 6rem;
+    margin-top: 6rem;
+  }
+  .main {
+    gap: 6rem;
+  }
+  .facts {
+    grid-template-columns: 1fr 1fr;
+  }
+  .features {
+    grid-template-columns: 1fr;
+  }
+  .sticky {
+    position: static;
+    padding: 4rem 3rem;
+  }
+  .similar {
+    margin-top: 10rem;
+    padding-top: 5rem;
+  }
+  .similarList {
+    grid-template-columns: 1fr;
+  }
+}

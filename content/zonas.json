@@ -1,0 +1,41 @@
+{
+  "destacadas": ["campolivar", "torre-en-conill", "santa-barbara", "la-virgen-de-la-vega"],
+  "grupos": [
+    {
+      "titulo": "València ciudad",
+      "zonas": [
+        { "slug": "ruzafa", "nombre": "Ruzafa" },
+        { "slug": "el-carme", "nombre": "El Carme" },
+        { "slug": "eixample", "nombre": "Eixample" },
+        { "slug": "benimaclet", "nombre": "Benimaclet" },
+        { "slug": "campanar", "nombre": "Campanar" },
+        { "slug": "patraix", "nombre": "Patraix" }
+      ]
+    },
+    {
+      "titulo": "L'Horta Nord",
+      "zonas": [
+        { "slug": "campolivar", "nombre": "Campolivar", "municipio": "Godella" },
+        { "slug": "godella", "nombre": "Godella" },
+        { "slug": "santa-barbara", "nombre": "Santa Bárbara", "municipio": "Rocafort" },
+        { "slug": "rocafort", "nombre": "Rocafort" },
+        { "slug": "torre-en-conill", "nombre": "Torre en Conill", "municipio": "Bétera" },
+        { "slug": "burjassot", "nombre": "Burjassot" },
+        { "slug": "paterna", "nombre": "Paterna" },
+        { "slug": "alboraia", "nombre": "Alboraia" },
+        { "slug": "pucol", "nombre": "Puçol" }
+      ]
+    },
+    {
+      "titulo": "L'Horta Sud, costa y montaña",
+      "zonas": [
+        { "slug": "torrent", "nombre": "Torrent" },
+        { "slug": "catarroja", "nombre": "Catarroja" },
+        { "slug": "silla", "nombre": "Silla" },
+        { "slug": "el-saler", "nombre": "El Saler" },
+        { "slug": "cullera", "nombre": "Cullera" },
+        { "slug": "la-virgen-de-la-vega", "nombre": "La Virgen de la Vega", "municipio": "Alcalá de la Selva (Teruel)" }
+      ]
+    }
+  ]
+}

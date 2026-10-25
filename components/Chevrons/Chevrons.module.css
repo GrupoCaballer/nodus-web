@@ -1,0 +1,73 @@
+.root {
+  position: relative;
+  z-index: 5;
+  background: var(--white);
+  padding-block: 10rem 20rem;
+  text-align: center;
+}
+
+.heading {
+  max-width: 120rem;
+  margin-inline: auto;
+}
+
+/* Cuatro chevrones apuntando a la derecha, solapados 4rem para que encajen. */
+.row {
+  --notch: 7rem;
+  display: flex;
+  justify-content: center;
+  margin: 10rem auto 8rem;
+  max-width: 180rem;
+}
+
+.chevron {
+  position: relative;
+  flex: 1 1 0;
+  aspect-ratio: 0.78;
+  margin-right: calc(-1 * var(--notch) + 1rem);
+  clip-path: polygon(0 0, calc(100% - var(--notch)) 0, 100% 50%, calc(100% - var(--notch)) 100%, 0 100%, var(--notch) 50%);
+  overflow: hidden;
+  filter: saturate(0.85) sepia(0.12);
+}
+.chevron:last-child {
+  margin-right: 0;
+}
+
+.img {
+  object-fit: cover;
+  object-position: 50% 50%;
+  transition: object-position 1.2s var(--ease-out);
+}
+.chevron:hover .img {
+  object-position: 65% 50%;
+}
+
+.text {
+  max-width: 90rem;
+  margin-inline: auto;
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+.text span {
+  color: var(--muted);
+}
+
+@media (max-width: 768px) {
+  .root {
+    padding-block: 6rem 12rem;
+  }
+  .row {
+    --notch: 3.5rem;
+    flex-wrap: wrap;
+    margin-block: 5rem;
+  }
+  .chevron {
+    flex: 0 0 50%;
+    margin-right: 0;
+  }
+  .chevron:nth-child(odd) {
+    margin-right: calc(-1 * var(--notch) + 0.5rem);
+  }
+}

@@ -1,0 +1,118 @@
+.root {
+  position: relative;
+  z-index: 5;
+  background: var(--paper-2);
+  padding-block: 18rem;
+}
+
+.heading {
+  max-width: 130rem;
+  margin-bottom: 10rem;
+}
+
+/* minmax(0, 1fr): el swiper (slides al 100 %) no debe ensanchar la columna. */
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 10rem;
+  align-items: center;
+}
+
+.photo {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: 1.5rem;
+}
+.img {
+  object-fit: cover;
+}
+
+.slider {
+  position: relative;
+  min-width: 0;
+}
+
+.dots {
+  display: flex;
+  gap: 1.4rem;
+  margin-bottom: 6rem;
+}
+.dot,
+.dotActive {
+  width: 5.2rem;
+  height: 5.2rem;
+  border-radius: 50%;
+  border: 1px solid var(--ink);
+  font-size: var(--fs-label);
+  font-weight: 600;
+  display: grid;
+  place-items: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+.dotActive {
+  background: var(--ink);
+  color: var(--white);
+}
+.dot:hover {
+  background: rgba(21, 23, 23, 0.08);
+}
+
+.quoteMark {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 16rem;
+  line-height: 0.6;
+  margin-bottom: 2rem;
+  color: var(--ink);
+}
+
+.slide {
+  margin: 0;
+}
+
+.quote {
+  font-family: var(--font-serif);
+  font-size: 3.1rem;
+  line-height: 1.5;
+  max-width: 76rem;
+}
+
+.meta {
+  margin-top: 4rem;
+  font-size: var(--fs-label);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.meta cite {
+  font-style: normal;
+}
+.stars {
+  letter-spacing: 0.1em;
+}
+
+@media (max-width: 768px) {
+  .root {
+    padding-block: 10rem;
+  }
+  .heading {
+    margin-bottom: 5rem;
+  }
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 5rem;
+  }
+  .photo {
+    aspect-ratio: 4 / 3;
+  }
+  .dots {
+    margin-bottom: 3rem;
+  }
+  .quoteMark {
+    font-size: 10rem;
+  }
+  .quote {
+    font-size: 2.4rem;
+  }
+}

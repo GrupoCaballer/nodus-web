@@ -1,0 +1,48 @@
+.root {
+  position: relative;
+  z-index: 5;
+  background: var(--white);
+  padding: 22rem 0 18rem;
+}
+
+.head {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 6rem;
+  margin-bottom: 12rem;
+}
+
+.label {
+  font-size: var(--fs-label);
+  font-weight: 600;
+  padding-top: 1.4rem;
+}
+
+.heading {
+  max-width: 150rem;
+}
+
+.videoWrap {
+  overflow: hidden;
+  border-radius: 1.5rem;
+  transform-origin: 50% 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--paper-2);
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .root {
+    padding: 14rem 0 10rem;
+  }
+  .head {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 6rem;
+  }
+}

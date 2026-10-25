@@ -1,0 +1,88 @@
+.root {
+  position: relative;
+  z-index: 5;
+  background: var(--black);
+  color: var(--white);
+  padding-block: 4rem 22rem;
+}
+
+.head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem;
+  align-items: end;
+  margin-bottom: 10rem;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4rem;
+  max-width: 90rem;
+  font-size: var(--fs-body);
+  line-height: 1.45;
+  color: var(--muted-dark);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.card {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 1.5rem;
+}
+
+.cardLink {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem;
+}
+
+.img {
+  object-fit: cover;
+  filter: brightness(0.6);
+  transition: transform 1.2s var(--ease-out);
+}
+.cardLink:hover .img {
+  transform: scale(1.05);
+}
+
+.cardTitle,
+.more {
+  position: relative;
+  z-index: 1;
+}
+.cardTitle {
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+.more {
+  font-size: var(--fs-label);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+@media (max-width: 768px) {
+  .root {
+    padding-block: 2rem 12rem;
+  }
+  .head {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    margin-bottom: 5rem;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "promesas": [
+    "Una web con esencia propia para tu vivienda",
+    "Vídeo profesional, con dron si es un chalet",
+    "Visitas filtradas: solo compradores con capacidad real",
+    "Dos meses de prueba. Si vendes a un comprador tuyo, no pagas"
+  ],
+  "prueba": [
+    { "dato": "TODO-DATO", "texto": "operaciones cerradas en València y área metropolitana" },
+    { "dato": "2 semanas", "texto": "en las que cada anuncio recibe la mayor parte de sus visitas" },
+    { "dato": "TODO-DATO", "texto": "portales nacionales e internacionales en los que publicamos" },
+    { "dato": "0 €", "texto": "si vendes a un comprador propio" }
+  ],
+  "pasos": [
+    { "titulo": "Conocemos tu vivienda.", "texto": "Visitamos el inmueble, escuchamos tu situación y tus plazos." },
+    { "titulo": "Valoramos con criterio.", "texto": "Combinamos la visita con el análisis de ubicación, estado, características y comparables. Te explicamos la propuesta de precio y sus límites." },
+    { "titulo": "Acordamos la estrategia.", "texto": "Definimos contigo el precio de salida, la presentación y los canales. El alcance del servicio y los honorarios quedan acordados antes de empezar." },
+    { "titulo": "Presentamos y gestionamos las visitas.", "texto": "Web propia, vídeo, fotos, home staging, publicación y consultas. Organizamos las visitas y conocemos la capacidad de compra de cada interesado." },
+    { "titulo": "Negociamos con criterio.", "texto": "Te presentamos las ofertas con sus condiciones y plazos y te ayudamos a valorarlas." },
+    { "titulo": "Coordinamos el cierre.", "texto": "Preparación del acuerdo, trámites previos y notaría hasta la firma y la entrega de llaves." }
+  ],
+  "incluido": [
+    { "titulo": "Web con esencia propia", "texto": "Un dominio para tu vivienda, con fotos, vídeo, plano y la historia de la casa." },
+    { "titulo": "Vídeo y dron", "texto": "Rodaje profesional; dron en chalets y parcelas." },
+    { "titulo": "Home staging", "texto": "Preparamos la vivienda para que se entienda a la primera." },
+    { "titulo": "Visitas filtradas", "texto": "Antes de enseñar, sabemos quién viene y con qué capacidad." }
+  ],
+  "condiciones": [
+    "Sin exclusiva clásica: pedimos ser los únicos que lo publiquemos en portales nacionales e internacionales.",
+    "Dos meses de prueba: si no te convence, nos vamos.",
+    "Si vendes a un comprador tuyo, no pagas.",
+    "Los honorarios se acuerdan por escrito antes de empezar."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Cómo valoráis mi piso en València?",
+      "respuesta": "Combinamos la visita a la vivienda con el análisis de su ubicación, estado, características y propiedades comparables. Te explicamos la propuesta de precio y sus límites para acordar una salida al mercado con criterio."
+    },
+    {
+      "pregunta": "¿Cuánto tiempo puede tardar en venderse?",
+      "respuesta": "Depende del precio, el estado de la vivienda, su ubicación y la demanda que encuentre. Hablamos de los plazos de tu caso al inicio y revisamos la respuesta de las visitas. No fijamos un plazo de venta garantizado."
+    },
+    {
+      "pregunta": "¿Qué incluyen los honorarios?",
+      "respuesta": "Te presentamos una propuesta con el alcance del servicio, los honorarios, los impuestos aplicables y las condiciones de pago antes de formalizar el encargo. Así sabes qué está incluido y qué gestiones adicionales pueden necesitar presupuesto."
+    },
+    {
+      "pregunta": "¿Puedo consultaros si todavía no he decidido vender?",
+      "respuesta": "Sí. La primera conversación es sin compromiso. Nos cuentas tu situación y vemos qué información necesitas para decidir si vender encaja con tus planes."
+    },
+    {
+      "pregunta": "¿Trabajáis en exclusiva?",
+      "respuesta": "No con la exclusiva clásica. Pedimos ser los únicos que publiquemos la vivienda en portales nacionales e internacionales durante dos meses de prueba. Si en ese tiempo no te convence nuestro trabajo, nos vamos. Y si vendes a un comprador tuyo, no pagas."
+    }
+  ]
+}

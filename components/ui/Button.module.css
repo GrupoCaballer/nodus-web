@@ -1,0 +1,42 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 999px;
+  padding: 2.2rem 3.4rem;
+  font-size: var(--fs-label);
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+  transition: background-color 0.3s var(--ease-out), color 0.3s var(--ease-out);
+}
+
+.dark {
+  background: var(--ink);
+  color: var(--white);
+}
+.dark:hover {
+  background: var(--black);
+}
+
+.light {
+  background: var(--white);
+  color: var(--ink);
+}
+.light:hover {
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.arrow {
+  display: inline-block;
+  transition: transform 0.35s var(--ease-out);
+}
+.btn:hover .arrow {
+  transform: translateX(4px);
+}
+
+@media (max-width: 768px) {
+  .btn {
+    padding: 1.6rem 2.4rem;
+  }
+}

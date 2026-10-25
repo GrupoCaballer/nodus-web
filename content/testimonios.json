@@ -1,0 +1,7 @@
+[
+  { "id": 1, "nombre": "TODO-RESEÑA", "texto": "TODO-RESEÑA 1: pendiente de reseña real de Google. No inventar.", "estrellas": 5 },
+  { "id": 2, "nombre": "TODO-RESEÑA", "texto": "TODO-RESEÑA 2: pendiente de reseña real de Google. No inventar.", "estrellas": 5 },
+  { "id": 3, "nombre": "TODO-RESEÑA", "texto": "TODO-RESEÑA 3: pendiente de reseña real de Google. No inventar.", "estrellas": 5 },
+  { "id": 4, "nombre": "TODO-RESEÑA", "texto": "TODO-RESEÑA 4: pendiente de reseña real de Google. No inventar.", "estrellas": 5 },
+  { "id": 5, "nombre": "TODO-RESEÑA", "texto": "TODO-RESEÑA 5: pendiente de reseña real de Google. No inventar.", "estrellas": 5 }
+]

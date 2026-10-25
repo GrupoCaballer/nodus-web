@@ -1,0 +1,398 @@
+/* ---------- Hero ---------- */
+.hero {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 10rem;
+  align-items: center;
+  padding-top: calc(var(--header-h) + 10rem);
+  padding-bottom: 14rem;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+.eyebrow,
+.label,
+.labelDark {
+  font-size: var(--fs-label);
+  font-weight: 600;
+}
+.eyebrow {
+  color: var(--muted);
+}
+.label {
+  margin-bottom: 2.4rem;
+}
+.labelDark {
+  margin-bottom: 2.4rem;
+  color: var(--muted-dark);
+}
+
+.h1 {
+  font-size: 11rem;
+  font-weight: 700;
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+}
+.h1 span {
+  color: var(--muted);
+}
+
+.lead {
+  max-width: 90rem;
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.promesas {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  font-size: var(--fs-body);
+  font-weight: 500;
+}
+.promesas li {
+  padding-left: 3.2rem;
+  position: relative;
+}
+.promesas li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.9em;
+  width: 1.8rem;
+  height: 1px;
+  background: var(--ink);
+}
+
+.heroFig,
+.splitFig {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.5rem;
+}
+.heroFig {
+  aspect-ratio: 4 / 5;
+}
+.cover {
+  object-fit: cover;
+}
+
+/* ---------- Barra de prueba ---------- */
+.proof {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.proofList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+  padding-block: 5rem;
+}
+.proofList li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.proofList strong {
+  font-size: var(--fs-h3);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+.proofList span {
+  font-size: var(--fs-label);
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+/* ---------- Pasos ---------- */
+.pasos {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 8rem;
+  padding-block: 20rem 18rem;
+}
+.pasosList {
+  border-top: 1px solid var(--line);
+}
+.paso {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  gap: 2rem;
+  padding: 3.6rem 0;
+  border-bottom: 1px solid var(--line);
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+.paso strong {
+  font-weight: 500;
+}
+.paso span {
+  color: var(--muted);
+}
+.num {
+  font-size: var(--fs-label);
+  font-weight: 600;
+  color: var(--muted);
+  padding-top: 1rem;
+}
+
+/* ---------- Barrio ---------- */
+.barrio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem;
+  padding-block: 4rem 20rem;
+}
+.barrioText {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-size: var(--fs-body);
+  line-height: 1.45;
+  color: var(--muted);
+  max-width: 90rem;
+}
+.zonasList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+.zonasList a {
+  display: inline-block;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  padding: 1.4rem 2.4rem;
+  font-size: var(--fs-label);
+  font-weight: 600;
+  color: var(--ink);
+  transition: background-color 0.3s, color 0.3s;
+}
+.zonasList a:hover {
+  background: var(--ink);
+  color: var(--white);
+}
+.zonasList small {
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+/* ---------- Bloque partido ---------- */
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+  align-items: center;
+  padding-bottom: 20rem;
+}
+.splitFig {
+  aspect-ratio: 4 / 3;
+}
+.splitText {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  font-size: var(--fs-body);
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+/* ---------- Incluido + condiciones (negro) ---------- */
+.incluido {
+  background: var(--black);
+  color: var(--white);
+  padding-block: 20rem;
+}
+.incluidoList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+  margin-top: 10rem;
+  padding-top: 6rem;
+  border-top: 1px solid var(--line-dark);
+}
+.incluidoList h3 {
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-bottom: 2rem;
+}
+.incluidoList p {
+  color: var(--muted-dark);
+  line-height: 1.45;
+}
+
+.condiciones {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 8rem;
+  margin-top: 18rem;
+  padding-top: 6rem;
+  border-top: 1px solid var(--line-dark);
+}
+.condiciones ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  font-size: var(--fs-body);
+  font-weight: 500;
+  line-height: 1.4;
+}
+.condiciones li {
+  padding-left: 3.2rem;
+  position: relative;
+}
+.condiciones li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.9em;
+  width: 1.8rem;
+  height: 1px;
+  background: var(--white);
+}
+
+/* ---------- FAQ ---------- */
+.faq {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 8rem;
+  padding-block: 20rem;
+}
+.faqList {
+  border-top: 1px solid var(--line);
+}
+.faqItem {
+  border-bottom: 1px solid var(--line);
+}
+.faqItem summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  padding: 3.4rem 0;
+  cursor: pointer;
+  list-style: none;
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+.faqItem summary::-webkit-details-marker {
+  display: none;
+}
+.plus {
+  position: relative;
+  flex: 0 0 3rem;
+  width: 3rem;
+  height: 3rem;
+}
+.plus::before,
+.plus::after {
+  content: "";
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: 3rem;
+  height: 1px;
+  background: var(--ink);
+  transform: translate(-50%, -50%);
+  transition: transform 0.4s var(--ease-out);
+}
+.plus::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+.faqItem[open] .plus::after {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+.faqItem p {
+  padding: 0 0 4rem;
+  max-width: 100rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+/* ---------- Contacto ---------- */
+.contacto {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 10rem;
+  padding-block: 4rem 22rem;
+}
+.contactoText {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--muted);
+  max-width: 80rem;
+}
+
+/* ---------- Móvil ---------- */
+@media (max-width: 768px) {
+  .hero,
+  .pasos,
+  .barrio,
+  .split,
+  .condiciones,
+  .faq,
+  .contacto {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+  .hero {
+    padding-top: calc(var(--header-h) + 5rem);
+    padding-bottom: 8rem;
+  }
+  .h1 {
+    font-size: 5.6rem;
+  }
+  .heroFig {
+    aspect-ratio: 4 / 3;
+  }
+  .proofList {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    padding-block: 4rem;
+  }
+  .pasos {
+    padding-block: 10rem 8rem;
+  }
+  .paso {
+    grid-template-columns: 4rem 1fr;
+    padding: 2.4rem 0;
+  }
+  .barrio {
+    padding-bottom: 10rem;
+  }
+  .split {
+    padding-bottom: 10rem;
+  }
+  .incluido {
+    padding-block: 10rem;
+  }
+  .incluidoList {
+    grid-template-columns: 1fr;
+    margin-top: 5rem;
+    padding-top: 4rem;
+  }
+  .condiciones {
+    margin-top: 8rem;
+  }
+  .faq {
+    padding-block: 10rem;
+  }
+  .contacto {
+    padding-bottom: 12rem;
+  }
+}

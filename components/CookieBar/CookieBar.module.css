@@ -1,0 +1,83 @@
+.bar {
+  position: fixed;
+  left: var(--gutter);
+  right: var(--gutter);
+  bottom: 3rem;
+  z-index: 60;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem 4rem;
+  padding: 2.4rem 3rem;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 2rem;
+  font-size: var(--fs-label);
+}
+
+.text {
+  flex: 1 1 60rem;
+  max-width: 110rem;
+  line-height: 1.5;
+}
+.text a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.prefs {
+  display: flex;
+  gap: 3rem;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.prefs label {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 600;
+}
+.prefs input {
+  accent-color: var(--ink);
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  margin-left: auto;
+}
+
+.primary,
+.secondary {
+  border-radius: 999px;
+  padding: 1.6rem 2.8rem;
+  font-weight: 600;
+}
+.primary {
+  background: var(--ink);
+  color: var(--white);
+}
+.secondary {
+  border: 1px solid var(--ink);
+}
+.link {
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-right: 1rem;
+}
+
+@media (max-width: 768px) {
+  .bar {
+    bottom: 1.6rem;
+    padding: 2rem;
+  }
+  .actions {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
