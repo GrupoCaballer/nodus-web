@@ -1,0 +1,141 @@
+.partida {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 8rem;
+  padding-block: 4rem 20rem;
+}
+.partidaList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  padding-top: 4rem;
+  border-top: 1px solid var(--line);
+}
+.partidaList h3,
+.planBody h3 {
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.6rem;
+}
+.partidaList p {
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+/* ---------- Planes ---------- */
+.planes {
+  background: var(--black);
+  color: var(--white);
+  padding-block: 20rem;
+}
+.planesHead {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem;
+  align-items: end;
+}
+.planesText {
+  max-width: 80rem;
+  color: var(--muted-dark);
+  line-height: 1.5;
+}
+.planesList {
+  margin-top: 10rem;
+  border-top: 1px solid var(--line-dark);
+}
+.plan {
+  display: grid;
+  grid-template-columns: 6rem 1fr auto;
+  gap: 4rem;
+  padding: 6rem 0;
+  border-bottom: 1px solid var(--line-dark);
+}
+.planNum {
+  font-size: var(--fs-label);
+  font-weight: 600;
+  color: var(--muted-dark);
+  padding-top: 1rem;
+}
+.planBody {
+  max-width: 100rem;
+}
+.planBody p {
+  color: var(--muted-dark);
+  line-height: 1.5;
+}
+.incluye {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 3rem;
+  font-size: var(--fs-label);
+  font-weight: 600;
+}
+.incluye li {
+  position: relative;
+  padding-left: 3rem;
+}
+.incluye li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.85em;
+  width: 1.8rem;
+  height: 1px;
+  background: var(--white);
+}
+.planPrice {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  gap: 1rem;
+  min-width: 36rem;
+}
+.planPrice strong {
+  font-size: var(--fs-h2);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+.planPrice span {
+  font-size: var(--fs-label);
+  color: var(--muted-dark);
+  max-width: 36rem;
+}
+
+.pasosText {
+  margin-top: 3rem;
+  max-width: 70rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .partida,
+  .partidaList,
+  .planesHead {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  .partida {
+    padding-block: 2rem 10rem;
+  }
+  .planes {
+    padding-block: 10rem;
+  }
+  .planesList {
+    margin-top: 5rem;
+  }
+  .plan {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+    padding: 4rem 0;
+  }
+  .planPrice {
+    align-items: flex-start;
+    text-align: left;
+    min-width: 0;
+  }
+}

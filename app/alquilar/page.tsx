@@ -1,0 +1,45 @@
+import type { Metadata } from "next";
+import AlquilarPage from "@/components/AlquilarPage/AlquilarPage";
+import alquilar from "@/content/alquilar.json";
+
+export const metadata: Metadata = {
+  title: "Gestión de alquiler por habitaciones en València",
+  description:
+    "Puesta en marcha desde 500 €, comercialización por un mes de alquiler y gestión total por el 10 % mensual. Tres servicios que puedes contratar por separado o combinar.",
+  alternates: { canonical: "/alquilar" },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      name: "Gestión de alquiler por habitaciones",
+      areaServed: "València",
+      provider: { "@type": "RealEstateAgent", name: "Nodus Real Estate" },
+      hasOfferCatalog: {
+        "@type": "OfferCatalog",
+        name: "Servicios de alquiler",
+        itemListElement: alquilar.planes.items.map((p) => ({
+          "@type": "Offer",
+          name: p.nombre,
+          description: p.texto,
+          priceSpecification: { "@type": "PriceSpecification", description: `${p.precio}. ${p.nota}` },
+        })),
+      },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: alquilar.faq.map((f) => ({ "@type": "Question", name: f.pregunta, acceptedAnswer: { "@type": "Answer", text: f.respuesta } })),
+    },
+  ],
+};
+
+export default function Page() {
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <AlquilarPage />
+    </>
+  );
+}

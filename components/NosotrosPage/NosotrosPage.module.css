@@ -1,0 +1,279 @@
+/* ---------- Banner ---------- */
+.banner {
+  position: relative;
+  min-height: 90vh;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  background: var(--black);
+  color: var(--white);
+}
+.video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.55);
+}
+.bannerText {
+  position: relative;
+  padding-top: calc(var(--header-h) + 10rem);
+  padding-bottom: 12rem;
+}
+.eyebrow,
+.label,
+.labelDark {
+  font-size: var(--fs-label);
+  font-weight: 600;
+}
+.eyebrow {
+  color: var(--muted-dark);
+  margin-bottom: 3rem;
+}
+.labelDark {
+  color: var(--muted-dark);
+  margin-bottom: 2.4rem;
+}
+.h1 {
+  font-size: 11rem;
+  font-weight: 700;
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+  max-width: 150rem;
+}
+.h1 span {
+  color: var(--muted-dark);
+}
+
+/* ---------- Quiénes somos ---------- */
+.quienes {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 6rem;
+  padding-block: 20rem 12rem;
+}
+.quienesText {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  max-width: 130rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.big {
+  font-size: var(--fs-h2);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+/* ---------- Cita ---------- */
+.quote {
+  padding-block: 8rem 20rem;
+}
+.quoteText {
+  --mute-o: 0.5;
+  font-size: var(--fs-h1);
+  font-weight: 700;
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+  max-width: 180rem;
+}
+.quoteMuted {
+  opacity: var(--mute-o);
+}
+
+/* ---------- Valores ---------- */
+.valores {
+  background: var(--black);
+  color: var(--white);
+  padding-block: 20rem;
+}
+.valoresList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+  margin-top: 10rem;
+  padding-top: 6rem;
+  border-top: 1px solid var(--line-dark);
+}
+.valoresList h3,
+.persona h3,
+.extraText h3 {
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.6rem;
+}
+.valoresList p {
+  color: var(--muted-dark);
+  line-height: 1.5;
+}
+
+/* ---------- Equipo ---------- */
+.equipo {
+  padding-block: 20rem 18rem;
+}
+.equipoHead {
+  margin-bottom: 8rem;
+}
+.equipoList {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 4rem;
+}
+.retrato {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  background: var(--paper-2);
+  margin-bottom: 2.4rem;
+  display: grid;
+  place-items: center;
+}
+.iniciales {
+  font-size: var(--fs-h2);
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: -0.02em;
+}
+.cover {
+  object-fit: cover;
+}
+.persona h3 {
+  font-size: var(--fs-body);
+  margin-bottom: 0.6rem;
+}
+.cargo,
+.zonas {
+  font-size: var(--fs-label);
+  color: var(--muted);
+}
+.mail {
+  display: inline-block;
+  margin-top: 1.2rem;
+  font-size: var(--fs-label);
+  font-weight: 600;
+  word-break: break-all;
+}
+.mail:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ---------- Extras ---------- */
+.extras {
+  padding-bottom: 20rem;
+}
+.extrasList {
+  display: flex;
+  flex-direction: column;
+  gap: 12rem;
+  margin-top: 8rem;
+}
+.extra {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+  align-items: center;
+  scroll-margin-top: calc(var(--header-h) + 4rem);
+}
+.extraAlt .extraFig {
+  order: 2;
+}
+.extraFig {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 1.5rem;
+}
+.extraText {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  max-width: 80rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.extraText h3 {
+  font-size: var(--fs-h2);
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin-bottom: 0;
+}
+
+/* ---------- Contacto ---------- */
+.contacto {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 10rem;
+  padding-bottom: 22rem;
+}
+.contactoText {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  color: var(--muted);
+  line-height: 1.5;
+  max-width: 80rem;
+}
+
+/* ---------- Móvil ---------- */
+@media (max-width: 768px) {
+  .banner {
+    min-height: 75vh;
+  }
+  .bannerText {
+    padding-top: calc(var(--header-h) + 6rem);
+    padding-bottom: 6rem;
+  }
+  .h1 {
+    font-size: 5.6rem;
+  }
+  .quienes,
+  .extra,
+  .contacto {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  .quienes {
+    padding-block: 10rem 6rem;
+  }
+  .quote {
+    padding-block: 4rem 10rem;
+  }
+  .valores {
+    padding-block: 10rem;
+  }
+  .valoresList {
+    grid-template-columns: 1fr;
+    margin-top: 5rem;
+    padding-top: 4rem;
+  }
+  .equipo {
+    padding-block: 10rem 8rem;
+  }
+  .equipoHead {
+    margin-bottom: 4rem;
+  }
+  .equipoList {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+  .extras {
+    padding-bottom: 10rem;
+  }
+  .extrasList {
+    gap: 8rem;
+    margin-top: 5rem;
+  }
+  .extraAlt .extraFig {
+    order: 0;
+  }
+  .contacto {
+    padding-bottom: 12rem;
+  }
+}

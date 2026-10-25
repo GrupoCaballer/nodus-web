@@ -1,0 +1,7 @@
+[
+  { "nombre": "Adrián Pajares", "cargo": "TODO-CARGO", "email": "adrian.pajares@nodusrealestate.com", "telefono": "623 17 18 17", "zonas": "TODO-ZONAS", "foto": null },
+  { "nombre": "Pablo Rapaport", "cargo": "TODO-CARGO", "email": "pablo.rapaport@nodusrealestate.com", "telefono": "", "zonas": "TODO-ZONAS", "foto": null },
+  { "nombre": "Ramón Giménez", "cargo": "TODO-CARGO", "email": "ramon.gimenez@nodusrealestate.com", "telefono": "", "zonas": "TODO-ZONAS", "foto": null },
+  { "nombre": "Lucía Alessi", "cargo": "TODO-CARGO", "email": "lucia.alessi@nodusrealestate.com", "telefono": "", "zonas": "TODO-ZONAS", "foto": null },
+  { "nombre": "Hugo TODO-APELLIDO", "cargo": "Renders y reforma", "email": "", "telefono": "", "zonas": "", "foto": null }
+]
