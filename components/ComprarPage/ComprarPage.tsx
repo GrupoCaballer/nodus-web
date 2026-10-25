@@ -38,8 +38,7 @@ export default function ComprarPage() {
             Encuentra lo que encaja. <span>Con alguien al lado.</span>
           </h1>
           <p className={styles.lead} data-reveal="text">
-            Un asesor que escucha antes de enseñar, acceso a viviendas que no se publican y los números claros antes de
-            ofertar.
+            Asesoramiento inmobiliario integral: desde la primera visita hasta la firma. Sin fisuras.
           </p>
           <ul className={styles.promesas}>
             {comprar.promesas.map((p) => (
@@ -67,7 +66,7 @@ export default function ComprarPage() {
       <Section className={`container ${styles.pasos}`}>
         <div data-reveal="text">
           <p className={styles.label}>Cómo funciona</p>
-          <Heading strong="Tres pasos." muted="Una persona de referencia." />
+          <Heading strong="Inmobiliaria," muted="reconectada." />
         </div>
         <ol className={styles.pasosList}>
           {comprar.pasos.map((p, i) => (
@@ -90,9 +89,9 @@ export default function ComprarPage() {
             <Heading strong="Las mejores casas" muted="no se anuncian." breakMuted />
           </div>
           <p data-reveal="text">
-            En Campolivar, Santa Bárbara o Torre en Conill, muchas operaciones se cierran sin pasar por los portales. Las
-            familias se mueven por recomendación y los propietarios prefieren vender sin exposición. Trabajamos esas zonas y
-            enseñamos esas viviendas a quien tiene capacidad real de compra.
+            En Campolivar, las operaciones más interesantes rara vez aparecen en Idealista o Fotocasa. Las familias que llevan
+            años en la zona se mueven por recomendación, y los propietarios que quieren vender prefieren hacerlo sin exposición
+            pública. Conocemos el mercado y tenemos acceso a propiedades que no llegan al mercado abierto.
           </p>
           <div data-reveal="text">
             <Button href="/zonas">Ver zonas</Button>
@@ -104,7 +103,7 @@ export default function ComprarPage() {
         <div className="container">
           <div data-reveal="text">
             <p className={styles.labelDark}>Incluido cuando compras con Nodus</p>
-            <Heading tone="dark" strong="Todo lo que rodea a la compra," muted="resuelto." breakMuted />
+            <Heading tone="dark" strong="Asesoramiento integral." muted="Desde la primera visita hasta la firma." breakMuted />
           </div>
           <ul className={styles.incluidoList}>
             {comprar.incluido.map((it) => (
@@ -161,8 +160,7 @@ export default function ComprarPage() {
             <Heading strong="Cuéntanos qué buscas." />
           </div>
           <p data-reveal="text">
-            Zona, presupuesto, plazos y lo que no es negociable. Te llamamos y empezamos por ahí. Sin compromiso en el primer
-            contacto.
+            Te acompañamos en cada paso, sin complicaciones. Sin compromisos en el primer contacto.
           </p>
           <p data-reveal="text">
             <Link href="/vender" className="link-underline">

@@ -23,21 +23,21 @@ const EXTRAS = [
   {
     id: "reforma",
     titulo: "Reforma y renders",
-    texto: "Si la vivienda que quieres comprar necesita obra, Hugo la dibuja antes de que firmes: renders de cómo quedará y presupuesto de obra cerrado. Sabes lo que cuesta la casa de verdad, no solo lo que pide el vendedor.",
+    texto: "Reforma con renders y presupuesto de obra para quien compra una vivienda que necesita obra. TODO-TEXTO: ampliar con el texto de Nodus.",
     img: "/fotos/extra-reforma.webp",
     alt: "Arquitectura contemporánea de líneas geométricas en València",
   },
   {
     id: "financiacion",
     titulo: "Financiación",
-    texto: "Un broker hipotecario estudia tu caso y compara entidades para que llegues a la oferta con la hipoteca resuelta. En alguna de nuestras viviendas hay condiciones preferentes a través de Bayteca.",
+    texto: "Asesoría legal, fiscal y financiera coordinada. Resolvemos la complejidad para que el cliente solo tenga que tomar decisiones informadas. Broker financiero para llegar con la hipoteca estudiada.",
     img: "/fotos/extra-financiacion.webp",
     alt: "Edificio histórico de fachada ornamentada en València",
   },
   {
     id: "inversion",
     titulo: "Inversión",
-    texto: "Presentamos operaciones a fondos y family offices: dossier, carta de intenciones (LOI) y due diligence. Análisis de rentabilidad, selección de activos y seguimiento de la inversión en València, Comunitat Valenciana, España, Portugal y Andorra.",
+    texto: "Análisis de rentabilidad, selección de activos y seguimiento de la inversión. Una operación bien estructurada da resultados a largo plazo. Presentación de operaciones a fondos y family offices: dossier, LOI y due diligence.",
     img: "/fotos/extra-inversion.webp",
     alt: "Plaza del Ayuntamiento de València con gente paseando",
   },
@@ -86,9 +86,8 @@ export default function NosotrosPage() {
             Nuestro trabajo empieza donde empieza esa complejidad.
           </p>
           <p data-reveal="text">
-            Somos un equipo joven con base en Godella. Llevamos pocas viviendas a la vez, a propósito: cada una sale con su web,
-            su vídeo y sus visitas filtradas, y se vende antes de captar la siguiente. Trabajamos València y su área
-            metropolitana, de Puçol a Silla y de Paterna a la costa, y operaciones de inversión en España, Portugal y Andorra.
+            Llevamos pocas viviendas a la vez, a propósito: cada una sale con su web, su vídeo y sus visitas filtradas, y se
+            vende antes de captar la siguiente.
           </p>
         </div>
       </Section>

@@ -1,37 +1,26 @@
 {
+  "_nota": "Textos: los de la web antigua (servicios) y el contexto de Nodus. Lo marcado TODO-TEXTO lo redacta Nodus.",
   "promesas": [
-    "Un asesor asignado desde la primera llamada",
-    "Acceso a viviendas off market que no se publican",
-    "Reforma con renders y presupuesto de obra antes de ofertar",
-    "Broker hipotecario para llegar con la financiación estudiada"
+    "Acompañamos cada operación desde la primera visita hasta la firma",
+    "Sin intermediarios innecesarios, sin promesas vacías",
+    "Reforma con renders y presupuesto de obra antes de comprar",
+    "Broker financiero para llegar con la hipoteca estudiada"
   ],
   "pasos": [
-    { "titulo": "Habla con una persona.", "texto": "Te asignamos un asesor que escucha, no un formulario. Presupuesto, zonas, plazos y lo que no es negociable." },
-    { "titulo": "Gana claridad.", "texto": "Definimos lo que necesitas, no solo lo que hay disponible. Incluidas las viviendas que no están en los portales." },
-    { "titulo": "Avanza.", "texto": "Visitas con criterio, oferta con números reales y acompañamiento hasta la firma y la entrega de llaves." }
+    { "titulo": "Habla con una persona.", "texto": "Te asignamos un asesor que escucha, no un formulario." },
+    { "titulo": "Gana claridad.", "texto": "Definimos lo que necesitas, no solo lo que hay disponible." },
+    { "titulo": "Avanza.", "texto": "Encontramos lo que encaja y lo hacemos realidad." }
   ],
   "incluido": [
-    { "titulo": "Reforma y renders", "texto": "Si la vivienda necesita obra, Hugo la dibuja con renders y presupuesto cerrado antes de que hagas la oferta." },
-    { "titulo": "Financiación", "texto": "Un broker hipotecario estudia tu caso y compara entidades para que llegues a la oferta con la hipoteca resuelta." },
-    { "titulo": "Legal y notaría", "texto": "Revisión de cargas, contrato de arras y coordinación con notaría. Sabes qué firmas y cuándo." },
-    { "titulo": "Después de la compra", "texto": "Mudanza, suministros y, si quieres, la gestión del alquiler si la compras para invertir." }
+    { "titulo": "Compra y venta", "texto": "Acompañamos cada operación desde la primera visita hasta la firma. Sin intermediarios innecesarios, sin promesas vacías." },
+    { "titulo": "Asesoramiento integral", "texto": "Asesoría legal, fiscal y financiera coordinada. Resolvemos la complejidad para que el cliente solo tenga que tomar decisiones informadas." },
+    { "titulo": "Reforma y renders", "texto": "Si la vivienda necesita obra, renders y presupuesto de obra antes de comprar." },
+    { "titulo": "Financiación", "texto": "Broker financiero para llegar con la hipoteca estudiada." }
   ],
   "faq": [
-    {
-      "pregunta": "¿Cuesta algo buscar con Nodus?",
-      "respuesta": "La primera conversación y la búsqueda no tienen coste. Los honorarios del comprador se acuerdan por escrito antes de empezar a visitar, y solo se devengan si compras con nosotros."
-    },
-    {
-      "pregunta": "¿Qué es una vivienda off market?",
-      "respuesta": "Una vivienda que el propietario quiere vender sin publicarla en portales. En zonas como Campolivar o Santa Bárbara son una parte importante de las operaciones. Las enseñamos solo a compradores con capacidad real."
-    },
-    {
-      "pregunta": "¿Cómo se filtran las viviendas?",
-      "respuesta": "Por lo que nos cuentas en la primera conversación: presupuesto, zona, tipo de vivienda, plazos y lo que no es negociable. Preferimos enseñarte tres que encajen a quince que no."
-    },
-    {
-      "pregunta": "¿Y si también vendo mi casa?",
-      "respuesta": "Coordinamos las dos operaciones con el mismo equipo para que los plazos cuadren: valoración de tu vivienda, venta y compra con una sola persona de referencia."
-    }
+    { "pregunta": "¿Cuesta algo buscar con Nodus?", "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus." },
+    { "pregunta": "¿Qué es una vivienda off market?", "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus." },
+    { "pregunta": "¿Cómo se filtran las viviendas?", "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus." },
+    { "pregunta": "¿Y si también vendo mi casa?", "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus." }
   ]
 }

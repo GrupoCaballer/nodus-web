@@ -89,8 +89,13 @@
   display: flex;
   gap: 3rem;
 }
-.legal a:hover {
+.legal a:hover,
+.cookiesBtn:hover {
   color: var(--white);
+}
+.cookiesBtn {
+  color: inherit;
+  font: inherit;
 }
 
 @media (max-width: 768px) {

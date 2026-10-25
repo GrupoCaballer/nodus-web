@@ -12,21 +12,21 @@ const ROWS = [
   {
     word: "Comprar",
     href: "/propiedades",
-    text: "Un asesor que escucha antes de enseñar. Si la vivienda necesita obra, Hugo la dibuja con renders y presupuesto cerrado antes de que firmes. Y un broker financiero para llegar con la hipoteca estudiada.",
+    text: "Acompañamos cada operación desde la primera visita hasta la firma. Sin intermediarios innecesarios, sin promesas vacías. Reforma con renders y presupuesto de obra, y broker financiero para llegar con la hipoteca estudiada.",
     img: "/fotos/servicio-comprar.webp",
     alt: "Edificios y arbolado de un barrio residencial de València",
   },
   {
     word: "Vender",
     href: "/vender",
-    text: "Una web con esencia propia para tu vivienda, vídeo profesional, difusión en Instagram y home staging. Visitas filtradas y acompañamiento hasta la notaría.",
+    text: "Una valoración con criterio. Una estrategia acordada contigo. Un equipo que coordina la venta desde la primera conversación hasta la firma. Web con esencia propia, vídeo profesional, home staging y visitas filtradas.",
     img: "/fotos/servicio-vender.webp",
     alt: "Fachada modernista con palmeras en València",
   },
   {
     word: "Alquilar",
     href: "/alquilar",
-    text: "Gestión integral del alquiler por habitaciones: puesta en marcha, comercialización y gestión total. Tres planes con precio claro que puedes contratar por separado o combinar.",
+    text: "Preparamos tu piso, seleccionamos inquilinos y gestionamos el día a día. Un servicio completo en València, desde la primera habitación hasta el seguimiento mensual.",
     img: "/fotos/servicio-alquilar.webp",
     alt: "Paseo marítimo con palmeras en València",
   },
@@ -87,7 +87,7 @@ export default function Servicios() {
 
       <div className={`container ${styles.foot}`}>
         <p>
-          Cada operación la lleva una persona, de principio a fin. <span>Sin intermediarios innecesarios, sin promesas vacías.</span>
+          Acompañamos cada operación desde la primera visita hasta la firma. <span>Sin intermediarios innecesarios, sin promesas vacías.</span>
         </p>
         <Button href="/contacto" tone="light">
           Empezar con Nodus

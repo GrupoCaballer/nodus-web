@@ -4,7 +4,7 @@ description: Contexto de marca y reglas de la web de Nodus Real Estate (Valènci
 ---
 
 # Nodus Real Estate
-Agencia inmobiliaria de Godella (València). Equipo joven. Zona: València ciudad y área metropolitana (Puçol–Silla, Paterna/Torrent–costa), Comunitat Valenciana e inversión en España, Portugal y Andorra. Hugo hace renders y lleva reforma.
+Agencia inmobiliaria de Godella (València). Equipo joven. Zona: València ciudad y área metropolitana (Puçol–Silla, Paterna/Torrent–costa), Comunitat Valenciana e inversión en España, Portugal y Andorra. La reforma con renders es un servicio de Nodus; no se atribuye a ninguna persona del equipo en la web.
 
 ## Servicios (lo que puede decir la web)
 Vendedor: web propia de la vivienda "con esencia propia", vídeo profesional (dron en chalets), difusión en Instagram, home staging, filtrado de visitas, acompañamiento hasta notaría. Sin exclusiva clásica: 2 meses de prueba; si el propietario vende a un comprador propio, no paga.

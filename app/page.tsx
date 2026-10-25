@@ -9,9 +9,11 @@ import Extras from "@/components/Extras/Extras";
 import BlogList from "@/components/Blog/BlogList";
 import CtaFinal from "@/components/CtaFinal/CtaFinal";
 import Zonas from "@/components/Zonas/Zonas";
+import { allPosts } from "@/lib/blog";
 
 // Home: mapa de secciones de la skill nodus-web, en orden.
-export default function Home() {
+export default async function Home() {
+  const posts = (await allPosts()).slice(0, 3);
   return (
     <>
       <Hero />
@@ -22,7 +24,7 @@ export default function Home() {
       <Testimonios />
       <Servicios />
       <Extras />
-      <BlogList />
+      <BlogList posts={posts} />
       <CtaFinal />
       <Zonas />
     </>

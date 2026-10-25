@@ -223,6 +223,50 @@
   color: var(--ink);
 }
 
+/* ---------- Galería ---------- */
+.heroVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.55);
+}
+.galeria {
+  padding-bottom: 20rem;
+}
+.galeriaList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 6rem;
+}
+.galeriaList li:nth-child(3n + 1) {
+  grid-column: 1 / -1;
+}
+.galeriaFig {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  background: var(--paper-2);
+}
+.galeriaFig figcaption {
+  position: absolute;
+  left: 3rem;
+  bottom: 3rem;
+  color: var(--white);
+  font-size: var(--fs-label);
+  font-weight: 600;
+}
+.galeriaTodo {
+  margin-top: 6rem;
+  padding: 6rem;
+  border: 1px dashed var(--line);
+  border-radius: 1.5rem;
+  color: var(--muted);
+  line-height: 1.5;
+  max-width: 120rem;
+}
+
 /* ---------- Inmuebles ---------- */
 .inmuebles {
   padding-bottom: 20rem;
@@ -347,8 +391,15 @@
   .patrimonioList {
     grid-template-columns: 1fr;
   }
-  .inmuebles {
+  .inmuebles,
+  .galeria {
     padding-bottom: 10rem;
+  }
+  .galeriaList {
+    grid-template-columns: 1fr;
+  }
+  .galeriaTodo {
+    padding: 3rem;
   }
   .inmueblesHead {
     flex-direction: column;

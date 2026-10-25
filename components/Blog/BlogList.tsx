@@ -6,14 +6,14 @@ import { useRef } from "react";
 import Heading from "@/components/ui/Heading";
 import Button from "@/components/ui/Button";
 import { useReveal } from "@/components/motion/useReveal";
-import posts from "@/content/blog.json";
+import type { Post } from "@/lib/blog";
 import styles from "./BlogList.module.css";
 
 const fecha = (iso: string) =>
   new Date(iso).toLocaleDateString("es-ES", { day: "2-digit", month: "short", year: "numeric" }).replace(".", "");
 
 /** 1.10 "Blog y recursos": tres artículos en filas con fecha, titular, resumen y foto 16:9 con reveal. */
-export default function BlogList() {
+export default function BlogList({ posts }: { posts: Post[] }) {
   const root = useRef<HTMLElement>(null);
   useReveal(root);
 

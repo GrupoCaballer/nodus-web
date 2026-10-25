@@ -37,7 +37,7 @@ Lo que no aplica a Nodus: `/join` (captación de agentes con planes de membresí
 - Las **guías de zona** (Campolivar y La Virgen de la Vega) son el mejor contenido de la web: datos (población, metro, accesos), estilo de vida en 3 bloques, 6 puntos de "qué ofrece la zona", distancias, patrimonio con 4 piezas, "Las mejores casas no se anuncian" (off market), 4 servicios en la zona, formulario. Esto ya es el equivalente de las *neighborhood guides* de FIND, con más fondo.
 - **Alquiler por habitaciones**: 3 planes con precio (desde 500 €; 1 mes + IVA por habitación; 10 % + IVA), 3 pasos, 5 FAQ.
 - **Fichas de propiedad**: descripción larga y bien escrita (la de Chiva es un ejemplo), características, formulario corto (nombre + teléfono), estado "Vendido" cuando toca.
-- **Equipo** (en `/bio`): Pablo Rapaport, Ramón Giménez, Lucía Alessi, Adrián Pajares (+ Hugo, renders y reforma, según el brief). Faltan fotos, cargos y zonas de cada uno.
+- **Equipo** (en `/bio`): Pablo Rapaport, Ramón Giménez, Lucía Alessi, Adrián Pajares (+ Hugo; la reforma no se le atribuye públicamente). Faltan fotos, cargos y zonas de cada uno.
 - Textos legales y RGPD completos (titular Adrián Carlos Pajares Crespo).
 
 **Lo que le falta frente a FIND**
@@ -178,7 +178,7 @@ Campos: nombre, teléfono, email, dirección o zona de la vivienda, mensaje. Tex
 
 ## 6. Esqueleto de contenido del resto (para arrancar)
 
-**/comprar** — Hero: *Encuentra lo que encaja. Con alguien al lado.* Promesas: asesor asignado, acceso a off market, reforma con renders y presupuesto antes de ofertar, broker para llegar con la hipoteca estudiada. Cómo funciona: 3 pasos (los de la home). Incluido: reforma y renders (Hugo), financiación (broker; Bayteca aparece en una ficha), legal y notaría, mudanza. FAQ: ¿cuesta algo?, ¿qué es off market?, ¿cómo se filtran las viviendas?, ¿y si también vendo?
+**/comprar** — Hero: *Encuentra lo que encaja. Con alguien al lado.* Promesas: asesor asignado, acceso a off market, reforma con renders y presupuesto antes de ofertar, broker para llegar con la hipoteca estudiada. Cómo funciona: 3 pasos (los de la home). Incluido: reforma y renders, financiación (broker; Bayteca aparece en una ficha), legal y notaría, mudanza. FAQ: ¿cuesta algo?, ¿qué es off market?, ¿cómo se filtran las viviendas?, ¿y si también vendo?
 
 **/propiedades** — Intro actual ("Lo que ves aquí es solo una parte…"). Filtros: operación (venta/alquiler), tipo, zona, precio, habitaciones. Datos de las 5 fichas actuales en `content/propiedades.json`.
 

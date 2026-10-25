@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Logo from "@/components/ui/Logo";
 import { SITE } from "@/lib/site";
+import CookiesButton from "@/components/CookieBar/CookiesButton";
 import styles from "./Footer.module.css";
 
 const LINKS = [
@@ -77,6 +78,9 @@ export default function Footer() {
           </li>
           <li>
             <Link href="/cookies">Cookies</Link>
+          </li>
+          <li>
+            <CookiesButton className={styles.cookiesBtn} />
           </li>
         </ul>
       </div>
