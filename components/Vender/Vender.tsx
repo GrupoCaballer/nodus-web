@@ -46,8 +46,9 @@ export default function Vender() {
           Cada vivienda sale al mercado con una web con esencia propia, vídeo profesional (con dron en chalets), difusión en
           Instagram y home staging.{" "}
           <span>
-            Filtramos las visitas para que solo entren compradores con capacidad real y te acompañamos hasta la notaría. Sin exclusiva
-            clásica: dos meses de prueba, y si vendes a un comprador tuyo, no pagas.
+            Llevamos pocas viviendas a la vez, así que la tuya no será una más en un listado. Filtramos las visitas para que solo
+            entren compradores con capacidad real y te acompañamos hasta la notaría. Sin exclusiva clásica: dos meses de
+            prueba, y si vendes a un comprador tuyo, no pagas.
           </span>
         </p>
         <div data-reveal="text">

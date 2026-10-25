@@ -6,7 +6,7 @@ import styles from "./page.module.css";
 export const metadata: Metadata = {
   title: "Propiedades en venta y alquiler",
   description:
-    "Pisos, chalets y casas en València, Godella, Campolivar y La Virgen de la Vega. Solo una parte de lo que gestionamos: también trabajamos producto off market.",
+    "Pisos, chalets y casas en València, Godella, Campolivar y La Virgen de la Vega. Pocas viviendas a la vez y toda la atención en cada una.",
   alternates: { canonical: "/propiedades" },
 };
 
@@ -14,10 +14,10 @@ export default function Page() {
   return (
     <section className={`container ${styles.root}`}>
       <div className={styles.head}>
-        <Heading as="h1" strong="Inmuebles disponibles." muted="Y otros que no publicamos." breakMuted />
+        <Heading as="h1" strong="Pocas viviendas." muted="Toda la atención en cada una." breakMuted />
         <p>
-          Lo que ves aquí es solo una parte de lo que gestionamos. Trabajamos con un volumen importante de producto off market
-          que no se publica. Si buscas algo concreto, <a href="/comprar#contacto">escríbenos</a>.
+          Llevamos pocas propiedades a la vez, a propósito: cada una sale con su web, su vídeo y sus visitas filtradas, y se
+          vende antes de captar la siguiente. Si no está aquí lo que buscas, <a href="/comprar#contacto">buscamos contigo</a>.
         </p>
       </div>
       <Listado />

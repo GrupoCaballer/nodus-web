@@ -101,7 +101,7 @@ export default function Listado() {
         </ul>
       ) : (
         <p className={styles.empty}>
-          Con esos filtros no hay nada publicado. Pero gestionamos más de lo que se ve aquí: <a href="/contacto">cuéntanos qué buscas</a>.
+          Con esos filtros no hay nada publicado ahora mismo. Llevamos pocas viviendas a la vez: <a href="/comprar#contacto">cuéntanos qué buscas</a> y lo buscamos contigo.
         </p>
       )}
     </>

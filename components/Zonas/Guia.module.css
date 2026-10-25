@@ -1,0 +1,362 @@
+.root {
+  padding-bottom: 22rem;
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  position: relative;
+  min-height: 92vh;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  color: var(--white);
+  background: var(--black);
+}
+.heroImg {
+  position: absolute;
+  inset: -10% 0;
+}
+.cover {
+  object-fit: cover;
+  filter: brightness(0.55);
+}
+.heroText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.6rem;
+  padding-top: calc(var(--header-h) + 10rem);
+  padding-bottom: 10rem;
+}
+.crumbs {
+  font-size: var(--fs-label);
+  font-weight: 600;
+  color: var(--muted-dark);
+}
+.crumbs a:hover {
+  color: var(--white);
+}
+.h1 {
+  font-size: 11rem;
+  font-weight: 700;
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+  max-width: 130rem;
+}
+.h1 span {
+  color: var(--muted-dark);
+}
+.lead {
+  max-width: 100rem;
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+.heroActions {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.heroLink {
+  font-size: var(--fs-label);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.credit {
+  font-size: calc(var(--fs-label) * 0.85);
+  color: var(--muted-dark);
+}
+
+/* ---------- Etiquetas ---------- */
+.label,
+.labelDark {
+  font-size: var(--fs-label);
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+.labelDark {
+  color: var(--muted-dark);
+}
+
+/* ---------- La zona ---------- */
+.zona,
+.distancias,
+.patrimonio,
+.contacto {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 8rem;
+}
+.zona {
+  padding-block: 20rem 16rem;
+}
+.zonaText {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  max-width: 100rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.datos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem 4rem;
+  margin: 4rem 0 0;
+  padding-top: 4rem;
+  border-top: 1px solid var(--line);
+  color: var(--ink);
+}
+.datos dt {
+  font-size: var(--fs-label);
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+.datos dd {
+  margin: 0;
+  font-weight: 500;
+}
+
+/* ---------- Estilo de vida ---------- */
+.estilo {
+  padding-bottom: 20rem;
+}
+.estiloList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6rem;
+  padding-top: 4rem;
+  border-top: 1px solid var(--line);
+}
+.estiloList h3,
+.ofreceList h3,
+.patrimonioList h3,
+.nodusList h3 {
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.6rem;
+  line-height: 1.15;
+}
+.estiloList p,
+.patrimonioList p {
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+/* ---------- Qué ofrece ---------- */
+.ofrece {
+  background: var(--black);
+  color: var(--white);
+  padding-block: 20rem;
+}
+.ofreceList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6rem 5rem;
+  margin-top: 10rem;
+  padding-top: 6rem;
+  border-top: 1px solid var(--line-dark);
+}
+.ofreceSub {
+  font-size: var(--fs-label);
+  color: var(--muted-dark);
+  margin-bottom: 1.2rem;
+}
+.ofreceList p:last-child {
+  color: var(--muted-dark);
+  line-height: 1.5;
+}
+
+/* ---------- Distancias ---------- */
+.distancias {
+  padding-block: 20rem 16rem;
+  align-items: start;
+}
+.distText {
+  margin-top: 3rem;
+  max-width: 70rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.distList {
+  border-top: 1px solid var(--line);
+}
+.distList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 4rem;
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--line);
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+.distList strong {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* ---------- Patrimonio ---------- */
+.patrimonio {
+  padding-block: 4rem 20rem;
+}
+.patrimonioText {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  line-height: 1.5;
+  color: var(--muted);
+  max-width: 100rem;
+}
+.patrimonioList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem 4rem;
+  margin-top: 4rem;
+  padding-top: 5rem;
+  border-top: 1px solid var(--line);
+  color: var(--ink);
+}
+
+/* ---------- Inmuebles ---------- */
+.inmuebles {
+  padding-bottom: 20rem;
+}
+.inmueblesHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 6rem;
+  margin-bottom: 6rem;
+}
+.inmueblesList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+/* ---------- Nodus en la zona ---------- */
+.nodus {
+  background: var(--black);
+  color: var(--white);
+  padding-block: 20rem;
+}
+.nodusHead {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 8rem;
+}
+.nodusText {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  line-height: 1.5;
+  color: var(--muted-dark);
+  max-width: 100rem;
+}
+.nodusList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+  margin-top: 10rem;
+  padding-top: 6rem;
+  border-top: 1px solid var(--line-dark);
+}
+.nodusList p {
+  color: var(--muted-dark);
+  line-height: 1.5;
+}
+
+/* ---------- Contacto ---------- */
+.contacto {
+  padding-top: 20rem;
+  gap: 10rem;
+}
+.contactoText {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  color: var(--muted);
+  line-height: 1.45;
+  max-width: 80rem;
+}
+
+/* ---------- Móvil ---------- */
+@media (max-width: 768px) {
+  .root {
+    padding-bottom: 12rem;
+  }
+  .hero {
+    min-height: 80vh;
+  }
+  .heroText {
+    padding-top: calc(var(--header-h) + 6rem);
+    padding-bottom: 6rem;
+    gap: 2.4rem;
+  }
+  .h1 {
+    font-size: 5.6rem;
+  }
+  .zona,
+  .distancias,
+  .patrimonio,
+  .contacto,
+  .nodusHead {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  .zona {
+    padding-block: 10rem 8rem;
+  }
+  .datos {
+    grid-template-columns: 1fr 1fr;
+  }
+  .estilo {
+    padding-bottom: 10rem;
+  }
+  .estiloList,
+  .ofreceList,
+  .inmueblesList,
+  .nodusList {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  .ofrece,
+  .nodus {
+    padding-block: 10rem;
+  }
+  .ofreceList,
+  .nodusList {
+    margin-top: 5rem;
+    padding-top: 4rem;
+  }
+  .distancias {
+    padding-block: 10rem 8rem;
+  }
+  .distList li {
+    padding: 2rem 0;
+  }
+  .patrimonio {
+    padding-bottom: 10rem;
+  }
+  .patrimonioList {
+    grid-template-columns: 1fr;
+  }
+  .inmuebles {
+    padding-bottom: 10rem;
+  }
+  .inmueblesHead {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+  .contacto {
+    padding-top: 10rem;
+    gap: 5rem;
+  }
+}

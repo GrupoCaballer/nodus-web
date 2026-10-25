@@ -1,0 +1,78 @@
+{
+  "slug": "la-virgen-de-la-vega",
+  "nombre": "La Virgen de la Vega",
+  "municipio": "Alcalá de la Selva (Teruel)",
+  "eyebrow": "Alcalá de la Selva · Teruel · 1.400 m",
+  "titulo": ["Vivir en la sierra", "turolense."],
+  "intro": "La Virgen de la Vega atrae a quienes buscan verano sin calor, invierno con carácter y distancia real de las ciudades. Nodus Real Estate conoce el mercado local y gestiona propiedades que no se publican.",
+  "foto": { "src": "/fotos/zona-virgen-de-la-vega.webp", "alt": "Paisaje de montaña con bosque de pinos en la sierra de Teruel", "credito": "" },
+  "zona": {
+    "label": "El pueblo",
+    "titulo": ["Un refugio climático", "a hora y cuarto de València."],
+    "parrafos": [
+      "La Virgen de la Vega forma parte del municipio de Alcalá de la Selva, en la comarca de Gúdar-Javalambre. A 1.400 metros de altitud en el sur de Aragón, las montañas y la vegetación regulan las temperaturas durante todo el año.",
+      "En verano, las noches refrescan hasta necesitar manta. En invierno, la piedra y el aislamiento de las casas tradicionales convierten el frío en confort. Un lugar que funciona en todas las estaciones."
+    ]
+  },
+  "datos": [
+    { "label": "Altitud", "valor": "1.400 m" },
+    { "label": "Temperatura media anual", "valor": "8 °C" },
+    { "label": "Comarca", "valor": "Gúdar-Javalambre" },
+    { "label": "Provincia", "valor": "Teruel, Aragón" },
+    { "label": "Acceso", "valor": "Autovía A-23 · salidas 76 y 92" },
+    { "label": "Municipio", "valor": "Alcalá de la Selva" }
+  ],
+  "estilo": [
+    { "titulo": "Tranquilidad sin aislamiento", "texto": "Un entorno rural bien conectado. Supermercado a ocho minutos caminando, servicios de carretera efectivos incluso en invierno y una comunidad que valora lo discreto." },
+    { "titulo": "Teletrabajo en la sierra", "texto": "Traductores, escritores y profesionales en remoto llevan años eligiendo este entorno. La distancia física de la ciudad no implica desconexión. Implica concentración." },
+    { "titulo": "Cuatro estaciones reales", "texto": "Nevadas en invierno, bosques en flor en primavera, veranos frescos y otoños con setas y caza. Un ritmo de vida que cambia con el paisaje, no con el termostato." }
+  ],
+  "ofrece": {
+    "titulo": ["Todo lo necesario,", "a pocos minutos."],
+    "items": [
+      { "sub": "Esquí", "titulo": "Valdelinares · 16 min", "texto": "Una de las estaciones de esquí más meridionales de Europa. Nieve real y acceso directo desde la A-23." },
+      { "sub": "Pista artificial", "titulo": "2 min · única en España", "texto": "Pista de esquí artificial abierta todo el año. La única de este tipo en el país, a dos minutos del núcleo." },
+      { "sub": "Golf", "titulo": "El Castillejo · 4 min", "texto": "Campo pitch and putt de 9 hoyos en plena naturaleza. Accesible y con vistas a la sierra de Gúdar." },
+      { "sub": "Piscina municipal", "titulo": "Alcalá de la Selva", "texto": "Rodeada de vegetación y con vistas. La alternativa natural al calor que el resto de España no tiene." },
+      { "sub": "Senderismo", "titulo": "Red comarcal de senderos", "texto": "Rutas marcadas entre bosques de pinos y riachuelos. La Fuente de La Riscla conecta con los caminos del entorno." },
+      { "sub": "Gastronomía", "titulo": "Teruel y comarca", "texto": "Jamón de Teruel con DO, queso artesanal de Tronchón y trufa negra de la comarca. Una despensa seria." }
+    ]
+  },
+  "distancias": {
+    "titulo": ["Bien situado.", "Bien alejado."],
+    "texto": "Lo suficientemente lejos para que no se note el ruido de la ciudad. Lo suficientemente cerca para que no sea un sacrificio.",
+    "items": [
+      { "lugar": "Teruel", "tiempo": "45 min" },
+      { "lugar": "València (aeropuerto de Manises)", "tiempo": "1 h 15 min" },
+      { "lugar": "Playa de la Almardà (Sagunto)", "tiempo": "1 h 20 min" },
+      { "lugar": "Zaragoza", "tiempo": "2 h 30 min" },
+      { "lugar": "Madrid", "tiempo": "3 h 45 min" }
+    ]
+  },
+  "patrimonio": {
+    "titulo": ["Historia visible.", "Paisaje intacto."],
+    "parrafos": [
+      "El Santuario de La Virgen de la Vega se construyó sobre un asentamiento romano. Durante su restauración en 2009 se encontraron restos de un antiguo templo y de una villa romana, visibles hoy a través de un suelo de cristal pisable con iluminación interior.",
+      "Detrás del Santuario, un parque con chopos centenarios y la Fuente de La Riscla, dos caños con propiedades medicinales tradicionales, conectan con el entorno natural y con las rutas de senderismo de la comarca. La comarca Gúdar-Javalambre concentra algunos de los pueblos más valorados de España."
+    ],
+    "items": [
+      { "titulo": "Rubielos de Mora", "texto": "Uno de los pueblos más bonitos de España, a media hora." },
+      { "titulo": "Cabra de Mora", "texto": "Alberga la única réplica mundial de la Escala Santa de Roma." },
+      { "titulo": "Tronchón", "texto": "Famoso por sus quesos artesanales de tradición histórica." },
+      { "titulo": "Gúdar, Nogueruelas, Fortanete", "texto": "Pueblos con patrimonio medieval y entorno natural preservado." }
+    ]
+  },
+  "nodus": {
+    "titulo": ["Las mejores propiedades", "no llegan a los portales."],
+    "parrafos": [
+      "En entornos como La Virgen de la Vega, la mayoría de las operaciones se gestionan sin publicidad. El mercado funciona por confianza, por red local y por quien lleva tiempo trabajando la zona.",
+      "Nodus Real Estate gestiona pocas propiedades a la vez en la sierra turolense: casas de piedra, masías rehabilitadas y terrenos que no verás en los portales. Si estás pensando en comprar o en vender, el primer paso es hablar con nosotros."
+    ],
+    "servicios": [
+      { "titulo": "Compra de propiedades", "texto": "Acceso a inmuebles que no se publicitan. Casas de carácter, masías y terrenos en la sierra de Gúdar-Javalambre." },
+      { "titulo": "Venta discreta", "texto": "Gestionamos la venta sin exposición en portales cuando el cliente lo prefiere. Red de compradores cualificados." },
+      { "titulo": "Asesoramiento integral", "texto": "Desde la valoración hasta la firma. Acompañamiento completo en cada paso del proceso." },
+      { "titulo": "Inversión en la zona", "texto": "La sierra turolense ofrece rentabilidad en alquiler vacacional y revalorización a largo plazo. Lo analizamos contigo." }
+    ]
+  }
+}

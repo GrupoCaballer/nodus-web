@@ -129,7 +129,7 @@ export default function Ficha({ p }: { p: Propiedad }) {
                 {p.m2} m² · {p.habitaciones} hab. · {p.banos} {p.banos === 1 ? "baño" : "baños"}
               </p>
               {vendido ? (
-                <p className={styles.sold}>Esta vivienda ya se ha vendido. Si buscas algo parecido, cuéntanoslo y te avisamos antes de publicarlo.</p>
+                <p className={styles.sold}>Esta vivienda ya se ha vendido. Si buscas algo parecido, cuéntanoslo y lo buscamos contigo.</p>
               ) : (
                 <p className={styles.sideText}>Pide una visita o más información. Te llamamos en el día.</p>
               )}

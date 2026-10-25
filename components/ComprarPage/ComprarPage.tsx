@@ -120,9 +120,9 @@ export default function ComprarPage() {
       {destacadas.length > 0 && (
         <Section className={`container ${styles.pasos}`}>
           <div data-reveal="text">
-            <Heading strong="En venta ahora." muted="Y más que no publicamos." breakMuted />
+            <Heading strong="En venta ahora." muted="Pocas, y bien llevadas." breakMuted />
             <p className={styles.barrioText} style={{ marginTop: "3rem" }}>
-              Lo que ves aquí es solo una parte de lo que gestionamos. Si buscas algo concreto, escríbenos.
+              Llevamos pocas viviendas a la vez para dedicarles toda la atención. Si buscas algo concreto, escríbenos.
             </p>
             <div style={{ marginTop: "4rem" }}>
               <Button href="/propiedades">Ver todas las propiedades</Button>

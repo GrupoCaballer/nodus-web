@@ -18,3 +18,7 @@ vender-fachada https://www.pexels.com/photo/17574000/
 zona-albufera https://www.pexels.com/photo/33821489/
 zona-mercado https://www.pexels.com/photo/5756885/
 zona-turia https://www.pexels.com/photo/34815911/
+zona-campolivar https://www.pexels.com/photo/17627997/
+zona-torre-en-conill https://www.pexels.com/photo/13359834/
+zona-santa-barbara https://www.pexels.com/photo/17756217/
+zona-virgen-de-la-vega https://www.pexels.com/photo/6647518/
