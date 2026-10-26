@@ -45,7 +45,9 @@ export default function BlogList({ posts }: { posts: Post[] }) {
                 {p.resumen}
               </p>
               <div data-reveal="text">
-                <Button href={`/blog/${p.slug}`}>Leer más</Button>
+                <Button href={`/blog/${p.slug}`}>
+                  <span className="visually-hidden">{p.titulo}: </span>Leer más
+                </Button>
               </div>
             </div>
             <figure className={styles.fig} data-reveal="image">

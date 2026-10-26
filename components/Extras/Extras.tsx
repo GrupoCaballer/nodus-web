@@ -44,7 +44,9 @@ export default function Extras() {
             <Link href={c.href} className={styles.cardLink}>
               <Image src={c.img} alt={c.alt} fill sizes="(max-width: 768px) 100vw, 33vw" className={styles.img} />
               <h3 className={styles.cardTitle}>{c.title}</h3>
-              <span className={styles.more}>Saber más</span>
+              <span className={styles.more}>
+                <span className="visually-hidden">{c.title}: </span>Saber más
+              </span>
             </Link>
           </li>
         ))}

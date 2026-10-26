@@ -16,7 +16,7 @@ export function useIgnite(ref: RefObject<HTMLElement | null>) {
       const muted = el.querySelectorAll<HTMLElement>("[data-muted]");
       if (!muted.length) return;
 
-      const split = SplitText.create(muted, { type: "words" });
+      const split = SplitText.create(muted, { type: "words", aria: "none" });
       gsap.set(muted, { opacity: 1 });
       gsap.fromTo(
         split.words,

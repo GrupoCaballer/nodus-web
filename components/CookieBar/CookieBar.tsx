@@ -50,8 +50,8 @@ export default function CookieBar() {
   return (
     <div className={styles.bar} role="dialog" aria-label="Preferencias de cookies" data-lenis-prevent>
       <p className={styles.text}>
-        Usamos cookies necesarias para que la web funcione y, solo si usted lo acepta, cookies de analítica para
-        entender cómo se usa. <Link href="/cookies">Más información</Link>
+        Usamos cookies necesarias para que la web funcione y, solo si lo aceptas, cookies de analítica para
+        entender cómo se usa. <Link href="/cookies">Más información sobre cookies</Link>
       </p>
 
       {prefs && (

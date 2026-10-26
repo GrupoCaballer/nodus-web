@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import Heading from "@/components/ui/Heading";
+import LazyVideo from "@/components/ui/LazyVideo";
 import { gsap, useGSAP, prefersReducedMotion } from "@/components/motion/gsap";
 import styles from "./WhyNodus.module.css";
 
@@ -40,14 +41,10 @@ export default function WhyNodus() {
 
       <div className="container">
         <div className={styles.videoWrap} data-video>
-          <video
+          <LazyVideo
             className={styles.video}
             src="/video/valencia-aereo.mp4"
             poster="/video/valencia-aereo.webp"
-            autoPlay
-            muted
-            loop
-            playsInline
             aria-label="Vista aérea de València al atardecer"
           />
         </div>

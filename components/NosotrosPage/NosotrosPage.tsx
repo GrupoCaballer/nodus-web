@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRef } from "react";
 import Heading from "@/components/ui/Heading";
 import Button from "@/components/ui/Button";
+import LazyVideo from "@/components/ui/LazyVideo";
 import ContactForm from "@/components/ContactForm/ContactForm";
 import { useReveal } from "@/components/motion/useReveal";
 import { useIgnite } from "@/components/motion/useIgnite";
@@ -62,7 +63,7 @@ export default function NosotrosPage() {
     <>
       {/* Banner con vídeo */}
       <section className={styles.banner} data-header-over>
-        <video className={styles.video} src="/video/nosotros.mp4" poster="/video/nosotros.webp" autoPlay muted loop playsInline aria-hidden />
+        <LazyVideo eager className={styles.video} src="/video/nosotros.mp4" poster="/video/nosotros.webp" aria-hidden />
         <div className={`container ${styles.bannerText}`}>
           <p className={styles.eyebrow}>Nosotros · Godella, València</p>
           <h1 className={styles.h1}>

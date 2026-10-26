@@ -50,7 +50,9 @@ export default async function Page({ searchParams }: Search) {
                 </p>
                 <h2 className={styles.title}>{p.titulo}</h2>
                 <p className={styles.summary}>{p.resumen}</p>
-                <span className={styles.more}>Leer más →</span>
+                <span className={styles.more}>
+                  <span className="visually-hidden">{p.titulo}: </span>Leer más →
+                </span>
               </Link>
             </li>
           ))}

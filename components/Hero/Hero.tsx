@@ -70,7 +70,7 @@ export default function Hero() {
     <section ref={root} className={styles.root} data-header-over aria-label="Presentación">
       <div className={styles.top}>
         <div className={styles.back}>
-          <Image src="/hero/cielo.webp" alt="" fill priority sizes="100vw" className={styles.cover} />
+          <Image src="/hero/cielo.webp" alt="" fill priority sizes="100vw" quality={60} className={styles.cover} />
         </div>
 
         <div className={styles.house} data-house data-house-plain>
@@ -80,7 +80,8 @@ export default function Hero() {
             width={2200}
             height={898}
             priority
-            sizes="(max-width: 768px) 240vw, 104vw"
+            sizes="(max-width: 768px) 120vw, 100vw"
+            quality={70}
             className={styles.houseImg}
           />
         </div>
@@ -88,7 +89,7 @@ export default function Hero() {
         {/* Copia del edificio vista a través del logotipo */}
         <div className={styles.composite} data-composite aria-hidden>
           <div className={styles.house} data-house>
-            <Image src="/hero/edificio.webp" alt="" width={2200} height={898} sizes="(max-width: 768px) 300vw, 104vw" className={styles.houseImg} />
+            <Image src="/hero/edificio.webp" alt="" width={2200} height={898} sizes="(max-width: 768px) 120vw, 100vw" quality={70} className={styles.houseImg} />
           </div>
         </div>
 

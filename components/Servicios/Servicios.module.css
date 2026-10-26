@@ -28,7 +28,7 @@
   --my: 50%;
   position: relative;
   border-bottom: 1px solid var(--line-dark);
-  cursor: none;
+  cursor: pointer;
 }
 
 .link {
