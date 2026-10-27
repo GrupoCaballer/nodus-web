@@ -34,7 +34,7 @@ export default function WhyNodus() {
         <Heading
           ignite
           className={styles.heading}
-          strong="Tu vida cambia. No busques solo una casa: busca lo que viene después."
+          strong="Tu vida cambia. No busques solo una propiedad: busca lo que viene después."
           muted="Te ayudamos a avanzar con claridad, con criterio y con un asesor a tu lado."
         />
       </div>

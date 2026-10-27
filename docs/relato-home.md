@@ -12,10 +12,10 @@ La home tiene dos partes (decisión del equipo, 27-10-2026):
 | # | Capítulo (etiqueta) | Qué siente / entiende quien baja | Componente | CTA |
 |---|---|---|---|---|
 | 0 | — | **Intro**: el nudo, el cielo, el logotipo. Pantalla limpia. "El punto donde todo converge." | `Hero` | ninguno (la intro se come entera) |
-| 1 | — | **Gancho**: "¿Quieres comprar o vender una propiedad?" Dos caminos: imaginarte viviendo allí / imaginarte la visita con tu comprador ideal. | `Gancho` | Quiero comprar → /comprar · Quiero vender → /vender |
+| 1 | — | **Gancho**, para cualquiera con una propiedad en mente, sin separar aún comprador y vendedor: "Imagínate ya en el siguiente paso. Del camino nos ocupamos nosotros." Una propiedad es una mudanza, una inversión, un cambio de etapa. | `Gancho` | Cuéntanos tu caso → /contacto |
 | 2 | Quiénes somos | "No somos la agencia más grande. Somos la más fiable." Un párrafo, la frase "Ser la primera llamada" y cuatro cifras. Los valores completos viven en /nosotros. | `QuienesSomos` | Conocer al equipo → /nosotros |
-| 3 | Cómo trabajamos | "Tu vida cambia" con el vídeo de València y la experiencia a dos caras: **si compras** (habla con una persona → gana claridad → avanza) y **si vendes** (valoramos → presentamos y filtramos → cerramos). | `WhyNodus` + `Steps` | Empezar a buscar · Hablemos de la venta |
-| 4 | Por qué elegirnos | Comprar / Vender / Alquilar, una frase cada uno (filas que se abren), y una línea con lo que va más allá: reforma, financiación, inversión. | `Servicios` | Ver todos los servicios → /servicios |
+| 3 | Cómo trabajamos | "Tu vida cambia" con el vídeo de Valencia y nuestra forma de trabajar contada desde la experiencia: escuchamos antes de buscar → traducimos sensaciones en criterios → avanzamos contigo. Sin distinguir comprador y vendedor. | `WhyNodus` + `Experiencia` | — |
+| 4 | Por qué elegirnos | Aquí sí se separan los caminos: **si vendes** (valoramos → presentamos y filtramos → cerramos) y **si compras** (habla con una persona → gana claridad → avanza). Después las tres puertas Vender / Comprar / Alquilar y la línea con reforma, financiación y off market. | `Steps` + `Servicios` | Hablemos de la venta · Empezar a buscar · Ver todos los servicios |
 | 5 | Lo que dicen | Reseñas reales (`TODO-RESEÑA`). Aquí termina el recorrido (`data-story-end`). | `Testimonios` | — |
 | — | — | **Cierre**: "Encuentra tu sitio. Te acompañamos hasta la firma." | `CtaFinal` | Hablemos → /contacto |
 
@@ -44,7 +44,7 @@ Propiedades · Vender · Comprar · Zonas · Servicios · Blog · **Hablemos** (
 
 ## Páginas interiores (misma lógica de capítulos)
 
-Cada capítulo con su etiqueta dorada; textos en tú, hasta 35–40 palabras por punto; "Valencia" sin acento.
+Cada capítulo con su etiqueta dorada; textos en tú, hasta 35–40 palabras por punto; "Valencia" sin acento; se habla de **propiedades**, no de casas, pisos ni activos (salvo en los títulos de cada anuncio).
 
 **Vender** (prioridad de Nodus): hero con cuatro promesas → barra de prueba (cifras, TODO-DATO) → *Cómo funciona* (seis pasos de la web antigua, ampliados) → *El barrio* (zonas + situaciones particulares) → *La web de tu casa* → *Incluido* (web con esencia propia, vídeo y dron, home staging, visitas filtradas) + condiciones (alcance y honorarios por escrito antes de empezar; el modelo sin exclusiva / 2 meses / 0 € queda aparcado hasta que se decida) → reseñas → *Preguntas* → *Hablemos* (formulario).
 

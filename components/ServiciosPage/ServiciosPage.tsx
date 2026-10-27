@@ -16,7 +16,7 @@ const SERVICIOS = [
     id: "renders",
     label: "Renders y reforma",
     titulo: "¿Quieres imaginarte tu casa reformada?",
-    texto: "Si la vivienda que te gusta necesita obra, antes de comprar te presentamos renders de cómo quedará y un presupuesto de obra. Así decides con la casa terminada delante, no con la que hay hoy. TODO-TEXTO: ampliar con el proceso y un caso real.",
+    texto: "Si la vivienda que te gusta necesita obra, antes de comprar te presentamos renders de cómo quedará y un presupuesto de obra. Así decides con la propiedad terminada delante, no con la que hay hoy. TODO-TEXTO: ampliar con el proceso y un caso real.",
     img: "/fotos/extra-reforma.webp",
     alt: "Arquitectura contemporánea de líneas geométricas en Valencia",
     cta: { href: "/comprar", label: "Comprar con Nodus" },
@@ -52,7 +52,7 @@ const SERVICIOS = [
     id: "inversion",
     label: "Inversión",
     titulo: "Una operación bien estructurada da resultados a largo plazo.",
-    texto: "Análisis de rentabilidad, selección de activos y seguimiento de la inversión. Presentación de operaciones a fondos y family offices: dossier, LOI y due diligence, en Valencia, Comunitat Valenciana, España, Portugal y Andorra.",
+    texto: "Análisis de rentabilidad, selección de propiedades y seguimiento de la inversión. Presentación de operaciones a fondos y family offices: dossier, LOI y due diligence, en Valencia, Comunitat Valenciana, España, Portugal y Andorra.",
     img: "/fotos/extra-inversion.webp",
     alt: "Plaza del Ayuntamiento de Valencia con gente paseando",
     cta: { href: "/contacto", label: "Hablar de una operación" },
@@ -78,7 +78,7 @@ function Section({ children, className, id }: { children: React.ReactNode; class
   );
 }
 
-/** /servicios — lo que hace Nodus más allá de enseñar casas: renders, valoración, off market, broker, inversión, alquiler. */
+/** /servicios — lo que hace Nodus más allá de enseñar propiedades: renders, valoración, off market, broker, inversión, alquiler. */
 export default function ServiciosPage() {
   return (
     <>

@@ -52,7 +52,7 @@
   inset: 0;
   z-index: 1;
   opacity: 0;
-  background: var(--gold);
+  background: var(--ink-dark);
   mask-image: url("/logo/nodus-logo-negro.svg");
   -webkit-mask-image: url("/logo/nodus-logo-negro.svg");
   mask-repeat: no-repeat;
@@ -96,7 +96,7 @@
 .knotStroke,
 .letterStroke {
   fill: none;
-  stroke: var(--gold);
+  stroke: var(--ink-dark);
   stroke-linecap: round;
   stroke-linejoin: round;
 }

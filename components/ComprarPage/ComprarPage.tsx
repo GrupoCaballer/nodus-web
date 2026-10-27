@@ -94,7 +94,7 @@ export default function ComprarPage() {
             jardín, la vuelta a casa. Conocemos cada zona como quien vive en ella y te contamos lo que no sale en el anuncio.
           </p>
           <p data-reveal="text">
-            También cuenta lo que viene después para ti: una mudanza, una reforma, vender la casa en la que estás ahora. Por eso
+            También cuenta lo que viene después para ti: una mudanza, una reforma, vender la propiedad en la que vives ahora. Por eso
             empezamos escuchando, y la búsqueda se construye alrededor de eso.
           </p>
           <ul className={styles.zonasList} data-reveal="text">

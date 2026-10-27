@@ -10,7 +10,7 @@ import styles from "./Steps.module.css";
 const VENTA = [
   {
     strong: "Valoramos con criterio.",
-    rest: "Visitamos tu casa, estudiamos las comparables de tu zona y te explicamos qué sostiene el precio propuesto y qué puede condicionar la negociación.",
+    rest: "Visitamos tu propiedad, estudiamos las comparables de tu zona y te explicamos qué sostiene el precio propuesto y qué puede condicionar la negociación.",
   },
   {
     strong: "Presentamos y filtramos.",
@@ -37,7 +37,7 @@ const COMPRA = [
   },
 ];
 
-/** Cómo trabajamos, a dos caras: primero la experiencia de quien vende, después la de quien compra. */
+/** Por qué elegirnos, a dos caras: primero quien vende, después quien compra. */
 export default function Steps() {
   const root = useRef<HTMLElement>(null);
   useReveal(root);
@@ -64,9 +64,10 @@ export default function Steps() {
   );
 
   return (
-    <section ref={root} className={`container ${styles.root}`} id="como-trabajamos">
+    <section ref={root} className={`container ${styles.root}`} id="por-que-elegirnos">
       <div className={styles.head} data-reveal="text">
-        <Heading strong="Inmobiliaria," muted="reconectada." breakMuted />
+        <p className={styles.label}>Por qué elegirnos</p>
+        <Heading strong="Si vendes, si compras." muted="Un equipo para cada camino." breakMuted />
         <p className={styles.lead}>
           Tres pasos si vendes, tres si compras. Una persona que escucha, un plan acordado antes de empezar y cada paso
           conectado con el siguiente. Así es como la intermediación vuelve a ser un trabajo limpio.

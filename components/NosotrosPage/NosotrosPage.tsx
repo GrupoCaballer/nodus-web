@@ -38,7 +38,7 @@ const EXTRAS = [
   {
     id: "inversion",
     titulo: "Inversión",
-    texto: "Análisis de rentabilidad, selección de activos y seguimiento de la inversión. Una operación bien estructurada da resultados a largo plazo. Presentación de operaciones a fondos y family offices: dossier, LOI y due diligence.",
+    texto: "Análisis de rentabilidad, selección de propiedades y seguimiento de la inversión. Una operación bien estructurada da resultados a largo plazo. Presentación de operaciones a fondos y family offices: dossier, LOI y due diligence.",
     img: "/fotos/extra-inversion.webp",
     alt: "Plaza del Ayuntamiento de Valencia con gente paseando",
   },

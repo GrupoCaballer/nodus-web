@@ -16,6 +16,9 @@
   background: transparent;
   color: var(--ink-dark);
 }
+.over .logo {
+  color: var(--ink-dark);
+}
 
 .hidden {
   transform: translateY(-100%);
