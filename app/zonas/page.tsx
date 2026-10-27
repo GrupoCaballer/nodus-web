@@ -8,7 +8,7 @@ import styles from "./page.module.css";
 export const metadata: Metadata = {
   title: "Zonas: dónde trabajamos",
   description:
-    "Guías de Godella, Rocafort, Bétera, Paterna y La Virgen de la Vega, urbanización a urbanización: mercado, servicios, accesos y las viviendas que no se publican.",
+    "Guías de Godella, Rocafort, Bétera, Paterna y La Virgen de la Vega, urbanización a urbanización: cómo se vive, qué hay cerca, accesos y las propiedades que tenemos ahora.",
   alternates: { canonical: "/zonas" },
 };
 
@@ -19,7 +19,8 @@ export default function Page() {
       <section className={`container ${styles.head}`}>
         <Heading as="h1" strong="Dónde trabajamos." muted="Guías con datos, no con adjetivos." breakMuted />
         <p>
-          Mercado, servicios, accesos y lo que no se publica, municipio a municipio y urbanización a urbanización. Empezamos por los que mejor conocemos.
+          Cómo se vive en cada sitio, qué hay cerca, cuánto se tarda y qué propiedades tenemos ahora, municipio a municipio y
+          urbanización a urbanización. Contado como lo contaría alguien que vive allí. Empezamos por los que mejor conocemos.
         </p>
       </section>
 
@@ -68,7 +69,7 @@ export default function Page() {
             </div>
           ))}
         </div>
-        <p className={styles.note}>Las zonas sin guía todavía también se trabajan. Si tu casa está en una de ellas, <Link href="/vender#contacto">cuéntanoslo</Link>.</p>
+        <p className={styles.note}>Las zonas sin guía todavía también se trabajan. Si tu propiedad está en una de ellas, <Link href="/vender#contacto">cuéntanoslo</Link>.</p>
       </section>
     </div>
   );

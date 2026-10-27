@@ -7,7 +7,7 @@
     "Vivir en la sierra",
     "turolense."
   ],
-  "intro": "La Virgen de la Vega atrae a quienes buscan verano sin calor, invierno con carácter y distancia real de las ciudades. Nodus Real Estate conoce el mercado local y gestiona propiedades que no se publican.",
+  "intro": "La Virgen de la Vega atrae a quienes buscan verano sin calor, invierno con carácter y distancia real de las ciudades. Nodus Real Estate conoce el mercado local y conoce la urbanización como quien sube cada fin de semana.",
   "foto": {
     "src": "/fotos/zona-virgen-de-la-vega.webp",
     "alt": "Paisaje de montaña con bosque de pinos en la sierra de Teruel",
@@ -162,29 +162,29 @@
   },
   "nodus": {
     "titulo": [
-      "Las mejores propiedades",
-      "no llegan a los portales."
+      "La Virgen de la Vega,",
+      "desde Valencia y desde la sierra."
     ],
     "parrafos": [
-      "En entornos como La Virgen de la Vega, la mayoría de las operaciones se gestionan sin publicidad. El mercado funciona por confianza, por red local y por quien lleva tiempo trabajando la zona.",
-      "Nodus Real Estate gestiona pocas propiedades a la vez en la sierra turolense: casas de piedra, masías rehabilitadas y terrenos que no verás en los portales. Si estás pensando en comprar o en vender, el primer paso es hablar con nosotros."
+      "Nodus lleva propiedades en La Virgen de la Vega porque muchos de sus compradores salen de Valencia: familias que buscan segunda residencia a hora y cuarto, cerca de Valdelinares y del golf. Conocemos la urbanización, el Santuario y la senda del río como quien sube cada fin de semana.",
+      "Si buscas propiedad en la sierra, te contamos lo que no sale en el anuncio: orientación, calefacción, acceso en invierno. Si vendes, la presentamos con una web con esencia propia, vídeo y visitas filtradas a compradores que ya buscan aquí."
     ],
     "servicios": [
       {
-        "titulo": "Compra de propiedades",
-        "texto": "Acceso a inmuebles que no se publicitan. Casas de carácter, masías y terrenos en la sierra de Gúdar-Javalambre."
+        "titulo": "Comprar en la sierra",
+        "texto": "Chalets, adosados y pisos en la urbanización, de piedra y madera. Desde la primera visita hasta las llaves, con la hipoteca estudiada antes."
       },
       {
-        "titulo": "Venta discreta",
-        "texto": "Gestionamos la venta sin exposición en portales cuando el cliente lo prefiere. Red de compradores cualificados."
+        "titulo": "Vender en la sierra",
+        "texto": "Valoración con las comparables reales de la zona, web con esencia propia, vídeo y solo visitas de compradores con capacidad real, muchos desde Valencia."
+      },
+      {
+        "titulo": "Financiación",
+        "texto": "Broker hipotecario y, en algunas de nuestras propiedades, financiación con condiciones preferentes a través de Bayteca."
       },
       {
         "titulo": "Asesoramiento integral",
-        "texto": "Desde la valoración hasta la firma. Acompañamiento completo en cada paso del proceso."
-      },
-      {
-        "titulo": "Inversión en la zona",
-        "texto": "La sierra turolense ofrece rentabilidad en alquiler vacacional y revalorización a largo plazo. Lo analizamos contigo."
+        "texto": "Valoración, financiación y acompañamiento hasta la notaría, aunque la firma sea en Teruel y tú estés en Valencia."
       }
     ]
   },

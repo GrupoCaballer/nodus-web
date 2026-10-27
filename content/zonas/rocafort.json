@@ -218,21 +218,21 @@
   ],
   "nodus": {
     "titulo": [
-      "Pocas casas.",
-      "Las que merecen la pena."
+      "Rocafort, al lado de casa.",
+      "Lo conocemos como vecinos."
     ],
     "parrafos": [
-      "En Santa Bárbara la oferta es corta y la demanda, estable. Las casas cambian de manos entre familias que ya conocen la urbanización, muchas veces sin anuncio.",
-      "Nodus Real Estate está en Godella, al lado, y lleva pocas viviendas a la vez en Rocafort, con web propia, vídeo con dron y visitas filtradas. Si buscas en Santa Bárbara o quieres vender, empezamos por una conversación."
+      "Nodus está en Godella, a cinco minutos. Santa Bárbara, el casco y las demás urbanizaciones de Rocafort son parte de nuestro día a día: sabemos qué calles están más tranquilas, dónde están los colegios y cuánto se tarda de verdad al metro.",
+      "Si buscas propiedad en Rocafort, te contamos lo que no sale en el anuncio. Si vendes, la presentamos con una web con esencia propia, vídeo con dron y visitas filtradas a compradores que ya conocen la zona."
     ],
     "servicios": [
       {
-        "titulo": "Compra de propiedades",
-        "texto": "Chalets en parcela dentro de la urbanización y casas en el resto de Rocafort. Acceso a viviendas que no se publican."
+        "titulo": "Comprar en Rocafort",
+        "texto": "Chalets en parcela dentro de Santa Bárbara y propiedades en el resto del municipio. Desde la primera visita hasta las llaves, con la hipoteca estudiada antes."
       },
       {
-        "titulo": "Venta discreta",
-        "texto": "Venta sin exposición pública cuando el propietario lo prefiere, con compradores cualificados de la zona."
+        "titulo": "Vender en Rocafort",
+        "texto": "Valoración con las comparables reales de la urbanización, web con esencia propia, vídeo con dron y solo visitas de compradores con capacidad real."
       },
       {
         "titulo": "Reforma y renders",
@@ -240,7 +240,7 @@
       },
       {
         "titulo": "Asesoramiento integral",
-        "texto": "Valoración, financiación con broker y acompañamiento hasta la notaría."
+        "texto": "Valoración, financiación con broker y acompañamiento hasta la notaría. Una persona por operación, de principio a fin."
       }
     ]
   }

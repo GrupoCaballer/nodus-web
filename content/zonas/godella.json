@@ -65,7 +65,7 @@
     "items": [
       {
         "nombre": "Campolivar",
-        "texto": "La urbanización de referencia. Chalets en parcelas con arbolado maduro alrededor del Castillo-Masía de San Fernando (1864), el British School Los Olivos y el Godellabus que baja al pueblo. Zona de familias que llegan para quedarse; la oferta visible en portales es corta y muchas casas cambian de mano por recomendación.",
+        "texto": "La urbanización de referencia. Chalets en parcelas con arbolado maduro alrededor del Castillo-Masía de San Fernando (1864), el British School Los Olivos y el Godellabus que baja al pueblo. Zona de familias que llegan para quedarse; la oferta es corta y muchas propiedades cambian de mano por recomendación.",
         "foto": "/fotos/zona-campolivar.webp",
         "alt": "Chalet con jardín en Campolivar"
       },
@@ -224,29 +224,29 @@
   ],
   "nodus": {
     "titulo": [
-      "Las mejores casas",
-      "no se anuncian."
+      "Nodus está en Godella.",
+      "Y se nota."
     ],
     "parrafos": [
-      "En Campolivar y en Godella, las operaciones más interesantes rara vez aparecen en los portales. Las familias que llevan años en la zona se mueven por recomendación, y los propietarios que quieren vender prefieren hacerlo sin exposición pública.",
-      "Nodus Real Estate tiene su oficina en Godella y trabaja el pueblo con pocas viviendas a la vez: chalets, casas con jardín y propiedades singulares que no verás publicadas. Si estás buscando o quieres vender, el primer paso es hablar con nosotros."
+      "Nuestra oficina está en el pueblo. Conocemos Campolivar calle a calle, sabemos qué parcelas dan al mar y cuáles al Garbí, qué colegio queda a cinco minutos andando y por dónde entra el sol en cada tramo del casco.",
+      "Si buscas propiedad en Godella, te contamos lo que no sale en el anuncio. Si vendes, la presentamos con una web con esencia propia, vídeo con dron y visitas filtradas, y la enseñamos a quien de verdad quiere vivir aquí."
     ],
     "servicios": [
       {
-        "titulo": "Compra de propiedades",
-        "texto": "Acceso a chalets y casas con jardín en Campolivar y Godella que no se publican. Zona de alta demanda y oferta limitada en portales."
+        "titulo": "Comprar en Godella",
+        "texto": "Chalets en Campolivar, casas con jardín y villas del casco. Te acompañamos desde la primera visita hasta las llaves, con la hipoteca estudiada antes."
       },
       {
-        "titulo": "Venta discreta",
-        "texto": "Gestionamos ventas sin exposición pública para propietarios que prefieren la discreción. Red de compradores cualificados en la zona."
+        "titulo": "Vender en Godella",
+        "texto": "Valoración con las comparables reales de la zona, web con esencia propia, vídeo con dron y solo visitas de compradores con capacidad real."
+      },
+      {
+        "titulo": "Reforma y renders",
+        "texto": "Muchas villas y chalets piden actualización. Renders y presupuesto de obra antes de comprar, para decidir con la propiedad terminada delante."
       },
       {
         "titulo": "Asesoramiento integral",
-        "texto": "Desde la valoración hasta la firma. Acompañamiento completo en cada paso del proceso."
-      },
-      {
-        "titulo": "Inversión en la zona",
-        "texto": "Godella mantiene una demanda estable y precios sostenidos. Analizamos contigo el potencial de cada operación."
+        "texto": "Valoración, financiación con broker y acompañamiento legal y fiscal hasta la notaría. Una persona por operación, de principio a fin."
       }
     ]
   }

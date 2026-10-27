@@ -23,7 +23,7 @@ function Section({ children, className, id, label }: { children: React.ReactNode
   );
 }
 
-/** Guía de zona: plantilla de las guías actuales de Nodus, ampliada con inmuebles en la zona. */
+/** Guía de zona por municipio, con sus urbanizaciones, contada como la contaría un residente de toda la vida. */
 export default function Guia({ g }: { g: GuiaT }) {
   const hero = useRef<HTMLElement>(null);
   const inmuebles = PROPIEDADES.filter((p) => (p.zona === g.slug || g.zonas.includes(p.zona)) && p.estado !== "vendido");
@@ -66,10 +66,10 @@ export default function Guia({ g }: { g: GuiaT }) {
           )}
           <div className={styles.heroActions}>
             <Button href="#contacto" tone="light">
-              Propiedades off market
+              Hablemos
             </Button>
-            <Link href="#contacto" className={styles.heroLink}>
-              Contactar
+            <Link href="/propiedades" className={styles.heroLink}>
+              Ver propiedades
             </Link>
           </div>
           {g.foto.credito && !g.video && <p className={styles.credit}>{g.foto.credito}</p>}
@@ -233,7 +233,8 @@ export default function Guia({ g }: { g: GuiaT }) {
       {inmuebles.length > 0 && (
         <Section className={`container ${styles.inmuebles}`}>
           <div className={styles.inmueblesHead} data-reveal="text">
-            <Heading strong={`Inmuebles en ${g.nombre}.`} muted="Pocos, y bien llevados." breakMuted />
+            <p className={styles.label}>Propiedades</p>
+            <Heading strong={`Propiedades en ${g.nombre}.`} muted="Las que hay ahora." breakMuted />
             <Button href="/propiedades">Ver todas las propiedades</Button>
           </div>
           <ul className={styles.inmueblesList} data-reveal="text">
@@ -275,9 +276,13 @@ export default function Guia({ g }: { g: GuiaT }) {
       <Section id="contacto" className={`container ${styles.contacto}`}>
         <div className={styles.contactoText}>
           <div data-reveal="text">
-            <Heading strong={`¿Buscas en ${g.nombre}`} muted="o quieres vender la tuya?" breakMuted />
+            <p className={styles.label}>Hablemos</p>
+            <Heading strong={`¿Buscas propiedad en ${g.nombre}`} muted="o vendes la tuya?" breakMuted />
           </div>
-          <p data-reveal="text">Cuéntanos qué necesitas. Te acompañamos en cada paso, sin compromisos en el primer contacto.</p>
+          <p data-reveal="text">
+            Cuéntanos qué necesitas: la zona, la propiedad que tienes en mente o la que quieres vender. Te acompañamos en cada
+            paso, sin compromisos en el primer contacto.
+          </p>
         </div>
         <div data-reveal="text">
           <ContactForm origen={`Zona · ${g.nombre}`} conVivienda cta="Hablar con Nodus" />
