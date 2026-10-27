@@ -4,7 +4,7 @@ import NosotrosPage from "@/components/NosotrosPage/NosotrosPage";
 export const metadata: Metadata = {
   title: "Nosotros: equipo y forma de trabajar",
   description:
-    "Nodus Real Estate es una agencia de Godella (Valencia) que lleva pocas viviendas a la vez para dedicarles toda la atención. Equipo, valores, reforma con renders, financiación e inversión.",
+    "Nodus Real Estate es una agencia joven de Godella (Valencia): el punto donde se encuentran quien vende y quien compra. Equipo, valores y forma de trabajar.",
   alternates: { canonical: "/nosotros" },
 };
 

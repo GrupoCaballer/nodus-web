@@ -20,30 +20,6 @@ const VALORES = [
   { titulo: "Eficiencia", texto: "Respetamos el tiempo de nuestros clientes. Sin burocracia innecesaria." },
 ];
 
-const EXTRAS = [
-  {
-    id: "reforma",
-    titulo: "Reforma y renders",
-    texto: "Reforma con renders y presupuesto de obra para quien compra una vivienda que necesita obra. TODO-TEXTO: ampliar con el texto de Nodus.",
-    img: "/fotos/extra-reforma.webp",
-    alt: "Arquitectura contemporánea de líneas geométricas en Valencia",
-  },
-  {
-    id: "financiacion",
-    titulo: "Financiación",
-    texto: "Asesoría legal, fiscal y financiera coordinada. Resolvemos la complejidad para que el cliente solo tenga que tomar decisiones informadas. Broker financiero para llegar con la hipoteca estudiada.",
-    img: "/fotos/extra-financiacion.webp",
-    alt: "Edificio histórico de fachada ornamentada en Valencia",
-  },
-  {
-    id: "inversion",
-    titulo: "Inversión",
-    texto: "Análisis de rentabilidad, selección de propiedades y seguimiento de la inversión. Una operación bien estructurada da resultados a largo plazo. Presentación de operaciones a fondos y family offices: dossier, LOI y due diligence.",
-    img: "/fotos/extra-inversion.webp",
-    alt: "Plaza del Ayuntamiento de Valencia con gente paseando",
-  },
-];
-
 function Section({ children, className, id }: { children: React.ReactNode; className?: string; id?: string }) {
   const ref = useRef<HTMLElement>(null);
   useReveal(ref);
@@ -54,7 +30,7 @@ function Section({ children, className, id }: { children: React.ReactNode; class
   );
 }
 
-/** /nosotros — banner con vídeo, quiénes somos, valores, equipo, reforma / financiación / inversión (docs/interiores.md §6). */
+/** /nosotros — banner con vídeo, quiénes somos, frase, valores, equipo, enlace a Servicios y contacto. */
 export default function NosotrosPage() {
   const quote = useRef<HTMLParagraphElement>(null);
   useIgnite(quote);
@@ -83,12 +59,13 @@ export default function NosotrosPage() {
             esté conectada con la siguiente.
           </p>
           <p data-reveal="text">
-            Una operación inmobiliaria raramente es solo una transacción. Es una mudanza, una inversión, un cambio de etapa.
-            Nuestro trabajo empieza donde empieza esa complejidad.
+            Somos un equipo joven y vanguardista de Valencia. Sin miedo a hacer las cosas de otra manera y con dominio de las
+            nuevas tecnologías: una web con esencia propia para cada propiedad, vídeo, renders y datos reales en cada decisión.
           </p>
           <p data-reveal="text">
-            Llevamos pocas viviendas a la vez, a propósito: cada una sale con su web, su vídeo y sus visitas filtradas, y se
-            vende antes de captar la siguiente.
+            Una operación inmobiliaria raramente es solo una transacción. Es una mudanza, una inversión, un cambio de etapa.
+            Nuestro trabajo empieza donde empieza esa complejidad: somos el punto donde se encuentran quien vende y quien
+            compra, y donde la intermediación vuelve a ser un trabajo limpio, eficaz y satisfactorio para los dos.
           </p>
         </div>
       </Section>
@@ -107,7 +84,7 @@ export default function NosotrosPage() {
       <Section className={styles.valores}>
         <div className="container">
           <div data-reveal="text">
-            <p className={styles.labelDark}>Cómo trabajamos</p>
+            <p className={styles.labelDark}>Lo que no negociamos</p>
             <Heading tone="dark" strong="Cuatro cosas" muted="que no negociamos." breakMuted />
           </div>
           <ul className={styles.valoresList}>
@@ -124,7 +101,8 @@ export default function NosotrosPage() {
       {/* Equipo */}
       <Section className={`container ${styles.equipo}`} id="equipo">
         <div className={styles.equipoHead} data-reveal="text">
-          <Heading strong="El equipo." muted="Una persona por operación, de principio a fin." breakMuted />
+          <p className={styles.label}>El equipo</p>
+          <Heading strong="Una persona por operación," muted="de principio a fin." breakMuted />
         </div>
         <ul className={styles.equipoList}>
           {equipo.map((m) => (
@@ -155,36 +133,32 @@ export default function NosotrosPage() {
         </ul>
       </Section>
 
-      {/* Reforma / Financiación / Inversión */}
+      {/* Lo que hacemos: remite a Servicios en vez de repetirlo */}
       <Section className={`container ${styles.extras}`}>
         <div data-reveal="text">
-          <Heading strong="Mucho más que" muted="comprar y vender." breakMuted />
+          <p className={styles.label}>Lo que hacemos</p>
+          <Heading strong="Mucho más que" muted="enseñar propiedades." breakMuted />
         </div>
-        <ol className={styles.extrasList}>
-          {EXTRAS.map((e, i) => (
-            <li key={e.id} id={e.id} className={`${styles.extra} ${i % 2 ? styles.extraAlt : ""}`}>
-              <figure className={styles.extraFig} data-reveal="image">
-                <Image src={e.img} alt={e.alt} fill sizes="(max-width: 768px) 100vw, 50vw" className={styles.cover} />
-              </figure>
-              <div className={styles.extraText}>
-                <h3 data-reveal="text">{e.titulo}</h3>
-                <p data-reveal="text">{e.texto}</p>
-                <div data-reveal="text">
-                  <Button href="/contacto">Hablemos</Button>
-                </div>
-              </div>
-            </li>
-          ))}
-        </ol>
+        <p className={styles.extrasText} data-reveal="text">
+          Valoración y venta, renders y presupuesto antes de reformar, broker hipotecario, alquiler por habitaciones y, aparte,
+          operaciones off market e inversión. Cada servicio, explicado en su página.
+        </p>
+        <div data-reveal="text">
+          <Button href="/servicios">Ver todos los servicios</Button>
+        </div>
       </Section>
 
       {/* Contacto */}
       <Section id="contacto" className={`container ${styles.contacto}`}>
         <div className={styles.contactoText}>
           <div data-reveal="text">
+            <p className={styles.label}>Hablemos</p>
             <Heading strong="Cuéntanos qué necesitas." />
           </div>
-          <p data-reveal="text">Te acompañamos en cada paso, sin complicaciones. Sin compromisos en el primer contacto.</p>
+          <p data-reveal="text">
+            Te acompañamos en cada paso, sin complicaciones y sin compromisos en el primer contacto. Si prefieres hablar con
+            alguien concreto, arriba tienes el correo de cada persona del equipo.
+          </p>
           <p data-reveal="text">
             <a href={`mailto:${SITE.email}`} className="link-underline">
               {SITE.email}

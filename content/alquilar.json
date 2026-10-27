@@ -1,55 +1,109 @@
 {
   "eyebrow": "Alquiler por habitaciones · Valencia",
-  "titulo": ["Tu vivienda, habitación a habitación.", "La gestión, en nuestras manos."],
-  "intro": "Gestión de alquiler por habitaciones en Valencia. Desde preparar una propiedad vacía hasta encargarnos de uno que ya está alquilado: conectamos cada parte del proceso para que puedas delegar con información y criterio.",
+  "titulo": [
+    "Tu propiedad, habitación a habitación.",
+    "La gestión, en nuestras manos."
+  ],
+  "intro": "Gestión de alquiler por habitaciones en Valencia. Desde preparar una propiedad vacía hasta encargarnos de una que ya está alquilada: conectamos cada parte del proceso para que puedas delegar con información y criterio.",
   "partida": {
-    "titulo": ["Cada piso necesita", "una forma de empezar."],
+    "titulo": [
+      "Cada propiedad necesita",
+      "una forma de empezar."
+    ],
     "items": [
-      { "titulo": "Tienes un piso sin alquilar", "texto": "Quieres ponerlo en funcionamiento, pero faltan decisiones: qué preparar, cómo anunciarlo o a quién alquilar. Te ayudamos a ordenar los pasos y coordinamos la puesta en marcha." },
-      { "titulo": "Ya alquilas y quieres delegar", "texto": "Las visitas, los cobros y las incidencias ocupan tiempo. Asumimos la gestión cotidiana de tu vivienda y te informamos de las decisiones que requieren tu atención." }
+      {
+        "titulo": "Tienes una propiedad sin alquilar",
+        "texto": "Quieres ponerlo en funcionamiento, pero faltan decisiones: qué preparar, cómo anunciarlo o a quién alquilar. Te ayudamos a ordenar los pasos y coordinamos la puesta en marcha."
+      },
+      {
+        "titulo": "Ya alquilas y quieres delegar",
+        "texto": "Las visitas, los cobros y las incidencias ocupan tiempo. Asumimos la gestión cotidiana de tu propiedad y te informamos de las decisiones que requieren tu atención."
+      }
     ]
   },
   "planes": {
-    "titulo": ["Elige qué", "necesitas delegar."],
+    "titulo": [
+      "Elige qué",
+      "necesitas delegar."
+    ],
     "texto": "Tres servicios que puedes contratar por separado o combinar. Definimos contigo el alcance y el presupuesto antes de empezar.",
     "items": [
       {
         "nombre": "Puesta en marcha",
-        "texto": "Revisamos la vivienda y definimos qué necesita para empezar a alquilar. Coordinamos reparaciones, pintura y equipamiento, con un presupuesto acordado antes de actuar.",
-        "incluye": ["Revisión del estado de la propiedad", "Coordinación de trabajos y reparaciones", "Preparación de habitaciones y zonas comunes"],
+        "texto": "Revisamos la propiedad y definimos qué necesita para empezar a alquilar. Coordinamos reparaciones, pintura y equipamiento, con un presupuesto acordado antes de actuar.",
+        "incluye": [
+          "Revisión del estado de la propiedad",
+          "Coordinación de trabajos y reparaciones",
+          "Preparación de habitaciones y zonas comunes"
+        ],
         "precio": "Desde 500 €",
         "nota": "Presupuesto personalizado; obras y equipamiento aparte."
       },
       {
         "nombre": "Comercialización",
         "texto": "Preparamos el anuncio, atendemos las consultas y organizamos las visitas. Revisamos los perfiles y su solvencia para proponerte candidatos y coordinar la contratación y la entrada.",
-        "incluye": ["Publicación de anuncios y visitas", "Selección de candidatos y revisión de solvencia", "Coordinación del contrato y entrega de llaves"],
+        "incluye": [
+          "Publicación de anuncios y visitas",
+          "Selección de candidatos y revisión de solvencia",
+          "Coordinación del contrato y entrega de llaves"
+        ],
         "precio": "1 mes de alquiler + IVA",
         "nota": "Por habitación comercializada."
       },
       {
         "nombre": "Gestión total",
-        "texto": "Centralizamos la relación con los inquilinos y el seguimiento de los cobros. Atendemos incidencias, coordinamos el mantenimiento y te mantenemos al tanto de lo que ocurre en tu vivienda.",
-        "incluye": ["Seguimiento de mensualidades", "Comunicación con inquilinos y atención de incidencias", "Coordinación de mantenimiento y reparaciones"],
+        "texto": "Centralizamos la relación con los inquilinos y el seguimiento de los cobros. Atendemos incidencias, coordinamos el mantenimiento y te mantenemos al tanto de lo que ocurre en tu propiedad.",
+        "incluye": [
+          "Seguimiento de mensualidades",
+          "Comunicación con inquilinos y atención de incidencias",
+          "Coordinación de mantenimiento y reparaciones"
+        ],
         "precio": "10 % del alquiler mensual + IVA",
         "nota": "Reparaciones y materiales aparte."
       }
     ]
   },
   "pasos": {
-    "titulo": ["Una gestión conectada.", "Un equipo al que acudir."],
-    "texto": "La preparación del inmueble, la entrada de los inquilinos y el mantenimiento forman parte del mismo proceso. Los coordinamos con una visión conjunta de tu vivienda.",
+    "titulo": [
+      "Una gestión conectada.",
+      "Un equipo al que acudir."
+    ],
+    "texto": "La preparación de la propiedad, la entrada de los inquilinos y el mantenimiento forman parte del mismo proceso. Los coordinamos con una visión conjunta de tu propiedad.",
     "items": [
-      { "titulo": "Primero, conocemos tu propiedad.", "texto": "Nos cuentas su ubicación, estado y situación actual. Revisamos qué necesitas y qué podemos asumir." },
-      { "titulo": "Después, acordamos el plan.", "texto": "Te proponemos las actuaciones, el alcance del servicio y sus costes. Tú decides antes de empezar." },
-      { "titulo": "Durante la gestión, te informamos.", "texto": "Centralizamos la comunicación y coordinamos el trabajo diario. Las decisiones y los gastos quedan claros." }
+      {
+        "titulo": "Primero, conocemos tu propiedad.",
+        "texto": "Nos cuentas su ubicación, estado y situación actual. Revisamos qué necesitas y qué podemos asumir."
+      },
+      {
+        "titulo": "Después, acordamos el plan.",
+        "texto": "Te proponemos las actuaciones, el alcance del servicio y sus costes. Tú decides antes de empezar."
+      },
+      {
+        "titulo": "Durante la gestión, te informamos.",
+        "texto": "Centralizamos la comunicación y coordinamos el trabajo diario. Las decisiones y los gastos quedan claros."
+      }
     ]
   },
   "faq": [
-    { "pregunta": "¿Puedo contratar solo la gestión de una propiedad que ya está alquilada?", "respuesta": "Sí. Revisamos contigo la ocupación, los contratos y las necesidades de la propiedad para organizar el relevo. Puedes contratar la preparación, la comercialización o la gestión según tu situación." },
-    { "pregunta": "¿Cómo seleccionáis a los inquilinos?", "respuesta": "Revisamos las necesidades de cada candidato, la documentación que aporta y su solvencia. También tenemos en cuenta la convivencia y las características de la vivienda antes de proponerte un perfil." },
-    { "pregunta": "¿Cuánto puedo ingresar por mi vivienda?", "respuesta": "Depende de la ubicación, el estado de la propiedad, sus habitaciones y los gastos asociados. Estudiamos tu caso y te presentamos una estimación de ingresos y costes antes de ponerlo en marcha. La ocupación y la rentabilidad no están garantizadas." },
-    { "pregunta": "¿Qué ocurre si hay una avería o un impago?", "respuesta": "Centralizamos el aviso y te informamos de la situación. Coordinamos las reparaciones con tu aprobación y realizamos el seguimiento de los cobros pendientes. La gestión no incluye una garantía de cobro ni el coste de reparaciones o posibles reclamaciones." },
-    { "pregunta": "¿Qué tipo de contrato se utiliza?", "respuesta": "Revisamos las circunstancias de la vivienda y de cada arrendamiento para coordinar el contrato adecuado. El alcance del servicio y las condiciones se acuerdan contigo antes de empezar." }
+    {
+      "pregunta": "¿Puedo contratar solo la gestión de una propiedad que ya está alquilada?",
+      "respuesta": "Sí. Revisamos contigo la ocupación, los contratos y las necesidades de la propiedad para organizar el relevo. Puedes contratar la preparación, la comercialización o la gestión según tu situación."
+    },
+    {
+      "pregunta": "¿Cómo seleccionáis a los inquilinos?",
+      "respuesta": "Revisamos las necesidades de cada candidato, la documentación que aporta y su solvencia. También tenemos en cuenta la convivencia y las características de la propiedad antes de proponerte un perfil."
+    },
+    {
+      "pregunta": "¿Cuánto puedo ingresar por mi propiedad?",
+      "respuesta": "Depende de la ubicación, el estado de la propiedad, sus habitaciones y los gastos asociados. Estudiamos tu caso y te presentamos una estimación de ingresos y costes antes de ponerlo en marcha. La ocupación y la rentabilidad no están garantizadas."
+    },
+    {
+      "pregunta": "¿Qué ocurre si hay una avería o un impago?",
+      "respuesta": "Centralizamos el aviso y te informamos de la situación. Coordinamos las reparaciones con tu aprobación y realizamos el seguimiento de los cobros pendientes. La gestión no incluye una garantía de cobro ni el coste de reparaciones o posibles reclamaciones."
+    },
+    {
+      "pregunta": "¿Qué tipo de contrato se utiliza?",
+      "respuesta": "Revisamos las circunstancias de la propiedad y de cada arrendamiento para coordinar el contrato adecuado. El alcance del servicio y las condiciones se acuerdan contigo antes de empezar."
+    }
   ]
 }

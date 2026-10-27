@@ -37,7 +37,7 @@ export default function AlquilarPage() {
             {alquilar.intro}
           </p>
           <div data-reveal="text">
-            <Button href="#contacto">Hablemos de tu piso</Button>
+            <Button href="#contacto">Hablemos de tu propiedad</Button>
           </div>
         </div>
         <figure className={base.heroFig} data-reveal="image">
@@ -125,6 +125,7 @@ export default function AlquilarPage() {
       {/* FAQ */}
       <Section className={`container ${base.faq}`}>
         <div data-reveal="text">
+          <p className={base.label}>Preguntas</p>
           <Heading strong="Antes de" muted="dar el paso." />
         </div>
         <div className={base.faqList}>
@@ -144,7 +145,8 @@ export default function AlquilarPage() {
       <Section id="contacto" className={`container ${base.contacto}`}>
         <div className={base.contactoText}>
           <div data-reveal="text">
-            <Heading strong="Hablemos de tu piso." />
+            <p className={base.label}>Hablemos</p>
+            <Heading strong="Hablemos de tu propiedad." />
           </div>
           <p data-reveal="text">
             Cuéntanos dónde está, cuántas habitaciones tiene y si ya está alquilado. Te decimos qué podemos asumir y con qué
