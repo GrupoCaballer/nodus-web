@@ -83,7 +83,7 @@
   top: 0.85em;
   width: 1.8rem;
   height: 1px;
-  background: var(--white);
+  background: var(--gold);
 }
 .planPrice {
   display: flex;

@@ -27,8 +27,8 @@
   left: 2rem;
   padding: 1rem 1.8rem;
   border-radius: 999px;
-  background: var(--ink);
-  color: var(--white);
+  background: var(--gold);
+  color: var(--black);
   font-size: var(--fs-label);
   font-weight: 600;
 }

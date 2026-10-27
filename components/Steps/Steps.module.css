@@ -1,7 +1,7 @@
 .root {
   position: relative;
   z-index: 5;
-  background: var(--white);
+  background: var(--bg);
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 8rem;

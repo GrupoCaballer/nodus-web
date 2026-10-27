@@ -7,16 +7,11 @@
   height: 1rem;
   margin: -0.5rem 0 0 -0.5rem;
   border-radius: 50%;
-  background: var(--ink);
-  mix-blend-mode: difference;
+  background: var(--gold);
   pointer-events: none;
   opacity: 0;
   transition: width 0.35s var(--ease-out), height 0.35s var(--ease-out), margin 0.35s var(--ease-out), opacity 0.3s, background-color 0.3s;
   will-change: transform;
-}
-/* Con difference, el punto en blanco se ve negro sobre fondo claro y blanco sobre oscuro. */
-.dot {
-  background: var(--white);
 }
 .visible {
   opacity: 1;
@@ -25,7 +20,7 @@
   width: 5rem;
   height: 5rem;
   margin: -2.5rem 0 0 -2.5rem;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(200, 168, 104, 0.85);
 }
 .media {
   width: 3rem;

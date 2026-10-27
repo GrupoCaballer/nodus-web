@@ -1,11 +1,16 @@
 :root {
+  /* Paleta negro y dorado (decisión del equipo, 27-10-2026) */
   --white: #ffffff;
-  --ink: #151717;
+  --ink: #f2efe8; /* texto principal sobre negro */
+  --ink-dark: #151717; /* texto sobre el cielo del hero */
   --black: #000000;
-  --paper-2: #f5f5f3;
-  --muted: rgba(21, 23, 23, 0.6);
+  --bg: #0b0b0b; /* fondo de página */
+  --paper-2: #141414;
+  --gold: #c8a868;
+  --gold-soft: #d9bd84;
+  --muted: rgba(242, 239, 232, 0.6);
   --muted-dark: rgba(255, 255, 255, 0.55);
-  --line: rgba(21, 23, 23, 0.12);
+  --line: rgba(255, 255, 255, 0.14);
   --line-dark: rgba(255, 255, 255, 0.15);
 
   --font-sans: var(--font-instrument), "Helvetica Neue", Arial, sans-serif;
@@ -59,7 +64,7 @@ body {
 }
 
 body {
-  background: var(--white);
+  background: var(--bg);
   color: var(--ink);
   font-family: var(--font-sans);
   font-size: var(--fs-body);
@@ -191,4 +196,53 @@ html.lenis body {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* ---------- Acentos dorados (paleta negro y dorado) ---------- */
+[class*="_label__"],
+[class*="_labelDark__"],
+[class*="_eyebrow__"],
+[class*="_colTitle__"],
+[class*="_date__"],
+[class*="_ofreceSub__"] {
+  color: var(--gold);
+}
+[class*="_num__"] {
+  color: var(--gold);
+  border-color: var(--gold);
+}
+[class*="_promesas__"] li::before,
+[class*="_condiciones__"] li::before,
+[class*="_features__"] li::before,
+[class*="_incluye__"] li::before {
+  background: var(--gold);
+}
+[class*="_plus__"]::before,
+[class*="_plus__"]::after {
+  background: var(--gold);
+}
+[class*="_dotActive__"] {
+  background: var(--gold) !important;
+  border-color: var(--gold) !important;
+  color: var(--black) !important;
+}
+[class*="_zonasList__"] a:hover,
+[class*="_index__"] a:hover,
+[class*="_cat__"]:hover,
+[class*="_catActive__"] {
+  background: var(--gold) !important;
+  border-color: var(--gold) !important;
+  color: var(--black) !important;
+}
+[class*="_quoteMark__"],
+[class*="_stars__"] {
+  color: var(--gold);
+}
+a:hover > [class*="_arrow__"],
+[class*="_more__"] {
+  color: var(--gold);
+}
+.link-underline:hover,
+[class*="_prose__"] a:hover {
+  color: var(--gold);
 }

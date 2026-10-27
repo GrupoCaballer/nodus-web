@@ -106,8 +106,8 @@
   height: 9rem;
   margin: -4.5rem 0 0 -4.5rem;
   border-radius: 50%;
-  background: var(--white);
-  color: var(--ink);
+  background: var(--gold);
+  color: var(--black);
   display: grid;
   place-items: center;
   font-size: var(--fs-label);

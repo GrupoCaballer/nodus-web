@@ -11,20 +11,14 @@
   transition: background-color 0.3s var(--ease-out), color 0.3s var(--ease-out);
 }
 
-.dark {
-  background: var(--ink);
-  color: var(--white);
-}
-.dark:hover {
-  background: var(--black);
-}
-
+.dark,
 .light {
-  background: var(--white);
-  color: var(--ink);
+  background: var(--gold);
+  color: var(--black);
 }
+.dark:hover,
 .light:hover {
-  background: rgba(255, 255, 255, 0.85);
+  background: var(--gold-soft);
 }
 
 .arrow {

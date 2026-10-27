@@ -1,7 +1,7 @@
 .root {
   position: relative;
   z-index: 5;
-  background: var(--white);
+  background: var(--bg);
   padding-block: 20rem 22rem;
 }
 

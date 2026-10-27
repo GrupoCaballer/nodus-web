@@ -3,7 +3,7 @@
   aspect-ratio: 16 / 9;
   overflow: hidden;
   border-radius: 1.5rem;
-  background: var(--ink);
+  background: var(--paper-2);
   color: var(--white);
 }
 .box iframe {

@@ -1,7 +1,7 @@
 .root {
   position: relative;
   z-index: 5;
-  background: var(--white);
+  background: var(--bg);
   padding-block: 24rem 20rem;
 }
 
@@ -32,9 +32,9 @@
   transition: background-color 0.5s var(--ease-out), color 0.5s var(--ease-out), border-color 0.5s;
 }
 .path:hover {
-  background: var(--ink);
-  border-color: var(--ink);
-  color: var(--white);
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--black);
 }
 .pathLabel {
   font-size: var(--fs-h2);

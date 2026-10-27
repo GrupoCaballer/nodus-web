@@ -1,6 +1,6 @@
 .root {
   --fg: var(--ink);
-  --line-n: rgba(21, 23, 23, 0.3);
+  --line-n: rgba(255, 255, 255, 0.3);
   color: var(--fg);
   max-width: 80rem;
 }

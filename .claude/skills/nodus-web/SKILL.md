@@ -19,7 +19,7 @@ Honorarios de compraventa. Reseñas, cifras o propiedades inventadas. "Grupo Cab
 Usted. Directo. Frases cortas. Fórmulas fijas: "una web con esencia propia"; "ser los únicos que lo publiquemos en portales nacionales e internacionales". Datos concretos (m², orientación, año, precio/m² de la zona) o nada.
 
 ## Estética
-Fotos grandes y reales, mucho aire, poco texto. Blanco / #151717 / negro. Titulares con la segunda mitad en gris. Nada que delate IA.
+Fotos grandes y reales, mucho aire, poco texto. Negro y dorado: fondo #0b0b0b/#000, texto #f2efe8, dorado #c8a868 en acentos. Titulares con la segunda mitad en gris. Nada que delate IA.
 
 ## Mapa de secciones (home)
 Hero nudo+edificio → Por qué Nodus (vídeo València) → Esto no va solo de inmuebles (chevrons) → Inmobiliaria, reconectada (3 pasos) → Vende con Nodus → Testimonios → Cómo te ayuda Nodus (Comprar/Vender/Alquilar) → Mucho más que comprar y vender (Reforma, Financiación, Inversión) → Blog → CTA final → Zonas → Footer.
