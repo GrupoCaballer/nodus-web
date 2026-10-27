@@ -5,12 +5,25 @@ import CookiesButton from "@/components/CookieBar/CookiesButton";
 import WhatsApp from "@/components/ui/WhatsApp";
 import styles from "./Footer.module.css";
 
-const LINKS = [
-  { href: "/propiedades", label: "Propiedades" },
-  { href: "/vender", label: "Vender" },
-  { href: "/alquilar", label: "Alquilar" },
-  { href: "/servicios", label: "Servicios" },
-  { href: "/contacto", label: "Contacto" },
+const COLUMNAS = [
+  {
+    titulo: "Inmuebles",
+    links: [
+      { href: "/propiedades", label: "Propiedades" },
+      { href: "/zonas", label: "Zonas" },
+      { href: "/vender", label: "Vender" },
+      { href: "/comprar", label: "Comprar" },
+    ],
+  },
+  {
+    titulo: "Nodus",
+    links: [
+      { href: "/servicios", label: "Servicios" },
+      { href: "/alquilar", label: "Alquiler por habitaciones" },
+      { href: "/nosotros", label: "Nosotros" },
+      { href: "/blog", label: "Blog" },
+    ],
+  },
 ];
 
 const SOCIAL = [
@@ -23,15 +36,21 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.top}>
-        <nav aria-label="Pie de página" className={styles.links}>
-          {LINKS.map((l) => (
-            <Link key={l.href} href={l.href}>
-              {l.label}
-            </Link>
-          ))}
-        </nav>
+        {COLUMNAS.map((c) => (
+          <nav key={c.titulo} aria-label={c.titulo} className={styles.col}>
+            <h2 className={styles.colTitle}>{c.titulo}</h2>
+            <ul className={styles.links}>
+              {c.links.map((l) => (
+                <li key={l.href}>
+                  <Link href={l.href}>{l.label}</Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        ))}
 
-        <div className={styles.meta}>
+        <div className={styles.col}>
+          <h2 className={styles.colTitle}>Contacto</h2>
           <dl className={styles.contact}>
             <div>
               <dt>Oficina</dt>
@@ -56,15 +75,20 @@ export default function Footer() {
               </dd>
             </div>
           </dl>
-          <ul className={styles.social}>
-            {SOCIAL.map((s) => (
-              <li key={s.label}>
-                <a href={s.href} target="_blank" rel="noopener noreferrer">
-                  {s.label}
-                </a>
-              </li>
-            ))}
-          </ul>
+          {SOCIAL.length > 0 && (
+            <ul className={styles.social}>
+              {SOCIAL.map((s) => (
+                <li key={s.label}>
+                  <a href={s.href} target="_blank" rel="noopener noreferrer">
+                    {s.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )}
+          <Link href="/contacto" className={styles.contactLink}>
+            Hablemos <span aria-hidden>→</span>
+          </Link>
         </div>
       </div>
 

@@ -42,6 +42,9 @@ export default function Chevrons() {
 
   return (
     <section ref={root} className={`container ${styles.root}`}>
+      <p className={styles.label} data-text>
+        Cómo trabajamos
+      </p>
       <div data-text>
         <Heading
           className={styles.heading}

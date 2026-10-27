@@ -8,6 +8,7 @@ export default function Zonas() {
   const destacadas = new Set(zonas.destacadas);
   return (
     <section className={`container ${styles.root}`} aria-labelledby="zonas-titulo">
+      <p className={styles.label}>Zonas</p>
       <h2 id="zonas-titulo" className={styles.title}>
         Barrios y zonas donde trabajamos <span>en València y alrededores</span>
       </h2>

@@ -23,6 +23,7 @@ export default function Extras() {
     <section ref={root} className={`container ${styles.root}`}>
       <div className={styles.head}>
         <div data-reveal="text">
+          <p className={styles.label}>Por qué elegirnos</p>
           <Heading tone="dark" strong="Mucho más que" muted="comprar y vender." breakMuted />
         </div>
         <div className={styles.copy}>

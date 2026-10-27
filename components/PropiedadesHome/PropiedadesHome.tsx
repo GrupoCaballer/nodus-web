@@ -18,6 +18,7 @@ export default function PropiedadesHome() {
     <section ref={root} className={`container ${styles.root}`} id="propiedades">
       <div className={styles.head}>
         <div data-reveal="text">
+          <p className={styles.label}>Propiedades</p>
           <Heading strong="Pocas viviendas." muted="Toda la atención en cada una." breakMuted />
         </div>
         <div className={styles.copy}>

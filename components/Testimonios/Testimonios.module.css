@@ -5,6 +5,12 @@
   padding-block: 18rem;
 }
 
+.label {
+  font-size: var(--fs-label);
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
 .heading {
   max-width: 130rem;
   margin-bottom: 10rem;

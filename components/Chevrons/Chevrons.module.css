@@ -6,6 +6,12 @@
   text-align: center;
 }
 
+.label {
+  font-size: var(--fs-label);
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
 .heading {
   max-width: 120rem;
   margin-inline: auto;

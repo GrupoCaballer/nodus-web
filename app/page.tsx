@@ -8,7 +8,6 @@ import Servicios from "@/components/Servicios/Servicios";
 import Extras from "@/components/Extras/Extras";
 import Testimonios from "@/components/Testimonios/Testimonios";
 import PropiedadesHome from "@/components/PropiedadesHome/PropiedadesHome";
-import Vender from "@/components/Vender/Vender";
 import Zonas from "@/components/Zonas/Zonas";
 import BlogList from "@/components/Blog/BlogList";
 import CtaFinal from "@/components/CtaFinal/CtaFinal";
@@ -30,7 +29,6 @@ export default async function Home() {
       <Extras />
       <Testimonios />
       <PropiedadesHome />
-      <Vender />
       <Zonas />
       <BlogList posts={posts} />
       <CtaFinal />

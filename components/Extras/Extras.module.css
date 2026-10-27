@@ -6,6 +6,12 @@
   padding-block: 4rem 22rem;
 }
 
+.label {
+  font-size: var(--fs-label);
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
 .head {
   display: grid;
   grid-template-columns: 1fr 1fr;

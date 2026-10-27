@@ -22,6 +22,7 @@ export default function BlogList({ posts }: { posts: Post[] }) {
     <section ref={root} className={`container ${styles.root}`} id="blog">
       <div className={styles.head}>
         <div data-reveal="text">
+          <p className={styles.label}>Blog</p>
           <Heading strong="Blog y" muted="recursos." breakMuted />
         </div>
         <div className={styles.copy}>

@@ -35,6 +35,7 @@ export default function Testimonios() {
   return (
     <section className={styles.root} id="testimonios">
       <div className="container">
+        <p className={styles.label}>Lo que dicen</p>
         <Heading
           className={styles.heading}
           strong="No te fíes de nuestra palabra."

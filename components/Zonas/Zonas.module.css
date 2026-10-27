@@ -5,6 +5,12 @@
   padding-block: 16rem 18rem;
 }
 
+.label {
+  font-size: var(--fs-label);
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
 .title {
   font-size: var(--fs-h3);
   font-weight: 500;
