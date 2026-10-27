@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Hero from "@/components/Hero/Hero";
 import Gancho from "@/components/Gancho/Gancho";
 import QuienesSomos from "@/components/QuienesSomos/QuienesSomos";
@@ -8,6 +9,8 @@ import Testimonios from "@/components/Testimonios/Testimonios";
 import CtaFinal from "@/components/CtaFinal/CtaFinal";
 import SideMenu from "@/components/SideMenu/SideMenu";
 import { allPosts } from "@/lib/blog";
+
+export const metadata: Metadata = { alternates: { canonical: "/" } };
 
 // Home en dos partes (decisión del equipo, 27-10-2026):
 //  · Recorrido principal, obligatorio y ligero: intro → gancho → quiénes somos → cómo trabajamos → por qué elegirnos → reseñas.
