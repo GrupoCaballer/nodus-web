@@ -10,21 +10,34 @@ export default function Zonas() {
     <section className={`container ${styles.root}`} aria-labelledby="zonas-titulo">
       <p className={styles.label}>Zonas</p>
       <h2 id="zonas-titulo" className={styles.title}>
-        Barrios y zonas donde trabajamos <span>en València y alrededores</span>
+        Barrios y zonas donde trabajamos <span>en Valencia y alrededores</span>
       </h2>
       <div className={styles.cols}>
         {zonas.grupos.map((g) => (
           <div key={g.titulo}>
             <h3 className={styles.colTitle}>{g.titulo}</h3>
             <ul className={styles.list}>
-              {g.zonas.map((z) => (
-                <li key={z.slug}>
-                  <Link href={`/zonas/${guiaDeZona(z.slug)?.slug ?? z.slug}`} className={destacadas.has(z.slug) ? styles.strong : undefined}>
+              {g.zonas.map((z) => {
+                const guia = guiaDeZona(z.slug);
+                const texto = (
+                  <>
                     {z.nombre}
                     {"municipio" in z && z.municipio ? <small> · {z.municipio}</small> : null}
-                  </Link>
-                </li>
-              ))}
+                  </>
+                );
+                // Sin guía publicada no hay página: texto plano para no enlazar a un 404.
+                return (
+                  <li key={z.slug}>
+                    {guia ? (
+                      <Link href={`/zonas/${guia.slug}`} className={destacadas.has(z.slug) ? styles.strong : undefined}>
+                        {texto}
+                      </Link>
+                    ) : (
+                      <span>{texto}</span>
+                    )}
+                  </li>
+                );
+              })}
             </ul>
           </div>
         ))}

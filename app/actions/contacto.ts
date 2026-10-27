@@ -10,6 +10,8 @@ const Schema = z.object({
   vivienda: z.string().trim().max(200).optional().or(z.literal("")),
   mensaje: z.string().trim().max(3000).optional().or(z.literal("")),
   origen: z.string().trim().max(80).optional().or(z.literal("")),
+  // Página por la que entró a la web y de dónde venía (lo rellena el navegador).
+  entrada: z.string().trim().max(300).optional().or(z.literal("")),
   // Honeypot: los humanos no lo ven; si llega relleno, es un bot.
   web: z.string().max(0).optional().or(z.literal("")),
 });
@@ -48,6 +50,7 @@ export async function enviarContacto(_prev: EstadoContacto | null, form: FormDat
     `Email: ${d.email}`,
     d.vivienda ? `Vivienda / zona: ${d.vivienda}` : null,
     d.origen ? `Origen: ${d.origen}` : null,
+    d.entrada ? `Entró por: ${d.entrada}` : null,
     "",
     d.mensaje || "(sin mensaje)",
   ]

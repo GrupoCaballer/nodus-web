@@ -9,6 +9,8 @@ export type PostMeta = {
   imagen: string;
   alt: string;
   autor?: string;
+  /** Artículo con TODO pendiente: se muestra en la web pero con noindex y fuera del sitemap. */
+  borrador?: boolean;
 };
 
 export type Post = PostMeta & { slug: string };

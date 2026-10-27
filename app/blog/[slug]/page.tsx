@@ -22,6 +22,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     description: meta.resumen,
     alternates: { canonical: `/blog/${slug}` },
     openGraph: { type: "article", title: meta.titulo, description: meta.resumen, images: [meta.imagen], publishedTime: meta.fecha },
+    ...(meta.borrador && { robots: { index: false, follow: true } }),
   };
 }
 

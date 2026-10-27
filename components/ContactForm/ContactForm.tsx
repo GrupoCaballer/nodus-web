@@ -1,9 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useActionState } from "react";
+import { useActionState, useEffect, useState } from "react";
 import { enviarContacto, type EstadoContacto } from "@/app/actions/contacto";
 import { SITE } from "@/lib/site";
+import { leerEntrada, track } from "@/lib/track";
 import styles from "./ContactForm.module.css";
 
 type Props = {
@@ -18,6 +19,12 @@ type Props = {
 /** Formulario de contacto: Server Action, honeypot, confirmación sin recargar. */
 export default function ContactForm({ origen, conVivienda = false, cta = "Enviar mensaje", tone = "light" }: Props) {
   const [estado, action, pending] = useActionState<EstadoContacto | null, FormData>(enviarContacto, null);
+  const [entrada, setEntrada] = useState("");
+
+  useEffect(() => setEntrada(leerEntrada()), []);
+  useEffect(() => {
+    if (estado?.ok) track("generate_lead", { origen });
+  }, [estado, origen]);
 
   if (estado?.ok) {
     return (
@@ -32,6 +39,7 @@ export default function ContactForm({ origen, conVivienda = false, cta = "Enviar
   return (
     <form action={action} className={`${styles.form} ${tone === "dark" ? styles.dark : ""}`} noValidate>
       <input type="hidden" name="origen" value={origen} />
+      <input type="hidden" name="entrada" value={entrada} />
       <div className={styles.hp} aria-hidden>
         <label>
           No rellenar <input type="text" name="web" tabIndex={-1} autoComplete="off" />

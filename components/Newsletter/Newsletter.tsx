@@ -1,13 +1,18 @@
 "use client";
 
 import Link from "next/link";
-import { useActionState } from "react";
+import { useActionState, useEffect } from "react";
 import { suscribir, type EstadoNewsletter } from "@/app/actions/newsletter";
+import { track } from "@/lib/track";
 import styles from "./Newsletter.module.css";
 
 /** Alta en la newsletter: un campo, confirmación sin recargar. */
 export default function Newsletter({ tone = "light" }: { tone?: "light" | "dark" }) {
   const [estado, action, pending] = useActionState<EstadoNewsletter | null, FormData>(suscribir, null);
+
+  useEffect(() => {
+    if (estado?.ok) track("newsletter_signup");
+  }, [estado]);
 
   return (
     <div className={`${styles.root} ${tone === "dark" ? styles.dark : ""}`}>

@@ -5,6 +5,7 @@ import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 import CookieBar from "@/components/CookieBar/CookieBar";
 import Cursor from "@/components/ui/Cursor";
+import Analytics from "@/components/Analytics/Analytics";
 import { SITE } from "@/lib/site";
 import "./globals.css";
 
@@ -28,17 +29,40 @@ const lora = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "Nodus Real Estate · Inmobiliaria en València",
+    default: "Nodus Real Estate · Inmobiliaria en Valencia",
     template: "%s · Nodus Real Estate",
   },
   description:
-    "Asesoramiento inmobiliario integral en València. Compra, venta, alquiler e inversión, desde la primera visita hasta la firma.",
+    "Asesoramiento inmobiliario integral en Valencia. Compra, venta, alquiler e inversión, desde la primera visita hasta la firma.",
+  openGraph: {
+    siteName: SITE.name,
+    locale: "es_ES",
+    type: "website",
+    images: ["/fotos/vender-aereo.webp"],
+  },
+};
+
+// Ficha de la agencia en todas las páginas. TODO-DIRECCION: calle y CP cuando Dirección confirme la dirección pública (Godella o Quart de Poblet).
+const agenciaLd = {
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "@id": `${SITE.url}/#agencia`,
+  name: SITE.name,
+  url: SITE.url,
+  email: SITE.email,
+  telephone: SITE.phone,
+  logo: `${SITE.url}/logo/nodus-logo-negro.svg`,
+  address: { "@type": "PostalAddress", addressLocality: "Godella", addressRegion: "Valencia", addressCountry: "ES" },
+  areaServed: ["Valencia", "Godella", "Rocafort", "Bétera", "Paterna", "Burjassot", "Provincia de Valencia"],
+  sameAs: [SITE.instagram, SITE.tiktok, SITE.linkedin].filter(Boolean),
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es" className={`${instrument.variable} ${lora.variable}`}>
       <body>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(agenciaLd) }} />
+        <Analytics />
         <LenisProvider>
           <Header />
           <main>{children}</main>

@@ -2,14 +2,15 @@ import type { Metadata } from "next";
 import VenderPage from "@/components/VenderPage/VenderPage";
 import vender from "@/content/vender.json";
 import { SITE } from "@/lib/site";
+import { allSituaciones } from "@/lib/situaciones";
 
 export const metadata: Metadata = {
-  title: "Vender piso en València",
+  title: "Vender piso en Valencia",
   description:
-    "Valoración con criterio, web propia de tu vivienda, vídeo profesional y visitas filtradas. Dos meses de prueba y sin exclusiva clásica. Godella y València.",
+    "Vender tu piso en Valencia: valoración con criterio, web propia de tu vivienda, vídeo profesional y visitas filtradas hasta la notaría. Godella y área metropolitana.",
   alternates: { canonical: "/vender" },
   openGraph: {
-    title: "Vender piso en València | Nodus Real Estate",
+    title: "Vender piso en Valencia | Nodus Real Estate",
     description: "Cada paso de la venta, conectado: valoración, web propia, vídeo, visitas filtradas y notaría.",
     url: "/vender",
     images: ["/fotos/vender-aereo.webp"],
@@ -25,8 +26,8 @@ const jsonLd = {
       url: SITE.url,
       email: SITE.email,
       telephone: SITE.phone,
-      areaServed: ["València", "Godella", "Rocafort", "Bétera", "L'Horta Nord", "Comunitat Valenciana"],
-      address: { "@type": "PostalAddress", addressLocality: "Godella", addressRegion: "València", addressCountry: "ES" },
+      areaServed: ["Valencia", "Godella", "Rocafort", "Bétera", "L'Horta Nord", "Comunitat Valenciana"],
+      address: { "@type": "PostalAddress", addressLocality: "Godella", addressRegion: "Valencia", addressCountry: "ES" },
     },
     {
       "@type": "FAQPage",
@@ -39,11 +40,12 @@ const jsonLd = {
   ],
 };
 
-export default function Page() {
+export default async function Page() {
+  const situaciones = (await allSituaciones()).map(({ slug, titulo }) => ({ slug, titulo }));
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <VenderPage />
+      <VenderPage situaciones={situaciones} />
     </>
   );
 }

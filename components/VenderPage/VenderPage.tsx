@@ -26,17 +26,17 @@ function Section({ children, className, id }: { children: React.ReactNode; class
 }
 
 /** /vender — estructura de la landing de compradores de la referencia, con los textos de Nodus (docs/interiores.md §5). */
-export default function VenderPage() {
+export default function VenderPage({ situaciones = [] }: { situaciones?: { slug: string; titulo: string }[] }) {
   return (
     <>
       {/* 5.1 Hero */}
       <Section className={`container ${styles.hero}`}>
         <div className={styles.heroText}>
           <p className={styles.eyebrow} data-reveal="text">
-            Vender tu vivienda · València y área metropolitana
+            Vender tu vivienda · Valencia y área metropolitana
           </p>
           <h1 className={styles.h1} data-reveal="text">
-            Vender tu piso en València. <span>Cada paso, conectado.</span>
+            Vender tu piso en Valencia. <span>Cada paso, conectado.</span>
           </h1>
           <p className={styles.lead} data-reveal="text">
             Una valoración con criterio. Una estrategia acordada contigo. Un equipo que coordina la venta desde la primera
@@ -56,7 +56,7 @@ export default function VenderPage() {
         <figure className={styles.heroFig} data-reveal="image">
           <Image
             src="/fotos/vender-fachada.webp"
-            alt="Edificio señorial entre árboles en València"
+            alt="Edificio señorial entre árboles en Valencia"
             fill
             priority
             sizes="(max-width: 768px) 100vw, 40vw"
@@ -98,6 +98,7 @@ export default function VenderPage() {
       {/* 5.4 El barrio importa */}
       <Section className={`container ${styles.barrio}`}>
         <div data-reveal="text">
+          <p className={styles.label}>El barrio</p>
           <Heading strong="El barrio importa." muted="Tu situación, también." breakMuted />
         </div>
         <div className={styles.barrioText}>
@@ -120,6 +121,18 @@ export default function VenderPage() {
               </li>
             ))}
           </ul>
+          {situaciones.length > 0 && (
+            <>
+              <p data-reveal="text">Si tu caso tiene algo particular, empieza por aquí:</p>
+              <ul className={styles.zonasList} data-reveal="text">
+                {situaciones.map((s) => (
+                  <li key={s.slug}>
+                    <Link href={`/vender/${s.slug}`}>{s.titulo}</Link>
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
         </div>
       </Section>
 
@@ -128,7 +141,7 @@ export default function VenderPage() {
         <figure className={styles.splitFig} data-reveal="image">
           <Image
             src="/fotos/chevron-modernista.webp"
-            alt="Fachada modernista con palmeras en València"
+            alt="Fachada modernista con palmeras en Valencia"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
             className={styles.cover}
@@ -136,11 +149,13 @@ export default function VenderPage() {
         </figure>
         <div className={styles.splitText}>
           <div data-reveal="text">
-            <Heading strong="La web vende la casa." muted="Nosotros cerramos la venta." breakMuted />
+            <p className={styles.label}>La web de tu casa</p>
+            <Heading strong="La web vende la propiedad." muted="Nosotros cerramos la venta." breakMuted />
           </div>
           <p data-reveal="text">
-            Cada vivienda sale con su propia web, su vídeo y su difusión en Instagram. Pero una venta se cierra en las visitas,
-            en la negociación y en la notaría. Ahí está el equipo.
+            Cada vivienda sale con una web con esencia propia, su vídeo y su difusión en Instagram y en portales nacionales e
+            internacionales. Pero una venta se cierra en las visitas, en la negociación y en la notaría. Ahí está el equipo,
+            y ahí es donde se nota que cada paso está conectado con el siguiente.
           </p>
         </div>
       </Section>
@@ -153,7 +168,7 @@ export default function VenderPage() {
             <Heading tone="dark" strong="Lo que lleva cada vivienda" muted="desde el primer día." breakMuted />
           </div>
           <ul className={styles.incluidoList}>
-            {vender.incluido.map((it) => (
+            {vender.incluido.map((it: { titulo: string; texto: string }) => (
               <li key={it.titulo} data-reveal="text">
                 <h3>{it.titulo}</h3>
                 <p>{it.texto}</p>
@@ -183,6 +198,7 @@ export default function VenderPage() {
       {/* 5.9 FAQ */}
       <Section className={`container ${styles.faq}`}>
         <div data-reveal="text">
+          <p className={styles.label}>Preguntas</p>
           <Heading strong="Decidir" muted="con información." />
         </div>
         <div className={styles.faqList}>
@@ -202,10 +218,12 @@ export default function VenderPage() {
       <Section id="contacto" className={`container ${styles.contacto}`}>
         <div className={styles.contactoText}>
           <div data-reveal="text">
+            <p className={styles.label}>Hablemos</p>
             <Heading strong="¿Estás pensando en vender?" />
           </div>
           <p data-reveal="text">
-            Cuéntanos dónde está, cómo es y cuáles son tus planes. Empecemos por una conversación sin compromiso.
+            Cuéntanos dónde está, cómo es y cuáles son tus planes. Empecemos por una conversación sin compromiso: te decimos
+            cómo lo haríamos y tú decides.
           </p>
           <div data-reveal="text">
             <WhatsApp block />
