@@ -12,21 +12,21 @@ const ROWS = [
   {
     word: "Vender",
     href: "/vender",
-    text: "Una valoración con criterio, una estrategia acordada contigo y un equipo que coordina la venta desde la primera conversación hasta la firma. Web con esencia propia, vídeo profesional, home staging y visitas filtradas.",
+    text: "Visitamos tu propiedad, estudiamos las comparables de tu zona y te explicamos qué sostiene el precio. La presentamos con una web con esencia propia, vídeo profesional y home staging, filtramos las visitas y negociamos contigo cada oferta hasta la notaría.",
     img: "/fotos/servicio-vender.webp",
     alt: "Fachada modernista con palmeras en Valencia",
   },
   {
     word: "Comprar",
     href: "/comprar",
-    text: "Acompañamos cada operación desde la primera visita hasta la firma. Sin intermediarios innecesarios, sin promesas vacías. Con la hipoteca estudiada y, si hace falta, la reforma con renders y presupuesto de obra.",
+    text: "Un asesor que escucha tu situación y tus plazos, no un formulario. Definimos lo que necesitas, estudiamos la hipoteca antes de la primera visita y te acompañamos hasta las llaves. Si hace falta reforma, llegas con los renders y el presupuesto hechos.",
     img: "/fotos/servicio-comprar.webp",
     alt: "Edificios y arbolado de un barrio residencial de Valencia",
   },
   {
     word: "Alquilar",
     href: "/alquilar",
-    text: "Preparamos tu piso, seleccionamos inquilinos y gestionamos el día a día. Un servicio completo en Valencia, desde la primera habitación hasta el seguimiento mensual.",
+    text: "Preparamos tu propiedad, seleccionamos inquilinos con solvencia y convivencia en mente y gestionamos el día a día: cobros, incidencias y mantenimiento. Un servicio completo en Valencia, desde la primera habitación hasta el seguimiento mensual.",
     img: "/fotos/servicio-alquilar.webp",
     alt: "Paseo marítimo con palmeras en Valencia",
   },
@@ -62,7 +62,7 @@ export default function Servicios() {
     <section ref={root} className={styles.root} id="servicios">
       <div className={`container ${styles.head}`}>
         <p className={styles.label}>Por qué elegirnos</p>
-        <Heading tone="dark" strong="Cómo te ayuda" muted="Nodus" breakMuted />
+        <Heading tone="dark" strong="Un equipo para cada camino." muted="Vendas, compres o alquiles." breakMuted />
       </div>
 
       <ol className={styles.rows}>
