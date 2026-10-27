@@ -6,7 +6,7 @@ import LazyVideo from "@/components/ui/LazyVideo";
 import { gsap, useGSAP, prefersReducedMotion } from "@/components/motion/gsap";
 import styles from "./WhyNodus.module.css";
 
-/** 1.3 "Por qué Nodus": etiqueta + titular que se enciende + vídeo aéreo de València con reveal scrub. */
+/** 1.3 "Por qué Nodus": etiqueta + titular que se enciende + vídeo aéreo de Valencia con reveal scrub. */
 export default function WhyNodus() {
   const root = useRef<HTMLElement>(null);
 
@@ -45,7 +45,7 @@ export default function WhyNodus() {
             className={styles.video}
             src="/video/valencia-aereo.mp4"
             poster="/video/valencia-aereo.webp"
-            aria-label="Vista aérea de València al atardecer"
+            aria-label="Vista aérea de Valencia al atardecer"
           />
         </div>
       </div>

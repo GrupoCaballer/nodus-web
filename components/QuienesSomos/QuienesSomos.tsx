@@ -10,7 +10,7 @@ import styles from "./QuienesSomos.module.css";
 // Textos de la web antigua. Las cifras las pone Nodus (TODO-DATO).
 const STATS = [
   { dato: "TODO-DATO", texto: "operaciones cerradas" },
-  { dato: "TODO-DATO", texto: "años en València y l'Horta Nord" },
+  { dato: "TODO-DATO", texto: "años en Valencia y l'Horta Nord" },
   { dato: "2 semanas", texto: "en las que cada anuncio recibe la mayor parte de sus visitas" },
   { dato: "0 €", texto: "si vendes a un comprador propio" },
 ];
@@ -33,9 +33,13 @@ export default function QuienesSomos() {
 
         <div className={styles.grid}>
           <figure className={styles.fig} data-reveal="image">
-            <Image src="/fotos/testimonios-terraza.webp" alt="Terrazas de cafeterías en una calle de València" fill sizes="(max-width: 768px) 100vw, 40vw" className={styles.img} />
+            <Image src="/fotos/testimonios-terraza.webp" alt="Terrazas de cafeterías en una calle de Valencia" fill sizes="(max-width: 768px) 100vw, 40vw" className={styles.img} />
           </figure>
           <div className={styles.text}>
+            <p data-reveal="text">
+              Somos un equipo joven y vanguardista de Valencia. Sin miedo a hacer las cosas de otra manera y con dominio de las
+              nuevas tecnologías: una web con esencia propia para cada vivienda, vídeo, renders y datos reales en cada decisión.
+            </p>
             <p data-reveal="text">
               Una operación inmobiliaria raramente es solo una transacción. Es una mudanza, una inversión, un cambio de etapa.
               Nuestro trabajo empieza donde empieza esa complejidad.

@@ -44,7 +44,7 @@ export default function Testimonios() {
 
         <div className={styles.grid}>
           <figure className={styles.photo}>
-            <Image src="/fotos/testimonios-terraza.webp" alt="Terrazas de cafeterías en una calle de València" fill sizes="(max-width: 768px) 100vw, 45vw" className={styles.img} />
+            <Image src="/fotos/testimonios-terraza.webp" alt="Terrazas de cafeterías en una calle de Valencia" fill sizes="(max-width: 768px) 100vw, 45vw" className={styles.img} />
           </figure>
 
           <div className={styles.slider}>

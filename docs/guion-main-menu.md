@@ -8,6 +8,26 @@ Regla de oro del recorrido: **una idea por capítulo, un titular, un párrafo co
 
 ---
 
+## Decisiones (27-10-2026, respuestas del equipo)
+
+1. **Tú**, en toda la web.
+2. "El punto donde todo converge" = donde se encuentran quien vende y quien compra; la intermediación como un trabajo limpio, eficaz y satisfactorio.
+3. Primero **quien vende**: el gancho y "Cómo trabajamos" empiezan por la venta.
+4. El inversor va aparte: apartado **off market** en Servicios, fuera del gancho.
+5. **Valencia**, sin acento.
+6. Cifras del capítulo 2: pendientes (TODO-DATO).
+7. Equipo joven y vanguardista, sin miedo y con dominio de las nuevas tecnologías: dicho en el capítulo 2.
+8. Titular del capítulo 2: se mantiene el de la web antigua; la diferenciación va en el párrafo y en las cifras.
+9. Modelo (sin exclusiva, 2 meses, 0 €): aparcado.
+10. Cartera corta: solo en Propiedades.
+11. Reseñas: en espera (el capítulo queda con TODO-RESEÑA).
+12. Frases de la casa: se reutilizan ("sin fisuras", "cada paso, conectado", "web con esencia propia").
+13. Referencias de tono: más adelante.
+
+Longitud: hasta 35–40 palabras por punto; no telegráfico.
+
+---
+
 ## 0 · Intro (hero)
 
 **Trabajo**: que el visitante se quede. Marca, lugar y una frase que resuma la promesa. Sin botón.

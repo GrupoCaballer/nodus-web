@@ -10,25 +10,25 @@ import styles from "./Servicios.module.css";
 
 const ROWS = [
   {
-    word: "Comprar",
-    href: "/propiedades",
-    text: "Desde la primera visita hasta la firma, con la hipoteca estudiada y, si hace falta, la reforma presupuestada.",
-    img: "/fotos/servicio-comprar.webp",
-    alt: "Edificios y arbolado de un barrio residencial de València",
-  },
-  {
     word: "Vender",
     href: "/vender",
-    text: "Valoración con criterio, web propia, vídeo, home staging y solo visitas de compradores con capacidad real.",
+    text: "Una valoración con criterio, una estrategia acordada contigo y un equipo que coordina la venta desde la primera conversación hasta la firma. Web con esencia propia, vídeo profesional, home staging y visitas filtradas.",
     img: "/fotos/servicio-vender.webp",
-    alt: "Fachada modernista con palmeras en València",
+    alt: "Fachada modernista con palmeras en Valencia",
+  },
+  {
+    word: "Comprar",
+    href: "/comprar",
+    text: "Acompañamos cada operación desde la primera visita hasta la firma. Sin intermediarios innecesarios, sin promesas vacías. Con la hipoteca estudiada y, si hace falta, la reforma con renders y presupuesto de obra.",
+    img: "/fotos/servicio-comprar.webp",
+    alt: "Edificios y arbolado de un barrio residencial de Valencia",
   },
   {
     word: "Alquilar",
     href: "/alquilar",
-    text: "Preparamos tu piso, seleccionamos inquilinos y gestionamos el día a día, habitación a habitación.",
+    text: "Preparamos tu piso, seleccionamos inquilinos y gestionamos el día a día. Un servicio completo en Valencia, desde la primera habitación hasta el seguimiento mensual.",
     img: "/fotos/servicio-alquilar.webp",
-    alt: "Paseo marítimo con palmeras en València",
+    alt: "Paseo marítimo con palmeras en Valencia",
   },
 ];
 
@@ -87,7 +87,7 @@ export default function Servicios() {
 
       <div className={`container ${styles.foot}`}>
         <p>
-          Y lo que va más allá: <span>reforma con renders, financiación e inversión.</span>
+          Y lo que va más allá: <span>reforma con renders, financiación y operaciones off market.</span>
         </p>
         <Button href="/servicios" tone="light">
           Ver todos los servicios
