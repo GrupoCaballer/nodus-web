@@ -1,26 +1,59 @@
 {
   "_nota": "Textos: los de la web antigua (servicios) y el contexto de Nodus. Lo marcado TODO-TEXTO lo redacta Nodus.",
   "promesas": [
+    "Un asesor asignado que escucha, no un formulario",
     "Acompañamos cada operación desde la primera visita hasta la firma",
-    "Sin intermediarios innecesarios, sin promesas vacías",
-    "Reforma con renders y presupuesto de obra antes de comprar",
+    "Reforma con renders y presupuesto de obra antes de ofertar",
     "Broker financiero para llegar con la hipoteca estudiada"
   ],
   "pasos": [
-    { "titulo": "Habla con una persona.", "texto": "Te asignamos un asesor que escucha, no un formulario." },
-    { "titulo": "Gana claridad.", "texto": "Definimos lo que necesitas, no solo lo que hay disponible." },
-    { "titulo": "Avanza.", "texto": "Encontramos lo que encaja y lo hacemos realidad." }
+    {
+      "titulo": "Habla con una persona.",
+      "texto": "Te asignamos un asesor que escucha tu situación, tus plazos y lo que viene después. No un formulario ni un buscador: alguien que conoce Valencia y sus barrios y sabe qué preguntar."
+    },
+    {
+      "titulo": "Gana claridad.",
+      "texto": "Definimos lo que necesitas, no solo lo que hay disponible, y estudiamos la hipoteca antes de la primera visita. Así visitas sabiendo hasta dónde puedes llegar y qué compensa de verdad."
+    },
+    {
+      "titulo": "Avanza.",
+      "texto": "Encontramos lo que encaja, lo visitamos contigo, negociamos y te acompañamos hasta las llaves. Si la vivienda necesita obra, llegas con los renders y el presupuesto hechos antes de ofertar."
+    }
   ],
   "incluido": [
-    { "titulo": "Compra y venta", "texto": "Acompañamos cada operación desde la primera visita hasta la firma. Sin intermediarios innecesarios, sin promesas vacías." },
-    { "titulo": "Asesoramiento integral", "texto": "Asesoría legal, fiscal y financiera coordinada. Resolvemos la complejidad para que el cliente solo tenga que tomar decisiones informadas." },
-    { "titulo": "Reforma y renders", "texto": "Si la vivienda necesita obra, renders y presupuesto de obra antes de comprar." },
-    { "titulo": "Financiación", "texto": "Broker financiero para llegar con la hipoteca estudiada." }
+    {
+      "titulo": "Compra y venta",
+      "texto": "Acompañamos cada operación desde la primera visita hasta la firma. Sin intermediarios innecesarios, sin promesas vacías."
+    },
+    {
+      "titulo": "Asesoramiento integral",
+      "texto": "Asesoría legal, fiscal y financiera coordinada. Resolvemos la complejidad para que solo tengas que tomar decisiones informadas."
+    },
+    {
+      "titulo": "Reforma y renders",
+      "texto": "Si la vivienda necesita obra, te enseñamos cómo puede quedar con renders y un presupuesto de obra antes de comprar. Decides con la casa terminada en la cabeza, no en el aire."
+    },
+    {
+      "titulo": "Financiación",
+      "texto": "Un broker financiero estudia tu hipoteca antes de la primera visita, compara entidades y te acompaña hasta la firma. Llegas a negociar sabiendo lo que puedes pagar."
+    }
   ],
   "faq": [
-    { "pregunta": "¿Cuesta algo buscar con Nodus?", "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus." },
-    { "pregunta": "¿Qué es una vivienda off market?", "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus." },
-    { "pregunta": "¿Cómo se filtran las viviendas?", "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus." },
-    { "pregunta": "¿Y si también vendo mi casa?", "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus." }
+    {
+      "pregunta": "¿Cuesta algo buscar con Nodus?",
+      "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus."
+    },
+    {
+      "pregunta": "¿Cómo se filtran las viviendas que me proponéis?",
+      "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus."
+    },
+    {
+      "pregunta": "¿Podéis ayudarme con la reforma y la hipoteca?",
+      "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus."
+    },
+    {
+      "pregunta": "¿Y si también vendo mi casa?",
+      "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus."
+    }
   ]
 }

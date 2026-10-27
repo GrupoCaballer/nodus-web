@@ -1,35 +1,76 @@
 {
   "promesas": [
     "Pocas viviendas a la vez: la tuya no será una más en un listado",
-    "Vídeo profesional, con dron si es un chalet",
+    "Una web con esencia propia, vídeo profesional y dron si es un chalet",
     "Visitas filtradas: solo compradores con capacidad real",
-    "Dos meses de prueba. Si vendes a un comprador tuyo, no pagas"
+    "Alcance y honorarios acordados por escrito antes de empezar"
   ],
   "prueba": [
-    { "dato": "TODO-DATO", "texto": "operaciones cerradas en Valencia y área metropolitana" },
-    { "dato": "2 semanas", "texto": "en las que cada anuncio recibe la mayor parte de sus visitas" },
-    { "dato": "TODO-DATO", "texto": "portales nacionales e internacionales en los que publicamos" },
-    { "dato": "0 €", "texto": "si vendes a un comprador propio" }
+    {
+      "dato": "TODO-DATO",
+      "texto": "operaciones cerradas en Valencia y área metropolitana"
+    },
+    {
+      "dato": "2 semanas",
+      "texto": "en las que cada anuncio recibe la mayor parte de sus visitas"
+    },
+    {
+      "dato": "TODO-DATO",
+      "texto": "portales nacionales e internacionales en los que publicamos"
+    },
+    {
+      "dato": "1",
+      "texto": "web con esencia propia para cada vivienda que vendemos"
+    }
   ],
   "pasos": [
-    { "titulo": "Conocemos tu vivienda.", "texto": "Visitamos el inmueble, escuchamos tu situación y tus plazos." },
-    { "titulo": "Valoramos con criterio.", "texto": "Combinamos la visita con el análisis de ubicación, estado, características y comparables. Te explicamos la propuesta de precio y sus límites." },
-    { "titulo": "Acordamos la estrategia.", "texto": "Definimos contigo el precio de salida, la presentación y los canales. El alcance del servicio y los honorarios quedan acordados antes de empezar." },
-    { "titulo": "Presentamos y gestionamos las visitas.", "texto": "Web propia, vídeo, fotos, home staging, publicación y consultas. Organizamos las visitas y conocemos la capacidad de compra de cada interesado." },
-    { "titulo": "Negociamos con criterio.", "texto": "Te presentamos las ofertas con sus condiciones y plazos y te ayudamos a valorarlas." },
-    { "titulo": "Coordinamos el cierre.", "texto": "Preparación del acuerdo, trámites previos y notaría hasta la firma y la entrega de llaves." }
+    {
+      "titulo": "Escuchamos tu situación.",
+      "texto": "Empezamos por tus motivos para vender, tus plazos y lo que necesitas resolver después: una mudanza, otra compra, una herencia. El plan de venta parte de ahí, no de una plantilla."
+    },
+    {
+      "titulo": "Visitamos y valoramos con criterio.",
+      "texto": "Conocemos la vivienda, revisamos su estado y la documentación, y estudiamos las comparables de tu zona. Te explicamos qué sostiene el precio propuesto y qué puede condicionar la negociación."
+    },
+    {
+      "titulo": "Acordamos la estrategia.",
+      "texto": "Definimos contigo el precio de salida, la presentación y los canales de comercialización. El alcance del servicio y los honorarios quedan por escrito antes de empezar, sin sorpresas después."
+    },
+    {
+      "titulo": "Presentamos y filtramos las visitas.",
+      "texto": "Web con esencia propia, vídeo, home staging, difusión en Instagram y portales nacionales e internacionales. Antes de enseñar, sabemos quién viene, qué busca y con qué capacidad de compra."
+    },
+    {
+      "titulo": "Negociamos contigo.",
+      "texto": "Te presentamos cada oferta con sus condiciones y plazos, la valoramos juntos y ajustamos la estrategia cuando los datos lo aconsejan. Siempre con tu aprobación."
+    },
+    {
+      "titulo": "Coordinamos el cierre.",
+      "texto": "Preparamos el acuerdo, los trámites previos y la coordinación con la notaría hasta la firma y la entrega de llaves. Cada paso, conectado con el siguiente."
+    }
   ],
   "incluido": [
-    { "titulo": "Web con esencia propia", "texto": "Un dominio para tu vivienda, con fotos, vídeo, plano y la historia de la casa." },
-    { "titulo": "Vídeo y dron", "texto": "Rodaje profesional; dron en chalets y parcelas." },
-    { "titulo": "Home staging", "texto": "Preparamos la vivienda para que se entienda a la primera." },
-    { "titulo": "Visitas filtradas", "texto": "Antes de enseñar, sabemos quién viene y con qué capacidad." }
+    {
+      "titulo": "Web con esencia propia",
+      "texto": "Un dominio solo para tu vivienda, con fotos, vídeo, plano y la historia de la casa. Es lo primero que ve un comprador serio, y lo que hace que tu casa no sea una más."
+    },
+    {
+      "titulo": "Vídeo y dron",
+      "texto": "Rodaje profesional de cada vivienda; con dron en chalets y parcelas, para que se entienda la casa, el jardín y la zona de un vistazo."
+    },
+    {
+      "titulo": "Home staging",
+      "texto": "Preparamos la vivienda para que se entienda a la primera: orden, luz y lo justo para que quien entra pueda imaginarse viviendo allí."
+    },
+    {
+      "titulo": "Visitas filtradas",
+      "texto": "Antes de enseñar, hablamos con cada interesado: qué busca, en qué plazos y con qué capacidad. Tu casa no la visita cualquiera."
+    }
   ],
   "condiciones": [
-    "Sin exclusiva clásica: pedimos ser los únicos que lo publiquemos en portales nacionales e internacionales.",
-    "Dos meses de prueba: si no te convence, nos vamos.",
-    "Si vendes a un comprador tuyo, no pagas.",
-    "Los honorarios se acuerdan por escrito antes de empezar."
+    "El alcance del servicio, los honorarios y las condiciones de pago se acuerdan por escrito antes de formalizar el encargo.",
+    "Las condiciones del encargo, su duración y la forma de comercialización se hablan antes de firmar.",
+    "La primera conversación es sin compromiso: nos cuentas tu situación y vemos qué información necesitas para decidir."
   ],
   "faq": [
     {
@@ -50,7 +91,7 @@
     },
     {
       "pregunta": "¿Trabajáis en exclusiva?",
-      "respuesta": "No con la exclusiva clásica. Pedimos ser los únicos que publiquemos la vivienda en portales nacionales e internacionales durante dos meses de prueba. Si en ese tiempo no te convence nuestro trabajo, nos vamos. Y si vendes a un comprador tuyo, no pagas."
+      "respuesta": "Las condiciones del encargo, su duración y la forma de comercialización se hablan antes de firmar. Te explicamos la propuesta de colaboración para que puedas valorarla con claridad."
     }
   ]
 }

@@ -44,4 +44,10 @@ Propiedades · Vender · Comprar · Zonas · Servicios · Blog · **Hablemos** (
 
 ## Páginas interiores (misma lógica de capítulos)
 
-Vender y Comprar: hero con promesas → cómo funciona → el barrio / dónde → incluido → reseñas → FAQ → formulario. Zonas: hero → el pueblo → urbanizaciones → estilo de vida → qué ofrece → distancias → patrimonio → imágenes → inmuebles → Nodus en la zona → formulario. Servicios: índice → seis servicios en filas alternas → formulario.
+Cada capítulo con su etiqueta dorada; textos en tú, hasta 35–40 palabras por punto; "Valencia" sin acento.
+
+**Vender** (prioridad de Nodus): hero con cuatro promesas → barra de prueba (cifras, TODO-DATO) → *Cómo funciona* (seis pasos de la web antigua, ampliados) → *El barrio* (zonas + situaciones particulares) → *La web de tu casa* → *Incluido* (web con esencia propia, vídeo y dron, home staging, visitas filtradas) + condiciones (alcance y honorarios por escrito antes de empezar; el modelo sin exclusiva / 2 meses / 0 € queda aparcado hasta que se decida) → reseñas → *Preguntas* → *Hablemos* (formulario).
+
+**Comprar**: hero con cuatro promesas → *Cómo funciona* ("Tres pasos. Una persona al lado.") → *Dónde buscar* (el barrio importa, con las cinco guías) → *Incluido* (compra y venta, asesoramiento integral, reforma y renders, financiación) → *En venta ahora* (pocas viviendas, toda la atención; aquí vive el argumento de la cartera corta) → reseñas → *Preguntas* (TODO-TEXTO) → *Hablemos*. El off market ya no se menciona en Comprar: va al apartado de Servicios.
+
+**Zonas**: hero → el pueblo → urbanizaciones → estilo de vida → qué ofrece → distancias → patrimonio → imágenes → inmuebles → Nodus en la zona → formulario. **Servicios**: índice → servicios en filas alternas (incluido off market) → formulario.

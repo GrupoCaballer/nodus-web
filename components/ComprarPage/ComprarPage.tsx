@@ -11,6 +11,7 @@ import Testimonios from "@/components/Testimonios/Testimonios";
 import PropertyCard from "@/components/Propiedades/PropertyCard";
 import { useReveal } from "@/components/motion/useReveal";
 import { PROPIEDADES } from "@/lib/propiedades";
+import { GUIAS } from "@/lib/zonas";
 import comprar from "@/content/comprar.json";
 import styles from "@/components/VenderPage/VenderPage.module.css";
 
@@ -39,7 +40,8 @@ export default function ComprarPage() {
             Encuentra lo que encaja. <span>Con alguien al lado.</span>
           </h1>
           <p className={styles.lead} data-reveal="text">
-            Asesoramiento inmobiliario integral: desde la primera visita hasta la firma. Sin fisuras.
+            Asesoramiento inmobiliario integral, desde la primera visita hasta la firma. Sin fisuras: una persona que escucha lo
+            que necesitas, busca lo que encaja de verdad y te acompaña hasta las llaves.
           </p>
           <ul className={styles.promesas}>
             {comprar.promesas.map((p) => (
@@ -67,7 +69,7 @@ export default function ComprarPage() {
       <Section className={`container ${styles.pasos}`}>
         <div data-reveal="text">
           <p className={styles.label}>Cómo funciona</p>
-          <Heading strong="Inmobiliaria," muted="reconectada." />
+          <Heading strong="Tres pasos." muted="Una persona al lado." />
         </div>
         <ol className={styles.pasosList}>
           {comprar.pasos.map((p, i) => (
@@ -81,21 +83,29 @@ export default function ComprarPage() {
         </ol>
       </Section>
 
-      <Section className={`container ${styles.split}`}>
-        <figure className={styles.splitFig} data-reveal="image">
-          <Image src="/fotos/servicio-comprar.webp" alt="Edificios y arbolado de un barrio residencial de Valencia" fill sizes="(max-width: 768px) 100vw, 50vw" className={styles.cover} />
-        </figure>
-        <div className={styles.splitText}>
-          <div data-reveal="text">
-            <Heading strong="Las mejores casas" muted="no se anuncian." breakMuted />
-          </div>
+      <Section className={`container ${styles.barrio}`}>
+        <div data-reveal="text">
+          <p className={styles.label}>Dónde buscar</p>
+          <Heading strong="El barrio importa." muted="Lo que viene después, también." breakMuted />
+        </div>
+        <div className={styles.barrioText}>
           <p data-reveal="text">
-            En Campolivar, las operaciones más interesantes rara vez aparecen en Idealista o Fotocasa. Las familias que llevan
-            años en la zona se mueven por recomendación, y los propietarios que quieren vender prefieren hacerlo sin exposición
-            pública. Conocemos el mercado y tenemos acceso a propiedades que no llegan al mercado abierto.
+            Un piso en Benimaclet, una casa en Godella o un chalet en Campolivar son vidas distintas: el colegio, el metro, el
+            jardín, la vuelta a casa. Conocemos cada zona como quien vive en ella y te contamos lo que no sale en el anuncio.
           </p>
+          <p data-reveal="text">
+            También cuenta lo que viene después para ti: una mudanza, una reforma, vender la casa en la que estás ahora. Por eso
+            empezamos escuchando, y la búsqueda se construye alrededor de eso.
+          </p>
+          <ul className={styles.zonasList} data-reveal="text">
+            {GUIAS.map((g) => (
+              <li key={g.slug}>
+                <Link href={`/zonas/${g.slug}`}>{g.nombre}</Link>
+              </li>
+            ))}
+          </ul>
           <div data-reveal="text">
-            <Button href="/zonas">Ver zonas</Button>
+            <Button href="/zonas">Ver todas las zonas</Button>
           </div>
         </div>
       </Section>
@@ -120,9 +130,11 @@ export default function ComprarPage() {
       {destacadas.length > 0 && (
         <Section className={`container ${styles.pasos}`}>
           <div data-reveal="text">
-            <Heading strong="En venta ahora." muted="Pocas, y bien llevadas." breakMuted />
+            <p className={styles.label}>En venta ahora</p>
+            <Heading strong="Pocas viviendas." muted="Toda la atención en cada una." breakMuted />
             <p className={styles.barrioText} style={{ marginTop: "3rem" }}>
-              Llevamos pocas viviendas a la vez para dedicarles toda la atención. Si buscas algo concreto, escríbenos.
+              Llevamos pocas viviendas a la vez, a propósito: cada una sale con su web, su vídeo y sus visitas filtradas, y se
+              vende antes de captar la siguiente. Si buscas algo concreto que no está aquí, escríbenos y lo buscamos contigo.
             </p>
             <div style={{ marginTop: "4rem" }}>
               <Button href="/propiedades">Ver todas las propiedades</Button>
@@ -140,6 +152,7 @@ export default function ComprarPage() {
 
       <Section className={`container ${styles.faq}`}>
         <div data-reveal="text">
+          <p className={styles.label}>Preguntas</p>
           <Heading strong="Preguntas" muted="antes de empezar." />
         </div>
         <div className={styles.faqList}>
@@ -158,10 +171,12 @@ export default function ComprarPage() {
       <Section id="contacto" className={`container ${styles.contacto}`}>
         <div className={styles.contactoText}>
           <div data-reveal="text">
+            <p className={styles.label}>Hablemos</p>
             <Heading strong="Cuéntanos qué buscas." />
           </div>
           <p data-reveal="text">
-            Te acompañamos en cada paso, sin complicaciones. Sin compromisos en el primer contacto.
+            Zona, presupuesto, plazos y lo que no puede faltar. Te acompañamos en cada paso, sin complicaciones y sin
+            compromisos en el primer contacto.
           </p>
           <div data-reveal="text">
             <WhatsApp block />
