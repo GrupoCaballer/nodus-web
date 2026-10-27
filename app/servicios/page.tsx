@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import ServiciosPage from "@/components/ServiciosPage/ServiciosPage";
 
 export const metadata: Metadata = {
-  title: "Servicios: renders, valoración, off market, financiación e inversión",
+  title: "Servicios: valoración, renders, financiación, alquiler y off market",
   description:
-    "Renders y presupuesto de reforma antes de comprar, valoración con criterio, propiedades off market, broker hipotecario con Bayteca, inversión y alquiler por habitaciones. Nodus Real Estate, Valencia.",
+    "Valoración con criterio, renders y presupuesto de reforma antes de comprar, broker hipotecario con Bayteca, alquiler por habitaciones y operaciones off market e inversión. Nodus Real Estate, Valencia.",
   alternates: { canonical: "/servicios" },
 };
 

@@ -13,58 +13,49 @@ import styles from "./ServiciosPage.module.css";
 // Textos de la web antigua y del contexto de Nodus. Lo marcado TODO-TEXTO lo redacta Nodus.
 const SERVICIOS = [
   {
-    id: "renders",
-    label: "Renders y reforma",
-    titulo: "¿Quieres imaginarte tu casa reformada?",
-    texto: "Si la vivienda que te gusta necesita obra, antes de comprar te presentamos renders de cómo quedará y un presupuesto de obra. Así decides con la propiedad terminada delante, no con la que hay hoy. TODO-TEXTO: ampliar con el proceso y un caso real.",
-    img: "/fotos/extra-reforma.webp",
-    alt: "Arquitectura contemporánea de líneas geométricas en Valencia",
-    cta: { href: "/comprar", label: "Comprar con Nodus" },
-  },
-  {
     id: "valoracion",
     label: "Valoración y venta",
-    titulo: "Una valoración con criterio.",
-    texto: "Combinamos la visita a la vivienda con el análisis de su ubicación, estado, características y propiedades comparables. Te explicamos la propuesta de precio y sus límites para acordar una salida al mercado con criterio. Después, web con esencia propia, vídeo, home staging y visitas filtradas.",
+    titulo: "Una valoración con criterio. Una venta con un equipo detrás.",
+    texto: "Visitamos tu propiedad y la estudiamos con su ubicación, su estado y las comparables de la zona. Te explicamos qué sostiene el precio propuesto y qué puede condicionar la negociación. Después, una web con esencia propia, vídeo profesional, home staging y visitas filtradas, hasta la firma.",
     img: "/fotos/servicio-vender.webp",
     alt: "Fachada modernista con palmeras en Valencia",
     cta: { href: "/vender", label: "Vender con Nodus" },
   },
   {
-    id: "off-market",
-    label: "Activos off market",
-    titulo: "Las mejores casas no se anuncian.",
-    texto: "Las familias que llevan años en una zona se mueven por recomendación, y los propietarios que quieren vender prefieren hacerlo sin exposición pública. Conocemos el mercado y tenemos acceso a propiedades que no llegan al mercado abierto. Gestionamos ventas discretas y encargos de compra. TODO-TEXTO: grandes activos.",
-    img: "/fotos/zona-campolivar.webp",
-    alt: "Chalet entre vegetación en Valencia",
-    cta: { href: "/zonas", label: "Ver zonas" },
+    id: "reforma",
+    label: "Renders y reforma",
+    titulo: "Imagínate la propiedad ya reformada.",
+    texto: "Si la propiedad que te gusta necesita obra, antes de comprar te enseñamos cómo quedará con renders y un presupuesto de obra. Decides con la propiedad terminada delante, no con la que hay hoy, y ofertas sabiendo lo que te va a costar de verdad. TODO-TEXTO: proceso y un caso real.",
+    img: "/fotos/extra-reforma.webp",
+    alt: "Arquitectura contemporánea de líneas geométricas en Valencia",
+    cta: { href: "/comprar", label: "Comprar con Nodus" },
   },
   {
     id: "financiacion",
     label: "Broker hipotecario",
     titulo: "Llega con la hipoteca estudiada.",
-    texto: "Asesoría legal, fiscal y financiera coordinada. Un broker personalizado estudia tu caso y compara entidades; en algunas de nuestras viviendas hay financiación con condiciones preferentes a través de Bayteca. Resolvemos la complejidad para que solo tengas que tomar decisiones informadas.",
+    texto: "Un broker estudia tu caso antes de la primera visita, compara entidades y te acompaña hasta la firma. En algunas de nuestras propiedades hay financiación con condiciones preferentes a través de Bayteca. Asesoría legal, fiscal y financiera coordinada, para que solo tengas que tomar decisiones informadas.",
     img: "/fotos/extra-financiacion.webp",
     alt: "Edificio histórico de fachada ornamentada en Valencia",
-    cta: { href: "/contacto", label: "Consultar" },
-  },
-  {
-    id: "inversion",
-    label: "Inversión",
-    titulo: "Una operación bien estructurada da resultados a largo plazo.",
-    texto: "Análisis de rentabilidad, selección de propiedades y seguimiento de la inversión. Presentación de operaciones a fondos y family offices: dossier, LOI y due diligence, en Valencia, Comunitat Valenciana, España, Portugal y Andorra.",
-    img: "/fotos/extra-inversion.webp",
-    alt: "Plaza del Ayuntamiento de Valencia con gente paseando",
-    cta: { href: "/contacto", label: "Hablar de una operación" },
+    cta: { href: "/contacto", label: "Consultar mi caso" },
   },
   {
     id: "alquiler",
     label: "Alquiler por habitaciones",
-    titulo: "Tu vivienda, habitación a habitación.",
-    texto: "Preparamos tu piso, seleccionamos inquilinos y gestionamos el día a día. Un servicio completo en Valencia, desde la primera habitación hasta el seguimiento mensual. Tres planes con precio que puedes contratar por separado o combinar.",
+    titulo: "Tu propiedad, habitación a habitación.",
+    texto: "Preparamos tu propiedad, seleccionamos inquilinos con solvencia y convivencia en mente y gestionamos el día a día: cobros, incidencias y mantenimiento. Un servicio completo en Valencia, en tres planes con precio que puedes contratar por separado o combinar.",
     img: "/fotos/servicio-alquilar.webp",
     alt: "Paseo marítimo con palmeras en Valencia",
     cta: { href: "/alquilar", label: "Ver los planes" },
+  },
+  {
+    id: "off-market",
+    label: "Off market e inversión",
+    titulo: "Operaciones que no se anuncian.",
+    texto: "Hay propietarios que prefieren vender sin exposición pública y compradores que buscan sin aparecer en ningún portal. Gestionamos esas ventas discretas y encargos de compra con la misma rigurosidad que el resto, y presentamos operaciones a fondos y family offices con dossier, LOI y due diligence, en Valencia, España, Portugal y Andorra. TODO-TEXTO: grandes activos.",
+    img: "/fotos/extra-inversion.webp",
+    alt: "Plaza del Ayuntamiento de Valencia con gente paseando",
+    cta: { href: "/contacto", label: "Hablar de una operación" },
   },
 ];
 
@@ -78,7 +69,7 @@ function Section({ children, className, id }: { children: React.ReactNode; class
   );
 }
 
-/** /servicios — lo que hace Nodus más allá de enseñar propiedades: renders, valoración, off market, broker, inversión, alquiler. */
+/** /servicios — lo que hace Nodus además de enseñar propiedades: valoración y venta, renders, broker, alquiler y, aparte, off market e inversión. */
 export default function ServiciosPage() {
   return (
     <>
@@ -87,7 +78,7 @@ export default function ServiciosPage() {
           Servicios
         </p>
         <div data-reveal="text">
-          <Heading as="h1" size="h1" strong="Cómo te ayuda Nodus." muted="De la primera visita a la firma, y lo que va después." breakMuted />
+          <Heading as="h1" size="h1" strong="Lo que hace Nodus" muted="además de enseñar propiedades." breakMuted />
         </div>
         <nav className={styles.index} aria-label="Servicios" data-reveal="text">
           {SERVICIOS.map((s) => (
@@ -125,7 +116,10 @@ export default function ServiciosPage() {
           <div data-reveal="text">
             <Heading strong="Cuéntanos qué necesitas." />
           </div>
-          <p data-reveal="text">Te acompañamos en cada paso, sin complicaciones. Sin compromisos en el primer contacto.</p>
+          <p data-reveal="text">
+            Cuéntanos tu caso en dos líneas y te decimos cómo lo haríamos. Te acompañamos en cada paso, sin complicaciones y sin
+            compromisos en el primer contacto.
+          </p>
           <div data-reveal="text">
             <WhatsApp block />
           </div>
