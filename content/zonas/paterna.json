@@ -1,0 +1,260 @@
+{
+  "slug": "paterna",
+  "nombre": "Paterna",
+  "municipio": "Paterna",
+  "zonas": [
+    "paterna",
+    "mas-camarena",
+    "la-canada"
+  ],
+  "eyebrow": "Paterna · L'Horta Oest · Mas Camarena, La Cañada y el Parque Tecnológico",
+  "titulo": [
+    "Vivir en Paterna:",
+    "Mas Camarena, La Cañada y Valterna."
+  ],
+  "intro": "Paterna es grande y tiene de todo: la torre y las coves del casco, la Cordà de agosto, el Parque Tecnológico donde trabaja media comarca y, hacia el norte, las urbanizaciones donde viven muchas de las familias que buscan casa con jardín cerca de València: Mas Camarena, La Cañada, Terramelar y Lloma Llarga-Valterna.",
+  "foto": {
+    "src": "/fotos/zonas/paterna-torre.webp",
+    "alt": "Torre de Paterna",
+    "credito": "Foto: Simon Burchell, CC BY-SA 4.0, vía Wikimedia Commons",
+    "provisional": false
+  },
+  "video": null,
+  "borrador": true,
+  "zona": {
+    "label": "El municipio",
+    "titulo": [
+      "Pueblo, tecnología",
+      "y urbanizaciones con pinar."
+    ],
+    "parrafos": [
+      "Paterna está pegada a València por el oeste y tiene varios núcleos muy distintos: el casco histórico con la Torre árabe y las coves excavadas, los barrios de la ciudad y, hacia el norte, las urbanizaciones de La Cañada, Terramelar, Lloma Llarga (Valterna) y Mas Camarena, junto al Parque Tecnológico.",
+      "El Parque Tecnológico es uno de los polos de empleo del área metropolitana y explica por qué tantas familias se instalan en las urbanizaciones de alrededor: se vive entre pinos y se trabaja a cinco minutos. Y una vez al año, el último domingo de agosto, la Cordà convierte el pueblo en el mayor espectáculo pirotécnico de la Comunitat."
+    ]
+  },
+  "datos": [
+    {
+      "label": "Comarca",
+      "valor": "L'Horta Oest"
+    },
+    {
+      "label": "Población",
+      "valor": "TODO-DATO (INE 2025)"
+    },
+    {
+      "label": "Metro",
+      "valor": "Líneas 1 y 2 · Paterna, Campament, Santa Rita, Fuente del Jarro, La Canyada, La Vallesa (TODO-DATO: confirmar)"
+    },
+    {
+      "label": "Acceso rodado",
+      "valor": "CV-35 · CV-365 · A-7 · V-30"
+    },
+    {
+      "label": "Empleo",
+      "valor": "Parque Tecnológico, Fuente del Jarro, Táctica"
+    },
+    {
+      "label": "Fiesta",
+      "valor": "La Cordà, último domingo de agosto"
+    }
+  ],
+  "urbanizaciones": {
+    "titulo": [
+      "Las urbanizaciones",
+      "del norte de Paterna."
+    ],
+    "items": [
+      {
+        "nombre": "Mas Camarena",
+        "texto": "Urbanización de chalets con seguridad privada las 24 horas, junto al Parque Tecnológico y lindando con Torre en Conill. Parcelas amplias, colegios en la propia zona y pinar. Es la que más piden las familias que trabajan en el Parque. TODO-DATO: colegios y servicios concretos dentro de la urbanización.",
+        "foto": "/fotos/zona-torre-en-conill.webp",
+        "alt": "Chalets entre pinos"
+      },
+      {
+        "nombre": "La Cañada",
+        "texto": "La urbanización histórica de Paterna, con estación de metro propia (La Canyada), colegios, supermercados y zonas verdes. Casas de todas las épocas, desde las primeras de veraneo hasta obra nueva, y una vida de barrio consolidada.",
+        "foto": "/fotos/zona-santa-barbara.webp",
+        "alt": "Casa con jardín"
+      },
+      {
+        "nombre": "Terramelar y Lloma Llarga (Valterna)",
+        "texto": "Terramelar, más antigua y arbolada; Valterna, más reciente, con adosados y pisos nuevos, centro comercial y colegios. Las dos a un paso del Parque Tecnológico y de la CV-35. TODO-DATO: Nodus añade una frase de cada una y cuáles trabaja.",
+        "foto": "/fotos/zona-turia.webp",
+        "alt": "Arbolado"
+      },
+      {
+        "nombre": "El casco",
+        "texto": "La Torre de Paterna, las coves excavadas en la roca y las calles del pueblo viejo. Pisos y casas de pueblo con metro en la puerta y la Cordà cada agosto.",
+        "foto": "/fotos/zonas/paterna-coves.webp",
+        "alt": "Coves de la Torre, Paterna"
+      }
+    ]
+  },
+  "estilo": [
+    {
+      "titulo": "Trabajar a cinco minutos",
+      "texto": "El Parque Tecnológico está al lado de Mas Camarena y de Valterna. Se vive entre pinos y se llega al trabajo sin autopista."
+    },
+    {
+      "titulo": "Casa con jardín sin salir del área metropolitana",
+      "texto": "Chalets en parcela, adosados y pisos nuevos en el mismo municipio, con metro en La Cañada y en el casco."
+    },
+    {
+      "titulo": "Un pueblo con fiesta propia",
+      "texto": "La Cordà, el Cocó y las fiestas de agosto. Paterna tiene identidad, no es un dormitorio de València."
+    }
+  ],
+  "ofrece": {
+    "titulo": [
+      "Lo que hace que",
+      "Paterna funcione."
+    ],
+    "items": [
+      {
+        "sub": "Empleo",
+        "titulo": "Parque Tecnológico",
+        "texto": "Uno de los polos de empleo del área metropolitana, junto a Mas Camarena."
+      },
+      {
+        "sub": "Metro",
+        "titulo": "Líneas 1 y 2",
+        "texto": "Varias estaciones en el municipio, incluida La Canyada en la urbanización. TODO-DATO: confirmar listado."
+      },
+      {
+        "sub": "Colegios",
+        "titulo": "En las urbanizaciones",
+        "texto": "Centros privados y concertados en la zona del Parque Tecnológico y públicos en La Cañada. TODO-DATO: nombres."
+      },
+      {
+        "sub": "Compras",
+        "titulo": "Centros comerciales",
+        "texto": "Grandes superficies y centros comerciales en el eje de la CV-35. TODO-DATO: nombres."
+      },
+      {
+        "sub": "Patrimonio",
+        "titulo": "Torre y coves",
+        "texto": "La Torre árabe del siglo XI y las coves excavadas en la roca, en el casco."
+      },
+      {
+        "sub": "Naturaleza",
+        "titulo": "La Vallesa y el Turia",
+        "texto": "El pinar de la Vallesa y el Parque Natural del Turia, para correr y salir en bici."
+      }
+    ]
+  },
+  "distancias": {
+    "titulo": [
+      "Pegada a València.",
+      "Con pinar."
+    ],
+    "texto": "TODO-DATO: confirmar tiempos desde Mas Camarena.",
+    "items": [
+      {
+        "lugar": "València centro",
+        "tiempo": "20 min"
+      },
+      {
+        "lugar": "Parque Tecnológico",
+        "tiempo": "5 min"
+      },
+      {
+        "lugar": "Aeropuerto de Manises",
+        "tiempo": "15 min"
+      },
+      {
+        "lugar": "Playa de la Malvarrosa",
+        "tiempo": "30 min"
+      },
+      {
+        "lugar": "Madrid (AVE desde València)",
+        "tiempo": "2 h"
+      }
+    ]
+  },
+  "patrimonio": {
+    "titulo": [
+      "Una torre del XI.",
+      "Una fiesta de fuego."
+    ],
+    "parrafos": [
+      "La Torre de Paterna, de origen árabe, y las coves excavadas a su alrededor son la imagen del pueblo viejo. Desde la torre se ve toda l'Horta.",
+      "La Cordà de Paterna, el último domingo de agosto, es el mayor espectáculo pirotécnico de la Comunitat Valenciana y está declarada de interés turístico. El pueblo entero se prepara durante semanas."
+    ],
+    "items": [
+      {
+        "titulo": "Torre de Paterna",
+        "texto": "Torre árabe del siglo XI, símbolo del municipio."
+      },
+      {
+        "titulo": "Coves de la Torre",
+        "texto": "Viviendas excavadas en la roca alrededor de la torre, con sus chimeneas y patios."
+      },
+      {
+        "titulo": "La Cordà",
+        "texto": "Último domingo de agosto. Fuego, cohetes y toda Paterna en la calle."
+      },
+      {
+        "titulo": "La Vallesa",
+        "texto": "Pinar y parque natural del Turia, el pulmón del municipio."
+      }
+    ]
+  },
+  "lugares": [
+    "la entrada de Mas Camarena",
+    "el Parque Tecnológico",
+    "la estación de metro de La Canyada",
+    "las calles de La Cañada",
+    "la Torre de Paterna y las coves",
+    "la Cordà",
+    "el pinar de la Vallesa",
+    "Valterna"
+  ],
+  "galeria": [
+    {
+      "src": "/fotos/zonas/paterna-torre.webp",
+      "alt": "Torre de Paterna",
+      "pie": "La Torre de Paterna, del siglo XI",
+      "credito": "Foto: Simon Burchell, CC BY-SA 4.0, vía Wikimedia Commons"
+    },
+    {
+      "src": "/fotos/zonas/paterna-coves.webp",
+      "alt": "Coves de la Torre, Paterna",
+      "pie": "Las coves excavadas alrededor de la torre",
+      "credito": "Foto: Enrique Íñiguez Rodríguez (Qoan), CC BY-SA 3.0, vía Wikimedia Commons"
+    },
+    {
+      "src": "/fotos/zonas/paterna-cordà.webp",
+      "alt": "Cordà de Paterna",
+      "pie": "La Cordà, el último domingo de agosto",
+      "credito": "Foto: Wikimedia Commons, CC BY-SA 2.0"
+    }
+  ],
+  "nodus": {
+    "titulo": [
+      "Pocas casas.",
+      "Las que merecen la pena."
+    ],
+    "parrafos": [
+      "En Mas Camarena y La Cañada la demanda viene del Parque Tecnológico y de las familias que ya viven en la zona. Muchas operaciones se cierran por recomendación.",
+      "Nodus Real Estate lleva pocas viviendas a la vez en Paterna, con web propia, vídeo con dron y visitas filtradas. Si buscas chalet en Mas Camarena o quieres vender, empezamos por una conversación."
+    ],
+    "servicios": [
+      {
+        "titulo": "Compra de propiedades",
+        "texto": "Chalets en Mas Camarena y La Cañada, adosados en Valterna. Acceso a viviendas que no se publican."
+      },
+      {
+        "titulo": "Venta discreta",
+        "texto": "Venta sin exposición pública cuando el propietario lo prefiere, con compradores cualificados de la zona."
+      },
+      {
+        "titulo": "Reforma y renders",
+        "texto": "Casas de los ochenta y noventa en La Cañada con mucho que ganar. Renders y presupuesto de obra antes de comprar."
+      },
+      {
+        "titulo": "Asesoramiento integral",
+        "texto": "Valoración, financiación con broker y acompañamiento hasta la notaría."
+      }
+    ]
+  }
+}

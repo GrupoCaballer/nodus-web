@@ -5,10 +5,12 @@ import Link from "next/link";
 import { useRef, useState } from "react";
 import Button from "@/components/ui/Button";
 import ContactForm from "@/components/ContactForm/ContactForm";
+import WhatsApp from "@/components/ui/WhatsApp";
 import Embed from "./Embed";
 import PropertyCard from "./PropertyCard";
 import { useReveal } from "@/components/motion/useReveal";
 import { fotosDe, nombreZona, precio, similares, TIPOS, type Propiedad } from "@/lib/propiedades";
+import { guiaDeZona } from "@/lib/zonas";
 import styles from "./Ficha.module.css";
 
 /** Ficha de inmueble: galería grande, datos y CTA fijos, descripción, características, vídeo y tour, zona, similares, formulario. */
@@ -19,6 +21,7 @@ export default function Ficha({ p }: { p: Propiedad }) {
   const [todas, setTodas] = useState(false);
   const visibles = todas ? fotos : fotos.slice(0, 5);
   const zona = nombreZona(p.zona);
+  const guia = guiaDeZona(p.zona);
   const vendido = p.estado === "vendido";
   const parecidos = similares(p);
 
@@ -28,7 +31,7 @@ export default function Ficha({ p }: { p: Propiedad }) {
         <nav className={styles.crumbs} aria-label="Migas de pan">
           <Link href="/propiedades">Propiedades</Link>
           <span aria-hidden> / </span>
-          {zona ? <Link href={`/zonas/${p.zona}`}>{zona}</Link> : <span>{p.localidad}</span>}
+          {guia ? <Link href={`/zonas/${guia.slug}`}>{zona ?? guia.nombre}</Link> : <span>{p.localidad}</span>}
         </nav>
 
         <header className={styles.head}>
@@ -110,14 +113,14 @@ export default function Ficha({ p }: { p: Propiedad }) {
               </section>
             )}
 
-            {zona && (
+            {guia && (
               <section className={styles.zone} aria-labelledby="zona">
                 <h2 id="zona">La zona</h2>
                 <p>
-                  Esta vivienda está en <strong>{zona}</strong>. Tenemos una guía con datos del mercado, servicios, accesos y
-                  lo que no se publica.
+                  Esta vivienda está en <strong>{zona ?? guia.nombre}</strong>. Tenemos una guía de {guia.nombre} con datos del
+                  mercado, servicios, accesos y lo que no se publica.
                 </p>
-                <Button href={`/zonas/${p.zona}`}>Guía de {zona}</Button>
+                <Button href={`/zonas/${guia.slug}`}>Guía de {guia.nombre}</Button>
               </section>
             )}
           </div>
@@ -134,6 +137,9 @@ export default function Ficha({ p }: { p: Propiedad }) {
                 <p className={styles.sideText}>Pide una visita o más información. Te llamamos en el día.</p>
               )}
               <ContactForm origen={`Ficha · ${p.titulo}`} cta={vendido ? "Avisadme de similares" : "Pedir visita"} />
+              <div className={styles.wa}>
+                <WhatsApp label="O escríbenos por WhatsApp" />
+              </div>
             </div>
           </aside>
         </div>

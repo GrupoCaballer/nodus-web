@@ -1,0 +1,247 @@
+{
+  "slug": "rocafort",
+  "nombre": "Rocafort",
+  "municipio": "Rocafort",
+  "zonas": [
+    "rocafort",
+    "santa-barbara"
+  ],
+  "eyebrow": "Rocafort · L'Horta Nord · a 8 km de València",
+  "titulo": [
+    "Vivir en Rocafort:",
+    "Santa Bárbara y el pueblo."
+  ],
+  "intro": "Rocafort es pequeño, está a ocho kilómetros de València y sale año tras año entre los municipios de mayor renta de España. La urbanización Santa Bárbara, el casco con la casa de Machado y el metro a cinco minutos. Lo conocemos como vecinos: está al lado de Godella.",
+  "foto": {
+    "src": "/fotos/zona-santa-barbara.webp",
+    "alt": "Villa española con buganvilla",
+    "credito": "",
+    "provisional": true
+  },
+  "video": null,
+  "borrador": true,
+  "zona": {
+    "label": "El pueblo",
+    "titulo": [
+      "El pueblo pequeño",
+      "que todo el mundo conoce."
+    ],
+    "parrafos": [
+      "Rocafort tiene poco más de 7.700 habitantes y un casco de escala humana: la iglesia de San Sebastián Mártir, la Casa de la Cultura en el antiguo palacio del barón de Terrateig con su jardín detrás, y las villas de veraneo que la burguesía valenciana levantó aquí desde finales del XIX. En una de ellas, Villa Amparo, vivió Antonio Machado entre 1936 y 1938, su última casa en España.",
+      "El metro de la línea 1 para en el pueblo y la CV-35 está a un paso. Se vive con ritmo de pueblo (el arroz al horno de L'Antic Molí, el mercado de antigüedades que ha empezado a organizarse con el Ayuntamiento) y se trabaja en la ciudad sin que el coche marque el día."
+    ]
+  },
+  "datos": [
+    {
+      "label": "Comarca",
+      "valor": "L'Horta Nord"
+    },
+    {
+      "label": "Población",
+      "valor": "≈ 7.750 hab. (INE 2025)"
+    },
+    {
+      "label": "Metro",
+      "valor": "Línea 1 · Rocafort"
+    },
+    {
+      "label": "Acceso rodado",
+      "valor": "CV-310 · CV-35 · A-7"
+    },
+    {
+      "label": "Colegios",
+      "valor": "Cambridge House Community College, junto a Santa Bárbara"
+    },
+    {
+      "label": "Distancia a València",
+      "valor": "≈ 8 km"
+    }
+  ],
+  "urbanizaciones": {
+    "titulo": [
+      "Dos maneras",
+      "de vivir en Rocafort."
+    ],
+    "items": [
+      {
+        "nombre": "Santa Bárbara",
+        "texto": "La urbanización histórica, cerrada y con control de acceso las 24 horas. Chalets en parcela con pinar, la piscina y las zonas comunes de La Charca, la ermita-parroquia de Santa Bárbara, el Club de Campo a la entrada y Cambridge House al lado. Un autobús privado la conecta de día con el metro. Es donde está la casa más cara del pueblo y donde la oferta es más corta.",
+        "foto": "/fotos/zona-santa-barbara.webp",
+        "alt": "Chalet en Santa Bárbara"
+      },
+      {
+        "nombre": "El casco y las villas",
+        "texto": "Casas de pueblo, villas de veraneo con jardín y pisos cerca del metro. Vida de plaza: la iglesia, la Casa de la Cultura, los bares y el paseo hasta Godella. Para quien quiere Rocafort sin vivir dentro de una urbanización.",
+        "foto": "/fotos/zonas/rocafort-iglesia.webp",
+        "alt": "Fachada de la iglesia de San Sebastián Mártir, Rocafort"
+      },
+      {
+        "nombre": "Otras urbanizaciones",
+        "texto": "TODO-DATO: Nodus completa aquí las demás urbanizaciones de Rocafort que trabaja (nombre y una frase de cada una).",
+        "foto": "/fotos/zona-turia.webp",
+        "alt": "Arbolado y huerta"
+      }
+    ]
+  },
+  "estilo": [
+    {
+      "titulo": "Puerta cerrada, vida abierta",
+      "texto": "Seguridad 24 horas y acceso controlado en Santa Bárbara, con calles por las que los niños van solos a la piscina. Y el pueblo al lado."
+    },
+    {
+      "titulo": "Colegio al lado de casa",
+      "texto": "Cambridge House Community College está junto a la urbanización. Para muchas familias, el motivo de llegar y la razón de quedarse."
+    },
+    {
+      "titulo": "Entre Godella y València",
+      "texto": "A un paso de Campolivar y del casco de Godella, y València a ocho kilómetros por la CV-35 o en metro."
+    }
+  ],
+  "ofrece": {
+    "titulo": [
+      "Lo que hace que",
+      "el pueblo funcione."
+    ],
+    "items": [
+      {
+        "sub": "Educación",
+        "titulo": "Cambridge House Community College",
+        "texto": "Colegio británico junto a Santa Bárbara. Factor clave en la demanda residencial de Rocafort."
+      },
+      {
+        "sub": "Deporte",
+        "titulo": "Club de Campo y Club Español de Tenis",
+        "texto": "A la entrada de la urbanización. Tenis, pádel y vida social de toda la vida."
+      },
+      {
+        "sub": "Metro línea 1",
+        "titulo": "Estación Rocafort",
+        "texto": "Conexión directa con el centro de València. Bus privado de Santa Bárbara durante el día."
+      },
+      {
+        "sub": "Patrimonio",
+        "titulo": "Villa Amparo",
+        "texto": "La casa donde vivió Antonio Machado en 1936-38, adquirida por la Generalitat en 2018."
+      },
+      {
+        "sub": "Gastronomía",
+        "titulo": "Arroz al horno",
+        "texto": "El plato del pueblo. L'Antic Molí es la referencia."
+      },
+      {
+        "sub": "Naturaleza",
+        "titulo": "Pinar y huerta",
+        "texto": "Parcelas con arbolado maduro dentro de la urbanización y la huerta de l'Horta Nord alrededor."
+      }
+    ]
+  },
+  "distancias": {
+    "titulo": [
+      "Ocho kilómetros",
+      "del centro."
+    ],
+    "texto": "Rocafort está en la primera corona de València. TODO-DATO: confirmar tiempos.",
+    "items": [
+      {
+        "lugar": "València centro",
+        "tiempo": "15 min"
+      },
+      {
+        "lugar": "Metro Rocafort",
+        "tiempo": "5 min"
+      },
+      {
+        "lugar": "Aeropuerto de Manises",
+        "tiempo": "15 min"
+      },
+      {
+        "lugar": "Playa de la Malvarrosa",
+        "tiempo": "25 min"
+      },
+      {
+        "lugar": "Madrid (AVE desde València)",
+        "tiempo": "1 h 50 min"
+      }
+    ]
+  },
+  "patrimonio": {
+    "titulo": [
+      "Un pueblo de huerta",
+      "con memoria."
+    ],
+    "parrafos": [
+      "Rocafort fue, como Godella, lugar de veraneo de la burguesía valenciana desde finales del siglo XIX. De aquella época quedan villas y jardines; en Villa Amparo, chalet neoclásico, vivió Antonio Machado con parte de su familia durante la Guerra Civil.",
+      "El casco conserva la iglesia de San Sebastián Mártir y el jardín del antiguo palacio del barón de Terrateig, hoy detrás de la Casa de la Cultura."
+    ],
+    "items": [
+      {
+        "titulo": "Villa Amparo",
+        "texto": "Última casa de Antonio Machado en España (1936-38). Hoy de la Generalitat."
+      },
+      {
+        "titulo": "Iglesia de San Sebastián Mártir",
+        "texto": "Parroquia del casco antiguo, centro de las fiestas del pueblo."
+      },
+      {
+        "titulo": "Jardín del barón de Terrateig",
+        "texto": "Tras la Casa de la Cultura, resto del antiguo palacio."
+      },
+      {
+        "titulo": "Ermita de Santa Bárbara",
+        "texto": "La ermita-parroquia que da nombre a la urbanización."
+      }
+    ]
+  },
+  "lugares": [
+    "la entrada de Santa Bárbara",
+    "Cambridge House",
+    "el Club de Campo y el Club Español de Tenis",
+    "la piscina de La Charca",
+    "la ermita de Santa Bárbara",
+    "Villa Amparo",
+    "la plaza y la iglesia de San Sebastián",
+    "la estación de metro de Rocafort"
+  ],
+  "galeria": [
+    {
+      "src": "/fotos/zonas/rocafort-villa-amparo.webp",
+      "alt": "Villa Amparo, en Rocafort",
+      "pie": "Villa Amparo, la casa de Machado",
+      "credito": "Foto: 19Tarrestnom65, CC BY-SA 4.0, vía Wikimedia Commons"
+    },
+    {
+      "src": "/fotos/zonas/rocafort-iglesia.webp",
+      "alt": "Fachada de la iglesia de Rocafort",
+      "pie": "Iglesia de San Sebastián Mártir",
+      "credito": "Foto: 19Tarrestnom65, CC BY-SA 4.0, vía Wikimedia Commons"
+    }
+  ],
+  "nodus": {
+    "titulo": [
+      "Pocas casas.",
+      "Las que merecen la pena."
+    ],
+    "parrafos": [
+      "En Santa Bárbara la oferta es corta y la demanda, estable. Las casas cambian de manos entre familias que ya conocen la urbanización, muchas veces sin anuncio.",
+      "Nodus Real Estate está en Godella, al lado, y lleva pocas viviendas a la vez en Rocafort, con web propia, vídeo con dron y visitas filtradas. Si buscas en Santa Bárbara o quieres vender, empezamos por una conversación."
+    ],
+    "servicios": [
+      {
+        "titulo": "Compra de propiedades",
+        "texto": "Chalets en parcela dentro de la urbanización y casas en el resto de Rocafort. Acceso a viviendas que no se publican."
+      },
+      {
+        "titulo": "Venta discreta",
+        "texto": "Venta sin exposición pública cuando el propietario lo prefiere, con compradores cualificados de la zona."
+      },
+      {
+        "titulo": "Reforma y renders",
+        "texto": "Casas de los años setenta y ochenta con mucho que ganar. Renders y presupuesto de obra antes de comprar."
+      },
+      {
+        "titulo": "Asesoramiento integral",
+        "texto": "Valoración, financiación con broker y acompañamiento hasta la notaría."
+      }
+    ]
+  }
+}

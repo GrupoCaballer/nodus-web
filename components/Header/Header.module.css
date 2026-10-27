@@ -112,6 +112,14 @@
   .open {
     background: var(--bg);
   }
+  .mobileContact {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    font-size: var(--fs-body);
+  }
   .mobile:not([hidden]) {
     display: flex;
     flex-direction: column;

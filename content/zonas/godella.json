@@ -1,0 +1,253 @@
+{
+  "slug": "godella",
+  "nombre": "Godella",
+  "municipio": "Godella",
+  "zonas": [
+    "godella",
+    "campolivar"
+  ],
+  "eyebrow": "Godella · L'Horta Nord · a 10 minutos de València",
+  "titulo": [
+    "Vivir en Godella:",
+    "Campolivar, el pueblo y la huerta."
+  ],
+  "intro": "Godella es el pueblo donde está Nodus. Casas con jardín en Campolivar, un casco con villas de veraneo del XIX, dos estaciones de metro y la huerta a la vuelta de la esquina. Lo conocemos calle a calle.",
+  "foto": {
+    "src": "/fotos/zona-campolivar.webp",
+    "alt": "Chalet entre vegetación en València",
+    "credito": "",
+    "provisional": true
+  },
+  "video": null,
+  "borrador": false,
+  "zona": {
+    "label": "El pueblo",
+    "titulo": [
+      "València a diez minutos.",
+      "La huerta como fondo."
+    ],
+    "parrafos": [
+      "Godella es un municipio de la comarca de l'Horta Nord a escasos kilómetros del centro de València. Combina las ventajas del área metropolitana con un entorno de casas con jardín, calles tranquilas y muy buenas comunicaciones: dos estaciones de metro de la línea 1 (Godella y Burjassot-Godella) y acceso a la CV-35 y la A-7.",
+      "Desde finales del XIX, las familias de València subían a Godella a pasar el verano. De aquella época quedan las villas de la subida a la Ermita del Salvador y el carácter de un pueblo que nunca ha querido ser ciudad: mercado, sociedades musicales y fiestas con identidad propia."
+    ]
+  },
+  "datos": [
+    {
+      "label": "Comarca",
+      "valor": "L'Horta Nord"
+    },
+    {
+      "label": "Población",
+      "valor": "13.533 hab."
+    },
+    {
+      "label": "Metro",
+      "valor": "Línea 1 · Godella y Burjassot-Godella"
+    },
+    {
+      "label": "Acceso rodado",
+      "valor": "CV-3102 · CV-35 · A-7"
+    },
+    {
+      "label": "Colegios",
+      "valor": "British School Los Olivos y centros públicos y concertados"
+    },
+    {
+      "label": "Oficina de Nodus",
+      "valor": "Godella"
+    }
+  ],
+  "urbanizaciones": {
+    "titulo": [
+      "Cada parte de Godella",
+      "tiene su manera de vivir."
+    ],
+    "items": [
+      {
+        "nombre": "Campolivar",
+        "texto": "La urbanización de referencia. Chalets en parcelas con arbolado maduro alrededor del Castillo-Masía de San Fernando (1864), el British School Los Olivos y el Godellabus que baja al pueblo. Zona de familias que llegan para quedarse; la oferta visible en portales es corta y muchas casas cambian de mano por recomendación.",
+        "foto": "/fotos/zona-campolivar.webp",
+        "alt": "Chalet con jardín en Campolivar"
+      },
+      {
+        "nombre": "El casco antiguo",
+        "texto": "Alrededor de la iglesia de San Bartolomé (1754) y la plaza: casas de pueblo de los siglos XVIII y XIX, comercio de toda la vida, el mercado y los bares de siempre. Para quien quiere pueblo de verdad a diez minutos de la ciudad.",
+        "foto": "/fotos/zonas/godella-iglesia.webp",
+        "alt": "Iglesia de San Bartolomé Apóstol, Godella"
+      },
+      {
+        "nombre": "La Ermita y las villas",
+        "texto": "La subida a la Ermita del Salvador, en la parte alta del pueblo, está flanqueada por las villas modernistas que levantaron las familias valencianas para veranear. Casas con historia, jardines antiguos y vistas sobre la huerta.",
+        "foto": "/fotos/zonas/godella-ermita.webp",
+        "alt": "Ermita del Salvador, Godella"
+      },
+      {
+        "nombre": "Junto a la huerta",
+        "texto": "El límite del pueblo con los campos: el molino restaurado junto a la Real Acequia de Moncada, el barranco del Carraixet y los caminos entre parcelas por los que se sale en bici. TODO-DATO: nombres de las urbanizaciones de esta zona que Nodus quiera destacar.",
+        "foto": "/fotos/zona-turia.webp",
+        "alt": "Huerta y arbolado"
+      }
+    ]
+  },
+  "estilo": [
+    {
+      "titulo": "Ciudad sin renunciar al espacio",
+      "texto": "Casas con jardín, espacio privado y silencio. Sin alejarse de València: el metro conecta con el centro en pocos minutos."
+    },
+    {
+      "titulo": "Comunidad internacional consolidada",
+      "texto": "La presencia del British School Los Olivos ha atraído durante años a familias con perfiles internacionales. Una comunidad diversa y estable."
+    },
+    {
+      "titulo": "La huerta como entorno",
+      "texto": "Los campos que rodean el municipio, el barranco del Carraixet y los caminos entre parcelas forman parte del día a día."
+    }
+  ],
+  "ofrece": {
+    "titulo": [
+      "Todo lo necesario,",
+      "sin depender del coche."
+    ],
+    "items": [
+      {
+        "sub": "Metro línea 1",
+        "titulo": "Godella y Burjassot-Godella",
+        "texto": "Conexión directa con el centro de València y con Bétera. Dos estaciones dan servicio al municipio."
+      },
+      {
+        "sub": "Educación internacional",
+        "titulo": "British School Los Olivos",
+        "texto": "Uno de los colegios internacionales de referencia de València, ubicado en Campolivar."
+      },
+      {
+        "sub": "Servicios",
+        "titulo": "Centro urbano",
+        "texto": "Comercios, mercado, servicios sanitarios y oferta cultural. El Godellabus conecta Campolivar con el casco."
+      },
+      {
+        "sub": "Patrimonio cultural",
+        "titulo": "Casa Museo Pinazo",
+        "texto": "El taller del pintor Ignacio Pinazo Camarlench convertido en museo. Obras suyas en el Prado y el IVAM."
+      },
+      {
+        "sub": "Naturaleza y huerta",
+        "titulo": "Barranco del Carraixet",
+        "texto": "Rutas a pie y en bicicleta entre campos cultivados y caminos históricos de la comarca."
+      },
+      {
+        "sub": "Vida cultural local",
+        "titulo": "Fiestas y tradición",
+        "texto": "Moros y Cristianos, Bous al Carrer en agosto y sociedades corales con larga tradición."
+      }
+    ]
+  },
+  "distancias": {
+    "titulo": [
+      "Cerca de todo.",
+      "Lejos del ruido."
+    ],
+    "texto": "Godella está a diez minutos del centro de València en coche y conectada por metro. Lo suficientemente cerca para aprovechar la ciudad. Lo suficientemente fuera para vivir sin prisa.",
+    "items": [
+      {
+        "lugar": "València centro",
+        "tiempo": "10 min"
+      },
+      {
+        "lugar": "Aeropuerto de Manises",
+        "tiempo": "15 min"
+      },
+      {
+        "lugar": "Puerto de València",
+        "tiempo": "20 min"
+      },
+      {
+        "lugar": "Playa de la Malvarrosa",
+        "tiempo": "25 min"
+      },
+      {
+        "lugar": "Madrid (AVE)",
+        "tiempo": "1 h 40 min"
+      }
+    ]
+  },
+  "patrimonio": {
+    "titulo": [
+      "Historia noble.",
+      "Arquitectura con carácter."
+    ],
+    "parrafos": [
+      "El Castillo-Masía de San Fernando, construido en 1864 por el tercer barón de Campo-Olivar, es el símbolo arquitectónico de Campolivar. Alrededor de este núcleo histórico creció la urbanización que existe hoy.",
+      "Godella aparece en el Llibre del Repartiment como Godayla, concedida por Jaime I en 1238. Conserva la iglesia de San Bartolomé Apóstol con su artesonado mudéjar del siglo XIV y la torre del Palacio de Serdañola, bien de interés cultural."
+    ],
+    "items": [
+      {
+        "titulo": "Castillo-Masía de San Fernando",
+        "texto": "Construcción de 1864. Pieza central de Campolivar y símbolo de la baronía de Campo-Olivar."
+      },
+      {
+        "titulo": "Iglesia de San Bartolomé Apóstol",
+        "texto": "Renacentista, inaugurada en 1754. Conserva una capilla del siglo XIV con artesonado mudéjar."
+      },
+      {
+        "titulo": "Casa Museo Pinazo",
+        "texto": "Taller y residencia del pintor Ignacio Pinazo Camarlench."
+      },
+      {
+        "titulo": "Palacio de Serdañola",
+        "texto": "Torre del siglo XVIII declarada bien de interés cultural, junto a la antigua puerta del castillo."
+      }
+    ]
+  },
+  "lugares": [
+    "el Castillo-Masía de San Fernando",
+    "la entrada de Campolivar",
+    "el British School Los Olivos",
+    "la plaza y la iglesia de San Bartolomé",
+    "la subida a la Ermita del Salvador",
+    "la Casa Museo Pinazo",
+    "el molino de la Real Acequia de Moncada",
+    "la estación de metro de Godella"
+  ],
+  "galeria": [
+    {
+      "src": "/fotos/zonas/godella-iglesia.webp",
+      "alt": "Iglesia parroquial de San Bartolomé Apóstol, Godella",
+      "pie": "Iglesia de San Bartolomé, en el casco antiguo",
+      "credito": "Foto: Sancor, CC BY-SA 3.0 es, vía Wikimedia Commons"
+    },
+    {
+      "src": "/fotos/zonas/godella-ermita.webp",
+      "alt": "Ermita del Salvador, Godella",
+      "pie": "La Ermita del Salvador, en la parte alta del pueblo",
+      "credito": "Foto: Mirigu24, CC BY-SA 4.0, vía Wikimedia Commons"
+    }
+  ],
+  "nodus": {
+    "titulo": [
+      "Las mejores casas",
+      "no se anuncian."
+    ],
+    "parrafos": [
+      "En Campolivar y en Godella, las operaciones más interesantes rara vez aparecen en los portales. Las familias que llevan años en la zona se mueven por recomendación, y los propietarios que quieren vender prefieren hacerlo sin exposición pública.",
+      "Nodus Real Estate tiene su oficina en Godella y trabaja el pueblo con pocas viviendas a la vez: chalets, casas con jardín y propiedades singulares que no verás publicadas. Si estás buscando o quieres vender, el primer paso es hablar con nosotros."
+    ],
+    "servicios": [
+      {
+        "titulo": "Compra de propiedades",
+        "texto": "Acceso a chalets y casas con jardín en Campolivar y Godella que no se publican. Zona de alta demanda y oferta limitada en portales."
+      },
+      {
+        "titulo": "Venta discreta",
+        "texto": "Gestionamos ventas sin exposición pública para propietarios que prefieren la discreción. Red de compradores cualificados en la zona."
+      },
+      {
+        "titulo": "Asesoramiento integral",
+        "texto": "Desde la valoración hasta la firma. Acompañamiento completo en cada paso del proceso."
+      },
+      {
+        "titulo": "Inversión en la zona",
+        "texto": "Godella mantiene una demanda estable y precios sostenidos. Analizamos contigo el potencial de cada operación."
+      }
+    ]
+  }
+}

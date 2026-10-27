@@ -6,6 +6,7 @@ import { useRef } from "react";
 import Heading from "@/components/ui/Heading";
 import Button from "@/components/ui/Button";
 import ContactForm from "@/components/ContactForm/ContactForm";
+import WhatsApp from "@/components/ui/WhatsApp";
 import Testimonios from "@/components/Testimonios/Testimonios";
 import PropertyCard from "@/components/Propiedades/PropertyCard";
 import { useReveal } from "@/components/motion/useReveal";
@@ -162,6 +163,9 @@ export default function ComprarPage() {
           <p data-reveal="text">
             Te acompañamos en cada paso, sin complicaciones. Sin compromisos en el primer contacto.
           </p>
+          <div data-reveal="text">
+            <WhatsApp block />
+          </div>
           <p data-reveal="text">
             <Link href="/vender" className="link-underline">
               ¿También vendes tu casa?

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Heading from "@/components/ui/Heading";
 import ContactForm from "@/components/ContactForm/ContactForm";
+import WhatsApp from "@/components/ui/WhatsApp";
 import equipo from "@/content/equipo.json";
 import { SITE } from "@/lib/site";
 import styles from "./page.module.css";
@@ -31,6 +32,7 @@ export default function Page() {
         <div className={styles.left}>
           <Heading as="h1" strong="Cuéntanos qué necesitas." muted="Te contestamos en el día." breakMuted />
           <p className={styles.lead}>Comprar, vender, alquilar o invertir. Sin compromiso en el primer contacto.</p>
+          <WhatsApp block />
 
           <dl className={styles.datos}>
             <div>

@@ -6,6 +6,7 @@ import { useRef } from "react";
 import Heading from "@/components/ui/Heading";
 import Button from "@/components/ui/Button";
 import ContactForm from "@/components/ContactForm/ContactForm";
+import WhatsApp from "@/components/ui/WhatsApp";
 import { useReveal } from "@/components/motion/useReveal";
 import styles from "./ServiciosPage.module.css";
 
@@ -125,6 +126,9 @@ export default function ServiciosPage() {
             <Heading strong="Cuéntanos qué necesitas." />
           </div>
           <p data-reveal="text">Te acompañamos en cada paso, sin complicaciones. Sin compromisos en el primer contacto.</p>
+          <div data-reveal="text">
+            <WhatsApp block />
+          </div>
         </div>
         <div data-reveal="text">
           <ContactForm origen="Servicios" />

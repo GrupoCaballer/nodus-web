@@ -6,13 +6,14 @@ import { useRef } from "react";
 import Heading from "@/components/ui/Heading";
 import Button from "@/components/ui/Button";
 import ContactForm from "@/components/ContactForm/ContactForm";
+import WhatsApp from "@/components/ui/WhatsApp";
 import Testimonios from "@/components/Testimonios/Testimonios";
 import { useReveal } from "@/components/motion/useReveal";
 import vender from "@/content/vender.json";
-import zonas from "@/content/zonas.json";
+import { GUIAS } from "@/lib/zonas";
 import styles from "./VenderPage.module.css";
 
-const destacadas = zonas.grupos.flatMap((g) => g.zonas).filter((z) => zonas.destacadas.includes(z.slug));
+const destacadas = GUIAS.map((g) => ({ slug: g.slug, nombre: g.nombre, municipio: undefined as string | undefined }));
 
 function Section({ children, className, id }: { children: React.ReactNode; className?: string; id?: string }) {
   const ref = useRef<HTMLElement>(null);
@@ -206,6 +207,9 @@ export default function VenderPage() {
           <p data-reveal="text">
             Cuéntanos dónde está, cómo es y cuáles son tus planes. Empecemos por una conversación sin compromiso.
           </p>
+          <div data-reveal="text">
+            <WhatsApp block />
+          </div>
         </div>
         <div data-reveal="text">
           <ContactForm origen="Vender" conVivienda cta="Hablar con Nodus" />

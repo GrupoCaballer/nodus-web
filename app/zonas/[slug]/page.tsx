@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const g = getGuia(slug);
   if (!g) return {};
   return {
-    title: `Inmobiliaria en ${g.nombre}, ${g.municipio}`,
+    title: g.municipio === g.nombre ? `Inmobiliaria en ${g.nombre}` : `Inmobiliaria en ${g.nombre}, ${g.municipio}`,
     description: g.intro,
     alternates: { canonical: `/zonas/${g.slug}` },
     openGraph: { title: `Vivir en ${g.nombre}`, description: g.intro, images: [g.foto.src] },

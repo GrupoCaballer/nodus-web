@@ -2,6 +2,7 @@ import Link from "next/link";
 import Logo from "@/components/ui/Logo";
 import { SITE } from "@/lib/site";
 import CookiesButton from "@/components/CookieBar/CookiesButton";
+import WhatsApp from "@/components/ui/WhatsApp";
 import styles from "./Footer.module.css";
 
 const LINKS = [
@@ -46,6 +47,12 @@ export default function Footer() {
               <dt>Teléfono</dt>
               <dd>
                 <a href={SITE.phoneHref}>{SITE.phone}</a>
+              </dd>
+            </div>
+            <div>
+              <dt>WhatsApp</dt>
+              <dd>
+                <WhatsApp label={SITE.whatsapp} />
               </dd>
             </div>
           </dl>

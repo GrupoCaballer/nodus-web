@@ -5,7 +5,8 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Logo from "@/components/ui/Logo";
 import Button from "@/components/ui/Button";
-import { NAV } from "@/lib/site";
+import { NAV, SITE } from "@/lib/site";
+import WhatsApp from "@/components/ui/WhatsApp";
 import styles from "./Header.module.css";
 
 /**
@@ -73,6 +74,10 @@ export default function Header() {
           </Link>
         ))}
         <Link href="/contacto">Contacto</Link>
+        <div className={styles.mobileContact}>
+          <a href={SITE.phoneHref}>{SITE.phone}</a>
+          <WhatsApp block />
+        </div>
       </nav>
     </header>
   );

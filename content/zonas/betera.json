@@ -1,0 +1,253 @@
+{
+  "slug": "betera",
+  "nombre": "Bétera",
+  "municipio": "Bétera",
+  "zonas": [
+    "betera",
+    "torre-en-conill"
+  ],
+  "eyebrow": "Bétera · Camp de Túria · final de la línea 1",
+  "titulo": [
+    "Vivir en Bétera:",
+    "Torre en Conill y la Calderona."
+  ],
+  "intro": "Bétera es el último pueblo antes de la Sierra Calderona y la cabecera de la línea 1 del metro. Torre en Conill creció alrededor del golf Escorpión; el pueblo tiene castillo, huerta y unas fiestas de agosto que no se parecen a ninguna otra. A veinte minutos de València y a diez del Parque Tecnológico.",
+  "foto": {
+    "src": "/fotos/zona-torre-en-conill.webp",
+    "alt": "Campo de golf entre pinos",
+    "credito": "",
+    "provisional": true
+  },
+  "video": null,
+  "borrador": true,
+  "zona": {
+    "label": "El pueblo",
+    "titulo": [
+      "Golf, pinar",
+      "y la Calderona de fondo."
+    ],
+    "parrafos": [
+      "Bétera forma parte de la segunda corona metropolitana de València, en la comarca del Camp de Túria, y es donde termina la línea 1 de Metrovalencia. Entre la huerta y la Sierra Calderona, combina pueblo con servicios y urbanizaciones con espacio: Torre en Conill, Los Pinares-La Masia, Cumbres de San Antonio, La Conarda-Montesano.",
+      "El castillo de origen árabe, reformado en los siglos XIII y XVIII, preside el casco y hoy es el espacio cultural del municipio. En agosto, las fiestas de la Mare de Déu d'Agost y las Obreres de Sant Pere llenan el pueblo."
+    ]
+  },
+  "datos": [
+    {
+      "label": "Comarca",
+      "valor": "Camp de Túria"
+    },
+    {
+      "label": "Población",
+      "valor": "28.560 hab. (INE 2025)"
+    },
+    {
+      "label": "Metro",
+      "valor": "Línea 1 · Bétera (cabecera)"
+    },
+    {
+      "label": "Acceso rodado",
+      "valor": "CV-35 · CV-310 · A-7"
+    },
+    {
+      "label": "Golf",
+      "valor": "Club de Golf Escorpión"
+    },
+    {
+      "label": "Parque natural",
+      "valor": "Sierra Calderona"
+    }
+  ],
+  "urbanizaciones": {
+    "titulo": [
+      "Cada urbanización",
+      "tiene su carácter."
+    ],
+    "items": [
+      {
+        "nombre": "Torre en Conill",
+        "texto": "Trazada alrededor del Club de Golf Escorpión, con control de acceso 24 horas y chalets en parcelas grandes con el pinar y la Calderona detrás. Zona de familias que la eligen como primera residencia por los colegios internacionales del norte y la cercanía al Parque Tecnológico. Obra nueva junto al campo y casas de los ochenta y noventa con mucho que ganar en una reforma.",
+        "foto": "/fotos/zona-torre-en-conill.webp",
+        "alt": "Campo de golf en Torre en Conill"
+      },
+      {
+        "nombre": "El pueblo",
+        "texto": "Casas de pueblo y pisos alrededor del castillo y la plaza, con mercado, centro de salud, colegios públicos y la estación del metro. Vida de pueblo de verdad y la sierra al fondo de cada calle.",
+        "foto": "/fotos/zonas/betera-castillo.webp",
+        "alt": "Castillo de Bétera"
+      },
+      {
+        "nombre": "Los Pinares-La Masia, Cumbres de San Antonio, La Conarda-Montesano",
+        "texto": "Las otras urbanizaciones de Bétera, entre el pueblo y la sierra, con parcelas más variadas y precios más contenidos que Torre en Conill. TODO-DATO: Nodus completa una frase de cada una y cuáles trabaja.",
+        "foto": "/fotos/zonas/betera-calderona.webp",
+        "alt": "Sierra Calderona nevada vista desde València"
+      }
+    ]
+  },
+  "estilo": [
+    {
+      "titulo": "Parcela, piscina y silencio",
+      "texto": "Casas unifamiliares con jardín propio. Espacio para vivir fuera, distancia entre vecinos y calles tranquilas. Lo que no cabe en un piso de València."
+    },
+    {
+      "titulo": "El golf como paisaje",
+      "texto": "El Club de Golf Escorpión articula Torre en Conill. Se juegue o no, el campo es el parque verde que rodea las casas."
+    },
+    {
+      "titulo": "Familias que se quedan",
+      "texto": "Cerca de los colegios internacionales del norte y del Parque Tecnológico de Paterna, la zona ha pasado de segunda residencia a primera."
+    }
+  ],
+  "ofrece": {
+    "titulo": [
+      "Lo que hace que",
+      "la zona funcione."
+    ],
+    "items": [
+      {
+        "sub": "Golf",
+        "titulo": "Club de Golf Escorpión",
+        "texto": "El club que dio origen a Torre en Conill, con club social, restaurante y escuela."
+      },
+      {
+        "sub": "Seguridad",
+        "titulo": "Control de acceso 24 h",
+        "texto": "Torre en Conill tiene vigilancia permanente. Uno de los motivos por los que las familias la eligen."
+      },
+      {
+        "sub": "Colegios",
+        "titulo": "Internacionales a pocos minutos",
+        "texto": "Proximidad a los colegios internacionales del norte del área metropolitana. TODO-DATO: listar los centros y distancias."
+      },
+      {
+        "sub": "Trabajo",
+        "titulo": "Parque Tecnológico · 10 min",
+        "texto": "El Parque Tecnológico de Paterna queda a pocos minutos por la CV-35."
+      },
+      {
+        "sub": "Servicios",
+        "titulo": "Bétera pueblo",
+        "texto": "Comercio, centro de salud, mercado y colegios públicos en el casco. Metro al final de la línea 1."
+      },
+      {
+        "sub": "Naturaleza",
+        "titulo": "Sierra Calderona",
+        "texto": "Parque natural a las espaldas del pueblo. Senderismo y bicicleta desde la puerta de casa; la Cartuja de Portaceli a pocos kilómetros."
+      }
+    ]
+  },
+  "distancias": {
+    "titulo": [
+      "A veinte minutos",
+      "de todo."
+    ],
+    "texto": "Bétera está en la segunda corona de València: más parcela y más silencio a cambio de unos minutos más de coche. TODO-DATO: confirmar tiempos.",
+    "items": [
+      {
+        "lugar": "València centro",
+        "tiempo": "20 min"
+      },
+      {
+        "lugar": "Parque Tecnológico de Paterna",
+        "tiempo": "10 min"
+      },
+      {
+        "lugar": "Aeropuerto de Manises",
+        "tiempo": "20 min"
+      },
+      {
+        "lugar": "Playa de la Malvarrosa",
+        "tiempo": "30 min"
+      },
+      {
+        "lugar": "Madrid (AVE desde València)",
+        "tiempo": "2 h"
+      }
+    ]
+  },
+  "patrimonio": {
+    "titulo": [
+      "Un pueblo con castillo.",
+      "Una sierra protegida."
+    ],
+    "parrafos": [
+      "Bétera conserva su castillo de origen árabe, reformado en los siglos XIII y XVIII, hoy sede cultural del municipio, y una tradición festiva propia con las fiestas de agosto y las Obreres de Sant Pere.",
+      "La Sierra Calderona, parque natural desde 2002, cierra el horizonte por el norte: pinares, barrancos y la Cartuja de Portaceli, fundada en 1272 en el término vecino de Serra."
+    ],
+    "items": [
+      {
+        "titulo": "Castillo de Bétera",
+        "texto": "Fortaleza de origen árabe en el centro del pueblo, hoy espacio cultural municipal."
+      },
+      {
+        "titulo": "Cartuja de Portaceli",
+        "texto": "Monasterio cartujo de 1272 en plena Calderona, a pocos kilómetros."
+      },
+      {
+        "titulo": "Sierra Calderona",
+        "texto": "Parque natural entre València y Castellón. Rutas, miradores y pinares."
+      },
+      {
+        "titulo": "Club de Golf Escorpión",
+        "texto": "Uno de los clubes históricos de la Comunitat Valenciana."
+      }
+    ]
+  },
+  "lugares": [
+    "el Club de Golf Escorpión",
+    "las calles de Torre en Conill",
+    "la entrada con control de acceso",
+    "la Sierra Calderona desde la urbanización",
+    "el castillo y la plaza de Bétera",
+    "la estación de metro de Bétera",
+    "la Cartuja de Portaceli",
+    "el Parque Tecnológico"
+  ],
+  "galeria": [
+    {
+      "src": "/fotos/zonas/betera-castillo.webp",
+      "alt": "Castillo de Bétera",
+      "pie": "El castillo, en el centro del pueblo",
+      "credito": "Foto: B25es, CC BY-SA 3.0, vía Wikimedia Commons"
+    },
+    {
+      "src": "/fotos/zonas/betera-portaceli.webp",
+      "alt": "Cartuja de Porta Coeli",
+      "pie": "La Cartuja de Portaceli, en la Calderona",
+      "credito": "Foto: Codex, CC BY-SA 4.0, vía Wikimedia Commons"
+    },
+    {
+      "src": "/fotos/zonas/betera-calderona.webp",
+      "alt": "Sierra Calderona nevada vista desde València",
+      "pie": "La Sierra Calderona, nevada, desde València",
+      "credito": "Foto: Dorieo, CC BY-SA 4.0, vía Wikimedia Commons"
+    }
+  ],
+  "nodus": {
+    "titulo": [
+      "Pocas casas.",
+      "Las que merecen la pena."
+    ],
+    "parrafos": [
+      "En Torre en Conill, muchas ventas se cierran sin pasar por los portales. Los propietarios valoran la discreción y los compradores llegan por recomendación.",
+      "Nodus Real Estate lleva pocas viviendas a la vez en Bétera, con web propia, vídeo con dron y visitas filtradas. Si buscas chalet en Torre en Conill o quieres vender el tuyo, empezamos por una conversación."
+    ],
+    "servicios": [
+      {
+        "titulo": "Compra de propiedades",
+        "texto": "Chalets en parcela dentro de Torre en Conill y en las demás urbanizaciones de Bétera. Acceso a viviendas que no se publican."
+      },
+      {
+        "titulo": "Venta discreta",
+        "texto": "Venta sin exposición pública cuando el propietario lo prefiere, con compradores cualificados de la zona."
+      },
+      {
+        "titulo": "Reforma y renders",
+        "texto": "Muchas casas de la urbanización piden actualización. Renders y presupuesto de obra antes de comprar."
+      },
+      {
+        "titulo": "Asesoramiento integral",
+        "texto": "Valoración, financiación con broker y acompañamiento hasta la notaría."
+      }
+    ]
+  }
+}

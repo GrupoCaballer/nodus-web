@@ -5,6 +5,7 @@ import { useRef } from "react";
 import Heading from "@/components/ui/Heading";
 import Button from "@/components/ui/Button";
 import ContactForm from "@/components/ContactForm/ContactForm";
+import WhatsApp from "@/components/ui/WhatsApp";
 import { useReveal } from "@/components/motion/useReveal";
 import alquilar from "@/content/alquilar.json";
 import base from "@/components/VenderPage/VenderPage.module.css";
@@ -149,6 +150,9 @@ export default function AlquilarPage() {
             Cuéntanos dónde está, cuántas habitaciones tiene y si ya está alquilado. Te decimos qué podemos asumir y con qué
             presupuesto, antes de empezar.
           </p>
+          <div data-reveal="text">
+            <WhatsApp block />
+          </div>
         </div>
         <div data-reveal="text">
           <ContactForm origen="Alquilar" conVivienda cta="Hablar con Nodus" />

@@ -189,7 +189,26 @@
     ]
   },
   "video": null,
-  "galeria": [],
+  "galeria": [
+    {
+      "src": "/fotos/zonas/vega-santuario.webp",
+      "alt": "Fachada del Santuario de la Virgen de la Vega",
+      "pie": "El Santuario, construido sobre una villa romana",
+      "credito": "Foto: Joanbanjo, CC BY-SA 3.0, vía Wikimedia Commons"
+    },
+    {
+      "src": "/fotos/zonas/vega-alcala.webp",
+      "alt": "Alcalá de la Selva",
+      "pie": "Alcalá de la Selva, a 25 minutos a pie",
+      "credito": "Foto: Xavier Dengra, CC BY-SA 4.0, vía Wikimedia Commons"
+    },
+    {
+      "src": "/fotos/zonas/vega-valdelinares.webp",
+      "alt": "Estación de esquí de Valdelinares",
+      "pie": "Valdelinares, a 16 minutos",
+      "credito": "Foto: Pacopac, CC BY-SA 4.0, vía Wikimedia Commons"
+    }
+  ],
   "lugares": [
     "el Santuario y la Fuente de La Riscla",
     "la pista de esquí artificial",
@@ -198,5 +217,35 @@
     "Alcalá de la Selva",
     "Valdelinares"
   ],
-  "borrador": false
+  "borrador": false,
+  "zonas": [
+    "la-virgen-de-la-vega",
+    "alcala-de-la-selva"
+  ],
+  "urbanizaciones": {
+    "titulo": [
+      "El núcleo, el pueblo",
+      "y la sierra."
+    ],
+    "items": [
+      {
+        "nombre": "La Virgen de la Vega",
+        "texto": "El núcleo alrededor del Santuario y la Fuente de La Riscla: casas de piedra, apartamentos de montaña y la pista de esquí artificial a dos minutos. Supermercado a ocho minutos andando y el golf El Castillejo a cuatro en coche.",
+        "foto": "/fotos/zonas/vega-santuario.webp",
+        "alt": "Santuario de la Virgen de la Vega"
+      },
+      {
+        "nombre": "El Cerrito y Mas de Peirón",
+        "texto": "Las zonas de chalets pareados y casas con parcela entre el núcleo y Alcalá de la Selva, orientadas al valle. Donde está nuestro chalet en venta.",
+        "foto": "/fotos/zona-virgen-de-la-vega.webp",
+        "alt": "Paisaje nevado de Teruel"
+      },
+      {
+        "nombre": "Alcalá de la Selva",
+        "texto": "El pueblo, a 25 minutos a pie por la senda fluvial: castillo de los Heredia, piscina municipal rodeada de vegetación y todos los servicios. Casas de pueblo rehabilitadas y masías en los alrededores.",
+        "foto": "/fotos/zonas/vega-alcala.webp",
+        "alt": "Alcalá de la Selva"
+      }
+    ]
+  }
 }

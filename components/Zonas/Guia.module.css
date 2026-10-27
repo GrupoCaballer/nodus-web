@@ -120,6 +120,52 @@
   font-weight: 500;
 }
 
+/* ---------- Urbanizaciones ---------- */
+.urb {
+  padding-bottom: 20rem;
+}
+.urbList {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  margin-top: 8rem;
+  padding-top: 8rem;
+  border-top: 1px solid var(--line);
+}
+.urbItem {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 8rem;
+  align-items: center;
+}
+.urbItem:nth-child(even) .urbFig {
+  order: 2;
+}
+.urbFig {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 1.5rem;
+}
+.urbText h3 {
+  font-size: var(--fs-h2);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+  margin-bottom: 2.4rem;
+}
+.urbText p {
+  max-width: 90rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.galeriaFig figcaption small {
+  display: block;
+  margin-top: 0.4rem;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
 /* ---------- Estilo de vida ---------- */
 .estilo {
   padding-bottom: 20rem;
@@ -392,8 +438,21 @@
     grid-template-columns: 1fr;
   }
   .inmuebles,
-  .galeria {
+  .galeria,
+  .urb {
     padding-bottom: 10rem;
+  }
+  .urbItem {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .urbItem:nth-child(even) .urbFig {
+    order: 0;
+  }
+  .urbList {
+    gap: 6rem;
+    margin-top: 4rem;
+    padding-top: 4rem;
   }
   .galeriaList {
     grid-template-columns: 1fr;

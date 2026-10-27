@@ -26,7 +26,7 @@ function Section({ children, className, id, label }: { children: React.ReactNode
 /** Guía de zona: plantilla de las guías actuales de Nodus, ampliada con inmuebles en la zona. */
 export default function Guia({ g }: { g: GuiaT }) {
   const hero = useRef<HTMLElement>(null);
-  const inmuebles = PROPIEDADES.filter((p) => p.zona === g.slug && p.estado !== "vendido");
+  const inmuebles = PROPIEDADES.filter((p) => (p.zona === g.slug || g.zonas.includes(p.zona)) && p.estado !== "vendido");
 
   useGSAP(
     () => {
@@ -72,6 +72,7 @@ export default function Guia({ g }: { g: GuiaT }) {
               Contactar
             </Link>
           </div>
+          {g.foto.credito && !g.video && <p className={styles.credit}>{g.foto.credito}</p>}
           {g.foto.provisional && !g.video && (
             <p className={styles.credit}>TODO-MEDIA: foto provisional de banco; aquí va el vídeo aéreo de la zona.</p>
           )}
@@ -99,6 +100,27 @@ export default function Guia({ g }: { g: GuiaT }) {
             ))}
           </dl>
         </div>
+      </Section>
+
+      {/* Urbanizaciones y barrios del municipio */}
+      <Section className={`container ${styles.urb}`} label={`Zonas de ${g.nombre}`}>
+        <div data-reveal="text">
+          <p className={styles.label}>Urbanizaciones y barrios</p>
+          <Heading strong={g.urbanizaciones.titulo[0]} muted={g.urbanizaciones.titulo[1]} breakMuted />
+        </div>
+        <ol className={styles.urbList}>
+          {g.urbanizaciones.items.map((u) => (
+            <li key={u.nombre} className={styles.urbItem}>
+              <figure className={styles.urbFig} data-reveal="image">
+                <Image src={u.foto} alt={u.alt} fill sizes="(max-width: 768px) 100vw, 40vw" className={styles.cover} />
+              </figure>
+              <div className={styles.urbText}>
+                <h3 data-reveal="text">{u.nombre}</h3>
+                <p data-reveal="text">{u.texto}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
       </Section>
 
       {/* Estilo de vida */}
@@ -181,13 +203,21 @@ export default function Guia({ g }: { g: GuiaT }) {
           <p className={styles.label}>La zona en imágenes</p>
           <Heading strong={g.nombre} muted="a pie de calle y desde el aire." />
         </div>
+        <p className={styles.galeriaTodo} data-reveal="text">
+          TODO-MEDIA: estas fotos son de Wikimedia Commons (con su crédito). Faltan el vídeo aéreo y las fotos propias de: {g.lugares.join(", ")}.
+        </p>
         {g.galeria.length ? (
           <ul className={styles.galeriaList}>
             {g.galeria.map((f) => (
               <li key={f.src} data-reveal="image">
                 <figure className={styles.galeriaFig}>
                   <Image src={f.src} alt={f.alt} fill sizes="(max-width: 768px) 100vw, 50vw" className={styles.cover} />
-                  {f.pie && <figcaption>{f.pie}</figcaption>}
+                  {(f.pie || f.credito) && (
+                    <figcaption>
+                      {f.pie}
+                      {f.credito && <small>{f.credito}</small>}
+                    </figcaption>
+                  )}
                 </figure>
               </li>
             ))}

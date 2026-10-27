@@ -8,18 +8,18 @@ import styles from "./page.module.css";
 export const metadata: Metadata = {
   title: "Zonas: dónde trabajamos",
   description:
-    "Guías de Campolivar, Santa Bárbara, Torre en Conill y La Virgen de la Vega: mercado, servicios, accesos y las viviendas que no se publican. València y área metropolitana.",
+    "Guías de Godella, Rocafort, Bétera, Paterna y La Virgen de la Vega, urbanización a urbanización: mercado, servicios, accesos y las viviendas que no se publican.",
   alternates: { canonical: "/zonas" },
 };
 
 export default function Page() {
-  const conGuia = new Set(GUIAS.map((g) => g.slug));
+  const conGuia = new Set(GUIAS.flatMap((g) => [g.slug, ...g.zonas]));
   return (
     <div className={styles.root}>
       <section className={`container ${styles.head}`}>
         <Heading as="h1" strong="Dónde trabajamos." muted="Guías con datos, no con adjetivos." breakMuted />
         <p>
-          Mercado, servicios, accesos y lo que no se publica, zona a zona. Empezamos por las cuatro que mejor conocemos.
+          Mercado, servicios, accesos y lo que no se publica, municipio a municipio y urbanización a urbanización. Empezamos por los que mejor conocemos.
         </p>
       </section>
 
@@ -55,7 +55,7 @@ export default function Page() {
                 {g.zonas.map((z) => (
                   <li key={z.slug}>
                     {conGuia.has(z.slug) ? (
-                      <Link href={`/zonas/${z.slug}`} className={styles.strong}>
+                      <Link href={`/zonas/${GUIAS.find((g) => g.slug === z.slug || g.zonas.includes(z.slug))!.slug}`} className={styles.strong}>
                         {z.nombre} <span aria-hidden>→</span>
                       </Link>
                     ) : (
