@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { useRef } from "react";
-import Button from "@/components/ui/Button";
 import { gsap, useGSAP, prefersReducedMotion } from "@/components/motion/gsap";
 import { KNOT_CENTERLINE, LOGO_PATHS, LOGO_VIEWBOX } from "@/lib/logo-paths";
 import styles from "./Hero.module.css";
@@ -12,7 +11,7 @@ import styles from "./Hero.module.css";
  * Ritmo medido en la referencia (progreso 0→1, scrub):
  *  0.00–0.20  el titular se funde (escala y baja durante todo el recorrido)
  *  0.10–0.50  el contorno del logo se dibuja en trazo blanco sobre la fachada
- *  0.33–0.50  fundido cruzado: edificio entero → edificio visto a través del logo
+ *  0.33–0.50  fundido cruzado: edificio entero → logotipo sólido sobre el cielo
  *  0.50–1.00  nada nuevo: edificio, nubes y niebla siguen su deriva (ease-out)
  *  final      banda blanca en degradado enlaza con la sección siguiente
  */
@@ -86,12 +85,8 @@ export default function Hero() {
           />
         </div>
 
-        {/* Copia del edificio vista a través del logotipo */}
-        <div className={styles.composite} data-composite aria-hidden>
-          <div className={styles.house} data-house>
-            <Image src="/hero/edificio.webp" alt="" width={2200} height={898} sizes="(max-width: 768px) 120vw, 100vw" quality={70} className={styles.houseImg} />
-          </div>
-        </div>
+        {/* Logotipo sólido que aparece cuando el edificio se funde */}
+        <div className={styles.composite} data-composite aria-hidden />
 
         <div className={styles.clouds} aria-hidden>
           <Image src="/hero/nube-1.webp" alt="" width={1226} height={550} className={styles.cloud1} data-cloud="1" sizes="60vw" />
@@ -112,10 +107,7 @@ export default function Hero() {
 
         <div className={styles.content} data-content>
           <h1 className={styles.title}>El punto donde todo converge.</h1>
-          <p className={styles.sub}>
-            Asesoramiento inmobiliario integral en València. <span>Desde la primera visita hasta la firma.</span>
-          </p>
-          <Button href="/propiedades">Ver propiedades</Button>
+          <p className={styles.sub}>Asesoramiento inmobiliario integral en València. Desde la primera visita hasta la firma.</p>
         </div>
       </div>
 

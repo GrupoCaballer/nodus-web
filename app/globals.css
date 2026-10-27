@@ -126,6 +126,28 @@ button {
   padding-inline: var(--gutter);
 }
 
+/* Todas las fotos reaccionan al cursor. `scale` es independiente de `transform` (GSAP). */
+figure img,
+figure video {
+  transition: scale 1.4s var(--ease-out), object-position 1.4s var(--ease-out);
+}
+figure:hover img,
+figure:hover video {
+  scale: 1.04;
+}
+
+/* Cursor con punto (components/ui/Cursor): en puntero fino se oculta el nativo */
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  html.has-cursor,
+  html.has-cursor a,
+  html.has-cursor button,
+  html.has-cursor summary,
+  html.has-cursor select,
+  html.has-cursor label {
+    cursor: none;
+  }
+}
+
 .cards-list {
   display: grid;
   grid-template-columns: 1fr;

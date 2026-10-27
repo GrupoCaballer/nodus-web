@@ -61,7 +61,7 @@ export default function Servicios() {
   return (
     <section ref={root} className={styles.root} id="servicios">
       <div className={`container ${styles.head}`}>
-        <p className={styles.label}>Servicios</p>
+        <p className={styles.label}>Por qué elegirnos</p>
         <Heading tone="dark" strong="Cómo te ayuda" muted="Nodus" breakMuted />
       </div>
 

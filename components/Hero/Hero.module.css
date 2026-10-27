@@ -45,12 +45,13 @@
   height: auto;
 }
 
-/* El logo como máscara: fuera de las letras no se ve nada. */
+/* El logo como máscara sobre un fondo sólido: letras en tinta, nítidas sobre el cielo. */
 .composite {
   --mask-w: 52vw;
   inset: 0;
   z-index: 1;
   opacity: 0;
+  background: var(--ink);
   mask-image: url("/logo/nodus-logo-negro.svg");
   -webkit-mask-image: url("/logo/nodus-logo-negro.svg");
   mask-repeat: no-repeat;
@@ -59,9 +60,6 @@
   -webkit-mask-position: 50% 40%;
   mask-size: var(--mask-w) auto;
   -webkit-mask-size: var(--mask-w) auto;
-}
-.composite .house {
-  transform: translateX(-50%);
 }
 
 .clouds {
@@ -159,8 +157,8 @@
   line-height: 1.2;
   letter-spacing: -0.01em;
 }
-.sub span {
-  color: var(--muted);
+.sub {
+  color: var(--ink);
 }
 
 @media (max-width: 768px) {

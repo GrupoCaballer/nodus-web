@@ -91,6 +91,12 @@
   color: var(--muted);
 }
 
+.newsletter {
+  margin-top: 14rem;
+  padding-top: 8rem;
+  border-top: 1px solid var(--line);
+}
+
 @media (max-width: 768px) {
   .root {
     padding-top: calc(var(--header-h) + 5rem);

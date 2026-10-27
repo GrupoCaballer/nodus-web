@@ -1,0 +1,84 @@
+.root {
+  --fg: var(--ink);
+  --line-n: rgba(21, 23, 23, 0.3);
+  color: var(--fg);
+  max-width: 80rem;
+}
+.dark {
+  --fg: var(--white);
+  --line-n: rgba(255, 255, 255, 0.4);
+}
+
+.title {
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+.text {
+  margin-top: 1.6rem;
+  opacity: 0.6;
+  line-height: 1.45;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+  margin-top: 4rem;
+  border-bottom: 1px solid var(--line-n);
+}
+.hp {
+  position: absolute;
+  left: -9999px;
+}
+.field {
+  flex: 1;
+}
+.field input {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  padding: 1.6rem 0;
+  font-size: var(--fs-body);
+  font-weight: 500;
+  color: var(--fg);
+}
+.field input::placeholder {
+  color: var(--fg);
+  opacity: 0.35;
+}
+.field input:focus {
+  outline: none;
+}
+.btn {
+  font-size: var(--fs-h3);
+  padding: 1rem 0;
+  color: var(--fg);
+  transition: transform 0.35s var(--ease-out);
+}
+.btn:hover {
+  transform: translateX(4px);
+}
+.error {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  margin-top: 1rem;
+  font-size: var(--fs-label);
+  font-weight: 600;
+}
+.done {
+  margin-top: 4rem;
+  font-weight: 600;
+}
+.legal {
+  margin-top: 3rem;
+  font-size: calc(var(--fs-label) * 0.9);
+  opacity: 0.6;
+}
+.legal a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

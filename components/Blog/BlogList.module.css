@@ -75,6 +75,10 @@
   object-fit: cover;
 }
 
+.newsletter {
+  margin-top: 10rem;
+}
+
 @media (max-width: 768px) {
   .root {
     padding-block: 10rem 12rem;

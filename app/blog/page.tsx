@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Heading from "@/components/ui/Heading";
 import { CATEGORIAS, allPosts, fecha } from "@/lib/blog";
+import Newsletter from "@/components/Newsletter/Newsletter";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -60,6 +61,9 @@ export default async function Page({ searchParams }: Search) {
       ) : (
         <p className={styles.empty}>Todavía no hay artículos en esta categoría.</p>
       )}
+      <div className={styles.newsletter}>
+        <Newsletter />
+      </div>
     </div>
   );
 }

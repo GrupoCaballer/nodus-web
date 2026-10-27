@@ -8,7 +8,7 @@ const LINKS = [
   { href: "/propiedades", label: "Propiedades" },
   { href: "/vender", label: "Vender" },
   { href: "/alquilar", label: "Alquilar" },
-  { href: "/nosotros", label: "Nosotros" },
+  { href: "/servicios", label: "Servicios" },
   { href: "/contacto", label: "Contacto" },
 ];
 

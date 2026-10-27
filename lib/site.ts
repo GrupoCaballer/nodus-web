@@ -22,6 +22,6 @@ export const NAV = [
   { href: "/vender", label: "Vender" },
   { href: "/comprar", label: "Comprar" },
   { href: "/zonas", label: "Zonas" },
-  { href: "/nosotros", label: "Nosotros" },
+  { href: "/servicios", label: "Servicios" },
   { href: "/blog", label: "Blog" },
 ];

@@ -6,6 +6,7 @@ import { useRef } from "react";
 import Heading from "@/components/ui/Heading";
 import Button from "@/components/ui/Button";
 import { useReveal } from "@/components/motion/useReveal";
+import Newsletter from "@/components/Newsletter/Newsletter";
 import type { Post } from "@/lib/blog";
 import styles from "./BlogList.module.css";
 
@@ -56,6 +57,9 @@ export default function BlogList({ posts }: { posts: Post[] }) {
           </li>
         ))}
       </ol>
+      <div className={styles.newsletter} data-reveal="text">
+        <Newsletter />
+      </div>
     </section>
   );
 }
