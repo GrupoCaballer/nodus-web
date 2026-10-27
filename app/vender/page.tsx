@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import VenderPage from "@/components/VenderPage/VenderPage";
 import vender from "@/content/vender.json";
-import { SITE } from "@/lib/site";
 import { allSituaciones } from "@/lib/situaciones";
 
 export const metadata: Metadata = {
@@ -20,15 +19,6 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "RealEstateAgent",
-      name: SITE.name,
-      url: SITE.url,
-      email: SITE.email,
-      telephone: SITE.phone,
-      areaServed: ["Valencia", "Godella", "Rocafort", "Bétera", "L'Horta Nord", "Comunitat Valenciana"],
-      address: { "@type": "PostalAddress", addressLocality: "Godella", addressRegion: "Valencia", addressCountry: "ES" },
-    },
     {
       "@type": "FAQPage",
       mainEntity: vender.faq.map((f) => ({

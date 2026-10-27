@@ -13,15 +13,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "/contacto" },
 };
 
+// La ficha RealEstateAgent completa va en app/layout.tsx; aquí solo la página de contacto enlazada a ella.
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "RealEstateAgent",
-  name: SITE.name,
-  url: SITE.url,
-  email: SITE.email,
-  telephone: SITE.phone,
-  address: { "@type": "PostalAddress", addressLocality: "Godella", addressRegion: "Valencia", addressCountry: "ES" },
-  sameAs: [SITE.instagram].filter(Boolean),
+  "@type": "ContactPage",
+  url: `${SITE.url}/contacto`,
+  about: { "@id": `${SITE.url}/#agencia` },
 };
 
 export default function Page() {

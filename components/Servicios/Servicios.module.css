@@ -136,7 +136,7 @@
 .foot p {
   max-width: 100rem;
 }
-.foot span {
+.foot p span {
   color: var(--muted-dark);
 }
 

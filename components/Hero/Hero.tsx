@@ -80,7 +80,7 @@ export default function Hero() {
             height={898}
             priority
             sizes="(max-width: 768px) 120vw, 100vw"
-            quality={70}
+            quality={58}
             className={styles.houseImg}
           />
         </div>
