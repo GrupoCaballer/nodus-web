@@ -3,20 +3,17 @@ import Gancho from "@/components/Gancho/Gancho";
 import QuienesSomos from "@/components/QuienesSomos/QuienesSomos";
 import WhyNodus from "@/components/WhyNodus/WhyNodus";
 import Steps from "@/components/Steps/Steps";
-import Chevrons from "@/components/Chevrons/Chevrons";
 import Servicios from "@/components/Servicios/Servicios";
-import Extras from "@/components/Extras/Extras";
 import Testimonios from "@/components/Testimonios/Testimonios";
-import PropiedadesHome from "@/components/PropiedadesHome/PropiedadesHome";
-import Zonas from "@/components/Zonas/Zonas";
-import BlogList from "@/components/Blog/BlogList";
 import CtaFinal from "@/components/CtaFinal/CtaFinal";
+import SideMenu from "@/components/SideMenu/SideMenu";
 import { allPosts } from "@/lib/blog";
 
-// Home como relato (decisión del equipo, 27-10-2026):
-// intro limpia → gancho → quiénes somos → cómo trabajamos → por qué elegirnos → reseñas → propiedades → zonas → blog → cierre
+// Home en dos partes (decisión del equipo, 27-10-2026):
+//  · Recorrido principal, obligatorio y ligero: intro → gancho → quiénes somos → cómo trabajamos → por qué elegirnos → reseñas.
+//  · Menú lateral, que se abre al terminar el recorrido: propiedades, zonas, blog, servicios, contacto.
 export default async function Home() {
-  const posts = (await allPosts()).slice(0, 3);
+  const posts = (await allPosts()).slice(0, 3).map((p) => ({ slug: p.slug, titulo: p.titulo, categoria: p.categoria }));
   return (
     <>
       <Hero />
@@ -24,14 +21,12 @@ export default async function Home() {
       <QuienesSomos />
       <WhyNodus />
       <Steps />
-      <Chevrons />
       <Servicios />
-      <Extras />
-      <Testimonios />
-      <PropiedadesHome />
-      <Zonas />
-      <BlogList posts={posts} />
+      <div data-story-end>
+        <Testimonios />
+      </div>
       <CtaFinal />
+      <SideMenu posts={posts} />
     </>
   );
 }

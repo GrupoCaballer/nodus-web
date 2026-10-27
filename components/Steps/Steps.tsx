@@ -28,10 +28,7 @@ export default function Steps() {
     <section ref={root} className={`container ${styles.root}`} id="como-trabajamos">
       <div className={styles.head} data-reveal="text">
         <Heading strong="Inmobiliaria," muted="reconectada." breakMuted />
-        <p className={styles.lead}>
-          Dos experiencias distintas, una misma manera de trabajar: una persona que escucha, pasos claros y nada que no se haya
-          acordado antes.
-        </p>
+        <p className={styles.lead}>Tres pasos si compras, tres si vendes. Una persona que escucha y nada que no se haya acordado antes.</p>
       </div>
 
       <div className={styles.cols}>

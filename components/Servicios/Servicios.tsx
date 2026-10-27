@@ -12,21 +12,21 @@ const ROWS = [
   {
     word: "Comprar",
     href: "/propiedades",
-    text: "Acompañamos cada operación desde la primera visita hasta la firma. Sin intermediarios innecesarios, sin promesas vacías. Reforma con renders y presupuesto de obra, y broker financiero para llegar con la hipoteca estudiada.",
+    text: "Desde la primera visita hasta la firma, con la hipoteca estudiada y, si hace falta, la reforma presupuestada.",
     img: "/fotos/servicio-comprar.webp",
     alt: "Edificios y arbolado de un barrio residencial de València",
   },
   {
     word: "Vender",
     href: "/vender",
-    text: "Una valoración con criterio. Una estrategia acordada contigo. Un equipo que coordina la venta desde la primera conversación hasta la firma. Web con esencia propia, vídeo profesional, home staging y visitas filtradas.",
+    text: "Valoración con criterio, web propia, vídeo, home staging y solo visitas de compradores con capacidad real.",
     img: "/fotos/servicio-vender.webp",
     alt: "Fachada modernista con palmeras en València",
   },
   {
     word: "Alquilar",
     href: "/alquilar",
-    text: "Preparamos tu piso, seleccionamos inquilinos y gestionamos el día a día. Un servicio completo en València, desde la primera habitación hasta el seguimiento mensual.",
+    text: "Preparamos tu piso, seleccionamos inquilinos y gestionamos el día a día, habitación a habitación.",
     img: "/fotos/servicio-alquilar.webp",
     alt: "Paseo marítimo con palmeras en València",
   },
@@ -87,10 +87,10 @@ export default function Servicios() {
 
       <div className={`container ${styles.foot}`}>
         <p>
-          Acompañamos cada operación desde la primera visita hasta la firma. <span>Sin intermediarios innecesarios, sin promesas vacías.</span>
+          Y lo que va más allá: <span>reforma con renders, financiación e inversión.</span>
         </p>
-        <Button href="/contacto" tone="light">
-          Empezar con Nodus
+        <Button href="/servicios" tone="light">
+          Ver todos los servicios
         </Button>
       </div>
     </section>

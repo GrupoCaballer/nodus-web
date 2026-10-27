@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useRef } from "react";
 import Heading from "@/components/ui/Heading";
 import { useReveal } from "@/components/motion/useReveal";
@@ -14,14 +15,7 @@ const STATS = [
   { dato: "0 €", texto: "si vendes a un comprador propio" },
 ];
 
-const VALORES = [
-  { titulo: "Integridad", texto: "Decimos lo que pensamos, aunque no sea lo que el cliente quiere escuchar." },
-  { titulo: "Rigor", texto: "Cada operación recibe el mismo nivel de atención, independientemente de su valor." },
-  { titulo: "Cercanía", texto: "Somos accesibles, directos y humanos. Detrás de cada operación hay una persona." },
-  { titulo: "Eficiencia", texto: "Respetamos el tiempo de nuestros clientes. Sin burocracia innecesaria." },
-];
-
-/** Quiénes somos: por qué estamos aquí, cifras y valores. Texto de la web antigua. */
+/** Quiénes somos: por qué estamos aquí y cuatro cifras. Texto de la web antigua; los valores completos viven en /nosotros. */
 export default function QuienesSomos() {
   const root = useRef<HTMLElement>(null);
   useReveal(root);
@@ -43,15 +37,16 @@ export default function QuienesSomos() {
           </figure>
           <div className={styles.text}>
             <p data-reveal="text">
-              Nodus nace de una convicción: el sector inmobiliario merece un servicio sin fisuras, donde cada parte del proceso
-              esté conectada con la siguiente.
-            </p>
-            <p data-reveal="text">
               Una operación inmobiliaria raramente es solo una transacción. Es una mudanza, una inversión, un cambio de etapa.
               Nuestro trabajo empieza donde empieza esa complejidad.
             </p>
             <p className={styles.claim} data-reveal="text">
               Ser la primera llamada. No la última opción.
+            </p>
+            <p data-reveal="text">
+              <Link href="/nosotros" className="link-underline">
+                Conocer al equipo
+              </Link>
             </p>
           </div>
         </div>
@@ -61,15 +56,6 @@ export default function QuienesSomos() {
             <li key={s.texto} data-reveal="text">
               <strong>{s.dato}</strong>
               <span>{s.texto}</span>
-            </li>
-          ))}
-        </ul>
-
-        <ul className={styles.valores}>
-          {VALORES.map((v) => (
-            <li key={v.titulo} data-reveal="text">
-              <h3>{v.titulo}</h3>
-              <p>{v.texto}</p>
             </li>
           ))}
         </ul>
