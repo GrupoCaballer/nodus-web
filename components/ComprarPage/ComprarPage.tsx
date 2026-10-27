@@ -33,7 +33,7 @@ export default function ComprarPage() {
       <Section className={`container ${styles.hero}`}>
         <div className={styles.heroText}>
           <p className={styles.eyebrow} data-reveal="text">
-            Comprar vivienda · València y área metropolitana
+            Comprar vivienda · Valencia y área metropolitana
           </p>
           <h1 className={styles.h1} data-reveal="text">
             Encuentra lo que encaja. <span>Con alguien al lado.</span>
@@ -55,7 +55,7 @@ export default function ComprarPage() {
         <figure className={styles.heroFig} data-reveal="image">
           <Image
             src="/fotos/chevron-calle.webp"
-            alt="Calle del centro histórico de València con luz de tarde"
+            alt="Calle del centro histórico de Valencia con luz de tarde"
             fill
             priority
             sizes="(max-width: 768px) 100vw, 40vw"
@@ -83,7 +83,7 @@ export default function ComprarPage() {
 
       <Section className={`container ${styles.split}`}>
         <figure className={styles.splitFig} data-reveal="image">
-          <Image src="/fotos/servicio-comprar.webp" alt="Edificios y arbolado de un barrio residencial de València" fill sizes="(max-width: 768px) 100vw, 50vw" className={styles.cover} />
+          <Image src="/fotos/servicio-comprar.webp" alt="Edificios y arbolado de un barrio residencial de Valencia" fill sizes="(max-width: 768px) 100vw, 50vw" className={styles.cover} />
         </figure>
         <div className={styles.splitText}>
           <div data-reveal="text">

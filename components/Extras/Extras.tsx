@@ -9,9 +9,9 @@ import { useReveal } from "@/components/motion/useReveal";
 import styles from "./Extras.module.css";
 
 const CARDS = [
-  { title: "Reforma y renders", href: "/nosotros#reforma", img: "/fotos/extra-reforma.webp", alt: "Arquitectura contemporánea de líneas geométricas en València" },
-  { title: "Financiación", href: "/nosotros#financiacion", img: "/fotos/extra-financiacion.webp", alt: "Edificio histórico de fachada ornamentada en València" },
-  { title: "Inversión", href: "/nosotros#inversion", img: "/fotos/extra-inversion.webp", alt: "Plaza del Ayuntamiento de València con gente paseando" },
+  { title: "Reforma y renders", href: "/nosotros#reforma", img: "/fotos/extra-reforma.webp", alt: "Arquitectura contemporánea de líneas geométricas en Valencia" },
+  { title: "Financiación", href: "/nosotros#financiacion", img: "/fotos/extra-financiacion.webp", alt: "Edificio histórico de fachada ornamentada en Valencia" },
+  { title: "Inversión", href: "/nosotros#inversion", img: "/fotos/extra-inversion.webp", alt: "Plaza del Ayuntamiento de Valencia con gente paseando" },
 ];
 
 /** 1.9 "Mucho más que comprar y vender": titular + párrafo y tres tarjetas-foto apaisadas con el título encima. */

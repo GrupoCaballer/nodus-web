@@ -3,9 +3,9 @@ import ComprarPage from "@/components/ComprarPage/ComprarPage";
 import comprar from "@/content/comprar.json";
 
 export const metadata: Metadata = {
-  title: "Comprar vivienda en València",
+  title: "Comprar vivienda en Valencia",
   description:
-    "Asesor asignado, acceso a viviendas off market, reforma con renders y presupuesto antes de ofertar y broker hipotecario. València, Godella, Rocafort y Bétera.",
+    "Asesor asignado, acceso a viviendas off market, reforma con renders y presupuesto antes de ofertar y broker hipotecario. Valencia, Godella, Rocafort y Bétera.",
   alternates: { canonical: "/comprar" },
 };
 

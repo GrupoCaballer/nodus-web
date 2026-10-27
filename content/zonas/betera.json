@@ -11,7 +11,7 @@
     "Vivir en Bétera:",
     "Torre en Conill y la Calderona."
   ],
-  "intro": "Bétera es el último pueblo antes de la Sierra Calderona y la cabecera de la línea 1 del metro. Torre en Conill creció alrededor del golf Escorpión; el pueblo tiene castillo, huerta y unas fiestas de agosto que no se parecen a ninguna otra. A veinte minutos de València y a diez del Parque Tecnológico.",
+  "intro": "Bétera es el último pueblo antes de la Sierra Calderona y la cabecera de la línea 1 del metro. Torre en Conill creció alrededor del golf Escorpión; el pueblo tiene castillo, huerta y unas fiestas de agosto que no se parecen a ninguna otra. A veinte minutos de Valencia y a diez del Parque Tecnológico.",
   "foto": {
     "src": "/fotos/zona-torre-en-conill.webp",
     "alt": "Campo de golf entre pinos",
@@ -27,7 +27,7 @@
       "y la Calderona de fondo."
     ],
     "parrafos": [
-      "Bétera forma parte de la segunda corona metropolitana de València, en la comarca del Camp de Túria, y es donde termina la línea 1 de Metrovalencia. Entre la huerta y la Sierra Calderona, combina pueblo con servicios y urbanizaciones con espacio: Torre en Conill, Los Pinares-La Masia, Cumbres de San Antonio, La Conarda-Montesano.",
+      "Bétera forma parte de la segunda corona metropolitana de Valencia, en la comarca del Camp de Túria, y es donde termina la línea 1 de Metrovalencia. Entre la huerta y la Sierra Calderona, combina pueblo con servicios y urbanizaciones con espacio: Torre en Conill, Los Pinares-La Masia, Cumbres de San Antonio, La Conarda-Montesano.",
       "El castillo de origen árabe, reformado en los siglos XIII y XVIII, preside el casco y hoy es el espacio cultural del municipio. En agosto, las fiestas de la Mare de Déu d'Agost y las Obreres de Sant Pere llenan el pueblo."
     ]
   },
@@ -79,14 +79,14 @@
         "nombre": "Los Pinares-La Masia, Cumbres de San Antonio, La Conarda-Montesano",
         "texto": "Las otras urbanizaciones de Bétera, entre el pueblo y la sierra, con parcelas más variadas y precios más contenidos que Torre en Conill. TODO-DATO: Nodus completa una frase de cada una y cuáles trabaja.",
         "foto": "/fotos/zonas/betera-calderona.webp",
-        "alt": "Sierra Calderona nevada vista desde València"
+        "alt": "Sierra Calderona nevada vista desde Valencia"
       }
     ]
   },
   "estilo": [
     {
       "titulo": "Parcela, piscina y silencio",
-      "texto": "Casas unifamiliares con jardín propio. Espacio para vivir fuera, distancia entre vecinos y calles tranquilas. Lo que no cabe en un piso de València."
+      "texto": "Casas unifamiliares con jardín propio. Espacio para vivir fuera, distancia entre vecinos y calles tranquilas. Lo que no cabe en un piso de Valencia."
     },
     {
       "titulo": "El golf como paisaje",
@@ -140,10 +140,10 @@
       "A veinte minutos",
       "de todo."
     ],
-    "texto": "Bétera está en la segunda corona de València: más parcela y más silencio a cambio de unos minutos más de coche. TODO-DATO: confirmar tiempos.",
+    "texto": "Bétera está en la segunda corona de Valencia: más parcela y más silencio a cambio de unos minutos más de coche. TODO-DATO: confirmar tiempos.",
     "items": [
       {
-        "lugar": "València centro",
+        "lugar": "Valencia centro",
         "tiempo": "20 min"
       },
       {
@@ -159,7 +159,7 @@
         "tiempo": "30 min"
       },
       {
-        "lugar": "Madrid (AVE desde València)",
+        "lugar": "Madrid (AVE desde Valencia)",
         "tiempo": "2 h"
       }
     ]
@@ -184,7 +184,7 @@
       },
       {
         "titulo": "Sierra Calderona",
-        "texto": "Parque natural entre València y Castellón. Rutas, miradores y pinares."
+        "texto": "Parque natural entre Valencia y Castellón. Rutas, miradores y pinares."
       },
       {
         "titulo": "Club de Golf Escorpión",
@@ -217,8 +217,8 @@
     },
     {
       "src": "/fotos/zonas/betera-calderona.webp",
-      "alt": "Sierra Calderona nevada vista desde València",
-      "pie": "La Sierra Calderona, nevada, desde València",
+      "alt": "Sierra Calderona nevada vista desde Valencia",
+      "pie": "La Sierra Calderona, nevada, desde Valencia",
       "credito": "Foto: Dorieo, CC BY-SA 4.0, vía Wikimedia Commons"
     }
   ],

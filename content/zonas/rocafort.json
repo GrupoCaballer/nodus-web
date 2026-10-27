@@ -6,12 +6,12 @@
     "rocafort",
     "santa-barbara"
   ],
-  "eyebrow": "Rocafort · L'Horta Nord · a 8 km de València",
+  "eyebrow": "Rocafort · L'Horta Nord · a 8 km de Valencia",
   "titulo": [
     "Vivir en Rocafort:",
     "Santa Bárbara y el pueblo."
   ],
-  "intro": "Rocafort es pequeño, está a ocho kilómetros de València y sale año tras año entre los municipios de mayor renta de España. La urbanización Santa Bárbara, el casco con la casa de Machado y el metro a cinco minutos. Lo conocemos como vecinos: está al lado de Godella.",
+  "intro": "Rocafort es pequeño, está a ocho kilómetros de Valencia y sale año tras año entre los municipios de mayor renta de España. La urbanización Santa Bárbara, el casco con la casa de Machado y el metro a cinco minutos. Lo conocemos como vecinos: está al lado de Godella.",
   "foto": {
     "src": "/fotos/zona-santa-barbara.webp",
     "alt": "Villa española con buganvilla",
@@ -53,7 +53,7 @@
       "valor": "Cambridge House Community College, junto a Santa Bárbara"
     },
     {
-      "label": "Distancia a València",
+      "label": "Distancia a Valencia",
       "valor": "≈ 8 km"
     }
   ],
@@ -93,8 +93,8 @@
       "texto": "Cambridge House Community College está junto a la urbanización. Para muchas familias, el motivo de llegar y la razón de quedarse."
     },
     {
-      "titulo": "Entre Godella y València",
-      "texto": "A un paso de Campolivar y del casco de Godella, y València a ocho kilómetros por la CV-35 o en metro."
+      "titulo": "Entre Godella y Valencia",
+      "texto": "A un paso de Campolivar y del casco de Godella, y Valencia a ocho kilómetros por la CV-35 o en metro."
     }
   ],
   "ofrece": {
@@ -116,7 +116,7 @@
       {
         "sub": "Metro línea 1",
         "titulo": "Estación Rocafort",
-        "texto": "Conexión directa con el centro de València. Bus privado de Santa Bárbara durante el día."
+        "texto": "Conexión directa con el centro de Valencia. Bus privado de Santa Bárbara durante el día."
       },
       {
         "sub": "Patrimonio",
@@ -140,10 +140,10 @@
       "Ocho kilómetros",
       "del centro."
     ],
-    "texto": "Rocafort está en la primera corona de València. TODO-DATO: confirmar tiempos.",
+    "texto": "Rocafort está en la primera corona de Valencia. TODO-DATO: confirmar tiempos.",
     "items": [
       {
-        "lugar": "València centro",
+        "lugar": "Valencia centro",
         "tiempo": "15 min"
       },
       {
@@ -159,7 +159,7 @@
         "tiempo": "25 min"
       },
       {
-        "lugar": "Madrid (AVE desde València)",
+        "lugar": "Madrid (AVE desde Valencia)",
         "tiempo": "1 h 50 min"
       }
     ]

@@ -7,7 +7,7 @@ export const SITE = {
   phoneHref: "tel:+34960628296",
   whatsapp: "682 291 051",
   whatsappHref: "https://wa.me/34682291051?text=" + encodeURIComponent("Hola, Nodus. Os escribo desde la web."),
-  place: "Godella, València",
+  place: "Godella, Valencia",
   instagram: "https://www.instagram.com/nodusrealestate",
   // TODO-REDES: confirmar URLs de TikTok y LinkedIn
   tiktok: "",

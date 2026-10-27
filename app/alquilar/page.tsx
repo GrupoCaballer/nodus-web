@@ -3,7 +3,7 @@ import AlquilarPage from "@/components/AlquilarPage/AlquilarPage";
 import alquilar from "@/content/alquilar.json";
 
 export const metadata: Metadata = {
-  title: "Gestión de alquiler por habitaciones en València",
+  title: "Gestión de alquiler por habitaciones en Valencia",
   description:
     "Puesta en marcha desde 500 €, comercialización por un mes de alquiler y gestión total por el 10 % mensual. Tres servicios que puedes contratar por separado o combinar.",
   alternates: { canonical: "/alquilar" },
@@ -15,7 +15,7 @@ const jsonLd = {
     {
       "@type": "Service",
       name: "Gestión de alquiler por habitaciones",
-      areaServed: "València",
+      areaServed: "Valencia",
       provider: { "@type": "RealEstateAgent", name: "Nodus Real Estate" },
       hasOfferCatalog: {
         "@type": "OfferCatalog",

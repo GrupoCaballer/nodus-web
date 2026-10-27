@@ -12,7 +12,7 @@
     "Vivir en Paterna:",
     "Mas Camarena, La Cañada y Valterna."
   ],
-  "intro": "Paterna es grande y tiene de todo: la torre y las coves del casco, la Cordà de agosto, el Parque Tecnológico donde trabaja media comarca y, hacia el norte, las urbanizaciones donde viven muchas de las familias que buscan casa con jardín cerca de València: Mas Camarena, La Cañada, Terramelar y Lloma Llarga-Valterna.",
+  "intro": "Paterna es grande y tiene de todo: la torre y las coves del casco, la Cordà de agosto, el Parque Tecnológico donde trabaja media comarca y, hacia el norte, las urbanizaciones donde viven muchas de las familias que buscan casa con jardín cerca de Valencia: Mas Camarena, La Cañada, Terramelar y Lloma Llarga-Valterna.",
   "foto": {
     "src": "/fotos/zonas/paterna-torre.webp",
     "alt": "Torre de Paterna",
@@ -28,7 +28,7 @@
       "y urbanizaciones con pinar."
     ],
     "parrafos": [
-      "Paterna está pegada a València por el oeste y tiene varios núcleos muy distintos: el casco histórico con la Torre árabe y las coves excavadas, los barrios de la ciudad y, hacia el norte, las urbanizaciones de La Cañada, Terramelar, Lloma Llarga (Valterna) y Mas Camarena, junto al Parque Tecnológico.",
+      "Paterna está pegada a Valencia por el oeste y tiene varios núcleos muy distintos: el casco histórico con la Torre árabe y las coves excavadas, los barrios de la ciudad y, hacia el norte, las urbanizaciones de La Cañada, Terramelar, Lloma Llarga (Valterna) y Mas Camarena, junto al Parque Tecnológico.",
       "El Parque Tecnológico es uno de los polos de empleo del área metropolitana y explica por qué tantas familias se instalan en las urbanizaciones de alrededor: se vive entre pinos y se trabaja a cinco minutos. Y una vez al año, el último domingo de agosto, la Cordà convierte el pueblo en el mayor espectáculo pirotécnico de la Comunitat."
     ]
   },
@@ -101,7 +101,7 @@
     },
     {
       "titulo": "Un pueblo con fiesta propia",
-      "texto": "La Cordà, el Cocó y las fiestas de agosto. Paterna tiene identidad, no es un dormitorio de València."
+      "texto": "La Cordà, el Cocó y las fiestas de agosto. Paterna tiene identidad, no es un dormitorio de Valencia."
     }
   ],
   "ofrece": {
@@ -144,13 +144,13 @@
   },
   "distancias": {
     "titulo": [
-      "Pegada a València.",
+      "Pegada a Valencia.",
       "Con pinar."
     ],
     "texto": "TODO-DATO: confirmar tiempos desde Mas Camarena.",
     "items": [
       {
-        "lugar": "València centro",
+        "lugar": "Valencia centro",
         "tiempo": "20 min"
       },
       {
@@ -166,7 +166,7 @@
         "tiempo": "30 min"
       },
       {
-        "lugar": "Madrid (AVE desde València)",
+        "lugar": "Madrid (AVE desde Valencia)",
         "tiempo": "2 h"
       }
     ]

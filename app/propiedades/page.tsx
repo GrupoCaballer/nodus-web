@@ -6,7 +6,7 @@ import styles from "./page.module.css";
 export const metadata: Metadata = {
   title: "Propiedades en venta y alquiler",
   description:
-    "Pisos, chalets y casas en València, Godella, Campolivar y La Virgen de la Vega. Pocas viviendas a la vez y toda la atención en cada una.",
+    "Pisos, chalets y casas en Valencia, Godella, Campolivar y La Virgen de la Vega. Pocas viviendas a la vez y toda la atención en cada una.",
   alternates: { canonical: "/propiedades" },
 };
 

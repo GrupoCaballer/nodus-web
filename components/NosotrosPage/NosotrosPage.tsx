@@ -26,21 +26,21 @@ const EXTRAS = [
     titulo: "Reforma y renders",
     texto: "Reforma con renders y presupuesto de obra para quien compra una vivienda que necesita obra. TODO-TEXTO: ampliar con el texto de Nodus.",
     img: "/fotos/extra-reforma.webp",
-    alt: "Arquitectura contemporánea de líneas geométricas en València",
+    alt: "Arquitectura contemporánea de líneas geométricas en Valencia",
   },
   {
     id: "financiacion",
     titulo: "Financiación",
     texto: "Asesoría legal, fiscal y financiera coordinada. Resolvemos la complejidad para que el cliente solo tenga que tomar decisiones informadas. Broker financiero para llegar con la hipoteca estudiada.",
     img: "/fotos/extra-financiacion.webp",
-    alt: "Edificio histórico de fachada ornamentada en València",
+    alt: "Edificio histórico de fachada ornamentada en Valencia",
   },
   {
     id: "inversion",
     titulo: "Inversión",
     texto: "Análisis de rentabilidad, selección de activos y seguimiento de la inversión. Una operación bien estructurada da resultados a largo plazo. Presentación de operaciones a fondos y family offices: dossier, LOI y due diligence.",
     img: "/fotos/extra-inversion.webp",
-    alt: "Plaza del Ayuntamiento de València con gente paseando",
+    alt: "Plaza del Ayuntamiento de Valencia con gente paseando",
   },
 ];
 
@@ -65,7 +65,7 @@ export default function NosotrosPage() {
       <section className={styles.banner} data-header-over>
         <LazyVideo eager className={styles.video} src="/video/nosotros.mp4" poster="/video/nosotros.webp" aria-hidden />
         <div className={`container ${styles.bannerText}`}>
-          <p className={styles.eyebrow}>Nosotros · Godella, València</p>
+          <p className={styles.eyebrow}>Nosotros · Godella, Valencia</p>
           <h1 className={styles.h1}>
             No somos la agencia más grande. <span>Somos la más fiable.</span>
           </h1>

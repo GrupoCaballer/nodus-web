@@ -6,7 +6,7 @@
     "godella",
     "campolivar"
   ],
-  "eyebrow": "Godella · L'Horta Nord · a 10 minutos de València",
+  "eyebrow": "Godella · L'Horta Nord · a 10 minutos de Valencia",
   "titulo": [
     "Vivir en Godella:",
     "Campolivar, el pueblo y la huerta."
@@ -14,7 +14,7 @@
   "intro": "Godella es el pueblo donde está Nodus. Casas con jardín en Campolivar, un casco con villas de veraneo del XIX, dos estaciones de metro y la huerta a la vuelta de la esquina. Lo conocemos calle a calle.",
   "foto": {
     "src": "/fotos/zona-campolivar.webp",
-    "alt": "Chalet entre vegetación en València",
+    "alt": "Chalet entre vegetación en Valencia",
     "credito": "",
     "provisional": true
   },
@@ -23,12 +23,12 @@
   "zona": {
     "label": "El pueblo",
     "titulo": [
-      "València a diez minutos.",
+      "Valencia a diez minutos.",
       "La huerta como fondo."
     ],
     "parrafos": [
-      "Godella es un municipio de la comarca de l'Horta Nord a escasos kilómetros del centro de València. Combina las ventajas del área metropolitana con un entorno de casas con jardín, calles tranquilas y muy buenas comunicaciones: dos estaciones de metro de la línea 1 (Godella y Burjassot-Godella) y acceso a la CV-35 y la A-7.",
-      "Desde finales del XIX, las familias de València subían a Godella a pasar el verano. De aquella época quedan las villas de la subida a la Ermita del Salvador y el carácter de un pueblo que nunca ha querido ser ciudad: mercado, sociedades musicales y fiestas con identidad propia."
+      "Godella es un municipio de la comarca de l'Horta Nord a escasos kilómetros del centro de Valencia. Combina las ventajas del área metropolitana con un entorno de casas con jardín, calles tranquilas y muy buenas comunicaciones: dos estaciones de metro de la línea 1 (Godella y Burjassot-Godella) y acceso a la CV-35 y la A-7.",
+      "Desde finales del XIX, las familias de Valencia subían a Godella a pasar el verano. De aquella época quedan las villas de la subida a la Ermita del Salvador y el carácter de un pueblo que nunca ha querido ser ciudad: mercado, sociedades musicales y fiestas con identidad propia."
     ]
   },
   "datos": [
@@ -92,7 +92,7 @@
   "estilo": [
     {
       "titulo": "Ciudad sin renunciar al espacio",
-      "texto": "Casas con jardín, espacio privado y silencio. Sin alejarse de València: el metro conecta con el centro en pocos minutos."
+      "texto": "Casas con jardín, espacio privado y silencio. Sin alejarse de Valencia: el metro conecta con el centro en pocos minutos."
     },
     {
       "titulo": "Comunidad internacional consolidada",
@@ -112,12 +112,12 @@
       {
         "sub": "Metro línea 1",
         "titulo": "Godella y Burjassot-Godella",
-        "texto": "Conexión directa con el centro de València y con Bétera. Dos estaciones dan servicio al municipio."
+        "texto": "Conexión directa con el centro de Valencia y con Bétera. Dos estaciones dan servicio al municipio."
       },
       {
         "sub": "Educación internacional",
         "titulo": "British School Los Olivos",
-        "texto": "Uno de los colegios internacionales de referencia de València, ubicado en Campolivar."
+        "texto": "Uno de los colegios internacionales de referencia de Valencia, ubicado en Campolivar."
       },
       {
         "sub": "Servicios",
@@ -146,10 +146,10 @@
       "Cerca de todo.",
       "Lejos del ruido."
     ],
-    "texto": "Godella está a diez minutos del centro de València en coche y conectada por metro. Lo suficientemente cerca para aprovechar la ciudad. Lo suficientemente fuera para vivir sin prisa.",
+    "texto": "Godella está a diez minutos del centro de Valencia en coche y conectada por metro. Lo suficientemente cerca para aprovechar la ciudad. Lo suficientemente fuera para vivir sin prisa.",
     "items": [
       {
-        "lugar": "València centro",
+        "lugar": "Valencia centro",
         "tiempo": "10 min"
       },
       {
@@ -157,7 +157,7 @@
         "tiempo": "15 min"
       },
       {
-        "lugar": "Puerto de València",
+        "lugar": "Puerto de Valencia",
         "tiempo": "20 min"
       },
       {

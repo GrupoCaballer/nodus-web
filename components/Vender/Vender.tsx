@@ -29,7 +29,7 @@ export default function Vender() {
     <section ref={root} className={`container ${styles.root}`} id="vender">
       <div className={styles.small} data-parallax>
         <figure className={styles.smallFig} data-reveal="image">
-          <Image src="/fotos/vender-fachada.webp" alt="Edificio señorial entre árboles en València" fill sizes="(max-width: 768px) 60vw, 24vw" className={styles.img} />
+          <Image src="/fotos/vender-fachada.webp" alt="Edificio señorial entre árboles en Valencia" fill sizes="(max-width: 768px) 60vw, 24vw" className={styles.img} />
         </figure>
       </div>
 
@@ -38,7 +38,7 @@ export default function Vender() {
       </div>
 
       <figure className={styles.big} data-reveal="image">
-        <Image src="/fotos/vender-aereo.webp" alt="Vista aérea del Palau de les Arts y la ciudad de València" fill sizes="(max-width: 768px) 100vw, 66vw" className={styles.img} />
+        <Image src="/fotos/vender-aereo.webp" alt="Vista aérea del Palau de les Arts y la ciudad de Valencia" fill sizes="(max-width: 768px) 100vw, 66vw" className={styles.img} />
       </figure>
 
       <div className={styles.copy}>

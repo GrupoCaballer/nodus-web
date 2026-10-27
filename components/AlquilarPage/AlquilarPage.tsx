@@ -43,7 +43,7 @@ export default function AlquilarPage() {
         <figure className={base.heroFig} data-reveal="image">
           <Image
             src="/fotos/servicio-alquilar.webp"
-            alt="Paseo marítimo con palmeras en València"
+            alt="Paseo marítimo con palmeras en Valencia"
             fill
             priority
             sizes="(max-width: 768px) 100vw, 40vw"

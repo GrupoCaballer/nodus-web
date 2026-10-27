@@ -26,7 +26,7 @@ export default function BlogList({ posts }: { posts: Post[] }) {
           <Heading strong="Blog y" muted="recursos." breakMuted />
         </div>
         <div className={styles.copy}>
-          <p data-reveal="text">Precios por barrio, qué mira un comprador y cómo preparar una vivienda. Datos de València, sin humo.</p>
+          <p data-reveal="text">Precios por barrio, qué mira un comprador y cómo preparar una vivienda. Datos de Valencia, sin humo.</p>
           <div data-reveal="text">
             <Button href="/blog">Ver todos los artículos</Button>
           </div>

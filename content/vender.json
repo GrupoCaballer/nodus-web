@@ -6,7 +6,7 @@
     "Dos meses de prueba. Si vendes a un comprador tuyo, no pagas"
   ],
   "prueba": [
-    { "dato": "TODO-DATO", "texto": "operaciones cerradas en València y área metropolitana" },
+    { "dato": "TODO-DATO", "texto": "operaciones cerradas en Valencia y área metropolitana" },
     { "dato": "2 semanas", "texto": "en las que cada anuncio recibe la mayor parte de sus visitas" },
     { "dato": "TODO-DATO", "texto": "portales nacionales e internacionales en los que publicamos" },
     { "dato": "0 €", "texto": "si vendes a un comprador propio" }
@@ -33,7 +33,7 @@
   ],
   "faq": [
     {
-      "pregunta": "¿Cómo valoráis mi piso en València?",
+      "pregunta": "¿Cómo valoráis mi piso en Valencia?",
       "respuesta": "Combinamos la visita a la vivienda con el análisis de su ubicación, estado, características y propiedades comparables. Te explicamos la propuesta de precio y sus límites para acordar una salida al mercado con criterio."
     },
     {

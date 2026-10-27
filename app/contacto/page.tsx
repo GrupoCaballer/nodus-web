@@ -9,7 +9,7 @@ import styles from "./page.module.css";
 
 export const metadata: Metadata = {
   title: "Contacto",
-  description: `Nodus Real Estate, inmobiliaria en Godella (València). ${SITE.email} · ${SITE.phone}. Te contestamos en el día.`,
+  description: `Nodus Real Estate, inmobiliaria en Godella (Valencia). ${SITE.email} · ${SITE.phone}. Te contestamos en el día.`,
   alternates: { canonical: "/contacto" },
 };
 
@@ -20,7 +20,7 @@ const jsonLd = {
   url: SITE.url,
   email: SITE.email,
   telephone: SITE.phone,
-  address: { "@type": "PostalAddress", addressLocality: "Godella", addressRegion: "València", addressCountry: "ES" },
+  address: { "@type": "PostalAddress", addressLocality: "Godella", addressRegion: "Valencia", addressCountry: "ES" },
   sameAs: [SITE.instagram].filter(Boolean),
 };
 

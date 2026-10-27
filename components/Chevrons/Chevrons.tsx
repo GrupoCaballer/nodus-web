@@ -7,10 +7,10 @@ import { gsap, useGSAP, prefersReducedMotion } from "@/components/motion/gsap";
 import styles from "./Chevrons.module.css";
 
 const IMAGES = [
-  { src: "/fotos/chevron-calle.webp", alt: "Calle del centro histórico de València con luz de tarde" },
-  { src: "/fotos/chevron-arco.webp", alt: "Gente paseando bajo un arco de piedra en el Carme, València" },
-  { src: "/fotos/chevron-banco.webp", alt: "Pareja sentada en un banco de una calle tranquila de València" },
-  { src: "/fotos/chevron-modernista.webp", alt: "Fachada modernista con palmeras en València" },
+  { src: "/fotos/chevron-calle.webp", alt: "Calle del centro histórico de Valencia con luz de tarde" },
+  { src: "/fotos/chevron-arco.webp", alt: "Gente paseando bajo un arco de piedra en el Carme, Valencia" },
+  { src: "/fotos/chevron-banco.webp", alt: "Pareja sentada en un banco de una calle tranquila de Valencia" },
+  { src: "/fotos/chevron-modernista.webp", alt: "Fachada modernista con palmeras en Valencia" },
 ];
 
 /** 1.4 "Esto no va solo de inmuebles": cuatro imágenes recortadas en chevron que entran escalonadas. */
