@@ -28,6 +28,9 @@ Lighthouse 12, móvil, preset perf. Criterio del brief: ≥ 85 / 100 / 100.
 - Dirección pública de la oficina (TODO-DIRECCION en el JSON-LD de `app/layout.tsx` y en /contacto).
 - Revisión legal de las cuatro páginas de `/vender/[slug]` y de los tres artículos del blog antes de quitarles `borrador: true`.
 
-## Siguiente paso del brief
+## Paso 7: deploy en Vercel (27-10-2026)
 
-7. Deploy en Vercel (preview) y entregar enlace. Requiere iniciar sesión en Vercel.
+- Proyecto `nodus-web` en el equipo "GC" de la cuenta de Vercel del usuario (id `gc-12a3`, plan hobby), enlazado desde la carpeta con `vercel link` (`.vercel/` y `.env.local` quedan fuera de git).
+- Primer despliegue, asignado a producción por ser el primero: https://nodus-web-umber.vercel.app (respuestas 200, redirección 308 de la web antigua y 404 propia comprobadas).
+- Los siguientes `vercel deploy` serán previews; `vercel deploy --prod` publica en producción.
+- Pendiente: variables de entorno en el panel (`RESEND_API_KEY`, `CONTACT_TO`, `CONTACT_FROM`, `NEXT_PUBLIC_GTM_ID`), conectar el dominio nodusrealestate.com cuando Nodus lo decida, y conectar un repositorio Git si se quiere deploy automático por commit (ahora no hay remoto).
