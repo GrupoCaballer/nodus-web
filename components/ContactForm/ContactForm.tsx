@@ -62,7 +62,7 @@ export default function ContactForm({ origen, conVivienda = false, cta = "Enviar
       </label>
       {conVivienda && (
         <label className={styles.field}>
-          <span>Dirección o zona de la vivienda</span>
+          <span>Dirección o zona de la propiedad</span>
           <input name="vivienda" type="text" placeholder="Campolivar, Godella" />
         </label>
       )}

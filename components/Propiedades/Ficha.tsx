@@ -88,7 +88,7 @@ export default function Ficha({ p }: { p: Propiedad }) {
             </dl>
 
             <section className={styles.desc} aria-labelledby="desc">
-              <h2 id="desc">Sobre esta vivienda</h2>
+              <h2 id="desc">Sobre esta propiedad</h2>
               {p.descripcion.map((par) => (
                 <p key={par.slice(0, 40)}>{par}</p>
               ))}

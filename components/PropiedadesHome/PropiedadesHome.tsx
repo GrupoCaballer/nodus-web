@@ -19,7 +19,7 @@ export default function PropiedadesHome() {
       <div className={styles.head}>
         <div data-reveal="text">
           <p className={styles.label}>Propiedades</p>
-          <Heading strong="Pocas viviendas." muted="Toda la atención en cada una." breakMuted />
+          <Heading strong="Pocas propiedades." muted="Toda la atención en cada una." breakMuted />
         </div>
         <div className={styles.copy}>
           <p data-reveal="text">

@@ -1,8 +1,8 @@
 {
   "promesas": [
-    "Pocas viviendas a la vez: la tuya no será una más en un listado",
     "Una web con esencia propia, vídeo profesional y dron si es un chalet",
     "Visitas filtradas: solo compradores con capacidad real",
+    "Valoración con las comparables reales de tu zona",
     "Alcance y honorarios acordados por escrito antes de empezar"
   ],
   "prueba": [
@@ -20,7 +20,7 @@
     },
     {
       "dato": "1",
-      "texto": "web con esencia propia para cada vivienda que vendemos"
+      "texto": "web con esencia propia para cada propiedad que vendemos"
     }
   ],
   "pasos": [
@@ -30,7 +30,7 @@
     },
     {
       "titulo": "Visitamos y valoramos con criterio.",
-      "texto": "Conocemos la vivienda, revisamos su estado y la documentación, y estudiamos las comparables de tu zona. Te explicamos qué sostiene el precio propuesto y qué puede condicionar la negociación."
+      "texto": "Conocemos la propiedad, revisamos su estado y la documentación, y estudiamos las comparables de tu zona. Te explicamos qué sostiene el precio propuesto y qué puede condicionar la negociación."
     },
     {
       "titulo": "Acordamos la estrategia.",
@@ -52,15 +52,15 @@
   "incluido": [
     {
       "titulo": "Web con esencia propia",
-      "texto": "Un dominio solo para tu vivienda, con fotos, vídeo, plano y la historia de la propiedad. Es lo primero que ve un comprador serio, y lo que hace que tu casa no sea una más."
+      "texto": "Un dominio solo para tu propiedad, con fotos, vídeo, plano y su historia. Es lo primero que ve un comprador serio, y lo que hace que tu propiedad no sea una más."
     },
     {
       "titulo": "Vídeo y dron",
-      "texto": "Rodaje profesional de cada vivienda; con dron en chalets y parcelas, para que se entienda la propiedad, el jardín y la zona de un vistazo."
+      "texto": "Rodaje profesional de cada propiedad; con dron en chalets y parcelas, para que se entienda la propiedad, el jardín y la zona de un vistazo."
     },
     {
       "titulo": "Home staging",
-      "texto": "Preparamos la vivienda para que se entienda a la primera: orden, luz y lo justo para que quien entra pueda imaginarse viviendo allí."
+      "texto": "Preparamos la propiedad para que se entienda a la primera: orden, luz y lo justo para que quien entra pueda imaginarse viviendo allí."
     },
     {
       "titulo": "Visitas filtradas",
@@ -75,11 +75,11 @@
   "faq": [
     {
       "pregunta": "¿Cómo valoráis mi piso en Valencia?",
-      "respuesta": "Combinamos la visita a la vivienda con el análisis de su ubicación, estado, características y propiedades comparables. Te explicamos la propuesta de precio y sus límites para acordar una salida al mercado con criterio."
+      "respuesta": "Combinamos la visita a la propiedad con el análisis de su ubicación, estado, características y propiedades comparables. Te explicamos la propuesta de precio y sus límites para acordar una salida al mercado con criterio."
     },
     {
       "pregunta": "¿Cuánto tiempo puede tardar en venderse?",
-      "respuesta": "Depende del precio, el estado de la vivienda, su ubicación y la demanda que encuentre. Hablamos de los plazos de tu caso al inicio y revisamos la respuesta de las visitas. No fijamos un plazo de venta garantizado."
+      "respuesta": "Depende del precio, el estado de la propiedad, su ubicación y la demanda que encuentre. Hablamos de los plazos de tu caso al inicio y revisamos la respuesta de las visitas. No fijamos un plazo de venta garantizado."
     },
     {
       "pregunta": "¿Qué incluyen los honorarios?",

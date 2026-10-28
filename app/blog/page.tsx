@@ -8,7 +8,7 @@ import styles from "./page.module.css";
 
 export const metadata: Metadata = {
   title: "Blog y recursos",
-  description: "Precios por barrio, qué mira un comprador y cómo preparar una vivienda. Datos de Valencia y su área metropolitana, sin humo.",
+  description: "Precios por barrio, qué mira un comprador y cómo preparar una propiedad. Datos de Valencia y su área metropolitana, sin humo.",
   alternates: { canonical: "/blog" },
 };
 
@@ -24,7 +24,7 @@ export default async function Page({ searchParams }: Search) {
     <div className={`container ${styles.root}`}>
       <div className={styles.head}>
         <Heading as="h1" strong="Blog y" muted="recursos." breakMuted />
-        <p>Precios por barrio, qué mira un comprador y cómo preparar una vivienda. Datos de Valencia, sin humo.</p>
+        <p>Precios por barrio, qué mira un comprador y cómo preparar una propiedad. Datos de Valencia, sin humo.</p>
       </div>
 
       <nav className={styles.cats} aria-label="Categorías">

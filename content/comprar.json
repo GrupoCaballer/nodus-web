@@ -17,7 +17,7 @@
     },
     {
       "titulo": "Avanza.",
-      "texto": "Encontramos lo que encaja, lo visitamos contigo, negociamos y te acompañamos hasta las llaves. Si la vivienda necesita obra, llegas con los renders y el presupuesto hechos antes de ofertar."
+      "texto": "Encontramos lo que encaja, lo visitamos contigo, negociamos y te acompañamos hasta las llaves. Si la propiedad necesita obra, llegas con los renders y el presupuesto hechos antes de ofertar."
     }
   ],
   "incluido": [
@@ -31,7 +31,7 @@
     },
     {
       "titulo": "Reforma y renders",
-      "texto": "Si la vivienda necesita obra, te enseñamos cómo puede quedar con renders y un presupuesto de obra antes de comprar. Decides con la propiedad terminada en la cabeza, no en el aire."
+      "texto": "Si la propiedad necesita obra, te enseñamos cómo puede quedar con renders y un presupuesto de obra antes de comprar. Decides con la propiedad terminada en la cabeza, no en el aire."
     },
     {
       "titulo": "Financiación",
@@ -44,7 +44,7 @@
       "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus."
     },
     {
-      "pregunta": "¿Cómo se filtran las viviendas que me proponéis?",
+      "pregunta": "¿Cómo se filtran las propiedades que me proponéis?",
       "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus."
     },
     {
@@ -52,7 +52,7 @@
       "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus."
     },
     {
-      "pregunta": "¿Y si también vendo mi casa?",
+      "pregunta": "¿Y si también vendo mi propiedad?",
       "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus."
     }
   ]

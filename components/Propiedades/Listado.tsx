@@ -90,10 +90,10 @@ export default function Listado() {
       </form>
 
       <p className={styles.count} aria-live="polite">
-        {lista.length === 1 ? "1 inmueble" : `${lista.length} inmuebles`}
+        {lista.length === 1 ? "1 propiedad" : `${lista.length} propiedades`}
       </p>
 
-      <h2 className="visually-hidden">Inmuebles disponibles</h2>
+      <h2 className="visually-hidden">Propiedades disponibles</h2>
       {lista.length ? (
         <ul className={styles.grid}>
           {lista.map((p) => (

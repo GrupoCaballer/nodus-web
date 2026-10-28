@@ -34,7 +34,7 @@ export default function ComprarPage() {
       <Section className={`container ${styles.hero}`}>
         <div className={styles.heroText}>
           <p className={styles.eyebrow} data-reveal="text">
-            Comprar vivienda · Valencia y área metropolitana
+            Comprar propiedad · Valencia y área metropolitana
           </p>
           <h1 className={styles.h1} data-reveal="text">
             Encuentra lo que encaja. <span>Con alguien al lado.</span>
@@ -131,9 +131,9 @@ export default function ComprarPage() {
         <Section className={`container ${styles.pasos}`}>
           <div data-reveal="text">
             <p className={styles.label}>En venta ahora</p>
-            <Heading strong="Pocas viviendas." muted="Toda la atención en cada una." breakMuted />
+            <Heading strong="Pocas propiedades." muted="Toda la atención en cada una." breakMuted />
             <p className={styles.barrioText} style={{ marginTop: "3rem" }}>
-              Llevamos pocas viviendas a la vez, a propósito: cada una sale con su web, su vídeo y sus visitas filtradas, y se
+              Llevamos pocas propiedades a la vez, a propósito: cada una sale con su web, su vídeo y sus visitas filtradas, y se
               vende antes de captar la siguiente. Si buscas algo concreto que no está aquí, escríbenos y lo buscamos contigo.
             </p>
             <div style={{ marginTop: "4rem" }}>

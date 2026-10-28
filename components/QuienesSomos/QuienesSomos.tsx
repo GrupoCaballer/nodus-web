@@ -12,7 +12,7 @@ const STATS = [
   { dato: "TODO-DATO", texto: "operaciones cerradas" },
   { dato: "TODO-DATO", texto: "años en Valencia y l'Horta Nord" },
   { dato: "2 semanas", texto: "en las que cada anuncio recibe la mayor parte de sus visitas" },
-  { dato: "0 €", texto: "si vendes a un comprador propio" },
+  { dato: "TODO-DATO", texto: "propiedades vendidas en los últimos doce meses" },
 ];
 
 /** Quiénes somos: por qué estamos aquí y cuatro cifras. Texto de la web antigua; los valores completos viven en /nosotros. */

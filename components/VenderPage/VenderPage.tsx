@@ -33,7 +33,7 @@ export default function VenderPage({ situaciones = [] }: { situaciones?: { slug:
       <Section className={`container ${styles.hero}`}>
         <div className={styles.heroText}>
           <p className={styles.eyebrow} data-reveal="text">
-            Vender tu vivienda · Valencia y área metropolitana
+            Vender tu propiedad · Valencia y área metropolitana
           </p>
           <h1 className={styles.h1} data-reveal="text">
             Vender tu piso en Valencia. <span>Cada paso, conectado.</span>
@@ -103,9 +103,9 @@ export default function VenderPage({ situaciones = [] }: { situaciones?: { slug:
         </div>
         <div className={styles.barrioText}>
           <p data-reveal="text">
-            Un piso en Benimaclet, una vivienda en el Eixample o un chalet en Campolivar necesitan enfoques distintos. La
+            Un piso en Benimaclet, un ático en el Eixample o un chalet en Campolivar necesitan enfoques distintos. La
             ubicación, la distribución, el estado del edificio y el perfil de comprador orientan la forma de presentar cada
-            vivienda.
+            propiedad.
           </p>
           <p data-reveal="text">
             También cuenta lo que viene después para ti: una mudanza, otra compra o la reorganización de tu patrimonio. Por
@@ -165,7 +165,7 @@ export default function VenderPage({ situaciones = [] }: { situaciones?: { slug:
         <div className="container">
           <div data-reveal="text">
             <p className={styles.labelDark}>Incluido cuando vendes con Nodus</p>
-            <Heading tone="dark" strong="Lo que lleva cada vivienda" muted="desde el primer día." breakMuted />
+            <Heading tone="dark" strong="Lo que lleva cada propiedad" muted="desde el primer día." breakMuted />
           </div>
           <ul className={styles.incluidoList}>
             {vender.incluido.map((it: { titulo: string; texto: string }) => (
