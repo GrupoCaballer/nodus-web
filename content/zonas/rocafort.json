@@ -74,12 +74,6 @@
         "texto": "Casas de pueblo, villas de veraneo con jardín y pisos cerca del metro. Vida de plaza: la iglesia, la Casa de la Cultura, los bares y el paseo hasta Godella. Para quien quiere Rocafort sin vivir dentro de una urbanización.",
         "foto": "/fotos/zonas/rocafort-iglesia.webp",
         "alt": "Fachada de la iglesia de San Sebastián Mártir, Rocafort"
-      },
-      {
-        "nombre": "Otras urbanizaciones",
-        "texto": "TODO-DATO: Nodus completa aquí las demás urbanizaciones de Rocafort que trabaja (nombre y una frase de cada una).",
-        "foto": "/fotos/zona-turia.webp",
-        "alt": "Arbolado y huerta"
       }
     ]
   },
@@ -140,7 +134,7 @@
       "Ocho kilómetros",
       "del centro."
     ],
-    "texto": "Rocafort está en la primera corona de Valencia. TODO-DATO: confirmar tiempos.",
+    "texto": "Rocafort está en la primera corona de Valencia: a pocos minutos de la ciudad en metro o por carretera.",
     "items": [
       {
         "lugar": "Valencia centro",

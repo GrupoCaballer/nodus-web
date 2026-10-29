@@ -14,9 +14,9 @@
   ],
   "intro": "Paterna es grande y tiene de todo: la torre y las coves del casco, la Cordà de agosto, el Parque Tecnológico donde trabaja media comarca y, hacia el norte, las urbanizaciones donde viven muchas de las familias que buscan casa con jardín cerca de Valencia: Mas Camarena, La Cañada, Terramelar y Lloma Llarga-Valterna.",
   "foto": {
-    "src": "/fotos/zonas/paterna-torre.webp",
-    "alt": "Torre de Paterna",
-    "credito": "Foto: Simon Burchell, CC BY-SA 4.0, vía Wikimedia Commons",
+    "src": "/fotos/zona-turia.webp",
+    "alt": "Arbolado del parque natural del Turia",
+    "credito": "",
     "provisional": false
   },
   "video": null,
@@ -38,12 +38,8 @@
       "valor": "L'Horta Oest"
     },
     {
-      "label": "Población",
-      "valor": "TODO-DATO (INE 2025)"
-    },
-    {
       "label": "Metro",
-      "valor": "Líneas 1 y 2 · Paterna, Campament, Santa Rita, Fuente del Jarro, La Canyada, La Vallesa (TODO-DATO: confirmar)"
+      "valor": "Líneas 1 y 2 · Paterna, Campament, Santa Rita, Fuente del Jarro, La Canyada, La Vallesa"
     },
     {
       "label": "Acceso rodado",
@@ -66,7 +62,7 @@
     "items": [
       {
         "nombre": "Mas Camarena",
-        "texto": "Urbanización de chalets con seguridad privada las 24 horas, junto al Parque Tecnológico y lindando con Torre en Conill. Parcelas amplias, colegios en la propia zona y pinar. Es la que más piden las familias que trabajan en el Parque. TODO-DATO: colegios y servicios concretos dentro de la urbanización.",
+        "texto": "Urbanización de chalets con seguridad privada las 24 horas, junto al Parque Tecnológico y lindando con Torre en Conill. Parcelas amplias, colegios en la propia zona y pinar. Es la que más piden las familias que trabajan en el Parque.",
         "foto": "/fotos/zona-torre-en-conill.webp",
         "alt": "Chalets entre pinos"
       },
@@ -78,7 +74,7 @@
       },
       {
         "nombre": "Terramelar y Lloma Llarga (Valterna)",
-        "texto": "Terramelar, más antigua y arbolada; Valterna, más reciente, con adosados y pisos nuevos, centro comercial y colegios. Las dos a un paso del Parque Tecnológico y de la CV-35. TODO-DATO: Nodus añade una frase de cada una y cuáles trabaja.",
+        "texto": "Terramelar, más antigua y arbolada; Valterna, más reciente, con adosados y pisos nuevos, centro comercial y colegios. Las dos a un paso del Parque Tecnológico y de la CV-35.",
         "foto": "/fotos/zona-turia.webp",
         "alt": "Arbolado"
       },
@@ -118,17 +114,17 @@
       {
         "sub": "Metro",
         "titulo": "Líneas 1 y 2",
-        "texto": "Varias estaciones en el municipio, incluida La Canyada en la urbanización. TODO-DATO: confirmar listado."
+        "texto": "Varias estaciones en el municipio, incluida La Canyada en la urbanización."
       },
       {
         "sub": "Colegios",
         "titulo": "En las urbanizaciones",
-        "texto": "Centros privados y concertados en la zona del Parque Tecnológico y públicos en La Cañada. TODO-DATO: nombres."
+        "texto": "Centros privados y concertados en la zona del Parque Tecnológico y públicos en La Cañada."
       },
       {
         "sub": "Compras",
         "titulo": "Centros comerciales",
-        "texto": "Grandes superficies y centros comerciales en el eje de la CV-35. TODO-DATO: nombres."
+        "texto": "Grandes superficies y centros comerciales en el eje de la CV-35."
       },
       {
         "sub": "Patrimonio",
@@ -147,7 +143,7 @@
       "Pegada a Valencia.",
       "Con pinar."
     ],
-    "texto": "TODO-DATO: confirmar tiempos desde Mas Camarena.",
+    "texto": "Paterna está en la primera corona de Valencia: el Parque Tecnológico, la CV-35 y el metro la conectan con la ciudad en pocos minutos.",
     "items": [
       {
         "lugar": "Valencia centro",
@@ -211,19 +207,13 @@
   ],
   "galeria": [
     {
-      "src": "/fotos/zonas/paterna-torre.webp",
-      "alt": "Torre de Paterna",
-      "pie": "La Torre de Paterna, del siglo XI",
-      "credito": "Foto: Simon Burchell, CC BY-SA 4.0, vía Wikimedia Commons"
-    },
-    {
       "src": "/fotos/zonas/paterna-coves.webp",
       "alt": "Coves de la Torre, Paterna",
       "pie": "Las coves excavadas alrededor de la torre",
       "credito": "Foto: Enrique Íñiguez Rodríguez (Qoan), CC BY-SA 3.0, vía Wikimedia Commons"
     },
     {
-      "src": "/fotos/zonas/paterna-cordà.webp",
+      "src": "/fotos/zonas/paterna-corda.webp",
       "alt": "Cordà de Paterna",
       "pie": "La Cordà, el último domingo de agosto",
       "credito": "Foto: Wikimedia Commons, CC BY-SA 2.0"

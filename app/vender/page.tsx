@@ -31,7 +31,10 @@ const jsonLd = {
 };
 
 export default async function Page() {
-  const situaciones = (await allSituaciones()).map(({ slug, titulo }) => ({ slug, titulo }));
+  // Las situaciones en borrador (revisión legal pendiente) no se enlazan hasta que Nodus las apruebe.
+  const situaciones = (await allSituaciones())
+    .filter((s) => !s.borrador)
+    .map(({ slug, titulo }) => ({ slug, titulo }));
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />

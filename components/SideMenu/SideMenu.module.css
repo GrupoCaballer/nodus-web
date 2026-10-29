@@ -184,10 +184,10 @@
   }
   .tab {
     top: auto;
-    bottom: 3rem;
+    bottom: 2rem;
     right: var(--gutter);
     transform: translateY(200%);
-    padding: 1.6rem 2.6rem;
+    padding: 1.2rem 2rem;
     border-radius: 10rem;
   }
   .tab span {

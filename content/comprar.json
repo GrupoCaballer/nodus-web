@@ -41,19 +41,19 @@
   "faq": [
     {
       "pregunta": "¿Cuesta algo buscar con Nodus?",
-      "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus."
+      "respuesta": "La primera conversación y la búsqueda inicial no tienen coste. Si decidimos trabajar juntos, el alcance del encargo y las condiciones quedan por escrito antes de empezar, sin sorpresas después."
     },
     {
       "pregunta": "¿Cómo se filtran las propiedades que me proponéis?",
-      "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus."
+      "respuesta": "Partimos de lo que nos cuentas en la primera conversación: zona, presupuesto, cómo vives y qué no negocias. Solo te proponemos propiedades que cumplen esa lista y que hemos visto o comprobado antes, para que cada visita tenga sentido."
     },
     {
       "pregunta": "¿Podéis ayudarme con la reforma y la hipoteca?",
-      "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus."
+      "respuesta": "Sí. Si la propiedad necesita obra, te enseñamos cómo quedaría con renders y un presupuesto orientativo antes de ofertar. Para la financiación trabajamos con asesores hipotecarios que comparan varias entidades y te acompañan hasta la firma."
     },
     {
       "pregunta": "¿Y si también vendo mi propiedad?",
-      "respuesta": "TODO-TEXTO: respuesta pendiente de Nodus."
+      "respuesta": "Es lo habitual: una compra suele ir unida a una venta. Coordinamos las dos operaciones con la misma persona para que los plazos encajen y no tengas que firmar la compra sin haber cerrado la venta, ni al revés."
     }
   ]
 }

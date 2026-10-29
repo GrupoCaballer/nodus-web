@@ -183,7 +183,7 @@ export default function ComprarPage() {
           </div>
           <p data-reveal="text">
             <Link href="/vender" className="link-underline">
-              ¿También vendes tu casa?
+              ¿También vendes tu propiedad?
             </Link>
           </p>
         </div>

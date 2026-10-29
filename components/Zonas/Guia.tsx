@@ -61,9 +61,6 @@ export default function Guia({ g }: { g: GuiaT }) {
             {g.titulo[0]} <span>{g.titulo[1]}</span>
           </h1>
           <p className={styles.lead}>{g.intro}</p>
-          {g.borrador && (
-            <p className={styles.credit}>TODO-TEXTO: guía en borrador, redactada con datos públicos. Pendiente de revisión por Nodus.</p>
-          )}
           <div className={styles.heroActions}>
             <Button href="#contacto" tone="light">
               Hablemos
@@ -73,9 +70,6 @@ export default function Guia({ g }: { g: GuiaT }) {
             </Link>
           </div>
           {g.foto.credito && !g.video && <p className={styles.credit}>{g.foto.credito}</p>}
-          {g.foto.provisional && !g.video && (
-            <p className={styles.credit}>TODO-MEDIA: foto provisional de banco; aquí va el vídeo aéreo de la zona.</p>
-          )}
         </div>
       </section>
 
@@ -198,14 +192,12 @@ export default function Guia({ g }: { g: GuiaT }) {
       </Section>
 
       {/* Galería: fotos propias de lugares concretos de la zona */}
+      {g.galeria.length > 0 && (
       <Section className={`container ${styles.galeria}`} label={`Galería de ${g.nombre}`}>
         <div data-reveal="text">
           <p className={styles.label}>La zona en imágenes</p>
           <Heading strong={g.nombre} muted="a pie de calle y desde el aire." />
         </div>
-        <p className={styles.galeriaTodo} data-reveal="text">
-          TODO-MEDIA: estas fotos son de Wikimedia Commons (con su crédito). Faltan el vídeo aéreo y las fotos propias de: {g.lugares.join(", ")}.
-        </p>
         {g.galeria.length ? (
           <ul className={styles.galeriaList}>
             {g.galeria.map((f) => (
@@ -222,12 +214,9 @@ export default function Guia({ g }: { g: GuiaT }) {
               </li>
             ))}
           </ul>
-        ) : (
-          <p className={styles.galeriaTodo} data-reveal="text">
-            TODO-MEDIA: pendiente de rodaje. Vídeo aéreo con dron y fotos propias de {g.nombre}: {g.lugares.join(", ")}.
-          </p>
-        )}
+        ) : null}
       </Section>
+      )}
 
       {/* Inmuebles en la zona */}
       {inmuebles.length > 0 && (

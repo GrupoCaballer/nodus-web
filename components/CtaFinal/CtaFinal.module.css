@@ -42,7 +42,7 @@
     font-size: 4.6rem;
   }
   .content {
-    padding-block: 12rem;
+    padding-block: 12rem 18rem;
     gap: 4rem;
   }
 }

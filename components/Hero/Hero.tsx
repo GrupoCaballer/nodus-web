@@ -105,8 +105,8 @@ export default function Hero() {
         <div className={styles.content} data-content>
           <h1 className={styles.title}>El punto donde todo converge.</h1>
           <p className={styles.sub}>
-            Inmobiliaria en Valencia. Aquí se encuentran quien vende y quien compra, y la intermediación vuelve a ser lo que
-            debería: un trabajo limpio, eficaz y satisfactorio para los dos.
+            Inmobiliaria en Valencia. Donde se encuentran quien vende y quien compra, con una intermediación limpia,
+            eficaz y satisfactoria para los dos.
           </p>
         </div>
       </div>

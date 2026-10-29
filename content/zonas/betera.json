@@ -77,7 +77,7 @@
       },
       {
         "nombre": "Los Pinares-La Masia, Cumbres de San Antonio, La Conarda-Montesano",
-        "texto": "Las otras urbanizaciones de Bétera, entre el pueblo y la sierra, con parcelas más variadas y precios más contenidos que Torre en Conill. TODO-DATO: Nodus completa una frase de cada una y cuáles trabaja.",
+        "texto": "Las otras urbanizaciones de Bétera, entre el pueblo y la sierra, con parcelas más variadas y precios más contenidos que Torre en Conill.",
         "foto": "/fotos/zonas/betera-calderona.webp",
         "alt": "Sierra Calderona nevada vista desde Valencia"
       }
@@ -116,7 +116,7 @@
       {
         "sub": "Colegios",
         "titulo": "Internacionales a pocos minutos",
-        "texto": "Proximidad a los colegios internacionales del norte del área metropolitana. TODO-DATO: listar los centros y distancias."
+        "texto": "Proximidad a los colegios internacionales del norte del área metropolitana."
       },
       {
         "sub": "Trabajo",
@@ -140,7 +140,7 @@
       "A veinte minutos",
       "de todo."
     ],
-    "texto": "Bétera está en la segunda corona de Valencia: más parcela y más silencio a cambio de unos minutos más de coche. TODO-DATO: confirmar tiempos.",
+    "texto": "Bétera está en la segunda corona de Valencia: más parcela y más silencio a cambio de unos minutos más de coche.",
     "items": [
       {
         "lugar": "Valencia centro",

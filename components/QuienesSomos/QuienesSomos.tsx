@@ -33,7 +33,7 @@ export default function QuienesSomos() {
 
         <div className={styles.grid}>
           <figure className={styles.fig} data-reveal="image">
-            <Image src="/fotos/testimonios-terraza.webp" alt="Terrazas de cafeterías en una calle de Valencia" fill sizes="(max-width: 768px) 100vw, 40vw" className={styles.img} />
+            <Image src="/fotos/zona-mercado.webp" alt="Puesto de un mercado de Valencia" fill sizes="(max-width: 768px) 100vw, 40vw" className={styles.img} />
           </figure>
           <div className={styles.text}>
             <p data-reveal="text">

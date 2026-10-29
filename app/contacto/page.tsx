@@ -48,8 +48,6 @@ export default function Page() {
               <dt>Oficina</dt>
               <dd>
                 {SITE.place}
-                <br />
-                <span className={styles.todo}>TODO-DIRECCIÓN: calle y horario de atención</span>
               </dd>
             </div>
             <div>

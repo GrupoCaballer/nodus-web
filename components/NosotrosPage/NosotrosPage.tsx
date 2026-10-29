@@ -121,8 +121,8 @@ export default function NosotrosPage() {
                 )}
               </figure>
               <h3>{m.nombre}</h3>
-              <p className={styles.cargo}>{m.cargo}</p>
-              {m.zonas && <p className={styles.zonas}>{m.zonas}</p>}
+              {m.cargo && !m.cargo.startsWith("TODO") && <p className={styles.cargo}>{m.cargo}</p>}
+              {m.zonas && !m.zonas.startsWith("TODO") && <p className={styles.zonas}>{m.zonas}</p>}
               {m.email && (
                 <a href={`mailto:${m.email}`} className={styles.mail}>
                   {m.email}

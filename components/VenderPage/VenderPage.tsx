@@ -151,8 +151,8 @@ export default function VenderPage({ situaciones = [] }: { situaciones?: { slug:
       <Section className={`container ${styles.split}`}>
         <figure className={styles.splitFig} data-reveal="image">
           <Image
-            src="/fotos/chevron-modernista.webp"
-            alt="Fachada modernista con palmeras en Valencia"
+            src="/fotos/vender-aereo.webp"
+            alt="Vista aérea del Palau de les Arts y la Ciudad de las Artes y las Ciencias, Valencia"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
             className={styles.cover}
