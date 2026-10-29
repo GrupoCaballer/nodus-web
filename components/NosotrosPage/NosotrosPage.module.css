@@ -130,15 +130,17 @@
   overflow: hidden;
   border-radius: 1.5rem;
   background: var(--paper-2);
+  border: 1px solid var(--line);
   margin-bottom: 2.4rem;
   display: grid;
   place-items: center;
 }
 .iniciales {
-  font-size: var(--fs-h2);
-  font-weight: 500;
-  color: var(--muted);
-  letter-spacing: -0.02em;
+  font-family: var(--font-serif);
+  font-size: 11rem;
+  font-weight: 400;
+  color: var(--gold);
+  letter-spacing: 0.02em;
 }
 .cover {
   object-fit: cover;

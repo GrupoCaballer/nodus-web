@@ -164,6 +164,20 @@
   padding-top: 1rem;
 }
 
+/* ---------- En venta ahora (Comprar) ---------- */
+.venta {
+  padding-block: 20rem 18rem;
+}
+.ventaHead {
+  max-width: 120rem;
+  margin-bottom: 8rem;
+}
+.ventaGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
 /* ---------- Barrio ---------- */
 .barrio {
   display: grid;
@@ -395,6 +409,16 @@
   }
   .pasos {
     padding-block: 10rem 8rem;
+  }
+  .venta {
+    padding-block: 10rem 8rem;
+  }
+  .ventaHead {
+    margin-bottom: 4rem;
+  }
+  .ventaGrid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
   }
   .paso {
     grid-template-columns: 4rem 1fr;

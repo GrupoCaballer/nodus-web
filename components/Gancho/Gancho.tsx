@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useRef } from "react";
 import Heading from "@/components/ui/Heading";
 import Button from "@/components/ui/Button";
@@ -12,6 +13,7 @@ export default function Gancho() {
   useReveal(root);
   return (
     <section ref={root} className={`container ${styles.root}`} id="gancho">
+      <div className={styles.text}>
       <div data-reveal="text">
         <Heading as="h2" size="h1" ignite strong="Imagínate ya en el siguiente paso." muted="Del camino nos ocupamos nosotros." breakMuted />
       </div>
@@ -23,6 +25,16 @@ export default function Gancho() {
       <div className={styles.cta} data-reveal="text">
         <Button href="/contacto">Cuéntanos tu caso</Button>
       </div>
+      </div>
+      <figure className={styles.fig} data-reveal="image">
+        <Image
+          src="/fotos/chevron-arco.webp"
+          alt="Gente paseando bajo un arco de piedra en Valencia"
+          fill
+          sizes="(max-width: 768px) 100vw, 40vw"
+          className={styles.img}
+        />
+      </figure>
     </section>
   );
 }

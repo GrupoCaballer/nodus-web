@@ -128,8 +128,8 @@ export default function ComprarPage() {
       </Section>
 
       {destacadas.length > 0 && (
-        <Section className={`container ${styles.pasos}`}>
-          <div data-reveal="text">
+        <Section className={`container ${styles.venta}`}>
+          <div className={styles.ventaHead} data-reveal="text">
             <p className={styles.label}>En venta ahora</p>
             <Heading strong="Pocas propiedades." muted="Toda la atención en cada una." breakMuted />
             <p className={styles.barrioText} style={{ marginTop: "3rem" }}>
@@ -140,7 +140,7 @@ export default function ComprarPage() {
               <Button href="/propiedades">Ver todas las propiedades</Button>
             </div>
           </div>
-          <ul className="cards-list" data-reveal="text">
+          <ul className={styles.ventaGrid} data-reveal="text">
             {destacadas.map((p) => (
               <PropertyCard key={p.slug} p={p} compact />
             ))}
