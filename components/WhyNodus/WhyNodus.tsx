@@ -30,7 +30,7 @@ export default function WhyNodus() {
   return (
     <section ref={root} className={styles.root} id="por-que-nodus">
       <div className={`container ${styles.head}`}>
-        <p className={styles.label}>Cómo trabajamos</p>
+        <p className={styles.label}>Lo que viene después</p>
         <Heading
           ignite
           className={styles.heading}

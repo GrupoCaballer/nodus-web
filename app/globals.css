@@ -18,7 +18,7 @@
 
   /* Escala en rem: 1rem ≈ 0.52vw (patrón de tipografía fluida) */
   --fs-label: 2rem;
-  --fs-eyebrow: 4rem; /* etiquetas doradas de sección: tamaño de título, por encima del cuerpo */
+  --fs-eyebrow: 5.6rem; /* etiquetas doradas de sección: tamaño de título, por encima del cuerpo */
   --fs-body: 2.6rem;
   --fs-h3: 4.6rem;
   --fs-h2: 7.2rem;
@@ -43,7 +43,7 @@ html {
   :root {
     --gutter: 1.8rem;
     --fs-label: 1.5rem;
-    --fs-eyebrow: 2.6rem;
+    --fs-eyebrow: 3.2rem;
     --fs-body: 1.9rem;
     --fs-h3: 2.8rem;
     --fs-h2: 3.6rem;
