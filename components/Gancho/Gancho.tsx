@@ -20,7 +20,7 @@ export default function Gancho() {
         donde todo eso converge: una persona que escucha lo que necesitas de verdad y un equipo que conecta cada paso hasta la
         firma. Sin fisuras.
       </p>
-      <div data-reveal="text">
+      <div className={styles.cta} data-reveal="text">
         <Button href="/contacto">Cuéntanos tu caso</Button>
       </div>
     </section>

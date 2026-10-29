@@ -1,12 +1,12 @@
 .heading {
-  --mute-o: 0.5;
+  --mute-o: 0.7;
   font-weight: 500;
   letter-spacing: -0.02em;
   color: var(--ink);
 }
 
 .onDark {
-  --mute-o: 0.4;
+  --mute-o: 0.62;
   color: var(--white);
 }
 

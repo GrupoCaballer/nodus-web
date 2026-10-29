@@ -1,35 +1,51 @@
+/* Sección fijada: el scroll vertical mueve la pista en horizontal (ver Experiencia.tsx). */
 .root {
   position: relative;
   z-index: 5;
   background: var(--bg);
-  padding-block: 10rem 24rem;
+  height: 100vh;
+  height: 100svh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  gap: 12rem;
+  width: max-content;
+  padding-inline: var(--gutter) 16vw;
+  will-change: transform;
 }
 
 .head {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8rem;
-  align-items: end;
-  margin-bottom: 10rem;
+  flex: 0 0 auto;
+  width: 84rem;
+}
+.label {
+  margin-bottom: 2.4rem;
 }
 .lead {
-  max-width: 80rem;
+  margin-top: 3.6rem;
+  max-width: 72rem;
   color: var(--muted);
   line-height: 1.5;
 }
 
 .list {
-  width: 100%;
-  max-width: 150rem;
-  border-top: 1px solid var(--line);
+  display: flex;
+  gap: 8rem;
 }
 
 .item {
-  display: grid;
-  grid-template-columns: 10rem 1fr;
-  gap: 2rem;
-  padding: 3.6rem 0;
-  border-bottom: 1px solid var(--line);
+  flex: 0 0 auto;
+  width: 72rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-top: 4rem;
+  border-top: 1px solid var(--line);
   font-size: var(--fs-h3);
   font-weight: 500;
   line-height: 1.35;
@@ -43,23 +59,51 @@
 }
 
 .num {
-  font-size: var(--fs-h3);
+  font-size: var(--fs-h2);
   font-weight: 500;
-  line-height: 1.35;
-  letter-spacing: -0.01em;
+  line-height: 1;
+  letter-spacing: -0.02em;
 }
 
 @media (max-width: 768px) {
   .root {
-    padding-block: 6rem 14rem;
+    height: auto;
+    display: block;
+    overflow: visible;
+    padding: 6rem var(--gutter) 14rem;
+  }
+  .track {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 5rem;
+    width: auto;
+    padding: 0;
   }
   .head {
-    grid-template-columns: 1fr;
+    width: auto;
+  }
+  .list {
+    flex-direction: column;
     gap: 3rem;
-    margin-bottom: 5rem;
   }
   .item {
-    grid-template-columns: 6rem 1fr;
-    padding: 2.4rem 0;
+    width: auto;
+    padding-top: 2.4rem;
+    gap: 1.6rem;
+  }
+  .num {
+    font-size: var(--fs-h3);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .root {
+    height: auto;
+    display: block;
+    overflow: auto;
+    padding-block: 8rem 14rem;
+  }
+  .track {
+    width: auto;
   }
 }

@@ -20,7 +20,6 @@ export default function SideMenu({ posts }: { posts: SideMenuPost[] }) {
   const panel = useRef<HTMLElement>(null);
   const [ready, setReady] = useState(false);
   const [open, setOpen] = useState(false);
-  const autoOpened = useRef(false);
 
   const propiedades = PROPIEDADES.filter((p) => p.estado !== "vendido").slice(0, 4);
   const zonas = ZONAS_INDEX.destacadas
@@ -33,13 +32,7 @@ export default function SideMenu({ posts }: { posts: SideMenuPost[] }) {
     ScrollTrigger.create({
       trigger: end,
       start: "bottom 70%",
-      onEnter: () => {
-        setReady(true);
-        if (!autoOpened.current) {
-          autoOpened.current = true;
-          setOpen(true);
-        }
-      },
+      onEnter: () => setReady(true),
       onLeaveBack: () => {
         setReady(false);
         setOpen(false);

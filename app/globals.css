@@ -8,8 +8,8 @@
   --paper-2: #141414;
   --gold: #c8a868;
   --gold-soft: #d9bd84;
-  --muted: rgba(242, 239, 232, 0.6);
-  --muted-dark: rgba(255, 255, 255, 0.55);
+  --muted: rgba(242, 239, 232, 0.82); /* texto corriente: blanco apagado, legible */
+  --muted-dark: rgba(255, 255, 255, 0.78);
   --line: rgba(255, 255, 255, 0.14);
   --line-dark: rgba(255, 255, 255, 0.15);
 
@@ -18,7 +18,7 @@
 
   /* Escala en rem: 1rem ≈ 0.52vw (patrón de tipografía fluida) */
   --fs-label: 2rem;
-  --fs-eyebrow: 3.4rem;
+  --fs-eyebrow: 4rem; /* etiquetas doradas de sección: tamaño de título, por encima del cuerpo */
   --fs-body: 2.6rem;
   --fs-h3: 4.6rem;
   --fs-h2: 7.2rem;
@@ -43,7 +43,7 @@ html {
   :root {
     --gutter: 1.8rem;
     --fs-label: 1.5rem;
-    --fs-eyebrow: 2.2rem;
+    --fs-eyebrow: 2.6rem;
     --fs-body: 1.9rem;
     --fs-h3: 2.8rem;
     --fs-h2: 3.6rem;
@@ -214,7 +214,9 @@ html.lenis body {
 [class*="_labelDark__"][class],
 [class*="_eyebrow__"][class] {
   font-size: var(--fs-eyebrow);
-  letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
 }
 [class*="_num__"] {
   color: var(--gold);

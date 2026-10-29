@@ -15,7 +15,6 @@
 .label {
   font-size: var(--fs-label);
   font-weight: 600;
-  color: var(--muted-dark);
   padding-top: 1.4rem;
 }
 
