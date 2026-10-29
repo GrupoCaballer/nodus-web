@@ -19,7 +19,7 @@ Lo que falta no es mucho trabajo de desarrollo: son decisiones y datos de Nodus,
 1. **El formulario no envía correos en producción.** En Vercel no hay ninguna variable de entorno. Sin `RESEND_API_KEY`, el servidor registra el mensaje en el log y responde "enviado" al visitante. Un lead escribiría y nadie lo recibiría. Hace falta: cuenta en Resend, verificar el dominio nodusrealestate.com (registros SPF y DKIM en el DNS), crear la clave y añadir `RESEND_API_KEY`, `CONTACT_TO` y `CONTACT_FROM` en Vercel.
 2. **Dominio.** La web vive en una URL de Vercel. Todas las canónicas, el sitemap y el robots apuntan ya a nodusrealestate.com, que hoy sirve la web antigua. Hay que añadir el dominio en Vercel y cambiar los registros DNS (A o CNAME) donde esté registrado. Las redirecciones de las URL antiguas ya están preparadas en `next.config.ts`.
 3. **Reseñas y cifras.** Las cinco reseñas y las cifras de la home y de Vender son provisionales, redactadas por indicación del cliente. Publicar reseñas que no existen es publicidad engañosa (Ley 3/1991 de Competencia Desleal y Ley General de Consumidores) y, si se presentan como reseñas de Google, va contra sus normas. Antes del lanzamiento: sustituirlas por reseñas reales (copiadas de Google con nombre y fecha) o dejar la sección oculta.
-4. **Repositorio remoto.** El código solo existe en este Mac (30 commits, sin remoto). Un disco roto y se pierde la web. Hace falta un repositorio en GitHub, conectado a Vercel para que cada push despliegue solo.
+4. ~~Repositorio remoto~~ Hecho el 29-10-2026: repositorio privado https://github.com/GrupoCaballer/nodus-web conectado a Vercel; cada push a `main` despliega producción.
 5. **Dirección pública y datos legales.** El aviso legal usa el titular, NIF y dirección de Quart de Poblet de la web antigua. Dirección debe confirmar que siguen siendo correctos y cuál es la dirección pública (Godella o Quart). Afecta al aviso legal, a la ficha de agencia en Google y a los datos estructurados.
 
 ## Seguridad y ciberseguridad
@@ -32,7 +32,7 @@ Lo que ya está bien:
 - Dependencias: Next 15.5, React 19, sin secretos en el código (`.env.local` y `.vercel/` ignorados por git).
 
 Lo que falta:
-- **Cabeceras de seguridad.** Producción solo envía HSTS. Faltan `Content-Security-Policy`, `X-Frame-Options` (o `frame-ancestors`), `X-Content-Type-Options`, `Referrer-Policy` y `Permissions-Policy`. Se añaden en `next.config.ts` en una hora; la CSP hay que ajustarla a GTM, Resend y los vídeos.
+- ~~Cabeceras de seguridad~~ Hechas el 29-10-2026 en `next.config.ts`: CSP (GTM/GA4, Matterport, YouTube), nosniff, X-Frame-Options DENY, Referrer-Policy, Permissions-Policy, HSTS; sin X-Powered-By.
 - **Límite de envíos real.** El límite por IP vive en memoria y en Vercel cada instancia tiene la suya. Para un sitio de este tamaño basta, pero si llega spam conviene pasar a Vercel KV o a Cloudflare Turnstile (sin fricción para el usuario).
 - **Vulnerabilidades conocidas.** `npm audit` marca postcss (alta) y next (moderada). Las de postcss afectan al proceso de build, no al visitante, y la corrección pasa por Next 16, que es un cambio mayor. Planificar la actualización después del lanzamiento, no antes.
 - **Protección de la cuenta de Vercel.** Activar la verificación en dos pasos en la cuenta claudenodus y en GitHub cuando exista. Guardar las claves (Resend, GTM) en un gestor de contraseñas, no en chats.
