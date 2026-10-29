@@ -26,13 +26,13 @@
 
 .item {
   display: grid;
-  grid-template-columns: 6rem 1fr;
+  grid-template-columns: 10rem 1fr;
   gap: 2rem;
   padding: 3.6rem 0;
   border-bottom: 1px solid var(--line);
   font-size: var(--fs-h3);
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.35;
   letter-spacing: -0.01em;
 }
 .item strong {
@@ -43,9 +43,10 @@
 }
 
 .num {
-  font-size: var(--fs-label);
-  font-weight: 600;
-  padding-top: 1rem;
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
 }
 
 @media (max-width: 768px) {
@@ -58,7 +59,7 @@
     margin-bottom: 5rem;
   }
   .item {
-    grid-template-columns: 4rem 1fr;
+    grid-template-columns: 6rem 1fr;
     padding: 2.4rem 0;
   }
 }

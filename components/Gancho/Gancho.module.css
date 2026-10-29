@@ -10,7 +10,7 @@
   max-width: 90rem;
   font-size: var(--fs-h3);
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
   color: var(--muted);
 }
 
@@ -40,7 +40,7 @@
   font-size: var(--fs-h2);
   font-weight: 500;
   letter-spacing: -0.02em;
-  line-height: 1.05;
+  line-height: 1.14;
 }
 .pathText {
   max-width: 60rem;

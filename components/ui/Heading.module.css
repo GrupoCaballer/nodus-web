@@ -17,18 +17,18 @@
 .h1 {
   font-size: var(--fs-h1);
   font-weight: 700;
-  line-height: 0.95;
+  line-height: 1.04;
   letter-spacing: -0.035em;
 }
 
 .h2 {
   font-size: var(--fs-h2);
-  line-height: 1.08;
+  line-height: 1.16;
 }
 
 .h3 {
   font-size: var(--fs-h3);
-  line-height: 1.15;
+  line-height: 1.24;
 }
 
 .body {

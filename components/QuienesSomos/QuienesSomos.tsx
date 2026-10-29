@@ -38,7 +38,7 @@ export default function QuienesSomos() {
           <div className={styles.text}>
             <p data-reveal="text">
               Somos un equipo joven y vanguardista de Valencia. Sin miedo a hacer las cosas de otra manera y con dominio de las
-              nuevas tecnologías: una web con esencia propia para cada vivienda, vídeo, renders y datos reales en cada decisión.
+              nuevas tecnologías: una web con esencia propia para cada propiedad, vídeo, renders y datos reales en cada decisión.
             </p>
             <p data-reveal="text">
               Una operación inmobiliaria raramente es solo una transacción. Es una mudanza, una inversión, un cambio de etapa.
