@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 3fr 2fr;
   gap: 10rem;
-  align-items: center;
+  align-items: start;
   padding-top: calc(var(--header-h) + 10rem);
   padding-bottom: 14rem;
 }
@@ -13,6 +13,10 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 4rem;
+}
+/* El botón va pegado a su texto, no al borde de la foto. */
+.heroText > :last-child {
+  margin-top: -1.2rem;
 }
 
 .eyebrow,
@@ -78,7 +82,8 @@
   border-radius: 1.5rem;
 }
 .heroFig {
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 3 / 4;
+  margin-top: 6rem;
 }
 .cover {
   object-fit: cover;
@@ -117,6 +122,20 @@
   grid-template-columns: 1fr 1.4fr;
   gap: 8rem;
   padding-block: 20rem 18rem;
+}
+.pasosAside {
+  position: sticky;
+  top: calc(var(--header-h) + 4rem);
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.pasosFig {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  aspect-ratio: 3 / 4;
+  max-height: 64vh;
 }
 .pasosList {
   border-top: 1px solid var(--line);
@@ -359,6 +378,15 @@
   }
   .heroFig {
     aspect-ratio: 4 / 3;
+    margin-top: 0;
+  }
+  .pasosAside {
+    position: static;
+    gap: 3rem;
+  }
+  .pasosFig {
+    aspect-ratio: 4 / 3;
+    max-height: none;
   }
   .proofList {
     grid-template-columns: 1fr 1fr;

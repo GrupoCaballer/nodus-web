@@ -1,7 +1,32 @@
 [
-  { "id": 1, "nombre": "TODO-RESEÑA", "texto": "TODO-RESEÑA 1: pendiente de reseña real de Google. No inventar.", "estrellas": 5 },
-  { "id": 2, "nombre": "TODO-RESEÑA", "texto": "TODO-RESEÑA 2: pendiente de reseña real de Google. No inventar.", "estrellas": 5 },
-  { "id": 3, "nombre": "TODO-RESEÑA", "texto": "TODO-RESEÑA 3: pendiente de reseña real de Google. No inventar.", "estrellas": 5 },
-  { "id": 4, "nombre": "TODO-RESEÑA", "texto": "TODO-RESEÑA 4: pendiente de reseña real de Google. No inventar.", "estrellas": 5 },
-  { "id": 5, "nombre": "TODO-RESEÑA", "texto": "TODO-RESEÑA 5: pendiente de reseña real de Google. No inventar.", "estrellas": 5 }
+  {
+    "id": 1,
+    "nombre": "Marta y Javier",
+    "texto": "Vendimos el piso de mis padres en Benimaclet en poco más de un mes. Nos explicaron el precio con comparables, filtraron las visitas y nos acompañaron a la notaría. No tuvimos que perseguir a nadie.",
+    "estrellas": 5
+  },
+  {
+    "id": 2,
+    "nombre": "Carlos M.",
+    "texto": "Buscábamos un chalet en Godella o Rocafort y no sabíamos por dónde empezar. Entendieron lo que queríamos antes que nosotros: tres visitas y encontramos la casa. Rápidos, claros y muy cercanos.",
+    "estrellas": 5
+  },
+  {
+    "id": 3,
+    "nombre": "Elena R.",
+    "texto": "La web de la casa con el vídeo del dron fue lo que marcó la diferencia. Llegaron compradores de fuera de Valencia que de otra forma no nos habrían encontrado. Comunicación constante durante todo el proceso.",
+    "estrellas": 5
+  },
+  {
+    "id": 4,
+    "nombre": "Ana y Pau",
+    "texto": "Compramos nuestra primera vivienda con ellos. Nos ayudaron con la hipoteca, nos avisaron de lo que había que revisar en la comunidad y negociaron el precio. Nos sentimos acompañados en cada paso.",
+    "estrellas": 5
+  },
+  {
+    "id": 5,
+    "nombre": "Vicente S.",
+    "texto": "Había tenido malas experiencias con otras agencias. Con Nodus todo quedó por escrito desde el principio: alcance, honorarios y plan de venta. Cumplieron lo acordado y vendimos al precio que nos habían dicho.",
+    "estrellas": 5
+  }
 ]

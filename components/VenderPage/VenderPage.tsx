@@ -79,9 +79,20 @@ export default function VenderPage({ situaciones = [] }: { situaciones?: { slug:
 
       {/* 5.3 Seis pasos */}
       <Section className={`container ${styles.pasos}`}>
-        <div data-reveal="text">
-          <p className={styles.label}>Cómo funciona</p>
-          <Heading strong="Seis pasos." muted="Un mismo equipo." />
+        <div className={styles.pasosAside}>
+          <div data-reveal="text">
+            <p className={styles.label}>Cómo funciona</p>
+            <Heading strong="Seis pasos." muted="Un mismo equipo." />
+          </div>
+          <figure className={styles.pasosFig} data-reveal="image">
+            <Image
+              src="/fotos/chevron-banco.webp"
+              alt="Pareja sentada en un banco de una calle de Valencia"
+              fill
+              sizes="(max-width: 768px) 100vw, 35vw"
+              className={styles.cover}
+            />
+          </figure>
         </div>
         <ol className={styles.pasosList}>
           {vender.pasos.map((p, i) => (
