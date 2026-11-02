@@ -257,3 +257,20 @@ a:hover > [class*="_arrow__"],
 [class*="_prose__"] a:hover {
   color: var(--gold);
 }
+@media (min-width: 861px) {
+  html { font-size: clamp(5.7px, min(0.34vw, 0.6vh), 8px) !important; }
+  .Heading_h1__2_xYj { font-size: min(3.6vw, 6.4vh) !important; line-height: 1.05 !important; }
+  .Heading_h2__nBT7O { font-size: min(2.8vw, 5vh) !important; line-height: 1.1 !important; }
+}
+
+/* Portada: texto en el cielo, casa debajo */
+.Hero_content__rnCeh { padding-top: clamp(84px, 13vh, 140px) !important; height: auto !important; justify-content: flex-start !important; align-items: center !important; z-index: 5 !important; }
+.Hero_title__JisBU { font-size: min(5.2vw, 8.4vh, 100px) !important; line-height: 1 !important; margin: 0 !important; }
+.Hero_sub__HB5QO { font-size: clamp(16px, min(1.45vw, 2.6vh), 23px) !important; line-height: 1.4 !important; max-width: 44ch !important; margin: 2.2vh auto 0 !important; }
+.Hero_house__yo0kK { top: 54vh !important; }
+.Hero_cloud1__6Zwne { top: 58vh !important; }
+.Hero_cloud2__c_hev { top: 66vh !important; }
+
+/* NODUS gigante del pie: con tope y centrado */
+.Footer_giant__9PXMJ { max-width: min(100%, 110vh) !important; margin-left: auto !important; margin-right: auto !important; }
+.Footer_giant__9PXMJ svg, .Footer_giant__9PXMJ img { width: 100% !important; height: auto !important; }
