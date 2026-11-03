@@ -15,10 +15,11 @@ export default function WhyNodus() {
       if (prefersReducedMotion()) return;
       gsap.fromTo(
         "[data-video]",
-        { scale: 0.9, y: "8vh" },
+        { scale: 0.9, y: "8vh", force3D: true },
         {
           scale: 1,
           y: 0,
+          force3D: true,
           ease: "none",
           scrollTrigger: { trigger: "[data-video]", start: "top 95%", end: "top 35%", scrub: true },
         },

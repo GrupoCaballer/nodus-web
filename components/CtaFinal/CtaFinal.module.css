@@ -12,10 +12,17 @@
 .bg {
   position: absolute;
   inset: -14% 0;
+  will-change: transform;
+}
+/* Oscurecido con una capa encima en vez de filter: brightness (más barato al moverse con el scroll) */
+.bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
 }
 .img {
   object-fit: cover;
-  filter: brightness(0.5);
 }
 
 .content {
