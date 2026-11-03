@@ -67,7 +67,8 @@
         "nombre": "Campolivar",
         "texto": "La urbanización de referencia. Chalets en parcelas con arbolado maduro alrededor del Castillo-Masía de San Fernando (1864), el British School Los Olivos y el Godellabus que baja al pueblo. Zona de familias que llegan para quedarse; la oferta es corta y muchas propiedades cambian de mano por recomendación.",
         "foto": "/fotos/zona-campolivar.webp",
-        "alt": "Chalet con jardín en Campolivar"
+        "alt": "Chalet con jardín en Campolivar",
+        "slug": "campolivar"
       },
       {
         "nombre": "El casco antiguo",

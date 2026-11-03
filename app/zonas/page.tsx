@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Heading from "@/components/ui/Heading";
-import { GUIAS, ZONAS_INDEX } from "@/lib/zonas";
+import { GUIAS, ZONAS_INDEX, guiaDeZona } from "@/lib/zonas";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -56,7 +56,7 @@ export default function Page() {
                 {g.zonas.map((z) => (
                   <li key={z.slug}>
                     {conGuia.has(z.slug) ? (
-                      <Link href={`/zonas/${GUIAS.find((g) => g.slug === z.slug || g.zonas.includes(z.slug))!.slug}`} className={styles.strong}>
+                      <Link href={`/zonas/${guiaDeZona(z.slug)!.slug}`} className={styles.strong}>
                         {z.nombre} <span aria-hidden>→</span>
                       </Link>
                     ) : (

@@ -85,6 +85,13 @@ export default function Guia({ g }: { g: GuiaT }) {
               {p}
             </p>
           ))}
+          {g.padre && (
+            <p data-reveal="text">
+              <Link href={`/zonas/${g.padre}`} className="link-underline">
+                {g.nombre} es parte de {g.municipio}: ver la guía del municipio
+              </Link>
+            </p>
+          )}
           <dl className={styles.datos} data-reveal="text">
             {g.datos.map((d) => (
               <div key={d.label}>
@@ -97,6 +104,7 @@ export default function Guia({ g }: { g: GuiaT }) {
       </Section>
 
       {/* Urbanizaciones y barrios del municipio */}
+      {g.urbanizaciones && (
       <Section className={`container ${styles.urb}`} label={`Zonas de ${g.nombre}`}>
         <div data-reveal="text">
           <p className={styles.label}>Urbanizaciones y barrios</p>
@@ -111,13 +119,22 @@ export default function Guia({ g }: { g: GuiaT }) {
               <div className={styles.urbText}>
                 <h3 data-reveal="text">{u.nombre}</h3>
                 <p data-reveal="text">{u.texto}</p>
+                {"slug" in u && u.slug && (
+                  <p data-reveal="text">
+                    <Link href={`/zonas/${u.slug}`} className="link-underline">
+                      Guía de {u.nombre}
+                    </Link>
+                  </p>
+                )}
               </div>
             </li>
           ))}
         </ol>
       </Section>
+      )}
 
       {/* Estilo de vida */}
+      {g.estilo && (
       <Section className={`container ${styles.estilo}`}>
         <p className={styles.label} data-reveal="text">
           Estilo de vida
@@ -131,6 +148,7 @@ export default function Guia({ g }: { g: GuiaT }) {
           ))}
         </ul>
       </Section>
+      )}
 
       {/* Qué ofrece la zona */}
       <Section className={styles.ofrece}>
@@ -152,6 +170,7 @@ export default function Guia({ g }: { g: GuiaT }) {
       </Section>
 
       {/* Distancias */}
+      {g.distancias && (
       <Section className={`container ${styles.distancias}`}>
         <div data-reveal="text">
           <p className={styles.label}>Distancias</p>
@@ -167,8 +186,10 @@ export default function Guia({ g }: { g: GuiaT }) {
           ))}
         </ul>
       </Section>
+      )}
 
       {/* Patrimonio y entorno */}
+      {g.patrimonio && (
       <Section className={`container ${styles.patrimonio}`}>
         <div data-reveal="text">
           <p className={styles.label}>Patrimonio y entorno</p>
@@ -190,6 +211,7 @@ export default function Guia({ g }: { g: GuiaT }) {
           </ul>
         </div>
       </Section>
+      )}
 
       {/* Galería: fotos propias de lugares concretos de la zona */}
       {g.galeria.length > 0 && (

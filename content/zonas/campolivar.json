@@ -1,0 +1,154 @@
+{
+  "slug": "campolivar",
+  "nombre": "Campolivar",
+  "municipio": "Godella",
+  "padre": "godella",
+  "zonas": [
+    "campolivar"
+  ],
+  "descripcion": "Campolivar, la urbanización de Godella: chalets con jardín, British School Los Olivos y Edelweiss School, a 5 km de Valencia. Casas en venta.",
+  "eyebrow": "Campolivar · Godella · a 5 km de Valencia",
+  "titulo": [
+    "Vivir en Campolivar:",
+    "chalet, jardín y colegio a un paseo."
+  ],
+  "intro": "Campolivar es la urbanización de chalets de Godella, junto a la carretera de Bétera y en el borde de la huerta norte. Casas con jardín, dos colegios dentro o al lado y Valencia a cinco kilómetros.",
+  "foto": {
+    "src": "/fotos/zona-campolivar.webp",
+    "alt": "Chalet entre vegetación en Valencia",
+    "credito": "",
+    "provisional": true
+  },
+  "video": null,
+  "borrador": false,
+  "zona": {
+    "label": "La urbanización",
+    "titulo": [
+      "De finca de los barones",
+      "a barrio de familias."
+    ],
+    "parrafos": [
+      "Campolivar toma el nombre de la baronía de Campo-Olivar, título que Carlos III concedió en 1778. Desde los años 30 del siglo XX, familias de Valencia levantaron aquí sus villas de veraneo.",
+      "Hoy es una zona de chalets unifamiliares en parcela, con promociones más recientes desde los años 2000. Linda con La Cruz de Gracia y con Santa Bárbara, y llega hasta el término de Paterna."
+    ]
+  },
+  "datos": [
+    {
+      "label": "Municipio",
+      "valor": "Godella (L'Horta Nord)"
+    },
+    {
+      "label": "Distancia a Valencia",
+      "valor": "Unos 5 km por la CV-310"
+    },
+    {
+      "label": "Vivienda",
+      "valor": "Chalets unifamiliares en parcela"
+    },
+    {
+      "label": "Colegios en la zona",
+      "valor": "British School Los Olivos · Edelweiss School"
+    },
+    {
+      "label": "Bus al pueblo",
+      "valor": "Godellabus"
+    },
+    {
+      "label": "Oficina de Nodus",
+      "valor": "Godella"
+    }
+  ],
+  "ofrece": {
+    "titulo": [
+      "Colegio, tenis y huerta,",
+      "sin salir de la zona."
+    ],
+    "items": [
+      {
+        "sub": "Educación internacional",
+        "titulo": "British School Los Olivos",
+        "texto": "Colegio británico de referencia en Valencia, en la propia Campolivar."
+      },
+      {
+        "sub": "Educación",
+        "titulo": "Edelweiss School",
+        "texto": "En la calle Pino Panera, también en Campolivar."
+      },
+      {
+        "sub": "Educación concertada",
+        "titulo": "Escuelas Profesionales Luis Amigó",
+        "texto": "Colegio concertado en la carretera de Bétera, a la entrada de la zona."
+      },
+      {
+        "sub": "Primera infancia",
+        "titulo": "Xicotets Campolivar",
+        "texto": "Escuela infantil privada para los más pequeños, en la propia urbanización."
+      },
+      {
+        "sub": "Deporte",
+        "titulo": "Club Español de Tenis",
+        "texto": "En Rocafort, junto a Santa Bárbara: pistas de tenis y pádel a pocos minutos en coche."
+      },
+      {
+        "sub": "Salud",
+        "titulo": "Centro de salud de Godella",
+        "texto": "Atención primaria en la calle San Sebastián, en el pueblo. El Godellabus une Campolivar con el casco."
+      }
+    ]
+  },
+  "patrimonio": {
+    "titulo": [
+      "Un castillo de 1864",
+      "en mitad de la urbanización."
+    ],
+    "parrafos": [
+      "El Castillo-Masía de San Fernando, levantado en 1864 por los barones de Campo-Olivar, es el edificio que dio origen a la zona y sigue siendo su símbolo."
+    ],
+    "items": [
+      {
+        "titulo": "Castillo-Masía de San Fernando",
+        "texto": "Construcción de 1864, pieza central de Campolivar y de la antigua baronía."
+      },
+      {
+        "titulo": "Ermita de la Virgen de los Desamparados",
+        "texto": "Celebró su primera misa el 15 de agosto de 1948. Depende de la parroquia del Salvador de Godella."
+      }
+    ]
+  },
+  "lugares": [
+    "el Castillo-Masía de San Fernando",
+    "la entrada de Campolivar por la carretera de Bétera",
+    "el British School Los Olivos",
+    "la ermita de la Virgen de los Desamparados",
+    "las calles de chalets con arbolado"
+  ],
+  "galeria": [],
+  "nodus": {
+    "titulo": [
+      "Nodus está en Godella.",
+      "Campolivar es nuestra zona."
+    ],
+    "parrafos": [
+      "Conocemos Campolivar calle a calle: qué parcelas tienen mejor orientación, qué colegio queda andando y cómo se vive en cada calle.",
+      "Si vende, presentamos su casa con web propia, vídeo con dron y visitas filtradas. Si compra, le contamos lo que no sale en el anuncio."
+    ],
+    "servicios": [
+      {
+        "titulo": "Comprar en Campolivar",
+        "texto": "Chalets con jardín cerca de los colegios. Le acompañamos desde la primera visita hasta las llaves, con la hipoteca estudiada antes."
+      },
+      {
+        "titulo": "Vender en Campolivar",
+        "texto": "Valoración con las comparables reales de la urbanización, web propia de la vivienda, vídeo con dron y solo visitas de compradores con capacidad real."
+      },
+      {
+        "titulo": "Reforma y renders",
+        "texto": "Muchos chalets de la zona piden actualización. Renders y presupuesto de obra antes de comprar."
+      },
+      {
+        "titulo": "Asesoramiento integral",
+        "texto": "Valoración, financiación con broker y acompañamiento legal y fiscal hasta la notaría. Una persona por operación."
+      }
+    ]
+  }
+}
