@@ -8,7 +8,7 @@ import styles from "./page.module.css";
 export const metadata: Metadata = {
   title: "Zonas: dónde trabajamos",
   description:
-    "Guías de Godella, Rocafort, Bétera, Paterna y La Virgen de la Vega, urbanización a urbanización: cómo se vive, qué hay cerca, accesos y las propiedades que tenemos ahora.",
+    "Guías de Godella, Rocafort, Bétera y Paterna por urbanización: cómo se vive, servicios cercanos y las casas que vendemos ahora.",
   alternates: { canonical: "/zonas" },
 };
 

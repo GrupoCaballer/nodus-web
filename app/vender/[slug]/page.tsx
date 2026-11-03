@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { og } from "@/lib/og";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ContactForm from "@/components/ContactForm/ContactForm";
@@ -22,7 +23,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     title: meta.titulo,
     description: meta.resumen,
     alternates: { canonical: `/vender/${slug}` },
-    openGraph: { type: "article", title: meta.titulo, description: meta.resumen, images: ["/fotos/vender-aereo.webp"] },
+    openGraph: { type: "article", title: meta.titulo, description: meta.resumen, images: [og("/fotos/vender-aereo.webp")] },
     ...(meta.borrador && { robots: { index: false, follow: true } }),
   };
 }

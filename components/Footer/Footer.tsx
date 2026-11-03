@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Logo from "@/components/ui/Logo";
 import { SITE } from "@/lib/site";
+import { GUIAS } from "@/lib/zonas";
 import CookiesButton from "@/components/CookieBar/CookiesButton";
 import WhatsApp from "@/components/ui/WhatsApp";
 import styles from "./Footer.module.css";
@@ -23,6 +24,11 @@ const COLUMNAS = [
       { href: "/nosotros", label: "Nosotros" },
       { href: "/blog", label: "Blog" },
     ],
+  },
+  {
+    // Enlaces a cada guía desde todas las páginas: Google entiende que son importantes. Sale solo de lib/zonas.
+    titulo: "Zonas",
+    links: GUIAS.map((g) => ({ href: `/zonas/${g.slug}`, label: g.nombre })),
   },
 ];
 

@@ -1,6 +1,6 @@
 .root {
   position: relative;
-  height: 500vh;
+  height: 250vh; /* antes 500vh: se acorta para llegar antes al contenido (3-11-2026) */
   background: var(--bg);
 }
 
@@ -136,7 +136,7 @@
 
 @media (max-width: 768px) {
   .root {
-    height: 350vh;
+    height: 200vh; /* antes 350vh */
   }
   .house {
     width: 240vw;

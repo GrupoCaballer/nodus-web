@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { og } from "@/lib/og";
 import VenderPage from "@/components/VenderPage/VenderPage";
 import vender from "@/content/vender.json";
 import { allSituaciones } from "@/lib/situaciones";
@@ -6,13 +7,13 @@ import { allSituaciones } from "@/lib/situaciones";
 export const metadata: Metadata = {
   title: "Vender piso en Valencia",
   description:
-    "Vender tu piso en Valencia: valoración con criterio, web propia de tu vivienda, vídeo profesional y visitas filtradas hasta la notaría. Godella y área metropolitana.",
+    "Vender su propiedad en Valencia y Godella: valoración, web propia de la vivienda, vídeo profesional y visitas filtradas hasta la notaría.",
   alternates: { canonical: "/vender" },
   openGraph: {
     title: "Vender piso en Valencia | Nodus Real Estate",
     description: "Cada paso de la venta, conectado: valoración, web propia, vídeo, visitas filtradas y notaría.",
     url: "/vender",
-    images: ["/fotos/vender-aereo.webp"],
+    images: [og("/fotos/vender-aereo.webp")],
   },
 };
 

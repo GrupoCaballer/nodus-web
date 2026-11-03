@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { og } from "@/lib/og";
 import localFont from "next/font/local";
 import LenisProvider from "@/components/motion/LenisProvider";
 import Header from "@/components/Header/Header";
@@ -29,16 +30,16 @@ const lora = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "Nodus Real Estate · Inmobiliaria en Valencia",
+    default: "Inmobiliaria en Godella y el norte de Valencia · Nodus",
     template: "%s · Nodus Real Estate",
   },
   description:
-    "Asesoramiento inmobiliario integral en Valencia. Compra, venta, alquiler e inversión, desde la primera visita hasta la firma.",
+    "Inmobiliaria en Godella. Vendemos y buscamos casas en Godella, Rocafort, Bétera y Paterna, con web propia de cada vivienda y anuncio de calidad.",
   openGraph: {
     siteName: SITE.name,
     locale: "es_ES",
     type: "website",
-    images: ["/fotos/vender-aereo.webp"],
+    images: [og("/fotos/vender-aereo.webp")],
   },
 };
 

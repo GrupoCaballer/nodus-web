@@ -7,12 +7,12 @@ import { KNOT_CENTERLINE, LOGO_PATHS, LOGO_VIEWBOX } from "@/lib/logo-paths";
 import styles from "./Hero.module.css";
 
 /**
- * Hero de 500vh (350vh en móvil) con un hijo sticky de 100vh.
- * Ritmo medido en la referencia (progreso 0→1, scrub):
- *  0.00–0.20  el titular se funde (escala y baja durante todo el recorrido)
- *  0.10–0.50  el contorno del logo se dibuja en trazo oscuro sobre la fachada
- *  0.40–0.57  el mismo contorno se rellena de tinta mientras el edificio se funde
- *  0.57–1.00  nada nuevo: logo, nubes y niebla siguen su deriva (ease-out)
+ * Hero de 250vh (200vh en móvil) con un hijo sticky de 100vh. Acortado el 3-11-2026 (antes 500/350vh)
+ * para llegar antes a lo importante; la secuencia es la misma, más apretada (progreso 0→1, scrub):
+ *  0.00–0.15  el titular se funde (escala y baja durante todo el recorrido)
+ *  0.08–0.58  el contorno del logo se dibuja en trazo oscuro sobre la fachada
+ *  0.55–0.80  el mismo contorno se rellena de tinta mientras el edificio se funde
+ *  0.80–1.00  respiro corto con el logo lleno antes de soltar la sección
  */
 export default function Hero() {
   const root = useRef<HTMLElement>(null);
@@ -43,7 +43,7 @@ export default function Hero() {
       });
 
       // Titular: opacidad en el primer 20 %, escala y bajada durante todo el recorrido
-      tl.to(q("[data-content]"), { opacity: 0, duration: 0.2 }, 0);
+      tl.to(q("[data-content]"), { opacity: 0, duration: 0.15 }, 0);
       tl.to(q("[data-content]"), { scale: 0.9, y: "20vh", duration: 1, ease: "power1.out" }, 0);
 
       // Edificio (ambas copias), nubes y niebla: deriva lenta con ease-out
@@ -52,15 +52,15 @@ export default function Hero() {
       tl.to(q("[data-cloud='2']"), { x: "7vw", duration: 1, ease: "power1.out" }, 0);
       tl.fromTo(q("[data-smoke]"), { y: "33vh" }, { y: "0vh", duration: 1, ease: "power1.out" }, 0);
 
-      // Logo: aparece enseguida, el contorno se dibuja del 10 % al 50 % y después se rellena de tinta.
+      // Logo: aparece enseguida, el contorno se dibuja del 8 % al 58 % y después se rellena de tinta.
       // Es el mismo elemento de principio a fin: no hay un segundo logotipo.
       tl.to(q("[data-outline]"), { opacity: 1, duration: 0.02 }, 0);
-      tl.to(paths, { strokeDashoffset: 0, duration: 0.4 }, 0.1);
-      tl.to(q("[data-letter]"), { fillOpacity: 1, duration: 0.17 }, 0.4);
-      tl.to(q("[data-knot]"), { opacity: 0, duration: 0.17 }, 0.4);
+      tl.to(paths, { strokeDashoffset: 0, duration: 0.5 }, 0.08);
+      tl.to(q("[data-letter]"), { fillOpacity: 1, duration: 0.25 }, 0.55);
+      tl.to(q("[data-knot]"), { opacity: 0, duration: 0.25 }, 0.55);
 
       // El edificio se funde mientras el logo se rellena
-      tl.to(q("[data-house-plain]"), { opacity: 0, duration: 0.17 }, 0.4);
+      tl.to(q("[data-house-plain]"), { opacity: 0, duration: 0.25 }, 0.55);
     },
     { scope: root },
   );

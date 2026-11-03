@@ -4,7 +4,7 @@ import ServiciosPage from "@/components/ServiciosPage/ServiciosPage";
 export const metadata: Metadata = {
   title: "Servicios inmobiliarios en Valencia",
   description:
-    "Valoración y venta, renders y presupuesto antes de reformar, broker hipotecario, alquiler por habitaciones y operaciones off market e inversión. Nodus, Valencia.",
+    "Venta, compra con renders y presupuesto de reforma, broker hipotecario, alquiler por habitaciones e inversión. Inmobiliaria en Godella.",
   alternates: { canonical: "/servicios" },
 };
 

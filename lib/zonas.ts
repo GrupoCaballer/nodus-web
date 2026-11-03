@@ -9,6 +9,8 @@ export type FotoGaleria = { src: string; alt: string; pie?: string; credito?: st
 
 /** Guía de municipio con sus urbanizaciones. `video` y `galeria` propios son TODO-MEDIA mientras no existan. */
 export type Guia = Omit<typeof godella, "galeria" | "video"> & {
+  /** Meta description escrita para Google (≤ 155 caracteres). */
+  descripcion?: string;
   video: string | null;
   galeria: FotoGaleria[];
 };
