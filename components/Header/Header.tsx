@@ -34,7 +34,7 @@ export default function Header() {
     };
     // Al acercar el ratón al borde de arriba, la franja vuelve a aparecer.
     const onMove = (e: MouseEvent) => {
-      if (e.clientY < 90) setHidden(false);
+      if (e.clientY < 90) setHidden((h) => (h ? false : h));
     };
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });

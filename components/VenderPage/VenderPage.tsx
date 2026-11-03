@@ -110,7 +110,7 @@ export default function VenderPage({ situaciones = [] }: { situaciones?: { slug:
       <Section className={`container ${styles.barrio}`}>
         <div data-reveal="text">
           <p className={styles.label}>El barrio</p>
-          <Heading strong="El barrio importa." muted="Tu situación, también." breakMuted />
+          <Heading strong="Cada zona se vende distinto." muted="Cada propietario, también." breakMuted />
         </div>
         <div className={styles.barrioText}>
           <p data-reveal="text">

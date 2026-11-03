@@ -13,7 +13,8 @@ export default function LenisProvider({ children }: { children: React.ReactNode 
   useEffect(() => {
     if (prefersReducedMotion()) return;
 
-    const instance = new Lenis({ lerp: 0.1, smoothWheel: true });
+    // lerp más alto = scroll más directo, menos sensación de arrastre (3-11-2026, antes 0.1)
+    const instance = new Lenis({ lerp: 0.16, smoothWheel: true, wheelMultiplier: 1 });
     instance.on("scroll", ScrollTrigger.update);
     const tick = (time: number) => instance.raf(time * 1000);
     gsap.ticker.add(tick);

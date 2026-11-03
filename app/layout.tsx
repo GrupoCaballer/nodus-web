@@ -5,7 +5,6 @@ import LenisProvider from "@/components/motion/LenisProvider";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 import CookieBar from "@/components/CookieBar/CookieBar";
-import Cursor from "@/components/ui/Cursor";
 import Analytics from "@/components/Analytics/Analytics";
 import { SITE } from "@/lib/site";
 import "./globals.css";
@@ -78,7 +77,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main>{children}</main>
           <Footer />
           <CookieBar />
-          <Cursor />
         </LenisProvider>
       </body>
     </html>

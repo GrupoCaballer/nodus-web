@@ -3,15 +3,14 @@
   position: fixed;
   inset: 0 0 auto 0;
   z-index: 50;
-  transition: transform 0.5s var(--ease-out), background-color 0.4s, backdrop-filter 0.4s;
+  transition: transform 0.5s var(--ease-out), background-color 0.4s;
 }
 
 .solid {
-  background: rgba(11, 11, 11, 0.92);
+  /* Sin backdrop-filter: el desenfoque se recalculaba en cada fotograma del scroll (3-11-2026) */
+  background: rgba(11, 11, 11, 0.96);
   color: var(--ink);
   border-bottom: 1px solid rgba(242, 239, 232, 0.08);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
 }
 
 .over {
