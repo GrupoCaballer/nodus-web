@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { og } from "@/lib/og";
-import { Instrument_Sans, Lora } from "next/font/google";
+import { Cormorant_Garamond, Instrument_Sans, Lora } from "next/font/google";
 import LenisProvider from "@/components/motion/LenisProvider";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
@@ -24,6 +24,15 @@ const lora = Lora({
   weight: ["400"],
   style: ["normal", "italic"],
   variable: "--font-lora",
+  display: "swap",
+});
+
+// Etiquetas doradas ("Quiénes somos", "Cómo trabajamos"…): Cormorant Garamond cursiva, elegida por Hugo el 3-11-2026.
+const cormorant = Cormorant_Garamond({
+  subsets: ["latin"],
+  weight: ["600"],
+  style: ["italic"],
+  variable: "--font-cormorant",
   display: "swap",
 });
 
@@ -60,7 +69,7 @@ const agenciaLd = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es" className={`${instrument.variable} ${lora.variable}`}>
+    <html lang="es" className={`${instrument.variable} ${lora.variable} ${cormorant.variable}`}>
       <body>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(agenciaLd) }} />
         <Analytics />
