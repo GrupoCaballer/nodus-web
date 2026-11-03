@@ -114,7 +114,7 @@ export default function VenderPage({ situaciones = [] }: { situaciones?: { slug:
         </div>
         <div className={styles.barrioText}>
           <p data-reveal="text">
-            Un piso en Benimaclet, un ático en el Eixample o un chalet en Campolivar necesitan enfoques distintos. La
+            Un piso en el casco de Godella, un dúplex en Santa Bárbara o un chalet en Campolivar necesitan enfoques distintos. La
             ubicación, la distribución, el estado del edificio y el perfil de comprador orientan la forma de presentar cada
             propiedad.
           </p>
