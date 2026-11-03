@@ -13,10 +13,10 @@
   ],
   "intro": "Godella es el pueblo donde está Nodus. Un casco con villas de veraneo del XIX, dos estaciones de metro, la huerta a la vuelta de la esquina y más de quince centros educativos para 13.400 vecinos. Lo conocemos calle a calle.",
   "foto": {
-    "src": "/fotos/zona-campolivar.webp",
-    "alt": "Chalet entre vegetación en Valencia",
-    "credito": "",
-    "provisional": true
+    "src": "/fotos/zonas/godella-ermita.webp",
+    "alt": "Ermita del Salvador, Godella",
+    "credito": "Foto: Mirigu24, CC BY-SA 4.0, vía Wikimedia Commons",
+    "provisional": false
   },
   "video": null,
   "borrador": false,
