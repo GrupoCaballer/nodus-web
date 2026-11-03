@@ -6,13 +6,13 @@
   "zonas": [
     "campolivar"
   ],
-  "descripcion": "Vivir en Campolivar (Godella): chalets con jardín, colegios Edelweiss y Gençana, Supercor, pádel y Heron City al lado. Casas en venta.",
+  "descripcion": "Vivir en Campolivar (Godella): chalets con jardín, colegios Edelweiss, Gençana y British School, Supercor y Heron City a 5 minutos. Casas en venta.",
   "eyebrow": "Campolivar · Godella · a 5 km de Valencia",
   "titulo": [
     "Vivir en Campolivar:",
-    "chalet, pinada y todo a mano."
+    "chalet, colegios y todo a mano."
   ],
-  "intro": "Campolivar es la urbanización de chalets de Godella. Casas con jardín entre pinos, colegios a un paseo, Supercor y farmacia en la propia zona, pádel y tenis a cinco minutos y Heron City prácticamente al lado.",
+  "intro": "Campolivar es la urbanización de chalets de Godella. Casas con jardín, varios colegios a un paseo, Supercor y farmacia a pocos minutos, el pabellón deportivo con parques detrás y Heron City a 5 minutos en coche.",
   "foto": {
     "src": "/fotos/zona-campolivar.webp",
     "alt": "Chalet entre vegetación en Valencia",
@@ -29,7 +29,7 @@
     ],
     "parrafos": [
       "Campolivar está en el alto de Godella, junto a la carretera de Bétera y a unos 5 km de Valencia. Son calles de chalets unifamiliares en parcela, con arbolado maduro y promociones más recientes desde los años 2000.",
-      "Lo que la distingue es que el día a día se resuelve dentro: compra y farmacia, colegios, deporte y zonas de paseo. Para cine, restaurantes o tiendas, Heron City queda prácticamente al lado."
+      "Lo que la distingue es que el día a día queda cerca: compra y farmacia, colegios, deporte y parques. Para cine, restaurantes o tiendas, Heron City está a 5 minutos en coche o 15-20 andando."
     ]
   },
   "datos": [
@@ -47,27 +47,27 @@
     },
     {
       "label": "Colegios",
-      "valor": "Edelweiss School · Gençana · British School Los Olivos"
+      "valor": "Edelweiss · British School Los Olivos · Gençana · EPLA"
     },
     {
       "label": "Compra diaria",
-      "valor": "Supercor y farmacia en la zona"
+      "valor": "Supercor y farmacia en la calle Ermita Nova"
     },
     {
       "label": "Ocio",
-      "valor": "Heron City, prácticamente al lado"
+      "valor": "Heron City, a 5 min en coche"
     }
   ],
   "ofrece": {
     "titulo": [
       "Lo de cada día,",
-      "dentro de la urbanización."
+      "a un paseo de casa."
     ],
     "items": [
       {
         "sub": "Compra",
         "titulo": "Supercor y farmacia",
-        "texto": "Supermercado y farmacia en la propia zona, sin bajar al pueblo."
+        "texto": "Supermercado y farmacia, uno junto a otro, en la calle Ermita Nova."
       },
       {
         "sub": "Educación",
@@ -75,24 +75,24 @@
         "texto": "Colegio privado y bilingüe con Bachillerato, en la calle Pino Panera."
       },
       {
-        "sub": "Educación",
-        "titulo": "Gençana",
-        "texto": "Centro concertado de Infantil a Bachillerato, muy cerca de la urbanización."
-      },
-      {
         "sub": "Educación internacional",
         "titulo": "British School Los Olivos",
         "texto": "Colegio británico de referencia en Valencia, en Campolivar."
       },
       {
-        "sub": "Deporte",
-        "titulo": "Pabellón de Godella y Siglo XXI",
-        "texto": "Centro deportivo municipal y, al lado, pistas de pádel y tenis y gimnasio."
+        "sub": "Educación",
+        "titulo": "Gençana y EPLA",
+        "texto": "Gençana, concertado de 1 año a Bachillerato, en la calle Ermita Nova. Las Escuelas Profesionales Luis Amigó, a 5 minutos en coche."
+      },
+      {
+        "sub": "Deporte y parques",
+        "titulo": "Pabellón de Godella",
+        "texto": "Centro deportivo municipal en la avenida Acacias 14, con parques infantiles detrás para pasar la tarde o pasear al perro. Al lado, el Siglo XXI, restaurante con pistas de pádel."
       },
       {
         "sub": "Ocio y compras",
         "titulo": "Heron City",
-        "texto": "Cines, restaurantes y tiendas prácticamente al lado de la urbanización."
+        "texto": "Cines, restaurantes y tiendas a 5 minutos en coche o 15-20 andando."
       }
     ]
   },
@@ -111,7 +111,7 @@
       },
       {
         "titulo": "Torre del Pirata",
-        "texto": "Zona verde de la urbanización, buena para pasear."
+        "texto": "Restos de una antigua torre junto a la cantera de Godella. El Ayuntamiento los protege como zona arqueológica."
       },
       {
         "titulo": "Ermita de la Virgen de los Desamparados",
@@ -123,8 +123,7 @@
     "la Torre del Pirata",
     "el Castillo-Masía de San Fernando",
     "la antigua cantera de Godella",
-    "los huertos de San Mauro",
-    "el pabellón de Godella",
+    "el pabellón de Godella y sus parques",
     "las calles de chalets con arbolado"
   ],
   "galeria": [],
@@ -134,7 +133,7 @@
       "Campolivar es nuestra zona."
     ],
     "parrafos": [
-      "Nodus está en Godella y Campolivar es nuestra zona. Sabemos qué calles son más tranquilas, qué parcelas tienen mejor orientación y qué queda a un paseo de cada casa: colegio, Supercor o la Torre del Pirata.",
+      "Nodus está en Godella y Campolivar es nuestra zona. Sabemos qué calles son más tranquilas, qué parcelas tienen mejor orientación y qué queda a un paseo de cada casa: el colegio, el Supercor o los parques del pabellón.",
       "Si vende, presentamos su chalet con web propia, vídeo con dron y visitas filtradas. Si compra, le contamos lo que no sale en el anuncio."
     ],
     "servicios": [
@@ -158,16 +157,16 @@
   },
   "estilo": [
     {
-      "titulo": "Paseos sin coger el coche",
-      "texto": "La Torre del Pirata, la antigua cantera de Godella y los huertos de San Mauro: zonas verdes y terreno sin urbanizar para caminar o correr desde casa."
+      "titulo": "Paseos con historia",
+      "texto": "Los restos de la Torre del Pirata y la antigua cantera de Godella, en terreno sin urbanizar: buenas zonas para caminar."
     },
     {
-      "titulo": "Deporte a cinco minutos",
-      "texto": "El pabellón municipal de Godella, con centro deportivo, y al lado el Siglo XXI, con pistas de pádel y tenis y gimnasio."
+      "titulo": "Tardes en el parque",
+      "texto": "Detrás del pabellón de Godella hay parques infantiles donde pasar la tarde con los niños o pasear al perro."
     },
     {
       "titulo": "Colegio a un paseo",
-      "texto": "Edelweiss y British School Los Olivos en la propia urbanización, y Gençana muy cerca."
+      "texto": "Edelweiss y British School Los Olivos en la propia urbanización; Gençana muy cerca, en la calle Ermita Nova."
     }
   ]
 }
