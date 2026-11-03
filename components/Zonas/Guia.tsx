@@ -43,7 +43,7 @@ export default function Guia({ g }: { g: GuiaT }) {
   return (
     <article className={styles.root}>
       {/* Hero con foto a sangre */}
-      <section ref={hero} className={styles.hero} data-header-over>
+      <section ref={hero} className={styles.hero} data-header-over="dark">
         <div className={styles.heroImg} data-hero-img>
           {g.video ? (
             <video className={styles.heroVideo} src={g.video} poster={g.foto.src} autoPlay muted loop playsInline aria-hidden />

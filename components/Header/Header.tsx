@@ -10,9 +10,10 @@ import WhatsApp from "@/components/ui/WhatsApp";
 import styles from "./Header.module.css";
 
 /**
- * Cabecera fija. Transparente mientras hay una sección [data-header-over]
- * debajo (el hero); blanca con blur fuera de ella. Se oculta al bajar y
- * vuelve al subir.
+ * Cabecera fija. Transparente con letra oscura solo sobre el cielo de la portada
+ * ([data-header-over] sin valor); sobre fotos o fondos oscuros ([data-header-over="dark"])
+ * y en el resto de la página es una franja negra con letra clara.
+ * Se oculta al bajar, vuelve al subir y al acercar el ratón al borde de arriba.
  */
 export default function Header() {
   const pathname = usePathname();
@@ -25,15 +26,23 @@ export default function Header() {
     const onScroll = () => {
       const y = window.scrollY;
       const zone = document.querySelector<HTMLElement>("[data-header-over]");
-      setOver(!!zone && zone.getBoundingClientRect().bottom > 80);
+      setOver(!!zone && zone.dataset.headerOver !== "dark" && zone.getBoundingClientRect().bottom > 80);
       if (Math.abs(y - lastY) > 4) {
         setHidden(y > lastY && y > 200);
         lastY = y;
       }
     };
+    // Al acercar el ratón al borde de arriba, la franja vuelve a aparecer.
+    const onMove = (e: MouseEvent) => {
+      if (e.clientY < 90) setHidden(false);
+    };
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
+    window.addEventListener("mousemove", onMove, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("mousemove", onMove);
+    };
   }, [pathname]);
 
   useEffect(() => setOpen(false), [pathname]);

@@ -7,7 +7,9 @@
 }
 
 .solid {
-  background: rgba(11, 11, 11, 0.85);
+  background: rgba(11, 11, 11, 0.92);
+  color: var(--ink);
+  border-bottom: 1px solid rgba(242, 239, 232, 0.08);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
 }
@@ -28,13 +30,14 @@
   display: flex;
   align-items: center;
   gap: 4rem;
-  height: var(--header-h);
+  height: max(var(--header-h), clamp(64px, 8.5vh, 88px));
   padding-inline: var(--gutter);
 }
 
 .logo {
   display: block;
-  width: 26rem;
+  /* En px con tope: el html escala en vw y en desktop quedaba diminuto (3-11-2026) */
+  width: clamp(140px, 12vw, 200px);
   color: var(--gold);
 }
 .logo svg {
@@ -46,8 +49,9 @@
   display: flex;
   gap: 4.4rem;
   margin-left: auto;
-  font-size: var(--fs-label);
+  font-size: clamp(15px, 1.05vw, 18px);
   font-weight: 600;
+  letter-spacing: 0.01em;
 }
 .nav a {
   position: relative;
@@ -64,6 +68,10 @@
 
 .cta {
   margin-left: 2rem;
+}
+.cta a {
+  font-size: clamp(14px, 0.95vw, 16px);
+  padding: 0.8em 1.6em;
 }
 
 .burger {
