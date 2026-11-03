@@ -75,9 +75,9 @@ export default function Hero() {
         <div className={styles.house} data-house data-house-plain>
           <Image
             src="/hero/edificio.webp"
-            alt="Chalet contemporáneo blanco con jardín mediterráneo en la Marina Alta, Alicante"
-            width={2200}
-            height={898}
+            alt="Chalet contemporáneo blanco con piscina, césped, pinos y olivos"
+            width={3200}
+            height={1331}
             priority
             sizes="(max-width: 768px) 120vw, 100vw"
             quality={58}
