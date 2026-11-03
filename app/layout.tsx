@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { og } from "@/lib/og";
-import localFont from "next/font/local";
+import { Instrument_Sans, Lora } from "next/font/google";
 import LenisProvider from "@/components/motion/LenisProvider";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
@@ -10,19 +10,19 @@ import Analytics from "@/components/Analytics/Analytics";
 import { SITE } from "@/lib/site";
 import "./globals.css";
 
-// Fuentes autoalojadas (woff2 de Google Fonts, subset latin).
-const instrument = localFont({
-  src: "./fonts/instrument-variable.woff2",
-  weight: "500 700",
+// Fuentes de Google Fonts autoalojadas por next/font (se descargan al compilar y se sirven desde la propia web).
+// Antes eran woff2 locales incompletos (sin las letras normales) y la web caía en la letra de reserva (3-11-2026).
+const instrument = Instrument_Sans({
+  subsets: ["latin"],
+  weight: ["500", "600", "700"],
   variable: "--font-instrument",
   display: "swap",
 });
 
-const lora = localFont({
-  src: [
-    { path: "./fonts/lora-400.woff2", weight: "400", style: "normal" },
-    { path: "./fonts/lora-400-italic.woff2", weight: "400", style: "italic" },
-  ],
+const lora = Lora({
+  subsets: ["latin"],
+  weight: ["400"],
+  style: ["normal", "italic"],
   variable: "--font-lora",
   display: "swap",
 });
