@@ -6,13 +6,13 @@
   "zonas": [
     "campolivar"
   ],
-  "descripcion": "Campolivar, la urbanización de Godella: chalets con jardín, British School Los Olivos y Edelweiss School, a 5 km de Valencia. Casas en venta.",
+  "descripcion": "Vivir en Campolivar (Godella): chalets con jardín, colegios Edelweiss y Gençana, Supercor, pádel y Heron City al lado. Casas en venta.",
   "eyebrow": "Campolivar · Godella · a 5 km de Valencia",
   "titulo": [
     "Vivir en Campolivar:",
-    "chalet, jardín y colegio a un paseo."
+    "chalet, pinada y todo a mano."
   ],
-  "intro": "Campolivar es la urbanización de chalets de Godella, junto a la carretera de Bétera y en el borde de la huerta norte. Casas con jardín, dos colegios dentro o al lado y Valencia a cinco kilómetros.",
+  "intro": "Campolivar es la urbanización de chalets de Godella. Casas con jardín entre pinos, colegios a un paseo, Supercor y farmacia en la propia zona, pádel y tenis a cinco minutos y Heron City prácticamente al lado.",
   "foto": {
     "src": "/fotos/zona-campolivar.webp",
     "alt": "Chalet entre vegetación en Valencia",
@@ -24,12 +24,12 @@
   "zona": {
     "label": "La urbanización",
     "titulo": [
-      "De finca de los barones",
-      "a barrio de familias."
+      "Vida de chalet",
+      "sin depender del coche para todo."
     ],
     "parrafos": [
-      "Campolivar toma el nombre de la baronía de Campo-Olivar, título que Carlos III concedió en 1778. Desde los años 30 del siglo XX, familias de Valencia levantaron aquí sus villas de veraneo.",
-      "Hoy es una zona de chalets unifamiliares en parcela, con promociones más recientes desde los años 2000. Linda con La Cruz de Gracia y con Santa Bárbara, y llega hasta el término de Paterna."
+      "Campolivar está en el alto de Godella, junto a la carretera de Bétera y a unos 5 km de Valencia. Son calles de chalets unifamiliares en parcela, con arbolado maduro y promociones más recientes desde los años 2000.",
+      "Lo que la distingue es que el día a día se resuelve dentro: compra y farmacia, colegios, deporte y zonas de paseo. Para cine, restaurantes o tiendas, Heron City queda prácticamente al lado."
     ]
   },
   "datos": [
@@ -46,63 +46,63 @@
       "valor": "Chalets unifamiliares en parcela"
     },
     {
-      "label": "Colegios en la zona",
-      "valor": "British School Los Olivos · Edelweiss School"
+      "label": "Colegios",
+      "valor": "Edelweiss School · Gençana · British School Los Olivos"
     },
     {
-      "label": "Bus al pueblo",
-      "valor": "Godellabus"
+      "label": "Compra diaria",
+      "valor": "Supercor y farmacia en la zona"
     },
     {
-      "label": "Oficina de Nodus",
-      "valor": "Godella"
+      "label": "Ocio",
+      "valor": "Heron City, prácticamente al lado"
     }
   ],
   "ofrece": {
     "titulo": [
-      "Colegio, tenis y huerta,",
-      "sin salir de la zona."
+      "Lo de cada día,",
+      "dentro de la urbanización."
     ],
     "items": [
       {
-        "sub": "Educación internacional",
-        "titulo": "British School Los Olivos",
-        "texto": "Colegio británico de referencia en Valencia, en la propia Campolivar."
+        "sub": "Compra",
+        "titulo": "Supercor y farmacia",
+        "texto": "Supermercado y farmacia en la propia zona, sin bajar al pueblo."
       },
       {
         "sub": "Educación",
         "titulo": "Edelweiss School",
-        "texto": "En la calle Pino Panera, también en Campolivar."
+        "texto": "Colegio privado y bilingüe con Bachillerato, en la calle Pino Panera."
       },
       {
-        "sub": "Educación concertada",
-        "titulo": "Escuelas Profesionales Luis Amigó",
-        "texto": "Colegio concertado en la carretera de Bétera, a la entrada de la zona."
+        "sub": "Educación",
+        "titulo": "Gençana",
+        "texto": "Centro concertado de Infantil a Bachillerato, muy cerca de la urbanización."
       },
       {
-        "sub": "Primera infancia",
-        "titulo": "Xicotets Campolivar",
-        "texto": "Escuela infantil privada para los más pequeños, en la propia urbanización."
+        "sub": "Educación internacional",
+        "titulo": "British School Los Olivos",
+        "texto": "Colegio británico de referencia en Valencia, en Campolivar."
       },
       {
         "sub": "Deporte",
-        "titulo": "Club Español de Tenis",
-        "texto": "En Rocafort, junto a Santa Bárbara: pistas de tenis y pádel a pocos minutos en coche."
+        "titulo": "Pabellón de Godella y Siglo XXI",
+        "texto": "Centro deportivo municipal y, al lado, pistas de pádel y tenis y gimnasio."
       },
       {
-        "sub": "Salud",
-        "titulo": "Centro de salud de Godella",
-        "texto": "Atención primaria en la calle San Sebastián, en el pueblo. El Godellabus une Campolivar con el casco."
+        "sub": "Ocio y compras",
+        "titulo": "Heron City",
+        "texto": "Cines, restaurantes y tiendas prácticamente al lado de la urbanización."
       }
     ]
   },
   "patrimonio": {
     "titulo": [
-      "Un castillo de 1864",
-      "en mitad de la urbanización."
+      "De finca de los barones",
+      "a urbanización de familias."
     ],
     "parrafos": [
-      "El Castillo-Masía de San Fernando, levantado en 1864 por los barones de Campo-Olivar, es el edificio que dio origen a la zona y sigue siendo su símbolo."
+      "Campolivar toma el nombre de la baronía de Campo-Olivar, título que Carlos III concedió en 1778. El Castillo-Masía de San Fernando, de 1864, es el edificio que dio origen a la zona. Desde los años 30 del siglo XX, familias de Valencia levantaron aquí sus villas de veraneo."
     ],
     "items": [
       {
@@ -110,16 +110,21 @@
         "texto": "Construcción de 1864, pieza central de Campolivar y de la antigua baronía."
       },
       {
+        "titulo": "Torre del Pirata",
+        "texto": "Zona verde de la urbanización, buena para pasear."
+      },
+      {
         "titulo": "Ermita de la Virgen de los Desamparados",
-        "texto": "Celebró su primera misa el 15 de agosto de 1948. Depende de la parroquia del Salvador de Godella."
+        "texto": "Celebró su primera misa el 15 de agosto de 1948."
       }
     ]
   },
   "lugares": [
+    "la Torre del Pirata",
     "el Castillo-Masía de San Fernando",
-    "la entrada de Campolivar por la carretera de Bétera",
-    "el British School Los Olivos",
-    "la ermita de la Virgen de los Desamparados",
+    "la antigua cantera de Godella",
+    "los huertos de San Mauro",
+    "el pabellón de Godella",
     "las calles de chalets con arbolado"
   ],
   "galeria": [],
@@ -129,8 +134,8 @@
       "Campolivar es nuestra zona."
     ],
     "parrafos": [
-      "Conocemos Campolivar calle a calle: qué parcelas tienen mejor orientación, qué colegio queda andando y cómo se vive en cada calle.",
-      "Si vende, presentamos su casa con web propia, vídeo con dron y visitas filtradas. Si compra, le contamos lo que no sale en el anuncio."
+      "Nodus está en Godella y Campolivar es nuestra zona. Sabemos qué calles son más tranquilas, qué parcelas tienen mejor orientación y qué queda a un paseo de cada casa: colegio, Supercor o la Torre del Pirata.",
+      "Si vende, presentamos su chalet con web propia, vídeo con dron y visitas filtradas. Si compra, le contamos lo que no sale en el anuncio."
     ],
     "servicios": [
       {
@@ -150,5 +155,19 @@
         "texto": "Valoración, financiación con broker y acompañamiento legal y fiscal hasta la notaría. Una persona por operación."
       }
     ]
-  }
+  },
+  "estilo": [
+    {
+      "titulo": "Paseos sin coger el coche",
+      "texto": "La Torre del Pirata, la antigua cantera de Godella y los huertos de San Mauro: zonas verdes y terreno sin urbanizar para caminar o correr desde casa."
+    },
+    {
+      "titulo": "Deporte a cinco minutos",
+      "texto": "El pabellón municipal de Godella, con centro deportivo, y al lado el Siglo XXI, con pistas de pádel y tenis y gimnasio."
+    },
+    {
+      "titulo": "Colegio a un paseo",
+      "texto": "Edelweiss y British School Los Olivos en la propia urbanización, y Gençana muy cerca."
+    }
+  ]
 }
