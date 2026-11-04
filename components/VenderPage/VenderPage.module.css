@@ -197,22 +197,24 @@
 .zonasList {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.2rem;
+  gap: 12px;
   margin-top: 1rem;
 }
+/* En px con tope (3-11-2026): en escritorio quedaban diminutos */
 .zonasList a {
   display: inline-block;
   border: 1px solid var(--ink);
   border-radius: 999px;
-  padding: 1.4rem 2.4rem;
-  font-size: var(--fs-label);
+  padding: 0.75em 1.4em;
+  font-size: clamp(16px, 1.2vw, 20px);
   font-weight: 600;
   color: var(--ink);
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 .zonasList a:hover {
-  background: var(--ink);
-  color: var(--white);
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--black);
 }
 .zonasList small {
   font-weight: 500;

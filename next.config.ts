@@ -40,7 +40,7 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
-      { source: "/zonas/campolivar", destination: "/zonas/godella", permanent: true },
+      // Campolivar tiene guía propia desde el 3-11-2026: ya no redirige a Godella.
       { source: "/zonas/santa-barbara", destination: "/zonas/rocafort", permanent: true },
       { source: "/zonas/torre-en-conill", destination: "/zonas/betera", permanent: true },
       { source: "/zonas/mas-camarena", destination: "/zonas/paterna", permanent: true },
@@ -50,7 +50,7 @@ const nextConfig: NextConfig = {
       { source: "/gestion-alquiler-habitaciones-valencia", destination: "/alquilar", permanent: true },
       { source: "/bio", destination: "/nosotros", permanent: true },
       { source: "/zona", destination: "/zonas", permanent: true },
-      { source: "/zona/campolivar-godella", destination: "/zonas/godella", permanent: true },
+      { source: "/zona/campolivar-godella", destination: "/zonas/campolivar", permanent: true },
       { source: "/zona/:slug", destination: "/zonas/:slug", permanent: true },
       { source: "/politica-de-privacidad", destination: "/privacidad", permanent: true },
       { source: "/politica-de-cookies", destination: "/cookies", permanent: true },

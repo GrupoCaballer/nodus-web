@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Heading from "@/components/ui/Heading";
-import { GUIAS, ZONAS_INDEX } from "@/lib/zonas";
+import { GUIAS, ZONAS_INDEX, guiaDeZona } from "@/lib/zonas";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
   title: "Zonas: dónde trabajamos",
   description:
-    "Guías de Godella, Rocafort, Bétera, Paterna y La Virgen de la Vega, urbanización a urbanización: cómo se vive, qué hay cerca, accesos y las propiedades que tenemos ahora.",
+    "Guías de Godella, Rocafort, Bétera y Paterna por urbanización: cómo se vive, servicios cercanos y las casas que vendemos ahora.",
   alternates: { canonical: "/zonas" },
 };
 
@@ -56,7 +56,7 @@ export default function Page() {
                 {g.zonas.map((z) => (
                   <li key={z.slug}>
                     {conGuia.has(z.slug) ? (
-                      <Link href={`/zonas/${GUIAS.find((g) => g.slug === z.slug || g.zonas.includes(z.slug))!.slug}`} className={styles.strong}>
+                      <Link href={`/zonas/${guiaDeZona(z.slug)!.slug}`} className={styles.strong}>
                         {z.nombre} <span aria-hidden>→</span>
                       </Link>
                     ) : (

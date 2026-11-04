@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { og } from "@/lib/og";
 import { notFound } from "next/navigation";
 import Ficha from "@/components/Propiedades/Ficha";
 import { PROPIEDADES, fotosDe, getPropiedad, nombreZona } from "@/lib/propiedades";
@@ -18,7 +19,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     title: p.titulo,
     description: p.resumen,
     alternates: { canonical: `/propiedades/${p.slug}` },
-    openGraph: { title: p.titulo, description: p.resumen, images: [fotosDe(p)[0]] },
+    openGraph: { title: p.titulo, description: p.resumen, images: [og(fotosDe(p)[0])] },
   };
 }
 

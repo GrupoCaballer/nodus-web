@@ -38,7 +38,7 @@ export default function NosotrosPage() {
   return (
     <>
       {/* Banner con vídeo */}
-      <section className={styles.banner} data-header-over>
+      <section className={styles.banner} data-header-over="dark">
         <LazyVideo eager className={styles.video} src="/video/nosotros.mp4" poster="/video/nosotros.webp" aria-hidden />
         <div className={`container ${styles.bannerText}`}>
           <p className={styles.eyebrow}>Nosotros · Godella, Valencia</p>

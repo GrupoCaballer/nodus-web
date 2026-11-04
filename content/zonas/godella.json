@@ -9,14 +9,14 @@
   "eyebrow": "Godella · L'Horta Nord · a 10 minutos de Valencia",
   "titulo": [
     "Vivir en Godella:",
-    "Campolivar, el pueblo y la huerta."
+    "el pueblo, la huerta y el metro."
   ],
-  "intro": "Godella es el pueblo donde está Nodus. Casas con jardín en Campolivar, un casco con villas de veraneo del XIX, dos estaciones de metro y la huerta a la vuelta de la esquina. Lo conocemos calle a calle.",
+  "intro": "Godella es el pueblo donde está Nodus. Un casco con villas de veraneo del XIX, dos estaciones de metro, la huerta a la vuelta de la esquina y más de quince centros educativos para 13.400 vecinos. Lo conocemos calle a calle.",
   "foto": {
-    "src": "/fotos/zona-campolivar.webp",
-    "alt": "Chalet entre vegetación en Valencia",
-    "credito": "",
-    "provisional": true
+    "src": "/fotos/zonas/godella-ermita.webp",
+    "alt": "Ermita del Salvador, Godella",
+    "credito": "Foto: Mirigu24, CC BY-SA 4.0, vía Wikimedia Commons",
+    "provisional": false
   },
   "video": null,
   "borrador": false,
@@ -38,7 +38,11 @@
     },
     {
       "label": "Población",
-      "valor": "13.533 hab."
+      "valor": "13.437 hab. (INE 2024)"
+    },
+    {
+      "label": "Renta media",
+      "valor": "45.318 €, 4.º municipio de la Comunitat"
     },
     {
       "label": "Metro",
@@ -50,7 +54,7 @@
     },
     {
       "label": "Colegios",
-      "valor": "British School Los Olivos y centros públicos y concertados"
+      "valor": "Más de 15 centros: CEIP Cervantes, El Barranquet, Sagrado Corazón, Gençana…"
     },
     {
       "label": "Oficina de Nodus",
@@ -65,9 +69,10 @@
     "items": [
       {
         "nombre": "Campolivar",
-        "texto": "La urbanización de referencia. Chalets en parcelas con arbolado maduro alrededor del Castillo-Masía de San Fernando (1864), el British School Los Olivos y el Godellabus que baja al pueblo. Zona de familias que llegan para quedarse; la oferta es corta y muchas propiedades cambian de mano por recomendación.",
+        "texto": "La urbanización de chalets de Godella, junto a la carretera de Bétera. Tiene su propia guía: colegios, paseos, deporte y el día a día.",
         "foto": "/fotos/zona-campolivar.webp",
-        "alt": "Chalet con jardín en Campolivar"
+        "alt": "Chalet con jardín en Campolivar",
+        "slug": "campolivar"
       },
       {
         "nombre": "El casco antiguo",
@@ -95,8 +100,8 @@
       "texto": "Casas con jardín, espacio privado y silencio. Sin alejarse de Valencia: el metro conecta con el centro en pocos minutos."
     },
     {
-      "titulo": "Comunidad internacional consolidada",
-      "texto": "La presencia del British School Los Olivos ha atraído durante años a familias con perfiles internacionales. Una comunidad diversa y estable."
+      "titulo": "Un pueblo con vida cultural",
+      "texto": "El Espai Alfaro, la Casa Museo Pinazo, el Festival Internacional de Música de Cámara en julio y sociedades musicales con siglos de tradición."
     },
     {
       "titulo": "La huerta como entorno",
@@ -115,14 +120,14 @@
         "texto": "Conexión directa con el centro de Valencia y con Bétera. Dos estaciones dan servicio al municipio."
       },
       {
-        "sub": "Educación internacional",
-        "titulo": "British School Los Olivos",
-        "texto": "Uno de los colegios internacionales de referencia de Valencia, ubicado en Campolivar."
+        "sub": "Educación",
+        "titulo": "Colegios en el pueblo",
+        "texto": "Públicos (CEIP Cervantes y El Barranquet, bilingüe) y concertados de Infantil a Bachillerato, como Sagrado Corazón y Gençana."
       },
       {
         "sub": "Servicios",
         "titulo": "Centro urbano",
-        "texto": "Comercios, mercado, servicios sanitarios y oferta cultural. El Godellabus conecta Campolivar con el casco."
+        "texto": "Calle Mayor y plaza de la iglesia, comercio de toda la vida, Consum en el Camino Camarena y centro de salud en la calle San Sebastián."
       },
       {
         "sub": "Patrimonio cultural",
@@ -130,9 +135,9 @@
         "texto": "El taller del pintor Ignacio Pinazo Camarlench convertido en museo. Obras suyas en el Prado y el IVAM."
       },
       {
-        "sub": "Naturaleza y huerta",
-        "titulo": "Barranco del Carraixet",
-        "texto": "Rutas a pie y en bicicleta entre campos cultivados y caminos históricos de la comarca."
+        "sub": "Paseos",
+        "titulo": "Parc del Molí y Balcó de l'Horta",
+        "texto": "El parque del molino y el mirador sobre la huerta junto a la Real Acequia de Moncada. Desde aquí salen rutas a pie y en bici entre campos."
       },
       {
         "sub": "Vida cultural local",
@@ -176,14 +181,10 @@
       "Arquitectura con carácter."
     ],
     "parrafos": [
-      "El Castillo-Masía de San Fernando, construido en 1864 por el tercer barón de Campo-Olivar, es el símbolo arquitectónico de Campolivar. Alrededor de este núcleo histórico creció la urbanización que existe hoy.",
-      "Godella aparece en el Llibre del Repartiment como Godayla, concedida por Jaime I en 1238. Conserva la iglesia de San Bartolomé Apóstol con su artesonado mudéjar del siglo XIV y la torre del Palacio de Serdañola, bien de interés cultural."
+      "Godella aparece en el Llibre del Repartiment como Godayla, concedida por Jaime I en 1238. Conserva la iglesia de San Bartolomé, con una capilla del siglo XIV de artesonado mudéjar, y la torre del Palacio de Serdañola, bien de interés cultural.",
+      "Desde finales del XIX, las familias de Valencia subían a veranear a la parte alta del pueblo. De esa época son las villas modernistas de la subida a la Ermita del Salvador."
     ],
     "items": [
-      {
-        "titulo": "Castillo-Masía de San Fernando",
-        "texto": "Construcción de 1864. Pieza central de Campolivar y símbolo de la baronía de Campo-Olivar."
-      },
       {
         "titulo": "Iglesia de San Bartolomé Apóstol",
         "texto": "Renacentista, inaugurada en 1754. Conserva una capilla del siglo XIV con artesonado mudéjar."
@@ -195,18 +196,21 @@
       {
         "titulo": "Palacio de Serdañola",
         "texto": "Torre del siglo XVIII declarada bien de interés cultural, junto a la antigua puerta del castillo."
+      },
+      {
+        "titulo": "Espai Alfaro",
+        "texto": "El antiguo taller del escultor Andreu Alfaro, hoy colección de diseño, biblioteca de arte y sala de exposiciones."
       }
     ]
   },
   "lugares": [
-    "el Castillo-Masía de San Fernando",
-    "la entrada de Campolivar",
-    "el British School Los Olivos",
     "la plaza y la iglesia de San Bartolomé",
     "la subida a la Ermita del Salvador",
     "la Casa Museo Pinazo",
     "el molino de la Real Acequia de Moncada",
-    "la estación de metro de Godella"
+    "la estación de metro de Godella",
+    "el Espai Alfaro",
+    "el Balcó de l'Horta"
   ],
   "galeria": [
     {
@@ -228,13 +232,13 @@
       "Y se nota."
     ],
     "parrafos": [
-      "Nuestra oficina está en el pueblo. Conocemos Campolivar calle a calle, sabemos qué parcelas dan al mar y cuáles al Garbí, qué colegio queda a cinco minutos andando y por dónde entra el sol en cada tramo del casco.",
+      "Nuestra oficina está en el pueblo. Conocemos el casco, las villas de la Ermita y las casas junto a la huerta: qué calles son tranquilas, qué colegio queda a cinco minutos andando y por dónde entra el sol en cada tramo.",
       "Si buscas propiedad en Godella, te contamos lo que no sale en el anuncio. Si vendes, la presentamos con una web con esencia propia, vídeo con dron y visitas filtradas, y la enseñamos a quien de verdad quiere vivir aquí."
     ],
     "servicios": [
       {
         "titulo": "Comprar en Godella",
-        "texto": "Chalets en Campolivar, casas con jardín y villas del casco. Te acompañamos desde la primera visita hasta las llaves, con la hipoteca estudiada antes."
+        "texto": "Casas de pueblo, villas del XIX y viviendas junto al metro. Le acompañamos desde la primera visita hasta las llaves, con la hipoteca estudiada antes."
       },
       {
         "titulo": "Vender en Godella",
@@ -249,5 +253,6 @@
         "texto": "Valoración, financiación con broker y acompañamiento legal y fiscal hasta la notaría. Una persona por operación, de principio a fin."
       }
     ]
-  }
+  },
+  "descripcion": "Vivir en Godella: casco con villas del XIX, huerta, dos paradas de metro y 4.ª renta de la Comunitat, a 10 minutos de Valencia. Casas en venta."
 }

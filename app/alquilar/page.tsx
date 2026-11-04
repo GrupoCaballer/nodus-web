@@ -3,9 +3,9 @@ import AlquilarPage from "@/components/AlquilarPage/AlquilarPage";
 import alquilar from "@/content/alquilar.json";
 
 export const metadata: Metadata = {
-  title: "Gestión de alquiler por habitaciones en Valencia",
+  title: "Alquiler por habitaciones en Valencia",
   description:
-    "Puesta en marcha desde 500 €, comercialización por un mes de alquiler y gestión total por el 10 % mensual. Tres servicios que puedes contratar por separado o combinar.",
+    "Alquiler por habitaciones en Valencia: puesta en marcha desde 500 €, búsqueda de inquilinos y gestión total por el 10 % mensual.",
   alternates: { canonical: "/alquilar" },
 };
 

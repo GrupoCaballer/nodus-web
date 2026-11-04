@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { og } from "@/lib/og";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -21,7 +22,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     title: meta.titulo,
     description: meta.resumen,
     alternates: { canonical: `/blog/${slug}` },
-    openGraph: { type: "article", title: meta.titulo, description: meta.resumen, images: [meta.imagen], publishedTime: meta.fecha },
+    openGraph: { type: "article", title: meta.titulo, description: meta.resumen, images: [og(meta.imagen)], publishedTime: meta.fecha },
     ...(meta.borrador && { robots: { index: false, follow: true } }),
   };
 }
