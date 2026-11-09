@@ -126,7 +126,14 @@
     "el pabellón de Godella y sus parques",
     "las calles de chalets con arbolado"
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "src": "/fotos/zonas/campolivar-entrada.webp",
+      "alt": "Campolivar entre pinos y palmeras, Godella",
+      "pie": "Campolivar, entre pinos y palmeras",
+      "credito": "Foto: Pablo Enzo, CC0, vía Wikimedia Commons (editada)"
+    }
+  ],
   "nodus": {
     "titulo": [
       "Nodus está en Godella.",
