@@ -70,8 +70,8 @@
       {
         "nombre": "Campolivar",
         "texto": "La urbanización de chalets de Godella, junto a la carretera de Bétera. Tiene su propia guía: colegios, paseos, deporte y el día a día.",
-        "foto": "/fotos/zona-campolivar.webp",
-        "alt": "Chalet con jardín en Campolivar",
+        "foto": "/fotos/zonas/campolivar-entrada.webp",
+        "alt": "Entrada a Campolivar entre pinos y palmeras, Godella",
         "slug": "campolivar"
       },
       {
@@ -89,8 +89,8 @@
       {
         "nombre": "Junto a la huerta",
         "texto": "El límite del pueblo con los campos: el molino restaurado junto a la Real Acequia de Moncada, el barranco del Carraixet y los caminos entre parcelas por los que se sale en bici.",
-        "foto": "/fotos/zona-turia.webp",
-        "alt": "Huerta y arbolado"
+        "foto": "/fotos/zonas/godella-huerta.webp",
+        "alt": "Huerta de Godella con Moncada al fondo"
       }
     ]
   },
@@ -224,6 +224,30 @@
       "alt": "Ermita del Salvador, Godella",
       "pie": "La Ermita del Salvador, en la parte alta del pueblo",
       "credito": "Foto: Mirigu24, CC BY-SA 4.0, vía Wikimedia Commons"
+    },
+    {
+      "src": "/fotos/zonas/godella-torre-serdanola.webp",
+      "alt": "Torre del Palacio de Serdañola, Godella",
+      "pie": "La torre del Palacio de Serdañola",
+      "credito": "Foto: Sancor, CC BY-SA 3.0 es, vía Wikimedia Commons (editada)"
+    },
+    {
+      "src": "/fotos/zonas/godella-villa-doctor-peset.webp",
+      "alt": "Villa en la calle Doctor Peset, Godella",
+      "pie": "Una de las villas de la calle Doctor Peset",
+      "credito": "Foto: B25es, CC BY-SA 3.0, vía Wikimedia Commons (editada)"
+    },
+    {
+      "src": "/fotos/zonas/godella-huerta.webp",
+      "alt": "Huerta de Godella con Moncada al fondo",
+      "pie": "La huerta, con Moncada al fondo",
+      "credito": "Foto: Enrique Íñiguez Rodríguez (Qoan), CC BY-SA 3.0, vía Wikimedia Commons (editada)"
+    },
+    {
+      "src": "/fotos/zonas/godella-ayuntamiento.webp",
+      "alt": "Fachada del Ayuntamiento de Godella",
+      "pie": "El Ayuntamiento, en el centro del pueblo",
+      "credito": "Foto: 19Tarrestnom65, CC BY-SA 4.0, vía Wikimedia Commons (editada)"
     }
   ],
   "nodus": {
