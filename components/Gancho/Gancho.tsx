@@ -15,12 +15,11 @@ export default function Gancho() {
     <section ref={root} className={`container ${styles.root}`} id="gancho">
       <div className={styles.text}>
       <div data-reveal="text">
-        <Heading as="h2" size="h1" ignite strong="Imagínate ya en el siguiente paso." muted="Del camino nos ocupamos nosotros." breakMuted />
+        <Heading as="h2" size="h1" ignite strong="Expertos en experiencias inmobiliarias." muted="Imaginar tu vida en otro lugar o despedirte del tuyo, bien acompañado." breakMuted />
       </div>
       <p className={styles.lead} data-reveal="text">
-        Una propiedad raramente es solo una transacción. Es una mudanza, una inversión, un cambio de etapa. Nodus es el punto
-        donde todo eso converge: una persona que escucha lo que necesitas de verdad y un equipo que conecta cada paso hasta la
-        firma. Sin fisuras.
+        Si compras, te contamos cómo se vive en cada zona hasta que te ves allí. Si vendes, tienes a una persona a tu
+        lado en cada paso: un plan por escrito, visitas filtradas y acompañamiento hasta la notaría.
       </p>
       <div className={styles.cta} data-reveal="text">
         <Button href="/contacto">Cuéntanos tu caso</Button>
