@@ -22,6 +22,12 @@
   max-width: 150rem;
 }
 
+.more {
+  margin-top: 4rem;
+  font-size: var(--fs-label);
+  font-weight: 600;
+}
+
 .videoWrap {
   overflow: hidden;
   border-radius: 1.5rem;
