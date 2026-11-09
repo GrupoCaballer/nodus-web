@@ -103,9 +103,11 @@ export default function Hero() {
         </div>
 
         <div className={styles.content} data-content>
-          <h1 className={styles.title}>El punto donde todo converge.</h1>
+          <h1 className={styles.title}>
+            Inmobiliaria en Godella. <span className={styles.titleMuted}>El punto donde todo converge.</span>
+          </h1>
           <p className={styles.sub}>
-            Inmobiliaria en Valencia. Donde se encuentran quien vende y quien compra, con una intermediación limpia,
+            Donde se encuentran quien vende y quien compra, con una intermediación limpia,
             eficaz y satisfactoria para los dos.
           </p>
         </div>

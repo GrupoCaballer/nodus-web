@@ -5,7 +5,6 @@ import QuienesSomos from "@/components/QuienesSomos/QuienesSomos";
 import WhyNodus from "@/components/WhyNodus/WhyNodus";
 import Experiencia from "@/components/Experiencia/Experiencia";
 import Servicios from "@/components/Servicios/Servicios";
-import Testimonios from "@/components/Testimonios/Testimonios";
 import CtaFinal from "@/components/CtaFinal/CtaFinal";
 import SideMenu from "@/components/SideMenu/SideMenu";
 import { allPosts } from "@/lib/blog";
@@ -26,7 +25,6 @@ export default async function Home() {
       <Experiencia />
       <Servicios />
       <div data-story-end>
-        <Testimonios />
       </div>
       <CtaFinal />
       <SideMenu posts={posts} />
