@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <Legal titulo="Política de cookies" actualizado="octubre de 2026">
+    <Legal titulo="Política de cookies" actualizado="noviembre de 2026">
       <h2>1. Cookies y almacenamiento local</h2>
       <p>
         Las cookies son pequeños archivos que un sitio guarda en tu navegador. El almacenamiento local permite guardar
@@ -28,6 +28,23 @@ export default function Page() {
           defecto.
         </li>
       </ul>
+      <p>
+        Si aceptas la analítica, cargamos Google Tag Manager, que a su vez activa Google Analytics 4. Los dos son servicios de
+        Google Ireland Limited. Tag Manager no guarda cookies propias; Google Analytics guarda estas:
+      </p>
+      <ul>
+        <li>
+          <code>_ga</code>: distingue a un visitante de otro de forma anónima. Dura 2 años.
+        </li>
+        <li>
+          <code>_ga_VR2Q2Y7EPY</code>: guarda el estado de la visita (cuándo empezó y cuántas páginas has visto). Dura 2 años.
+        </li>
+      </ul>
+      <p>
+        Con ellas medimos qué páginas se visitan, desde dónde llegan las visitas y qué botones se pulsan (WhatsApp, teléfono,
+        correo y formularios). No usamos esta información para publicidad ni para identificarte. No usamos cookies de
+        publicidad.
+      </p>
       <p>
         Los vídeos de YouTube y las visitas virtuales de Matterport de las fichas de inmuebles no se cargan hasta que pulsas para
         verlos. Al cargarlos, esos proveedores pueden recibir datos de navegación y usar sus propias cookies.
@@ -51,7 +68,7 @@ export default function Page() {
       <p>
         Puedes consultar la política de privacidad de{" "}
         <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
-          Google (YouTube)
+          Google (Analytics, Tag Manager y YouTube)
         </a>{" "}
         y la de{" "}
         <a href="https://matterport.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">
