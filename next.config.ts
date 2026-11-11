@@ -54,6 +54,8 @@ const nextConfig: NextConfig = {
       { source: "/zona/:slug", destination: "/zonas/:slug", permanent: true },
       { source: "/politica-de-privacidad", destination: "/privacidad", permanent: true },
       { source: "/politica-de-cookies", destination: "/cookies", permanent: true },
+      // Propiedad vendida y retirada de la web (11-11-2026)
+      { source: "/propiedades/chalet-centro-chiva-082026", destination: "/propiedades", permanent: true },
     ];
   },
 };
