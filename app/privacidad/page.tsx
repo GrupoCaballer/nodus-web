@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <Legal titulo="Política de privacidad" actualizado="octubre de 2026">
+    <Legal titulo="Política de privacidad" actualizado="noviembre de 2026">
       <h2>1. Responsable</h2>
       <p>
         {SITE.legal.holder}, con nombre comercial Nodus Real Estate y NIF {SITE.legal.nif}, es el responsable del tratamiento.
@@ -48,7 +48,8 @@ export default function Page() {
 
       <h2>4. Proveedores y destinatarios</h2>
       <p>
-        La web se aloja en Vercel. Los formularios utilizan Resend para enviar tu consulta al correo de Nodus. Estos proveedores
+        La web se aloja en Vercel. Los formularios utilizan Resend para enviar tu consulta al correo de Nodus. Si aceptas la
+        analítica, Google (Tag Manager y Analytics) recibe datos de navegación para medir las visitas. Estos proveedores
         intervienen en la prestación del servicio. No vendemos tus datos ni los cedemos para publicidad. También podrán
         comunicarse a las autoridades cuando exista una obligación legal.
       </p>
