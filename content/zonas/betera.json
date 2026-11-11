@@ -72,8 +72,8 @@
       {
         "nombre": "El pueblo",
         "texto": "Casas de pueblo y pisos alrededor del castillo y la plaza, con mercado, centro de salud, colegios públicos y la estación del metro. Vida de pueblo de verdad y la sierra al fondo de cada calle.",
-        "foto": "/fotos/zonas/betera-castillo.webp",
-        "alt": "Castillo de Bétera"
+        "foto": "/fotos/zonas/betera-castillo-torres.webp",
+        "alt": "Torres del castillo de Bétera"
       },
       {
         "nombre": "Los Pinares-La Masia, Cumbres de San Antonio, La Conarda-Montesano",
@@ -204,10 +204,10 @@
   ],
   "galeria": [
     {
-      "src": "/fotos/zonas/betera-castillo.webp",
-      "alt": "Castillo de Bétera",
+      "src": "/fotos/zonas/betera-castillo-torres.webp",
+      "alt": "Torres del castillo de Bétera",
       "pie": "El castillo, en el centro del pueblo",
-      "credito": "Foto: B25es, CC BY-SA 3.0, vía Wikimedia Commons"
+      "credito": "Foto: Rubén, CC BY 3.0, vía Wikimedia Commons (editada)"
     },
     {
       "src": "/fotos/zonas/betera-portaceli.webp",
@@ -220,6 +220,24 @@
       "alt": "Sierra Calderona nevada vista desde Valencia",
       "pie": "La Sierra Calderona, nevada, desde Valencia",
       "credito": "Foto: Dorieo, CC BY-SA 4.0, vía Wikimedia Commons"
+    },
+    {
+      "src": "/fotos/zonas/betera-calle-fiestas.webp",
+      "alt": "Calle de Bétera engalanada con banderines",
+      "pie": "Una calle del pueblo, engalanada en fiestas",
+      "credito": "Foto: 19Tarrestnom65, CC BY-SA 4.0, vía Wikimedia Commons (editada)"
+    },
+    {
+      "src": "/fotos/zonas/betera-ermita-divina-pastora.webp",
+      "alt": "Ermita de la Divina Pastora, Bétera",
+      "pie": "La ermita de la Divina Pastora",
+      "credito": "Foto: Urci dream, CC BY-SA 4.0, vía Wikimedia Commons (editada)"
+    },
+    {
+      "src": "/fotos/zonas/betera-calvario.webp",
+      "alt": "Paseo del Calvario de Bétera entre cipreses",
+      "pie": "El paseo del Calvario",
+      "credito": "Foto: B25es, CC BY-SA 3.0, vía Wikimedia Commons (editada)"
     }
   ],
   "nodus": {

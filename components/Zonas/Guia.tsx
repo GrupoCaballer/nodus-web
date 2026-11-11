@@ -213,6 +213,22 @@ export default function Guia({ g }: { g: GuiaT }) {
       </Section>
       )}
 
+      {/* Inmuebles en la zona */}
+      {inmuebles.length > 0 && (
+        <Section className={`container ${styles.inmuebles}`}>
+          <div className={styles.inmueblesHead} data-reveal="text">
+            <p className={styles.label}>Propiedades</p>
+            <Heading strong={`Propiedades en ${g.nombre}.`} muted="Las que hay ahora." breakMuted />
+            <Button href="/propiedades">Ver todas las propiedades</Button>
+          </div>
+          <ul className={styles.inmueblesList} data-reveal="text">
+            {inmuebles.map((p) => (
+              <PropertyCard key={p.slug} p={p} compact />
+            ))}
+          </ul>
+        </Section>
+      )}
+
       {/* Galería: fotos propias de lugares concretos de la zona */}
       {g.galeria.length > 0 && (
       <Section className={`container ${styles.galeria}`} label={`Galería de ${g.nombre}`}>
@@ -238,22 +254,6 @@ export default function Guia({ g }: { g: GuiaT }) {
           </ul>
         ) : null}
       </Section>
-      )}
-
-      {/* Inmuebles en la zona */}
-      {inmuebles.length > 0 && (
-        <Section className={`container ${styles.inmuebles}`}>
-          <div className={styles.inmueblesHead} data-reveal="text">
-            <p className={styles.label}>Propiedades</p>
-            <Heading strong={`Propiedades en ${g.nombre}.`} muted="Las que hay ahora." breakMuted />
-            <Button href="/propiedades">Ver todas las propiedades</Button>
-          </div>
-          <ul className={styles.inmueblesList} data-reveal="text">
-            {inmuebles.map((p) => (
-              <PropertyCard key={p.slug} p={p} compact />
-            ))}
-          </ul>
-        </Section>
       )}
 
       {/* Nodus en la zona */}
