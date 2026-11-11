@@ -7,11 +7,11 @@ import Heading from "@/components/ui/Heading";
 import { useReveal } from "@/components/motion/useReveal";
 import styles from "./QuienesSomos.module.css";
 
-// Solo datos comprobables del modelo de Nodus. Cifras de operaciones o reseñas, cuando sean reales y verificables.
+// Cifras dadas por Nodus (Gonza, 11-11-2026). Nada de operaciones ni reseñas hasta tener datos reales.
 const STATS = [
-  { dato: "18–23", texto: "años tiene el equipo que lleva tu operación" },
+  { dato: "+15 años", texto: "de experiencia en el sector inmobiliario" },
+  { dato: "1,5–3 meses", texto: "es el plazo con el que trabajamos para vender tu propiedad" },
   { dato: "1", texto: "web con esencia propia para cada propiedad" },
-  { dato: "2 meses", texto: "de prueba, sin exclusiva clásica" },
   { dato: "0 €", texto: "si vendes a un comprador que encuentras tú" },
 ];
 

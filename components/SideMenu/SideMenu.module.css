@@ -202,3 +202,9 @@
     z-index: 61;
   }
 }
+
+.itemSoon,
+.itemSoon:hover .itemMain {
+  cursor: default;
+  color: inherit;
+}
