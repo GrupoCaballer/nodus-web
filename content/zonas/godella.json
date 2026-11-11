@@ -11,7 +11,7 @@
     "Vivir en Godella:",
     "el pueblo, la huerta y el metro."
   ],
-  "intro": "Godella es el pueblo donde está Nodus. Un casco con villas de veraneo del XIX, dos estaciones de metro, la huerta a la vuelta de la esquina y más de quince centros educativos para 13.400 vecinos. Lo conocemos calle a calle.",
+  "intro": "Godella es el pueblo de Nodus. Un casco con villas de veraneo del XIX, dos estaciones de metro, la huerta a la vuelta de la esquina y más de quince centros educativos para 13.400 vecinos. Lo conocemos calle a calle.",
   "foto": {
     "src": "/fotos/zonas/godella-ermita.webp",
     "alt": "Ermita del Salvador, Godella",
@@ -55,10 +55,6 @@
     {
       "label": "Colegios",
       "valor": "Más de 15 centros: CEIP Cervantes, El Barranquet, Sagrado Corazón, Gençana…"
-    },
-    {
-      "label": "Oficina de Nodus",
-      "valor": "Godella"
     }
   ],
   "urbanizaciones": {
@@ -256,7 +252,7 @@
       "Y se nota."
     ],
     "parrafos": [
-      "Nuestra oficina está en el pueblo. Conocemos el casco, las villas de la Ermita y las casas junto a la huerta: qué calles son tranquilas, qué colegio queda a cinco minutos andando y por dónde entra el sol en cada tramo.",
+      "Vivimos y trabajamos en el pueblo. Conocemos el casco, las villas de la Ermita y las casas junto a la huerta: qué calles son tranquilas, qué colegio queda a cinco minutos andando y por dónde entra el sol en cada tramo.",
       "Si buscas propiedad en Godella, te contamos lo que no sale en el anuncio. Si vendes, la presentamos con una web con esencia propia, vídeo con dron y visitas filtradas, y la enseñamos a quien de verdad quiere vivir aquí."
     ],
     "servicios": [

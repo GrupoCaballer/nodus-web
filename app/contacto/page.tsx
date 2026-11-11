@@ -45,12 +45,6 @@ export default function Page() {
               </dd>
             </div>
             <div>
-              <dt>Oficina</dt>
-              <dd>
-                {SITE.place}
-              </dd>
-            </div>
-            <div>
               <dt>Redes</dt>
               <dd>
                 <a href={SITE.instagram} target="_blank" rel="noopener noreferrer">

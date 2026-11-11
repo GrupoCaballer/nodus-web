@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   },
 };
 
-// Ficha de la agencia en todas las páginas. TODO-DIRECCION: calle y CP cuando Dirección confirme la dirección pública (Godella o Quart de Poblet).
+// Ficha de la agencia en todas las páginas. Sin dirección: de momento no hay oficina física abierta al público (11-11-2026).
 const agenciaLd = {
   "@context": "https://schema.org",
   "@type": "RealEstateAgent",
@@ -61,7 +61,6 @@ const agenciaLd = {
   email: SITE.email,
   telephone: SITE.phone,
   logo: `${SITE.url}/logo/nodus-logo-negro.svg`,
-  address: { "@type": "PostalAddress", addressLocality: "Godella", addressRegion: "Valencia", addressCountry: "ES" },
   areaServed: ["Valencia", "Godella", "Rocafort", "Bétera", "Paterna", "Burjassot", "Provincia de Valencia"],
   sameAs: [SITE.instagram, SITE.tiktok, SITE.linkedin].filter(Boolean),
 };
