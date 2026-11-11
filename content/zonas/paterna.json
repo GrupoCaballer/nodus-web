@@ -17,7 +17,8 @@
     "src": "/fotos/zonas/paterna-torre-cabecera.webp",
     "alt": "Torre de Paterna con las coves a sus pies",
     "credito": "Foto: Simon Burchell, CC BY-SA 4.0, vía Wikimedia Commons (editada)",
-    "provisional": false
+    "provisional": false,
+    "posicion": "20% 50%"
   },
   "video": null,
   "borrador": true,
