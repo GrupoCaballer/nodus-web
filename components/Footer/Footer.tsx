@@ -59,10 +59,6 @@ export default function Footer() {
           <h2 className={styles.colTitle}>Contacto</h2>
           <dl className={styles.contact}>
             <div>
-              <dt>Oficina</dt>
-              <dd>{SITE.place}</dd>
-            </div>
-            <div>
               <dt>Correo</dt>
               <dd>
                 <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
