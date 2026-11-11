@@ -48,7 +48,7 @@ export default function Guia({ g }: { g: GuiaT }) {
           {g.video ? (
             <video className={styles.heroVideo} src={g.video} poster={g.foto.src} autoPlay muted loop playsInline aria-hidden />
           ) : (
-            <Image src={g.foto.src} alt={g.foto.alt} fill priority sizes="100vw" className={styles.cover} />
+            <Image src={g.foto.src} alt={g.foto.alt} fill priority sizes="100vw" className={styles.cover} style={{ objectPosition: (g.foto as { posicion?: string }).posicion }} />
           )}
         </div>
         <div className={`container ${styles.heroText}`}>

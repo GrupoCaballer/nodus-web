@@ -104,31 +104,5 @@
     "fotos": 10,
     "videos": ["k-0zWd6i-C8", "qMXmHW84Wrg"],
     "tour": "tFdpuEyXNfm"
-  },
-  {
-    "slug": "chalet-centro-chiva-082026",
-    "titulo": "Chalet adosado en el centro de Chiva",
-    "operacion": "venta",
-    "tipo": "casa",
-    "estado": "vendido",
-    "precio": 250000,
-    "zona": "chiva",
-    "localidad": "Chiva",
-    "direccion": "Centro de Chiva",
-    "m2": 372,
-    "habitaciones": 6,
-    "banos": 2,
-    "resumen": "Casa de pueblo de 1910 con 372 m² construidos, gran patio con paellero, bodega y espacios con posibilidad de ampliación. Vendida.",
-    "descripcion": [
-      "Casa de pueblo con 372 m² construidos, gran patio y múltiples posibilidades de ampliación. Construida en 1910, conserva suelos, puertas y vigas originales, combinando el carácter de la arquitectura tradicional con el confort necesario para el día a día. Amueblada, en buen estado y lista para entrar a vivir.",
-      "De los 372 m² construidos, 221 m² corresponden a vivienda, 73 m² a espacios exteriores y 78 m² adicionales con potencial para ampliar la vivienda o crear un estudio, despacho, zona de juegos, trastero o gimnasio.",
-      "Planta baja: amplia entrada presidida por el tradicional comedor de invitados; zona de día con segundo comedor integrado con el salón; cocina independiente; un dormitorio y un baño completo; gran patio privado con paellero y amplia bodega con segunda barbacoa.",
-      "Primera planta: cinco dormitorios de 12 a 15 m², un baño completo y acceso a una terraza interior. Ventanas Climalit con mosquiteras, calefacción eléctrica y agua caliente por termo y gas natural. Posibilidad de plaza de garaje enfrente por 30 €/mes.",
-      "A menos de dos minutos andando del centro de Chiva: supermercados, comercios, colegios, farmacia y restauración sin necesidad de coche."
-    ],
-    "caracteristicas": ["Construida en 1910, elementos originales", "372 m² construidos", "Patio con paellero y bodega", "Seis dormitorios", "Centro de Chiva a 2 minutos"],
-    "fotos": 10,
-    "videos": [],
-    "tour": null
   }
 ]

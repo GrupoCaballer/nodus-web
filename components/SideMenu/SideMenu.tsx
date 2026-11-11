@@ -8,7 +8,7 @@ import { ZONAS_INDEX } from "@/lib/zonas";
 import { SITE } from "@/lib/site";
 import styles from "./SideMenu.module.css";
 
-export type SideMenuPost = { slug: string; titulo: string; categoria: string };
+export type SideMenuPost = { slug: string; titulo: string; categoria: string; borrador?: boolean };
 
 /**
  * Menú lateral de la home. El recorrido principal (intro → reseñas) es
@@ -128,10 +128,17 @@ export default function SideMenu({ posts }: { posts: SideMenuPost[] }) {
             <ul className={styles.list}>
               {posts.map((p) => (
                 <li key={p.slug} data-item>
-                  <Link href={`/blog/${p.slug}`} className={styles.item}>
-                    <span className={styles.itemMain}>{p.titulo}</span>
-                    <span className={styles.itemMeta}>{p.categoria}</span>
-                  </Link>
+                  {p.borrador ? (
+                    <div className={`${styles.item} ${styles.itemSoon}`}>
+                      <span className={styles.itemMain}>{p.titulo}</span>
+                      <span className={styles.itemMeta}>En preparación</span>
+                    </div>
+                  ) : (
+                    <Link href={`/blog/${p.slug}`} className={styles.item}>
+                      <span className={styles.itemMain}>{p.titulo}</span>
+                      <span className={styles.itemMeta}>{p.categoria}</span>
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>

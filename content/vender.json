@@ -7,20 +7,20 @@
   ],
   "prueba": [
     {
-      "dato": "+150",
-      "texto": "operaciones cerradas en Valencia y área metropolitana"
+      "dato": "2 meses",
+      "texto": "de prueba, sin exclusiva clásica"
     },
     {
-      "dato": "2 semanas",
-      "texto": "en las que cada anuncio recibe la mayor parte de sus visitas"
-    },
-    {
-      "dato": "12",
-      "texto": "portales nacionales e internacionales en los que publicamos"
+      "dato": "0 €",
+      "texto": "si vendes a un comprador que encuentras tú"
     },
     {
       "dato": "1",
       "texto": "web con esencia propia para cada propiedad que vendemos"
+    },
+    {
+      "dato": "Dron",
+      "texto": "vídeo aéreo profesional en cada chalet"
     }
   ],
   "pasos": [

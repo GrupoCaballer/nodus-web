@@ -10,10 +10,10 @@
   "intro": "La Virgen de la Vega atrae a quienes buscan verano sin calor, invierno con carácter y distancia real de las ciudades. Nodus Real Estate conoce el mercado local y conoce la urbanización como quien sube cada fin de semana.",
   "descripcion": "La Virgen de la Vega, en Alcalá de la Selva (Teruel), a 1.400 m: verano sin calor y casas y pisos en venta en la urbanización.",
   "foto": {
-    "src": "/fotos/zona-virgen-de-la-vega.webp",
-    "alt": "Paisaje de montaña con bosque de pinos en la sierra de Teruel",
-    "credito": "",
-    "provisional": true
+    "src": "/fotos/zonas/vega-penarroya-cabecera.webp",
+    "alt": "Pinar nevado desde el mirador de Peñarroya, Alcalá de la Selva",
+    "credito": "Foto: Pacopac, CC BY-SA 4.0, vía Wikimedia Commons (editada)",
+    "provisional": false
   },
   "zona": {
     "label": "El pueblo",
@@ -198,6 +198,12 @@
       "credito": "Foto: Joanbanjo, CC BY-SA 3.0, vía Wikimedia Commons"
     },
     {
+      "src": "/fotos/zonas/vega-santuario-nieve.webp",
+      "alt": "Santuario de la Virgen de la Vega nevado, vista trasera",
+      "pie": "El santuario en invierno",
+      "credito": "Foto: Joanbanjo, CC BY-SA 3.0, vía Wikimedia Commons (editada)"
+    },
+    {
       "src": "/fotos/zonas/vega-alcala.webp",
       "alt": "Alcalá de la Selva",
       "pie": "Alcalá de la Selva, a 25 minutos a pie",
@@ -208,6 +214,12 @@
       "alt": "Estación de esquí de Valdelinares",
       "pie": "Valdelinares, a 16 minutos",
       "credito": "Foto: Pacopac, CC BY-SA 4.0, vía Wikimedia Commons"
+    },
+    {
+      "src": "/fotos/zonas/vega-fuen-narices.webp",
+      "alt": "Salto de agua de Fuen Narices, Alcalá de la Selva",
+      "pie": "El salto de agua de Fuen Narices, en Alcalá de la Selva",
+      "credito": "Foto: Pacopac, CC BY-SA 4.0, vía Wikimedia Commons (editada)"
     }
   ],
   "lugares": [
@@ -238,8 +250,8 @@
       {
         "nombre": "El Cerrito y Mas de Peirón",
         "texto": "Las zonas de chalets pareados y casas con parcela entre el núcleo y Alcalá de la Selva, orientadas al valle. Donde está nuestro chalet en venta.",
-        "foto": "/fotos/zona-virgen-de-la-vega.webp",
-        "alt": "Paisaje nevado de Teruel"
+        "foto": "/fotos/zonas/vega-parque-botanico.webp",
+        "alt": "Parque botánico de la Virgen de la Vega"
       },
       {
         "nombre": "Alcalá de la Selva",

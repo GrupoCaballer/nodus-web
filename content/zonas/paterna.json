@@ -14,10 +14,11 @@
   ],
   "intro": "Paterna es grande y tiene de todo: la torre y las coves del casco, la Cordà de agosto, el Parque Tecnológico donde trabaja media comarca y, hacia el norte, las urbanizaciones donde viven muchas de las familias que buscan casa con jardín cerca de Valencia: Mas Camarena, La Cañada, Terramelar y Lloma Llarga-Valterna.",
   "foto": {
-    "src": "/fotos/zona-turia.webp",
-    "alt": "Arbolado del parque natural del Turia",
-    "credito": "",
-    "provisional": false
+    "src": "/fotos/zonas/paterna-torre-cabecera.webp",
+    "alt": "Torre de Paterna con las coves a sus pies",
+    "credito": "Foto: Simon Burchell, CC BY-SA 4.0, vía Wikimedia Commons (editada)",
+    "provisional": false,
+    "posicion": "20% 50%"
   },
   "video": null,
   "borrador": true,
@@ -63,26 +64,26 @@
       {
         "nombre": "Mas Camarena",
         "texto": "Urbanización de chalets con seguridad privada las 24 horas, junto al Parque Tecnológico y lindando con Torre en Conill. Parcelas amplias, colegios en la propia zona y pinar. Es la que más piden las familias que trabajan en el Parque.",
-        "foto": "/fotos/zona-torre-en-conill.webp",
-        "alt": "Chalets entre pinos"
+        "foto": "/fotos/zonas/paterna-mas-camarena.webp",
+        "alt": "Chalets en una calle de Mas Camarena"
       },
       {
         "nombre": "La Cañada",
         "texto": "La urbanización histórica de Paterna, con estación de metro propia (La Canyada), colegios, supermercados y zonas verdes. Casas de todas las épocas, desde las primeras de veraneo hasta obra nueva, y una vida de barrio consolidada.",
-        "foto": "/fotos/zona-santa-barbara.webp",
-        "alt": "Casa con jardín"
+        "foto": "/fotos/zonas/paterna-la-canada-parque.webp",
+        "alt": "Pinar del parque de La Canyada"
       },
       {
         "nombre": "Terramelar y Lloma Llarga (Valterna)",
         "texto": "Terramelar, más antigua y arbolada; Valterna, más reciente, con adosados y pisos nuevos, centro comercial y colegios. Las dos a un paso del Parque Tecnológico y de la CV-35.",
-        "foto": "/fotos/zona-turia.webp",
-        "alt": "Arbolado"
+        "foto": "/fotos/zonas/paterna-parque-fluvial.webp",
+        "alt": "Parque fluvial del Turia, junto a Terramelar"
       },
       {
         "nombre": "El casco",
         "texto": "La Torre de Paterna, las coves excavadas en la roca y las calles del pueblo viejo. Pisos y casas de pueblo con metro en la puerta y la Cordà cada agosto.",
-        "foto": "/fotos/zonas/paterna-coves.webp",
-        "alt": "Coves de la Torre, Paterna"
+        "foto": "/fotos/zonas/paterna-placa-del-poble.webp",
+        "alt": "Plaça del Poble de Paterna, con el antiguo mercado"
       }
     ]
   },
@@ -207,10 +208,28 @@
   ],
   "galeria": [
     {
+      "src": "/fotos/zonas/paterna-vista-torre.webp",
+      "alt": "Las coves y el casco de Paterna vistos desde la torre",
+      "pie": "El barrio de las coves desde lo alto de la torre",
+      "credito": "Foto: Enrique Íñiguez Rodríguez (Qoan), CC BY-SA 3.0, vía Wikimedia Commons (editada)"
+    },
+    {
       "src": "/fotos/zonas/paterna-coves.webp",
       "alt": "Coves de la Torre, Paterna",
       "pie": "Las coves excavadas alrededor de la torre",
       "credito": "Foto: Enrique Íñiguez Rodríguez (Qoan), CC BY-SA 3.0, vía Wikimedia Commons"
+    },
+    {
+      "src": "/fotos/zonas/paterna-iglesia-san-pedro.webp",
+      "alt": "Iglesia de San Pedro en la Plaça del Poble, Paterna",
+      "pie": "La iglesia de San Pedro, en la Plaça del Poble",
+      "credito": "Foto: Simon Burchell, CC BY-SA 4.0, vía Wikimedia Commons (editada)"
+    },
+    {
+      "src": "/fotos/zonas/paterna-la-vallesa.webp",
+      "alt": "Pinar de La Vallesa, Paterna",
+      "pie": "El pinar de La Vallesa, dentro del parque natural del Turia",
+      "credito": "Foto: Enrique Íñiguez Rodríguez (Qoan), CC BY-SA 3.0, vía Wikimedia Commons (editada)"
     },
     {
       "src": "/fotos/zonas/paterna-corda.webp",

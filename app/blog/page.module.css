@@ -116,3 +116,13 @@
     gap: 6rem;
   }
 }
+
+/* Borrador: la tarjeta se ve pero no se abre */
+.soon {
+  font-size: var(--fs-label);
+  font-weight: 600;
+  color: var(--gold);
+}
+div.itemLink {
+  cursor: default;
+}

@@ -7,7 +7,6 @@ import Heading from "@/components/ui/Heading";
 import Button from "@/components/ui/Button";
 import ContactForm from "@/components/ContactForm/ContactForm";
 import WhatsApp from "@/components/ui/WhatsApp";
-import Testimonios from "@/components/Testimonios/Testimonios";
 import { useReveal } from "@/components/motion/useReveal";
 import vender from "@/content/vender.json";
 import { GUIAS } from "@/lib/zonas";
@@ -202,10 +201,6 @@ export default function VenderPage({ situaciones = [] }: { situaciones?: { slug:
           </div>
         </div>
       </Section>
-
-      {/* 5.8 Testimonios */}
-      <Testimonios />
-
       {/* 5.9 FAQ */}
       <Section className={`container ${styles.faq}`}>
         <div data-reveal="text">

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useRef } from "react";
 import Heading from "@/components/ui/Heading";
 import LazyVideo from "@/components/ui/LazyVideo";
@@ -31,13 +32,20 @@ export default function WhyNodus() {
   return (
     <section ref={root} className={styles.root} id="por-que-nodus">
       <div className={`container ${styles.head}`}>
-        <p className={styles.label}>Lo que viene después</p>
-        <Heading
-          ignite
-          className={styles.heading}
-          strong="Tu vida cambia. No busques solo una propiedad: busca lo que viene después."
-          muted="Te ayudamos a avanzar con claridad, con criterio y con un asesor a tu lado."
-        />
+        <p className={styles.label}>Dónde trabajamos</p>
+        <div>
+          <Heading
+            ignite
+            className={styles.heading}
+            strong="Valencia y l'Horta Nord, desde dentro."
+            muted="Te contamos cómo se vive en cada zona antes de que la visites."
+          />
+          <p className={styles.more}>
+            <Link href="/zonas" className="link-underline">
+              Ver las guías de zona
+            </Link>
+          </p>
+        </div>
       </div>
 
       <div className="container">

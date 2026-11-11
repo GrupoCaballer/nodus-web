@@ -5,7 +5,8 @@ import { usePathname } from "next/navigation";
 import { readConsent, type Consent } from "@/components/CookieBar/CookieBar";
 import { guardarEntrada, track } from "@/lib/track";
 
-const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
+// ID público del contenedor de Nodus (9/11/2026); se puede sustituir con NEXT_PUBLIC_GTM_ID en Vercel.
+const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || "GTM-TFWMKL7Z";
 
 function cargarGTM() {
   if (!GTM_ID || document.getElementById("gtm")) return;

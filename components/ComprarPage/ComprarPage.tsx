@@ -7,7 +7,6 @@ import Heading from "@/components/ui/Heading";
 import Button from "@/components/ui/Button";
 import ContactForm from "@/components/ContactForm/ContactForm";
 import WhatsApp from "@/components/ui/WhatsApp";
-import Testimonios from "@/components/Testimonios/Testimonios";
 import PropertyCard from "@/components/Propiedades/PropertyCard";
 import { useReveal } from "@/components/motion/useReveal";
 import { PROPIEDADES } from "@/lib/propiedades";
@@ -147,9 +146,6 @@ export default function ComprarPage() {
           </ul>
         </Section>
       )}
-
-      <Testimonios />
-
       <Section className={`container ${styles.faq}`}>
         <div data-reveal="text">
           <p className={styles.label}>Preguntas</p>

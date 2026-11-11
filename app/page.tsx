@@ -5,7 +5,6 @@ import QuienesSomos from "@/components/QuienesSomos/QuienesSomos";
 import WhyNodus from "@/components/WhyNodus/WhyNodus";
 import Experiencia from "@/components/Experiencia/Experiencia";
 import Servicios from "@/components/Servicios/Servicios";
-import Testimonios from "@/components/Testimonios/Testimonios";
 import CtaFinal from "@/components/CtaFinal/CtaFinal";
 import SideMenu from "@/components/SideMenu/SideMenu";
 import { allPosts } from "@/lib/blog";
@@ -16,7 +15,7 @@ export const metadata: Metadata = { alternates: { canonical: "/" } };
 //  · Recorrido principal, obligatorio y ligero: intro → gancho (sin separar comprador y vendedor) → quiénes somos → cómo trabajamos (desde la experiencia) → por qué elegirnos (Vender / Comprar / Alquilar, con lo esencial de cada camino) → reseñas.
 //  · Menú lateral, que se abre al terminar el recorrido: propiedades, zonas, blog, servicios, contacto.
 export default async function Home() {
-  const posts = (await allPosts()).slice(0, 3).map((p) => ({ slug: p.slug, titulo: p.titulo, categoria: p.categoria }));
+  const posts = (await allPosts()).slice(0, 3).map((p) => ({ slug: p.slug, titulo: p.titulo, categoria: p.categoria, borrador: !!p.borrador }));
   return (
     <>
       <Hero />
@@ -26,7 +25,6 @@ export default async function Home() {
       <Experiencia />
       <Servicios />
       <div data-story-end>
-        <Testimonios />
       </div>
       <CtaFinal />
       <SideMenu posts={posts} />

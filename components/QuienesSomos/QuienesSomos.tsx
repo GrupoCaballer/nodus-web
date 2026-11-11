@@ -7,12 +7,12 @@ import Heading from "@/components/ui/Heading";
 import { useReveal } from "@/components/motion/useReveal";
 import styles from "./QuienesSomos.module.css";
 
-// Cifras provisionales, puestas por indicación del usuario (29-10-2026). Nodus las confirma o corrige antes del lanzamiento.
+// Cifras dadas por Nodus (Gonza, 11-11-2026). Nada de operaciones ni reseñas hasta tener datos reales.
 const STATS = [
-  { dato: "+150", texto: "operaciones cerradas" },
-  { dato: "8 años", texto: "en Valencia y l'Horta Nord" },
-  { dato: "2 semanas", texto: "en las que cada anuncio recibe la mayor parte de sus visitas" },
-  { dato: "42", texto: "propiedades vendidas en los últimos doce meses" },
+  { dato: "+15 años", texto: "de experiencia en el sector inmobiliario" },
+  { dato: "1,5–3 meses", texto: "es el plazo con el que trabajamos para vender tu propiedad" },
+  { dato: "1", texto: "web con esencia propia para cada propiedad" },
+  { dato: "0 €", texto: "si vendes a un comprador que encuentras tú" },
 ];
 
 /** Quiénes somos: por qué estamos aquí y cuatro cifras. Texto de la web antigua; los valores completos viven en /nosotros. */
